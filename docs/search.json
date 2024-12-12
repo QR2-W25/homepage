@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "QR2 Winter 2025",
     "section": "",
-    "text": "Under construction\n\n\n\nThis is a draft of a shared homepage for QR2."
+    "text": "Under construction\n\n\n\nTo instructors: This is a draft of a shared homepage for QR2.\n\nIt lives in the QR2-W25 repository on Github.\nThe URL for students is https://qr2-w25.github.io/homepage/.\nThe link to paste into RStudio to clone the repo on your laptop is https://github.com/QR2-W25/homepage.git"
   },
   {
     "objectID": "index.html#day-by-day-schedule",

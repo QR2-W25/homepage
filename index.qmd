@@ -5,7 +5,15 @@ title: "QR2 Winter 2025"
 ::: {.callout-warning}
 ## Under construction
 
-This is a draft of a shared homepage for QR2.
+To instructors: This is a draft of a shared homepage for QR2.
+
+- It lives in the [QR2-W25](https://github.com/QR2-W25/homepage) repository on Github.
+
+- The URL for students is <https://qr2-w25.github.io/homepage/>.
+
+- The link to paste into RStudio to clone the repo on your laptop is <https://github.com/QR2-W25/homepage.git>
+
+
 :::
 
 
@@ -42,6 +50,6 @@ Textbooks:
 
 1. David Spiegelhalter, *The Art of Statistics: Learning from Data*
 2. Hans Rossling, *Factfulness*
-3. QR 2 *Computing Tutorials* [online](https://dtkaplan.github.io/QR2-Computing/)
+3. QR 2 *Computing Tutorials* [online](https://dtkaplan.github.io/QR2-computing/)
 
 Policies:

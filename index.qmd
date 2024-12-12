@@ -1,0 +1,47 @@
+---
+title: "QR2 Winter 2025"
+---
+
+::: {.callout-warning}
+## Under construction
+
+This is a draft of a shared homepage for QR2.
+:::
+
+
+## Day-by-day schedule
+
+There are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should *bookmark* your section in your browser for easy access to the most up-to-date information.
+
+- [Section 1 (Prof. Ruth)](day-by-day/Ruth-schedule.html)
+- [Section 2 (Prof. Overbey)](day-by-day/Overbey-schedule.html)
+- [Section 3 (Prof. Kolpakov)](day-by-day/Kolpakov-schedule.html)
+- [Section 4 (Prof. Kaplan)](day-by-day/Kaplan-schedule.html)
+- [Section 5 (Prof. Puelz)](day-by-day/Puelz-schedule.html)
+- [Section 6 (?)](day-by-day/TBD-schedule.html)
+
+::: {.callout-warning}
+## In draft
+
+The above list of sections is tentative. We should update it to reflect the actual section naming policy.
+
+Depending on your preferences, you might want to replace your link(s) to point to another system, for example Google Sheets.
+
+Danny has implemented a sketch of a schedule page in Quarto. Other instructors can draw on that as an example if they like. Each schedule should be placed in the QMD file with the indicated name. If you are using a different scheme for managing day-to-day class information, you may simply want to link to that in your QMD file. A throw-away example is in `TBD-schedule.qmd`.
+:::
+
+## General information
+
+::: {.callout-warning}
+## In draft
+
+We can replace this with links to the *Populi* system, if that's more appropriate than what DTK has drafted here.
+:::
+
+Textbooks:
+
+1. David Spiegelhalter, *The Art of Statistics: Learning from Data*
+2. Hans Rossling, *Factfulness*
+3. QR 2 *Computing Tutorials* [online](https://dtkaplan.github.io/QR2-Computing/)
+
+Policies:

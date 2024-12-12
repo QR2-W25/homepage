@@ -1,0 +1,29 @@
+{
+  "Reading-questions.qmd": {
+    "Reading-questions.html": "f5257cc4"
+  },
+  "about.qmd": {
+    "about.html": "853edbef"
+  },
+  "questions/S1-before.qmd": {
+    "S1-before.html": "3f3b3cd0"
+  },
+  "start-up.qmd": {
+    "start-up.html": "ab4ec1c9"
+  },
+  "questions/R1-before.qmd": {
+    "R1-before.html": "7bbff5a5"
+  },
+  "questions/S1-after.qmd": {
+    "S1-after.html": "0a4a109e"
+  },
+  "questions/R1-after.qmd": {
+    "R1-after.html": "d9c52fc1"
+  },
+  "index.qmd": {
+    "index.html": "13084b74"
+  },
+  "day-by-day/Kaplan-schedule.qmd": {
+    "Kaplan-schedule.html": "cebb449b"
+  }
+}

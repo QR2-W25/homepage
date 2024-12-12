@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "QR2"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: reading-questions.html
+        text: Readings
+      - href: assignments.html
+        text: Assignments
+
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

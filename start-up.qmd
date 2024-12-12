@@ -1,0 +1,27 @@
+<!-- Load packages, etc. -->
+
+```{r include=FALSE}
+library(LSTbook)
+library(devoirs)
+```
+
+```{r echo = FALSE}
+#| echo: false
+tutorial_link <- function(number) {
+  glue::glue("Computing tutorial {number}: [before class session](https://dtkaplan.github.io/QR2-computing/tutorial-{number}.html)")
+}
+
+reading_links <- function(Letter, number) {
+  chap_name <- list(R = "Rossling", S = "Spiegelhalter")[[Letter]]
+  chap_num <- if(number == 0) "Introduction" else glue::glue("Chapter {number}")
+  glue::glue("{chap_name} {chap_num}: [before](questions/{Letter}{number}-before.html) &  [follow-up](questions/{Letter}{number}-after.html)")
+}
+```
+
+<!-- Submission link -->
+
+```{r echo=FALSE}
+QR2_submission_link <- function() {
+  "[Submit collected answers here](https://forms.gle/YPEuzE3oiQQQhrWNA)"
+}
+```

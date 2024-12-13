@@ -3,6 +3,8 @@ title: "QR2 Prof. Kaplan's Section"
 subtitle: "Day-by-day schedule, readings, and notes"
 ---
 
+{{< include ../start-up.qmd >}}
+
 ## Near future
 
 
@@ -15,12 +17,13 @@ Orientation to QR2
 - Readings:
     - Spiegelhalter Introduction
     - Rosling Introduction
-    - Note: As a rule, you should have completed a first pass of the day's readings *before* the class meets. This being the first day, I can only ask to to try to do this.
+    - Note: As a rule, you should have completed a first pass of the day's readings *before* the class meets. This being the first day, I can only ask to to try to do so.
 
 - Discussion:
     - Learning about data and statistics
     - Spiegelhalter Introduction
     - Rosling Introduction
+    - Note: The items under the "Discussion" header in this document are just FYI. The readings and the reading questions are the appropriate preparation.
 :::
 
 
@@ -53,8 +56,14 @@ Block 1: Data, visualization, trends
 Block 1 (cont.)
 
 - New readings:
-    a. QR 2 Computing Tutorial 1 (../questions/T1-before.html)
+    a. `r tutorial_link(1)`
     b. Rosling Chap 2 [questions](../questions/R2-before.html)
+
+- Assignments due before class time: 
+    - Remember that the "New readings" section has links to the relevant reading questions. 
+    - For the computing tutorials, there are no "questions" as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar "Collect answers" and submission process. Your "answers" will be the contents of the Active R Chunks that you have run. 
+    - These principles apply to all class sessions, but won't be restated explicitly in other day's itemizations.
+
 
 - Discussions and Activities
     i. Rossling reading

@@ -25,5 +25,20 @@
   },
   "day-by-day/Kaplan-schedule.qmd": {
     "Kaplan-schedule.html": "cebb449b"
+  },
+  "demonstrations/Narrow-and-wide.qmd": {
+    "Narrow-and-wide.html": "d9018080"
+  },
+  "demonstrations/Gender-neutral-names.qmd": {
+    "Gender-neutral-names.html": "ece916c6"
+  },
+  "questions/S0-before.qmd": {
+    "S0-before.html": "b81d5e6a"
+  },
+  "questions/S2-after.qmd": {
+    "S2-after.html": "5633cd06"
+  },
+  "questions/S4-before.qmd": {
+    "S4-before.html": "7a74f791"
   }
 }

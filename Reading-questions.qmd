@@ -4,6 +4,11 @@ title: "Reading Questions"
 
 {{< include start-up.qmd >}}
 
+::: {.callout-warning}
+## For instructors only
+
+This document is intended for instructors as they create their day-to-day schedules. Those schedules will provide the student-facing link to reading-question documents.
+:::
 
 Each of the six blocks in QR2 has assigned readings from Spiegelhalter, Rossling, and the computing tutorials. There are corresponding reading questions. These are organized by book chapter. Your instructor will indicate which questions are due and when.
 

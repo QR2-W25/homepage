@@ -1,0 +1,11 @@
+---
+title: "Wide and narrow data"
+---
+
+#. Wrangling demonstrations. Cases where the variables are really levels of a variable
+    i. Spiegelhalter [Fig 2.7](https://github.com/dspiegel29/ArtofStatistics/blob/master/02-7-population-trends/02-7-pop-past-future-2.7-necessities.csv)
+    2. [Another population dataset](https://github.com/dspiegel29/ArtofStatistics/blob/master/02-7-population-trends/02-7-pop-past-future%20million%20in%2051.csv)
+    3. [For Fig 2.8](https://github.com/dspiegel29/ArtofStatistics/blob/master/02-8-relative-population-increase/02-8-pop-past-future-x.csv) have them wrangle to get the proportion increase and then draw the graph using color for the relative size. Also, ... what is the unit of observation? Are all the rows the same kind of unit of observation?
+    
+    
+    

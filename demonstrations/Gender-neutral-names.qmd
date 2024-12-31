@@ -1,0 +1,13 @@
+---
+title: "Gender-neutral names"
+---
+
+::: {.callout-warning}
+## NOTE IN DRAFT 
+
+Point out that this will be just a demonstration. Use babynames as an inclass example of wrangling? 
+
+1. How can we figure out what are the most gender neutral names.
+2. filter and summarize `babynames`: proportion of  males and females with each name, select out those where the ratio is 0.25 to 0.75. Calculate the information (p ln(p))
+:::
+

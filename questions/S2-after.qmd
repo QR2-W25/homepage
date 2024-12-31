@@ -1,22 +1,21 @@
 ---
-title: "Spiegelhalter Chapter 1"
-subtitle: "Answer and submit *before* class discussion"
+title: "Spiegelhalter Chapter 2 Follow-up"
+subtitle: "Follow-up to in-class discussion"
 ---
 
 {{< include ../start-up.qmd >}}
 
-
 ::: {.callout-note}
 ## Question 1:
 
-{{< include "../../INF-1220-QR2/_RQ/S01/QB1.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/S02/QA1.qmd" >}}
 
 :::
 
 ::: {.callout-note}
 ## Question 2:
 
-{{< include "../../INF-1220-QR2/_RQ/S01/QB2.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/S02/QA2.qmd" >}}
 
 :::
 

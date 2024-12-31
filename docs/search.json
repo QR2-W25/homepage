@@ -11,7 +11,7 @@
     "href": "questions/S0-before.html",
     "title": "Spiegelhalter Introduction",
     "section": "",
-    "text": "Question 1:\n\n\n\nOn page 9, the book doesn’t report the difference between the “low” happiness score for 50-54 year olds compared to the “high” score for the 70-74 age group. Make a guess for what the difference might be, based on your intuition. You don’t have to justify your guess.\n  question id: S1-QB1-1 \nThen, rereading the paragraph carefully to gather what facts are available, say what you think is the smallest difference between these groups that would be worth mentioning.\n  question id: S1-QB1-2 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nThe reading lists some “necessary component[s]” of being a data scientists. List them, briefly.\n  question id: S1-QB2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nOn page 11, the reading refers to a “basic bag of [statistical] tools,” which is the focus of what the author claims is an outdated way of teaching about data science. What previous contact have you had with statistical tools that might be in such a “basic bag?”\n  question id: S1-QB3 \n\n\n\nS0-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "text": "Question 1:\n\n\n\nOn page 9, the book doesn’t report the difference between the “low” happiness score for 50-54 year olds compared to the “high” score for the 70-74 age group. Make a guess for what the difference might be, based on your intuition. You don’t have to justify your guess.\n  question id: S1-QB1-1 \nThen, rereading the paragraph carefully to gather what facts are available, say what you think is the smallest difference between these groups that would be worth mentioning.\n  question id: S1-QB1-2 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nThe reading lists some “necessary component[s]” of being a data scientists. List them, briefly.\n  question id: S1-QB2 \n\n\n\nS0-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
     "objectID": "questions/S4-before.html",
@@ -159,5 +159,12 @@
     "title": "Rossling Chapter 1",
     "section": "",
     "text": "Placeholder for content.\n  question id: rossling-dsle \n\nR1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
+    "objectID": "questions/S0-after.html",
+    "href": "questions/S0-after.html",
+    "title": "Spiegelhalter Introduction",
+    "section": "",
+    "text": "Question 1:\n\n\n\nOn page 11, the reading refers to a “basic bag of [statistical] tools,” which is the focus of what the author claims is an outdated way of teaching about data science. What previous contact have you had with statistical tools that might be in such a “basic bag?”\n  question id: S1-QB3 \n\n\n\nS0-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   }
 ]

@@ -40,5 +40,8 @@
   },
   "questions/S4-before.qmd": {
     "S4-before.html": "7a74f791"
+  },
+  "questions/S0-after.qmd": {
+    "S0-after.html": "e772279b"
   }
 }

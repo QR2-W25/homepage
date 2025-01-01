@@ -123,7 +123,7 @@
     "href": "day-by-day/Kaplan-schedule.html#further-out-i.e.-tentative",
     "title": "QR2 Prof. Kaplan’s Section",
     "section": "Further out (i.e. tentative)",
-    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Tuesday 14 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1: before class session\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Friday 17 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Tuesday 21 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nTutorial 1 questions\n\n\n\n\n\n\n\n\n\n6. Friday 24 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Tuesday 28 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Friday 31 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Tuesday 4 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Friday 7 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Tuesday 11 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Friday 14 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Tuesday 18 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Friday 21 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Tuesday 25 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Friday 28 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Tuesday 4 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Friday 7 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Tuesday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Friday 14 March"
+    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Tuesday 14 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1: before class session\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Friday 17 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Tuesday 21 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Friday 24 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Tuesday 28 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Friday 31 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Tuesday 4 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Friday 7 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Tuesday 11 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Friday 14 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Tuesday 18 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Friday 21 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Tuesday 25 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Friday 28 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Tuesday 4 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Friday 7 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Tuesday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Friday 14 March"
   },
   {
     "objectID": "day-by-day/Kaplan-schedule.html#already-past",
@@ -156,9 +156,9 @@
   {
     "objectID": "questions/R1-before.html",
     "href": "questions/R1-before.html",
-    "title": "Rossling Chapter 1",
+    "title": "Rossling Chapter 1: The Gap Instinct",
     "section": "",
-    "text": "Placeholder for content.\n  question id: rossling-dsle \n\nR1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "text": "Question 1:\n\n\n\nWhat does Rosling mean by “the west and the rest.”Name a historian on campus who wrote a book subtitled, “The West and the Rest.” That book is about the most recent 500 years of global history. What period of time is encompass by the positive changes Rosling writes about?\n  question id: S01B1-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nExplain what Rosling means when he says that “averages mislead.” If you had a high-school stats course, did they emphasize this?\n  question id: R01B2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nLook at the horizontal scale of the bottom figure on p. 43. Are the labeled values equally spaced on paper? Are they equally spaced in value? What is this kind of scale called?\n  question id: R01B3 \n\n\n\n\n\n\n\n\nQuestion 4:\n\n\n\nWhich of Rosling’s bullet points on p. 46 has something to say about an object of political debate called “the 1 percent?” In Brazil (to judge from the p.43 graph), how does the income of the top 1% compare proportionately to the “typical” income of Brazilians?\n  question id: R01B4 \n\n\n\n\n\n\n\n\nQuestion 5:\n\n\n\nWhat would happen if everyone in Category 4 gave $3/day to the people in Category 1?\n  question id: R01B5 \n\n\n\n\n\n\n\n\nQuestion 6:\n\n\n\nRossling uses four aspects of daily to illustrate the different income Categories 1-4:\n\nWater\nTransport\nCooking\nPlate of food\n\nWhat would, in your opinion, be a plausible and meaningful way of measuring quantitatively the level of each of these aspects?\n  question id: R01B6 \n\n\n\nR1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
     "objectID": "questions/S0-after.html",
@@ -166,5 +166,19 @@
     "title": "Spiegelhalter Introduction",
     "section": "",
     "text": "Question 1:\n\n\n\nOn page 11, the reading refers to a “basic bag of [statistical] tools,” which is the focus of what the author claims is an outdated way of teaching about data science. What previous contact have you had with statistical tools that might be in such a “basic bag?”\n  question id: S1-QB3 \n\n\n\nS0-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
+    "objectID": "questions/R2-before.html",
+    "href": "questions/R2-before.html",
+    "title": "Rossling Chapter 2: The Negativity Instinct",
+    "section": "",
+    "text": "Question 1:\n\n\n\nWhat does Rosling mean about distinguishing between “better” and “bad?” Did you know that there is a component of the standard high-school curriculum that provides a framework for dealing with such distinctions? What do you think it is called?\n  question id: R02B1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nWhat is “selective reporting?”\n  question id: R02B2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nWhat is the problem Rosling identifies as “feeling, no thinking?”\n  question id: R02B3 \n\n\n\nR2-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
+    "objectID": "questions/R0-before.html",
+    "href": "questions/R0-before.html",
+    "title": "Rossling Introduction",
+    "section": "",
+    "text": "Question 1:\n\n\n\nWhat was your score on the 13-point performance questionnaire? Be honest?\n\n 0        1        2        3        4        5        6        7        8        9        10        11        12        13       \n\nquestion id: rosling-questionnaire\n\n\nWhich questions surprised you the most?\n  question id: SOOB-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nIn what town did Rosling see a former UN Secretary General? Who was it? (You’ll have to do some web searching for the second question.)\n  question id: S0B2-1 \n\n\n\nR0-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   }
 ]

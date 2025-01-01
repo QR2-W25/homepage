@@ -1,13 +1,52 @@
 ---
-title: "Rossling Chapter 1"
+title: "Rossling Chapter 1: *The Gap Instinct*"
 subtitle: "Answer and submit *before* class discussion"
 ---
 
 {{< include ../start-up.qmd >}}
 
-Placeholder for content.
+::: {.callout-note}
+## Question 1:
 
-`r devoirs_text("rossling-dsle")`
+{{< include "../../INF-1220-QR2/_RQ/R01/QB1.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 2:
+
+{{< include "../../INF-1220-QR2/_RQ/R01/QB2.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 3:
+
+{{< include "../../INF-1220-QR2/_RQ/R01/QB3.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 4:
+
+{{< include "../../INF-1220-QR2/_RQ/R01/QB4.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 5:
+
+{{< include "../../INF-1220-QR2/_RQ/R01/QB5.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 6:
+
+{{< include "../../INF-1220-QR2/_RQ/R01/QB6.qmd" >}}
+
+:::
+
 
 
 <!-- Boilerplate for devoirs functionality -->

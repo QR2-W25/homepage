@@ -93,7 +93,7 @@ New Readings
 
 Assignments due before class time:
 
-- [Tutorial 1 questions](../questions/T1-after.html)
+- [Computing Tutorial 1](https://dtkaplan.github.io/QR2-computing/tutorial-1.html)
 
 :::
 

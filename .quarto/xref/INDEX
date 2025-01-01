@@ -43,5 +43,11 @@
   },
   "questions/S0-after.qmd": {
     "S0-after.html": "e772279b"
+  },
+  "questions/R2-before.qmd": {
+    "R2-before.html": "2941ad0b"
+  },
+  "questions/R0-before.qmd": {
+    "R0-before.html": "729a81ee"
   }
 }

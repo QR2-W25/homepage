@@ -88,14 +88,14 @@
     "href": "index.html",
     "title": "QR2 Winter 2025",
     "section": "",
-    "text": "Under construction\n\n\n\nTo instructors: This is a draft of a shared homepage for QR2.\n\nIt lives in the QR2-W25 repository on Github.\nThe URL for students is https://qr2-w25.github.io/homepage/.\nThe link to paste into RStudio to clone the repo on your laptop is https://github.com/QR2-W25/homepage.git"
+    "text": "Under construction\n\n\n\nTo instructors: This is a draft of a shared homepage for QR2.\n\nThe URL for students is https://qr2-w25.github.io/homepage/.\nIt lives in the QR2-W25 repository on Github.\nThe link to paste into RStudio to clone the repo onto your instructor laptop is https://github.com/QR2-W25/homepage.git"
   },
   {
     "objectID": "index.html#day-by-day-schedule",
     "href": "index.html#day-by-day-schedule",
     "title": "QR2 Winter 2025",
     "section": "Day-by-day schedule",
-    "text": "Day-by-day schedule\nThere are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should bookmark your section in your browser for easy access to the most up-to-date information.\n\nSection 1 (Prof. Ruth)\nSection 2 (Prof. Overbey)\nSection 3 (Prof. Kolpakov)\nSection 4 (Prof. Kaplan)\nSection 5 (Prof. Puelz)\nSection 6 (?)\n\n\n\n\n\n\n\nIn draft\n\n\n\nThe above list of sections is tentative. We should update it to reflect the actual section naming policy.\nDepending on your preferences, you might want to replace your link(s) to point to another system, for example Google Sheets.\nDanny has implemented a sketch of a schedule page in Quarto. Other instructors can draw on that as an example if they like. Each schedule should be placed in the QMD file with the indicated name. If you are using a different scheme for managing day-to-day class information, you may simply want to link to that in your QMD file. A throw-away example is in TBD-schedule.qmd."
+    "text": "Day-by-day schedule\nThere are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should bookmark your section in your browser for easy access to the most up-to-date information.\n\nSection 1 (Prof. Ruth)\nSection 2 (Prof. Kolpakov)\nSection 3 (Prof. Kolpakov)\nSection 4 (Prof. Puelz)\nSection 5 (Prof. Overbey)\nSection 6 (Prof. Kaplan)\n\n\n\n\n\n\n\nIn draft\n\n\n\nThe above list of sections is tentative. We should update it to reflect the actual section naming policy.\nDepending on your preferences, you might want to replace your link(s) to point to another system, for example Google Sheets.\nDanny has implemented a sketch of a schedule page in Quarto. Other instructors can draw on that as an example if they like. Each schedule should be placed in the QMD file with the indicated name. If you are using a different scheme for managing day-to-day class information, you may simply want to link to that in your QMD file. A throw-away example is in TBD-schedule.qmd."
   },
   {
     "objectID": "index.html#general-information",

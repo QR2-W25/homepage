@@ -49,5 +49,8 @@
   },
   "questions/R0-before.qmd": {
     "R0-before.html": "729a81ee"
+  },
+  "day-by-day/Ruth-schedule.qmd": {
+    "Ruth-schedule.html": "d327adc6"
   }
 }

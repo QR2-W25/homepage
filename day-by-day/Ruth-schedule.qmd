@@ -1,0 +1,195 @@
+---
+title: "QR2 Prof. Ruth's Section"
+subtitle: "Day-by-day schedule, readings, and notes"
+---
+
+{{< include ../start-up.qmd >}}
+
+## Near future
+
+
+
+::: {.callout-note}
+## 1. Monday 6 January, 2025
+
+Orientation to QR2
+
+- Readings:
+    - Spiegelhalter Introduction
+    - Rosling Introduction
+    - Note: As a rule, you should have completed a first pass of the day's readings *before* the class meets. This being the first day, I can only ask to to try to do so.
+
+- Discussion:
+    - Learning about data and statistics
+    - Spiegelhalter Introduction
+    - Rosling Introduction
+    - Note: The items under the "Discussion" header in this document are just FYI. The readings and the reading questions are the appropriate preparation.
+:::
+
+
+::: {.callout-note}
+## 2. Thursday 9 January
+
+Block 1: Data, visualization, trends
+
+- New readings:
+    a. Spiegelhalter Chap 1 [questions](../questions/S1-before.html)
+    b. Rosling Chap 1 [questions](../questions/R1-before.html)
+
+- Assignments due before class time:
+    i. Before-class reading questions as linked above.
+    ii. Spiegelhalter introduction [follow-up reading questions](../questions/S0-after.html)
+
+- Discussions:
+    - Sorting out any start-up problems
+    - Spiegelhalter and Rosling readings
+    - In-class orientation to computing
+:::
+
+
+
+## Further out (i.e. tentative)
+
+::: {.callout-note}
+## 3. Monday 13 January, 2025
+
+Block 1 (cont.)
+
+- New readings:
+    a. `r tutorial_link(1)`
+    b. Rosling Chap 2 [questions](../questions/R2-before.html)
+
+- Assignments due before class time: 
+    - Remember that the "New readings" section has links to the relevant reading questions. 
+    - For the computing tutorials, there are no "questions" as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar "Collect answers" and submission process. Your "answers" will be the contents of the Active R Chunks that you have run. 
+    - These principles apply to all class sessions, but won't be restated explicitly in other day's itemizations.
+
+
+- Discussions and Activities
+    i. Rossling reading
+    ii. Review of Computing Tutorial 1
+    iii. In-class group work on computing activities (TBA)
+
+:::
+
+
+::: {.callout-note}
+## 4. Thursday 16 January
+
+Block 2: Prediction
+
+- New readings    
+    - first
+    - second
+
+
+:::
+
+::: {.callout-note}
+## 5. Monday 20 January, 2025
+
+New Readings
+
+
+Assignments due before class time:
+
+- [Computing Tutorial 1](https://dtkaplan.github.io/QR2-computing/tutorial-1.html)
+
+:::
+
+
+::: {.callout-note}
+## 6. Thursday 23 January
+
+:::
+
+::: {.callout-note}
+## 7. Monday 27 January, 2025
+
+:::
+
+
+::: {.callout-note}
+## 8. Thursday 30 January
+
+:::
+
+::: {.callout-note}
+## 9. Monday 3 February
+
+:::
+
+
+::: {.callout-note}
+## 10. Thursday 6 February
+
+:::
+
+Mid-term break
+
+::: {.callout-note}
+## 11. Monday 10 February
+
+:::
+
+
+::: {.callout-note}
+## 12. Thursday 13 February
+
+:::
+
+
+::: {.callout-note}
+## 13. Monday 17 February
+
+:::
+
+
+::: {.callout-note}
+## 14. Thursday 20 February
+
+:::
+
+
+::: {.callout-note}
+## 15. Monday 24 February
+
+:::
+
+
+::: {.callout-note}
+## 16. Thursday 27 February
+
+:::
+
+
+::: {.callout-note}
+## 17. Monday 3 March
+
+:::
+
+
+::: {.callout-note}
+## 18. Thursday 6 March
+
+:::
+
+
+::: {.callout-note}
+## 19. Monday 11 March
+
+:::
+
+
+::: {.callout-note}
+## 20. Thursday 13 March
+
+:::
+
+
+
+## Already past
+
+Schedule items will be moved here (in reverse chronological order) as an archive.
+
+

@@ -7,11 +7,11 @@ title: "QR2 Winter 2025"
 
 To instructors: This is a draft of a shared homepage for QR2.
 
-- It lives in the [QR2-W25](https://github.com/QR2-W25/homepage) repository on Github.
-
 - The URL for students is <https://qr2-w25.github.io/homepage/>.
 
-- The link to paste into RStudio to clone the repo on your laptop is <https://github.com/QR2-W25/homepage.git>
+- It lives in the [QR2-W25](https://github.com/QR2-W25/homepage) repository on Github.
+
+- The link to paste into RStudio to clone the repo onto  your instructor laptop is <https://github.com/QR2-W25/homepage.git>
 
 
 :::
@@ -22,11 +22,11 @@ To instructors: This is a draft of a shared homepage for QR2.
 There are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should *bookmark* your section in your browser for easy access to the most up-to-date information.
 
 - [Section 1 (Prof. Ruth)](day-by-day/Ruth-schedule.html)
-- [Section 2 (Prof. Overbey)](day-by-day/Overbey-schedule.html)
+- [Section 2 (Prof. Kolpakov)](day-by-day/Kolpakov-schedule.html)
 - [Section 3 (Prof. Kolpakov)](day-by-day/Kolpakov-schedule.html)
-- [Section 4 (Prof. Kaplan)](day-by-day/Kaplan-schedule.html)
-- [Section 5 (Prof. Puelz)](day-by-day/Puelz-schedule.html)
-- [Section 6 (?)](day-by-day/TBD-schedule.html)
+- [Section 4 (Prof. Puelz)](https://github.com/dpuelz/Quantitative-Reasoning-II)
+- [Section 5 (Prof. Overbey)](day-by-day/Overbey-schedule.html)
+- [Section 6 (Prof. Kaplan)](day-by-day/Kaplan-schedule.html)
 
 ::: {.callout-warning}
 ## In draft

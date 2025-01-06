@@ -1,19 +1,18 @@
 ---
 title: "QR2 Winter 2025"
+subtitle: "Course homepage"
 ---
 
-::: {.callout-warning}
-## Under construction
-
-To instructors: This is a draft of a shared homepage for QR2.
-
-- The URL for students is <https://qr2-w25.github.io/homepage/>.
-
-- It lives in the [QR2-W25](https://github.com/QR2-W25/homepage) repository on Github.
-
-- The link to paste into RStudio to clone the repo onto  your instructor laptop is <https://github.com/QR2-W25/homepage.git>
 
 
+::: {.callout-note}
+## Shared homepage
+
+There are six sections of QR2 offered in the Winter 2025 term, taught by five different instructors. This page is a **shared** homepage for the course. To explain ... the QR2 course has been constructed by the instructors and reflects our consensus vision of how best to achieve institution-wide objectives of core courses.
+
+It's impractical (and probably not optimal) for all the sections to be exactly identical. Different sections meet on different days and instructors are most effective when teaching in their individual styles.
+
+On a day-to-day basis, you should *refer to your instructor's schedule* linked to below.
 :::
 
 
@@ -28,28 +27,20 @@ There are six class sections for QR2. These follow a similar schedule, but natur
 - [Section 5 (Prof. Overbey)](day-by-day/Overbey-schedule.html)
 - [Section 6 (Prof. Kaplan)](day-by-day/Kaplan-schedule.html)
 
-::: {.callout-warning}
-## In draft
 
-The above list of sections is tentative. We should update it to reflect the actual section naming policy.
-
-Depending on your preferences, you might want to replace your link(s) to point to another system, for example Google Sheets.
-
-Danny has implemented a sketch of a schedule page in Quarto. Other instructors can draw on that as an example if they like. Each schedule should be placed in the QMD file with the indicated name. If you are using a different scheme for managing day-to-day class information, you may simply want to link to that in your QMD file. A throw-away example is in `TBD-schedule.qmd`.
-:::
 
 ## General information
-
-::: {.callout-warning}
-## In draft
-
-We can replace this with links to the *Populi* system, if that's more appropriate than what DTK has drafted here.
-:::
 
 Textbooks:
 
 1. David Spiegelhalter, *The Art of Statistics: Learning from Data*
 2. Hans Rossling, *Factfulness*
-3. QR 2 *Computing Tutorials* [online](https://dtkaplan.github.io/QR2-computing/)
+3. QR 2 *Computing Tutorials* [free and online](https://dtkaplan.github.io/QR2-computing/)
 
-Policies:
+Computing:
+
+Our data-science computing platform is embedded into each course document that involves computing. You do not need to install any special software; just an up-to-date web browser will do. No previous experience with technical software is required. For those interested in such things, the underlying platform is R along with the `dplyr` data-wrangling system, products that are extensively used professionally in data science. 
+
+Policies: [See the syllabus page](syllabus.html)
+
+Much of the required course work---reading questions, computing activities and exercises, and so on---is arranged for easy electronic submission. The uploading file uses your `@uaustin.org` email address. 

@@ -8,11 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: reading-questions.html
-        text: Readings
-      - href: assignments.html
-        text: Assignments
-
+      - href: syllabus.qmd
+        text: Syllabus & policies
 
 
 format:

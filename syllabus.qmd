@@ -1,0 +1,75 @@
+---
+title: "QR2 Syllabus and Policies"
+---
+
+::: {.callout-note}
+## Under construction
+
+Due to last-minute issues, the QR2 Syllabus has not yet been posted on the official "SimpleSyllabus" site. This copy is provided for your convenience. In the case of any discrepancy between this copy and the SimpleSyllabus version, the SimpleSyllabus version has precedence.
+:::
+
+## Required Texts
+1. David Spiegelhalter, “The Art of Statistics: How to Learn from Data” ISBN 978–1541675704
+2. Hans Rosling et al., “Factfulness: Ten Reasons We're Wrong About the World and Why Things Are Better Than You Think” ISBN 978–1250123824
+
+**Pre–requisite**:  INF 1130 (Quantitative Reasoning I)
+
+**Brief description**:  The second of a two-course sequence in quantitative reasoning.
+
+## Student learning outcomes
+
+Upon successful completion of this course, students will have demonstrated basic achievement in quantitative reasoning.  In particular, students will be able to:
+
+- Employ new data to reinforce or challenge existing beliefs.
+- Identify and describe patterns in data.
+- Draw responsible conclusions about causal connections from observed data.
+- Assess the utility of predictions.
+- Avoiding common data analysis pitfalls and fallacies.
+- Use appropriate computational tools to make sense of data.
+- Understand and use elements of the data science paradigm.
+- Use randomization and iteration appropriately in statistical summaries.
+- Generate simulated data in order to test claims about statistical methods.
+- Develop and use a small but creditable technical vocabulary of statistics and data science terms.
+
+## Course Policies/Requirements
+
+- Your instructor will specify all homework assignments, quizzes, projects, and examinations, along with required completion dates.  Late assignments will not be accepted.
+- No makeup exams will be given unless you have a prior excusal or are sick in quarters.  It is your responsibility to arrange for a makeup exam if required. 
+- Grading for this course will be consistent with university policy; specifics will be provided by the course instructor.
+- You are expected to read supporting material before the class session in order to be able to participate actively in discussion.
+- Collaboration on homework is encouraged. Document any such collaboration.
+- You may refer to outside sources to assist with homework. Document any such assistance. 
+- Cheating will not be tolerated. In particular, exchanging electronic files containing work you have done for a graded assignment is prohibited unless stated otherwise. Cheating also includes but is not limited to looking at another student’s quiz or exam, copying someone else’s homework, and using unauthorized material during a quiz or exam. 
+- You must have a laptop available for use outside of class. Laptops will be used periodically in class at the instructor's discretion.  The use of computing technology is encouraged in support of all work outside of class unless otherwise stated.
+- Please see the Student Handbook for policies regarding support for special needs or disabilities. 
+
+## Course Outline
+
+Each of these six topics will occupy a week or two of the course.  
+
+1.	Data, variation, visualization, and trends
+2.	Prediction and classification in a Bayesian context
+3.	Regression modeling
+4.	Precision and the limits of data
+5.	Accuracy, confounding and adjustment
+6.	Hypothetical reasoning and the scientific method
+
+
+Each instructor has his or her own daily schedule for the course. They are mainly similar but may differ in important ways such as the due-dates of assignments or the discussion topics for any particular class day. Please refer only to the daily schedule for your own class section. Links to these are on the [shared QR2 homepage](index.qmd). 
+
+## Attendance and Tardiness Policy
+
+- Attendance is mandatory. 
+- Each student may miss 10% of classes for any reason, with no excuse needed, and without penalty, i.e., 1, 2, or 3 classes, respectively, in  a 1.5, 3, or 4.5 credit course. 
+- After that, each additional absence (for any reason) will result in a 4% or 6% or 12% final grade penalty for a 4.5 or 3.0 or 1.5 credit course, respectively.
+- Missing more than 25% of the classes in a course (without medical excuse), including "free" absences, will result in failing the course.
+- Being more than 20 minutes late to a class counts as an unapproved absence.
+
+## Accessibility Statement
+Please review the University Accessibility Statement in the student catalog. Students having special needs should contact the Polaris Center or email Accomodations@uaustin.org. 
+
+**Disability Support Services**: The university will make reasonable accommodations for students with disabilities in compliance with Section 504 of the Rehabilitation Act and the Americans with Disabilities Act. The purpose of accommodations is to provide equal access to educational opportunities for eligible students with academic and/or physical disabilities.
+
+## Academic Misconduct
+
+Instructors at UATX have the authority to assess possible plagiarism, unauthorized use of artificial intelligence, and other forms of cheating in their courses. Normally, cheating will result in failing the assignment. Students may appeal such decisions to the Disciplinary Council, where they may exercise their right to a public hearing, by writing to the Dean of the Center responsible for the course.

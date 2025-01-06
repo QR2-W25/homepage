@@ -88,21 +88,21 @@
     "href": "index.html",
     "title": "QR2 Winter 2025",
     "section": "",
-    "text": "Under construction\n\n\n\nTo instructors: This is a draft of a shared homepage for QR2.\n\nThe URL for students is https://qr2-w25.github.io/homepage/.\nIt lives in the QR2-W25 repository on Github.\nThe link to paste into RStudio to clone the repo onto your instructor laptop is https://github.com/QR2-W25/homepage.git"
+    "text": "Shared homepage\n\n\n\nThere are six sections of QR2 offered in the Winter 2025 term, taught by five different instructors. This page is a shared homepage for the course. To explain … the QR2 course has been constructed by the instructors and reflects our consensus vision of how best to achieve institution-wide objectives of core courses.\nIt’s impractical (and probably not optimal) for all the sections to be exactly identical. Different sections meet on different days and instructors are most effective when teaching in their individual styles.\nOn a day-to-day basis, you should refer to your instructor’s schedule linked to below."
   },
   {
     "objectID": "index.html#day-by-day-schedule",
     "href": "index.html#day-by-day-schedule",
     "title": "QR2 Winter 2025",
     "section": "Day-by-day schedule",
-    "text": "Day-by-day schedule\nThere are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should bookmark your section in your browser for easy access to the most up-to-date information.\n\nSection 1 (Prof. Ruth)\nSection 2 (Prof. Kolpakov)\nSection 3 (Prof. Kolpakov)\nSection 4 (Prof. Puelz)\nSection 5 (Prof. Overbey)\nSection 6 (Prof. Kaplan)\n\n\n\n\n\n\n\nIn draft\n\n\n\nThe above list of sections is tentative. We should update it to reflect the actual section naming policy.\nDepending on your preferences, you might want to replace your link(s) to point to another system, for example Google Sheets.\nDanny has implemented a sketch of a schedule page in Quarto. Other instructors can draw on that as an example if they like. Each schedule should be placed in the QMD file with the indicated name. If you are using a different scheme for managing day-to-day class information, you may simply want to link to that in your QMD file. A throw-away example is in TBD-schedule.qmd."
+    "text": "Day-by-day schedule\nThere are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should bookmark your section in your browser for easy access to the most up-to-date information.\n\nSection 1 (Prof. Ruth)\nSection 2 (Prof. Kolpakov)\nSection 3 (Prof. Kolpakov)\nSection 4 (Prof. Puelz)\nSection 5 (Prof. Overbey)\nSection 6 (Prof. Kaplan)"
   },
   {
     "objectID": "index.html#general-information",
     "href": "index.html#general-information",
     "title": "QR2 Winter 2025",
     "section": "General information",
-    "text": "General information\n\n\n\n\n\n\nIn draft\n\n\n\nWe can replace this with links to the Populi system, if that’s more appropriate than what DTK has drafted here.\n\n\nTextbooks:\n\nDavid Spiegelhalter, The Art of Statistics: Learning from Data\nHans Rossling, Factfulness\nQR 2 Computing Tutorials online\n\nPolicies:"
+    "text": "General information\nTextbooks:\n\nDavid Spiegelhalter, The Art of Statistics: Learning from Data\nHans Rossling, Factfulness\nQR 2 Computing Tutorials free and online\n\nComputing:\nOur data-science computing platform is embedded into each course document that involves computing. You do not need to install any special software; just an up-to-date web browser will do. No previous experience with technical software is required. For those interested in such things, the underlying platform is R along with the dplyr data-wrangling system, products that are extensively used professionally in data science.\nPolicies: See the syllabus page"
   },
   {
     "objectID": "day-by-day/Kaplan-schedule.html",
@@ -208,5 +208,61 @@
     "title": "QR2 Prof. Ruth’s Section",
     "section": "Already past",
     "text": "Already past\nSchedule items will be moved here (in reverse chronological order) as an archive."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "QR2 Syllabus and Policies",
+    "section": "",
+    "text": "Under construction\n\n\n\nDue to last-minute issues, the QR2 Syllabus has not yet been posted on the official “SimpleSyllabus” site. This copy is provided for your convenience. In the case of any discrepancy between this copy and the SimpleSyllabus version, the SimpleSyllabus version has precedence."
+  },
+  {
+    "objectID": "syllabus.html#required-texts",
+    "href": "syllabus.html#required-texts",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Required Texts",
+    "text": "Required Texts\n\nDavid Spiegelhalter, “The Art of Statistics: How to Learn from Data” ISBN 978–1541675704\nHans Rosling et al., “Factfulness: Ten Reasons We’re Wrong About the World and Why Things Are Better Than You Think” ISBN 978–1250123824\n\nPre–requisite: INF 1130 (Quantitative Reasoning I)\nBrief description: The second of a two-course sequence in quantitative reasoning."
+  },
+  {
+    "objectID": "syllabus.html#student-learning-outcomes",
+    "href": "syllabus.html#student-learning-outcomes",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Student learning outcomes",
+    "text": "Student learning outcomes\nUpon successful completion of this course, students will have demonstrated basic achievement in quantitative reasoning. In particular, students will be able to:\n\nEmploy new data to reinforce or challenge existing beliefs.\nIdentify and describe patterns in data.\nDraw responsible conclusions about causal connections from observed data.\nAssess the utility of predictions.\nAvoiding common data analysis pitfalls and fallacies.\nUse appropriate computational tools to make sense of data.\nUnderstand and use elements of the data science paradigm.\nUse randomization and iteration appropriately in statistical summaries.\nGenerate simulated data in order to test claims about statistical methods.\nDevelop and use a small but creditable technical vocabulary of statistics and data science terms."
+  },
+  {
+    "objectID": "syllabus.html#course-policiesrequirements",
+    "href": "syllabus.html#course-policiesrequirements",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Course Policies/Requirements",
+    "text": "Course Policies/Requirements\n\nYour instructor will specify all homework assignments, quizzes, projects, and examinations, along with required completion dates. Late assignments will not be accepted.\nNo makeup exams will be given unless you have a prior excusal or are sick in quarters. It is your responsibility to arrange for a makeup exam if required.\nGrading for this course will be consistent with university policy; specifics will be provided by the course instructor.\nYou are expected to read supporting material before the class session in order to be able to participate actively in discussion.\nCollaboration on homework is encouraged. Document any such collaboration.\nYou may refer to outside sources to assist with homework. Document any such assistance.\nCheating will not be tolerated. In particular, exchanging electronic files containing work you have done for a graded assignment is prohibited unless stated otherwise. Cheating also includes but is not limited to looking at another student’s quiz or exam, copying someone else’s homework, and using unauthorized material during a quiz or exam.\nYou must have a laptop available for use outside of class. Laptops will be used periodically in class at the instructor’s discretion. The use of computing technology is encouraged in support of all work outside of class unless otherwise stated.\nPlease see the Student Handbook for policies regarding support for special needs or disabilities."
+  },
+  {
+    "objectID": "syllabus.html#course-outline",
+    "href": "syllabus.html#course-outline",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Course Outline",
+    "text": "Course Outline\nEach of these six topics will occupy a week or two of the course.\n\nData, variation, visualization, and trends\nPrediction and classification in a Bayesian context\nRegression modeling\nPrecision and the limits of data\nAccuracy, confounding and adjustment\nHypothetical reasoning and the scientific method\n\nEach instructor has his or her own daily schedule for the course. They are mainly similar but may differ in important ways such as the due-dates of assignments or the discussion topics for any particular class day. Please refer only to the daily schedule for your own class section. Links to these are on the shared QR2 homepage."
+  },
+  {
+    "objectID": "syllabus.html#attendance-and-tardiness-policy",
+    "href": "syllabus.html#attendance-and-tardiness-policy",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Attendance and Tardiness Policy",
+    "text": "Attendance and Tardiness Policy\n\nAttendance is mandatory.\nEach student may miss 10% of classes for any reason, with no excuse needed, and without penalty, i.e., 1, 2, or 3 classes, respectively, in a 1.5, 3, or 4.5 credit course.\nAfter that, each additional absence (for any reason) will result in a 4% or 6% or 12% final grade penalty for a 4.5 or 3.0 or 1.5 credit course, respectively.\nMissing more than 25% of the classes in a course (without medical excuse), including “free” absences, will result in failing the course.\nBeing more than 20 minutes late to a class counts as an unapproved absence."
+  },
+  {
+    "objectID": "syllabus.html#accessibility-statement",
+    "href": "syllabus.html#accessibility-statement",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Accessibility Statement",
+    "text": "Accessibility Statement\nPlease review the University Accessibility Statement in the student catalog. Students having special needs should contact the Polaris Center or email Accomodations@uaustin.org.\nDisability Support Services: The university will make reasonable accommodations for students with disabilities in compliance with Section 504 of the Rehabilitation Act and the Americans with Disabilities Act. The purpose of accommodations is to provide equal access to educational opportunities for eligible students with academic and/or physical disabilities."
+  },
+  {
+    "objectID": "syllabus.html#academic-misconduct",
+    "href": "syllabus.html#academic-misconduct",
+    "title": "QR2 Syllabus and Policies",
+    "section": "Academic Misconduct",
+    "text": "Academic Misconduct\nInstructors at UATX have the authority to assess possible plagiarism, unauthorized use of artificial intelligence, and other forms of cheating in their courses. Normally, cheating will result in failing the assignment. Students may appeal such decisions to the Disciplinary Council, where they may exercise their right to a public hearing, by writing to the Dean of the Center responsible for the course."
   }
 ]

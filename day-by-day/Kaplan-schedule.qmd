@@ -19,10 +19,10 @@ Orientation to QR2
     - Rosling Introduction
     - Note: As a rule, you should have completed a first pass of the day's readings *before* the class meets. This being the first day, I can only ask to to try to do so.
 
-- Discussion:
+- Discussion[:](Dailies-Kaplan/2025-01-07-notes.html)
     - Learning about data and statistics
-    - Spiegelhalter Introduction
-    - Rosling Introduction
+    - Spiegelhalter Introduction [reading questions](../questions/S0-before.html)
+    - Rosling Introduction [reading questions](../questions/R0-before.html)
     - Note: The items under the "Discussion" header in this document are just FYI. The readings and the reading questions are the appropriate preparation.
 :::
 

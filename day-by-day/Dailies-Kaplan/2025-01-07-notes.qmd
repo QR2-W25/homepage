@@ -1,0 +1,21 @@
+---
+title: "Kaplan's notes for 2025-01-07"
+---
+
+This course is called "QR2" which is not very descriptive. It would have been fair to name it "Data Science."
+
+## Debrief
+
+What do you know about data?
+
+What do you know about statistics?
+
+- Did you have a previous stats course? (Or a data-science course, but these aren't yet so common at the high-school level?)
+
+
+
+## Rossling
+
+
+## Spiegelhalter
+

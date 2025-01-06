@@ -102,7 +102,7 @@
     "href": "index.html#general-information",
     "title": "QR2 Winter 2025",
     "section": "General information",
-    "text": "General information\nTextbooks:\n\nDavid Spiegelhalter, The Art of Statistics: Learning from Data\nHans Rossling, Factfulness\nQR 2 Computing Tutorials free and online\n\nComputing:\nOur data-science computing platform is embedded into each course document that involves computing. You do not need to install any special software; just an up-to-date web browser will do. No previous experience with technical software is required. For those interested in such things, the underlying platform is R along with the dplyr data-wrangling system, products that are extensively used professionally in data science.\nPolicies: See the syllabus page"
+    "text": "General information\nTextbooks:\n\nDavid Spiegelhalter, The Art of Statistics: Learning from Data\nHans Rossling, Factfulness\nQR 2 Computing Tutorials free and online\n\nComputing:\nOur data-science computing platform is embedded into each course document that involves computing. You do not need to install any special software; just an up-to-date web browser will do. No previous experience with technical software is required. For those interested in such things, the underlying platform is R along with the dplyr data-wrangling system, products that are extensively used professionally in data science.\nPolicies: See the syllabus page\nMuch of the required course work—reading questions, computing activities and exercises, and so on—is arranged for easy electronic submission. The uploading file uses your @uaustin.org email address."
   },
   {
     "objectID": "day-by-day/Kaplan-schedule.html",
@@ -264,5 +264,33 @@
     "title": "QR2 Syllabus and Policies",
     "section": "Academic Misconduct",
     "text": "Academic Misconduct\nInstructors at UATX have the authority to assess possible plagiarism, unauthorized use of artificial intelligence, and other forms of cheating in their courses. Normally, cheating will result in failing the assignment. Students may appeal such decisions to the Disciplinary Council, where they may exercise their right to a public hearing, by writing to the Dean of the Center responsible for the course."
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html",
+    "href": "day-by-day/Kolpakov-schedule.html",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should do preparatory reading before class. For the first days of class, we shall make an exception, and probably discuss a few things on the tangent, too.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\nComputing:\n\nPlease have your laptops with you! There will be a few in-class computing exercises.\nThe main computing tool for this class is R. You do not need to install it on your computer, although you definitely may.\n\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html#near-future",
+    "href": "day-by-day/Kolpakov-schedule.html#near-future",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should do preparatory reading before class. For the first days of class, we shall make an exception, and probably discuss a few things on the tangent, too.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\nComputing:\n\nPlease have your laptops with you! There will be a few in-class computing exercises.\nThe main computing tool for this class is R. You do not need to install it on your computer, although you definitely may.\n\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html#further-out-i.e.-tentative",
+    "href": "day-by-day/Kolpakov-schedule.html#further-out-i.e.-tentative",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "Further out (i.e. tentative)",
+    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1: before class session\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRosling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Thursday 16 January\n\n\n\nBlock 2: Prediction\n\n\n\n\n\n\n\n\nMonday 20 January, 2025\n\n\n\nMLK Observance (will hold class on Wednesday, January 22)\n\n\n\n\n\n\n\n\n5. Wednesday 22 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Thursday 23 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Thursday 30 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Thursday 6 February\n\n\n\n\nFinal project preparation: choose your dataset, get ideas, test them over the reading break\n\n\n\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\nReading break (no class)\n\n\n\n\n\n\n\n\n12. Thursday 13 February\n\n\n\nReading break (no class)\n\n\n\n\n\n\n\n\nMonday 17 February\n\n\n\nPresident’s Day (will hold class on Wednesday, February 19)\n\n\n\n\n\n\n\n\n13. Wednesday 19 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Thursday 20 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Thursday 27 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Thursday 6 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Thursday 13 March\n\n\n\nFinal project presentation"
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html#already-past",
+    "href": "day-by-day/Kolpakov-schedule.html#already-past",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "Already past",
+    "text": "Already past\nPast schedule items will be moved here …"
   }
 ]

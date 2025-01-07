@@ -15,8 +15,8 @@ subtitle: "Day-by-day schedule, readings, and notes"
 Orientation to QR2
 
 - Readings:
-    - Spiegelhalter Introduction
-    - Rosling Introduction
+    - Spiegelhalter Introduction [Link to a randomly selected seller](https://www.hpb.com/the-art-of-statistics-how-to-learn-from-data/M-3646261-T.html?utm_source=google&utm_medium=cpc&utm_campaign=HPB_PMAX_ECOM&gad_source=1&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToXt03joDgue1IfapmsUC7FSrPIrBt4o2wGL1XtdVzn4olcYDoFnKgQaAhLMEALw_wcB)
+    - Rosling Introduction [Link to a randomly selected seller of the book](https://www.betterworldbooks.com/product/detail/factfulness-ten-reasons-we-re-wrong-about-the-world-and-why-things-are-better-than-you-think-9781250123824?shipto=US&curcode=USD&gad_source=1&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToW5RAPaZ6PKkhyWmLKWQprHQbJWUaQ-bG7qdB8L9jYw4FExpc4ZaSkaAgw-EALw_wcB)
     - Note: As a rule, you should have completed a first pass of the day's readings *before* the class meets. This being the first day, I can only ask to to try to do so.
 
 - Discussion[:](Dailies-Kaplan/2025-01-07-notes.html)
@@ -56,7 +56,7 @@ Block 1: Data, visualization, trends
 Block 1 (cont.)
 
 - New readings:
-    a. `r tutorial_link(1)`
+    a. `r tutorial_link(1)` Make sure to play around with the different commands, changing names, etc. Each time you run an active R chunk, that activity is stored in your browser until you close or refresh the page. Submitting your work using the button and link at the bottom of the document will let me see what you've done, and will be a component of class participation.
     b. Rosling Chap 2 [questions](../questions/R2-before.html)
 
 - Assignments due before class time: 

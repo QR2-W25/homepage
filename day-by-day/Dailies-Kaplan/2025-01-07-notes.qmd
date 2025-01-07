@@ -2,7 +2,7 @@
 title: "Kaplan's notes for 2025-01-07"
 ---
 
-This course is called "QR2" which is not very descriptive. It would have been fair to name it "Data Science."
+This course is called "QR2" which is not very descriptive. It would have been fair to name it "Data Science." Data science is an appropriate *core* course for college students because modern society is data-driven to a great extent. Knowing even the basics of how to work with data, and how to draw valid conclusions from data (even if it's just to be able to argue with others!) is tremendously empowering.
 
 ## Debrief
 
@@ -12,10 +12,72 @@ What do you know about statistics?
 
 - Did you have a previous stats course? (Or a data-science course, but these aren't yet so common at the high-school level?)
 
+Possibilities:
+
+- Correlation is not causation.
 
 
 ## Rossling
 
+A book about development and public health, what's technically called "global health." 
+
+I selected this because
+
+1. It involves data.
+2. Epidemiology provides a good reference client for useful statistics. What is epidemiology?
+    i. Making decisions with crappy data to guide actions.
+3. It's organized around 10 misleading *heuristics* that are widely used to interpret the world and that give a very misleading impression. Heuristics, e.g. "Us" and "them"; splitting things into two categories e.g. rich and poor; ....
+
+Have the class take the quiz.
+
+
+
+
 
 ## Spiegelhalter
+
+DID NOT DO THIS IN CLASS
+
+Bag of tricks. Some simple graphics. Short case study about drawing information out of graphics.
+
+Being able to see patterns in data.
+
+Example: Gapminder data
+
+1. Murders per 100,000 people per year from [this page](https://www.gapminder.org/data/)
+
+    i. What's going on in Albania? Is this a large or small murder rate? Speculation about why. (Balkan wars post Yugoslavia break up.)
+    ii. What happened in Argentina?
+
+
+## Syllabus, daily assignments
+
+1. Readings from the two books (not always in chapter order).
+    i. Most readings will have reading questions. 
+    ii. Some of these are to be handed in *before* the class when we will discuss the readings, some are due by the following class. The reading questions are typically non-technical.
+2. Computing tutorials. These are somewhat interactive and you should interact with them.
+
+## Data (organization of ...)
+
+What words do you associate with "data?"
+
+What do you know about how data is organized? 
+
+GOT TO HERE IN CLASS
+
+
+- What is a database? 
+- What is a "relational" database. 
+    i. What names/words might you have heard that relate to relational databases.
+    ii. When were they invented.
+    iii. How big a sector of the economy? How does one measure "how big" when talking about the economy. 
+Introduce data frame:
+
+i. Columns and rows.
+ii. Variables and "specimens"
+iii. Quantitative and categorical.
+iv. In R, data frames can be given names. We'll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.
+v. `Galton`
+vi. `point_plot()` and pipes
+vii. Tilde notation
 

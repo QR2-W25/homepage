@@ -8,7 +8,7 @@ library(devoirs)
 ```{r echo = FALSE}
 #| echo: false
 tutorial_link <- function(number) {
-  glue::glue("Computing tutorial {number}: [before class session](https://dtkaplan.github.io/QR2-computing/tutorial-{number}.html)")
+  glue::glue("[Computing tutorial {number}](https://dtkaplan.github.io/QR2-computing/tutorial-{number}.html). Read before class session.")
 }
 
 reading_links <- function(Letter, number) {

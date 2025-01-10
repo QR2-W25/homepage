@@ -1,0 +1,48 @@
+---
+title: "Kaplan's in-class notes for 2025-01-10"
+---
+
+## Critical thinking and QR2
+
+[Recent article about morning coffee and wellness](https://www.bbc.com/news/articles/cgj6j7yvz55o)
+
+> "*The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers---but the research could not prove whether coffee was the sole cause.*"
+
+- Why look at both "dying from cardiovascular disease" and "mortality."- 
+
+- "Lower risk." How do you measure risk?
+
+- What does "prove" mean in this context? Is proof an appropriate criterion for interpreting the study? What's its purpose in this paragraph?
+
+> "*Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: 'We need clinical trials to test the potential impact of changing the time of day when people drink coffee.'*"
+
+- What is meant by "clinical trials?"
+
+- Why do they refer to the potential impact of changing the time of day when people drink coffee?
+
+> "*The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.*"
+
+- What does 40,725---the sample size---tell you here?
+
+> "*The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.*"
+
+- Suggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people.
+
+---------
+
+
+- What is a database? 
+- What is a "relational" database. 
+    i. What names/words might you have heard that relate to relational databases.
+    ii. When were they invented.
+    iii. How big a sector of the economy? How does one measure "how big" when talking about the economy. 
+Introduce data frame:
+
+i. Columns and rows.
+ii. Variables and "specimens"
+iii. Quantitative and categorical.
+iv. In R, data frames can be given names. We'll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.
+v. `Galton`
+vi. `point_plot()` and pipes
+vii. Tilde notation
+

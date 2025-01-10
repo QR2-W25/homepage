@@ -40,7 +40,7 @@ Block 1: Data, visualization, trends
     i. Before-class reading questions as linked above.
     ii. Spiegelhalter introduction [follow-up reading questions](../questions/S0-after.html)
 
-- Discussions:
+- Discussions[:](Dailies-Kaplan/2025-01-10-notes.html)
     - Sorting out any start-up problems
     - Spiegelhalter and Rosling readings
     - In-class orientation to computing

@@ -1,5 +1,11 @@
 ---
 title: "Kaplan's in-class notes for 2025-01-10"
+webr:
+  channel-type: 'automatic'
+  repos: ["https://dtkaplan.r-universe.dev"]
+  packages: ['ggplot2', 'LSTbook', 'dplyr', 'ggformula', 'mosaicData', 'palmerpenguins', 'babynames', 'mosaicCalc']
+filters:
+  - webr
 ---
 
 ## Critical thinking and QR2
@@ -28,21 +34,67 @@ title: "Kaplan's in-class notes for 2025-01-10"
 
 - Suggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people.
 
----------
+## Discussion: Rosling Ch. 1
+
+[Reading questions](https://qr2-w25.github.io/homepage/questions/R1-before.html)
+
+Avoiding the "gap instinct": 
+
+- don't look at averages outside of the context of variation.
+
+## Discussion: Spiegelhalter Ch. 1
+
+Table 1.1: Tabular format of data
+
+Relative vs absolute risk: bacon sandwich eating. 20% increase in risk. Compare to Fig 1.4
+
+- Risk ratio: risk of cancer with bacon divided by without bacon
+- Can't add together relative risks. Instead, multiply them.
+
+Explain (briefly) what odds is about, why we need it.
+
+[Reading questions](https://qr2-w25.github.io/homepage/questions/S1-before.html)
+
+## Introduction to computing
+
+Your window to R computing will be through R-chunks embedded in documents. Each box provides full access to all the capabilities in R, although ours have been set up to provide seamless access only to the tools we'll need in QR2.
+
+In writing documents, I use a different system. 
 
 
-- What is a database? 
-- What is a "relational" database. 
-    i. What names/words might you have heard that relate to relational databases.
-    ii. When were they invented.
-    iii. How big a sector of the economy? How does one measure "how big" when talking about the economy. 
-Introduce data frame:
+```{webr-r}
+# A comment!
+```
 
-i. Columns and rows.
-ii. Variables and "specimens"
-iii. Quantitative and categorical.
-iv. In R, data frames can be given names. We'll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.
-v. `Galton`
-vi. `point_plot()` and pipes
-vii. Tilde notation
+1. Our data will be stored in data frames. 
+    i. Each frame has a name, e.g. `Galton` and is already available to you in
+    ii. Occasionally we will load in data from other sources. You'll be shown how to do this, but you don't need to master the methods.
+    
+![](https://dtkaplan.github.io/QR2-computing/www/data-frame-schematic.png)    
+    
+    
+2. Example: Galton
+    i. Usually we don't want to look at the whole thing in print.
+    ii. Pipe syntax, function names, parentheses
+    iii. `names()`, `head()`, `nrow()`. Specimens and variables. 
+    iv. Inputs (from pipe) and arguments (in parentheses)
+    
+
+3. Random samples. We discussed this on Tuesday. Can take a random sample from a data frame with `take_sample(n=...)`. 
+
+4. Use **wrangling** operations to construct new data frames from an existing one. Vocabulary: `filter()`, `mutate()`, `summarize()`, `arrange()`, `select()`, grouping (with `.by=`).
+
+    - What is a database? 
+    - What is a "relational" database. 
+        i. What names/words might you have heard that relate to relational databases.
+        ii. When were they invented.
+        iii. How big a sector of the economy? How does one measure "how big" when talking about the economy. 
+
+5. Calculate the amount of variation in a quantitative variable. Vocabulary: variance, var(), “standard deviation.”
+
+6. Construct and interpret annotated point plots from a data frame. Vocabulary: `point_plot()`, tilde expression, response variable, explanatory variable, covariate, facet, trend, model, mapping, violin.
+
+```{webr-r}
+# Another chunk for using R
+```
 

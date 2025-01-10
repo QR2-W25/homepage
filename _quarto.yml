@@ -18,5 +18,11 @@ format:
     css: styles.css
     toc: true
 
-
+# Enable webR
+webr:
+  channel-type: 'automatic'
+  repos: ["https://dtkaplan.r-universe.dev"]
+  packages: ['ggplot2', 'LSTbook', 'dplyr', 'ggformula', 'mosaicData', 'palmerpenguins', 'babynames', 'mosaicCalc']
+filters:
+  - webr
 

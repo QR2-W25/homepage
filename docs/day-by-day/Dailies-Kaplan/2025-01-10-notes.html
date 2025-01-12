@@ -366,7 +366,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"options":{"classes":"","editor-word-wrap":"true","label":"unnamed-chunk-1","comment":"","out-height":"","fig-height":5,"fig-cap":"","editor-font-scale":"1","out-width":"700px","fig-width":7,"read-only":"false","dpi":72,"results":"markup","output":"true","warning":"true","editor-max-height":"","autorun":"false","context":"interactive","message":"true","editor-quick-suggestions":"false"},"code":"# A comment!","id":1}];
+globalThis.qwebrCellDetails = [{"code":"# A comment!","options":{"editor-max-height":"","warning":"true","results":"markup","message":"true","dpi":72,"comment":"","read-only":"false","autorun":"false","editor-quick-suggestions":"false","label":"unnamed-chunk-1","editor-font-scale":"1","out-height":"","fig-cap":"","fig-width":7,"classes":"","fig-height":5,"output":"true","editor-word-wrap":"true","context":"interactive","out-width":"700px"},"id":1},{"code":"# Another chunk for using R","options":{"editor-max-height":"","warning":"true","results":"markup","message":"true","dpi":72,"comment":"","read-only":"false","autorun":"false","editor-quick-suggestions":"false","label":"unnamed-chunk-2","editor-font-scale":"1","out-height":"","fig-cap":"","fig-width":7,"classes":"","fig-height":5,"output":"true","editor-word-wrap":"true","context":"interactive","out-width":"700px"},"id":2}];
 
 </script>
 <script type="module">
@@ -2030,26 +2030,42 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </section>
 <section id="introduction-to-computing" class="level2">
 <h2 class="anchored" data-anchor-id="introduction-to-computing">Introduction to computing</h2>
+<p>Your window to R computing will be through R-chunks embedded in documents. Each box provides full access to all the capabilities in R, although ours have been set up to provide seamless access only to the tools we’ll need in QR2.</p>
+<p>In writing documents, I use a different system.</p>
 <div id="qwebr-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<ol type="1">
+<li>Our data will be stored in data frames.
+<ol type="i">
+<li>Each frame has a name, e.g.&nbsp;<code>Galton</code> and is already available to you in</li>
+<li>Occasionally we will load in data from other sources. You’ll be shown how to do this, but you don’t need to master the methods.</li>
+</ol></li>
+</ol>
+<p><img src="https://dtkaplan.github.io/QR2-computing/www/data-frame-schematic.png" class="img-fluid"></p>
+<ol start="2" type="1">
+<li><p>Example: Galton</p>
+<ol type="i">
+<li>Usually we don’t want to look at the whole thing in print.</li>
+<li>Pipe syntax, function names, parentheses</li>
+<li><code>names()</code>, <code>head()</code>, <code>nrow()</code>. Specimens and variables.</li>
+<li>Inputs (from pipe) and arguments (in parentheses)</li>
+</ol></li>
+<li><p>Random samples. We discussed this on Tuesday. Can take a random sample from a data frame with <code>take_sample(n=...)</code>.</p></li>
+<li><p>Use <strong>wrangling</strong> operations to construct new data frames from an existing one. Vocabulary: <code>filter()</code>, <code>mutate()</code>, <code>summarize()</code>, <code>arrange()</code>, <code>select()</code>, grouping (with <code>.by=</code>).</p>
 <ul>
 <li>What is a database?</li>
 <li>What is a “relational” database.
 <ol type="i">
 <li>What names/words might you have heard that relate to relational databases.</li>
 <li>When were they invented.</li>
-<li>How big a sector of the economy? How does one measure “how big” when talking about the economy. Introduce data frame:</li>
+<li>How big a sector of the economy? How does one measure “how big” when talking about the economy.</li>
 </ol></li>
-</ul>
-<ol type="i">
-<li>Columns and rows.</li>
-<li>Variables and “specimens”</li>
-<li>Quantitative and categorical.</li>
-<li>In R, data frames can be given names. We’ll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.</li>
-<li><code>Galton</code></li>
-<li><code>point_plot()</code> and pipes</li>
-<li>Tilde notation</li>
+</ul></li>
+<li><p>Calculate the amount of variation in a quantitative variable. Vocabulary: variance, var(), “standard deviation.”</p></li>
+<li><p>Construct and interpret annotated point plots from a data frame. Vocabulary: <code>point_plot()</code>, tilde expression, response variable, explanatory variable, covariate, facet, trend, model, mapping, violin.</p></li>
 </ol>
+<div id="qwebr-insertion-location-2"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
 </section>

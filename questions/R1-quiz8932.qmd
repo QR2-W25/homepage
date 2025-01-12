@@ -1,0 +1,52 @@
+---
+title: "Rossling Chapter 1 Quiz"
+---
+
+<!-- Questions written by Dave Ruth -->
+
+{{< include ../start-up.qmd >}}
+
+
+1. Which answer best represents the misconception Rosling calls "The Gap Instinct?"
+
+```{mcq}
+#| label: R1-quiz-1
+1. the misconception that "the world is divided in two" [correct]
+2. the misconception that the knowledge gap between experts and non-experts is large
+3. the misconception that the education gap between males and females is large
+4. the misconception that the gaps in our own personal knowledge are large
+```
+
+2. What is the role of the chimpanzee in Rosling’s Intro & Chapter 1?
+
+```{mcq}
+#| label: R1-quiz-2
+1. It is an example of a species whose population is usually underestimated.
+2. It is an example of a "random guesser" to which human responses might be compared. [correct]
+3. It represents the baseline to which evolutionary improvement might be compared.
+4. It represents a population negatively affected by climate change.
+```
+
+3. The Rosling picture below refers to what year?
+
+```{mcq}
+#| label: R1-quiz-3
+#| inline: true
+1. 1965 [correct]
+2. 1980
+3. 1995
+4. 2010
+```
+
+![Figure from Rosling Ch 1](www/R-survival-vs-parity.png)
+
+
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

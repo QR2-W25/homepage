@@ -1,0 +1,48 @@
+---
+title: "Spiegelhalter Chapter 1 Quiz"
+---
+
+<!-- Questions written by Dave Ruth -->
+
+{{< include ../start-up.qmd >}}
+
+
+1. Choose the best answer: Categorical variables are measures that ...
+
+```{mcq}
+#| label: S1-quiz-1
+1. are unambiguously explicit and direct.
+2. are employed in the study of category theory in mathematics.
+3. can be categorized as continuous or discrete.
+4. can take on two or more categories. [correct]
+```
+
+2. Spiegelhalter shows a 3D pie chart as an example of presenting categorical data. His purpose for showing this example is to demonstrate that ...
+
+```{mcq}
+#| label: S1-quiz-2
+1. 3D pie charts generally ought not be used as they distort areas. [correct]
+2. 3D pie charts generally ought to be used as they are straightforward to interpret.
+3. 3D plots are generally less informative than 2D plots.
+4. 3D plots are generally more informative than 2D plots.
+```
+
+3. Spiegelhalter refers to a study about risks of taking statins, and poses the question, “How can a rise from 85% to 87% be called a ______% increase?”  What number was in the blank in the reading?
+
+```{mcq}
+#| label: S1-quiz-3
+#| inline: true
+1. 1
+2. 10
+3. 20 [correct]
+4. 40
+```
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

@@ -5,14 +5,79 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 {{< include ../start-up.qmd >}}
 
+<!-- to fix commits without pushes 
+     git pull origin --rebase
+     -->
+
 ## Near future
 
+::: {.callout-note}
+## Class Day 3. Tuesday 14 January, 2025 {#sec-14Jan}
+
+Block 1 (cont.)
+
+- New readings:
+
+    a. Rosling Chap 2 & [reading questions](../questions/R2-before.html)
+    b. `r tutorial_link(1)` 
+    
+- Discussions and Activities
+    i. Rossling reading
+    ii. Review of Computing Tutorial 1
+    iii. In-class group work on computing activities (TBA)
+
+- Assignments due before class time: 
+    - Remember that the "New readings" section has links to the relevant reading questions. 
+    - As regards the computing tutorials ... There are some "reading tasks" with questions that you should answer and submit in the usual way. Equally important, however, are the many R Chunks. You're expected to play around a bit as you work through the tutorial, trying out different commands, changing names, etc. Make mistakes! That's a great way to learn. Each time you run an R chunk, that activity is stored in your browser until you close or refresh the page. Submit your work using the button and link at the bottom of the tutorial document. This will let me see what you've done, and will be a component of class participation. 
+    - If you stop part way through a document with questions, chunks, etc., submit your work up to that point. When you return to the document, you can do additional work and submit that. You don't have to worry about submitting multiple times.
+    - Note that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.
+
+- [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
+
+:::
 
 
 ::: {.callout-note}
-## 1. Tuesday 7 January, 2025
+## 4. Class Day Friday 17 January {#sec-17Jan}
+
+Block 2: Prediction
+
+- New readings    
+    a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
+    b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
+
+- Assignments due:
+    - As always, reading questions from new readings are due before class, but I'll stop mentioning this explicitly for future class days.
+    - today or tomorrow: [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
+        - You don't have to do the ones labelled "In-class". But do as many of the others as you can. 
+
+- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-14-notes.html)
+:::
+
+
+
+
+
+
+<!-- The basement starts here. Don't mistakenly edit in it. -->
+
+
+
+
+
+
+
+
+
+## Archive of past class days.
+
+January: [7](#sec-7Jan), [10](#sec-10Jan), [14](#wrn-14Jan), [17](#wrn-17Jan), [21](#wrn-21Jan), [24](#wrn-24Jan), [31](#wrn-31Jan)
+
+##### Class Day 1. Tuesday 7 January, 2025 {#sec-7Jan .nonumber}
 
 Orientation to QR2
+
+- [In-class notes](../Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html)
 
 - Readings:
     - Spiegelhalter Introduction [Link to a randomly selected seller](https://www.hpb.com/the-art-of-statistics-how-to-learn-from-data/M-3646261-T.html?utm_source=google&utm_medium=cpc&utm_campaign=HPB_PMAX_ECOM&gad_source=1&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToXt03joDgue1IfapmsUC7FSrPIrBt4o2wGL1XtdVzn4olcYDoFnKgQaAhLMEALw_wcB)
@@ -24,11 +89,9 @@ Orientation to QR2
     - Spiegelhalter Introduction [reading questions](../questions/S0-before.html)
     - Rosling Introduction [reading questions](../questions/R0-before.html)
     - Note: The items under the "Discussion" header in this document are just FYI. The readings and the reading questions are the appropriate preparation.
-:::
 
 
-::: {.callout-note}
-## 2. Friday 10 January
+#### Class Day 2. Friday 10 January {#sec-10Jan .nonumber}
 
 Block 1: Data, visualization, trends
 
@@ -44,46 +107,14 @@ Block 1: Data, visualization, trends
     - Sorting out any start-up problems
     - Spiegelhalter and Rosling readings
     - In-class orientation to computing
-:::
+
+- [In-class notes](../Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html)
+
 
 
 
 ## Further out (i.e. tentative)
 
-::: {.callout-note}
-## 3. Tuesday 14 January, 2025
-
-Block 1 (cont.)
-
-- New readings:
-    a. `r tutorial_link(1)` Make sure to play around with the different commands, changing names, etc. Each time you run an active R chunk, that activity is stored in your browser until you close or refresh the page. Submitting your work using the button and link at the bottom of the document will let me see what you've done, and will be a component of class participation.
-    b. Rosling Chap 2 [questions](../questions/R2-before.html)
-
-- Assignments due before class time: 
-    - Remember that the "New readings" section has links to the relevant reading questions. 
-    - For the computing tutorials, there are no "questions" as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar "Collect answers" and submission process. Your "answers" will be the contents of the Active R Chunks that you have run. 
-    - These principles apply to all class sessions, but won't be restated explicitly in other day's itemizations.
-
-
-- Discussions and Activities
-    i. Rossling reading
-    ii. Review of Computing Tutorial 1
-    iii. In-class group work on computing activities (TBA)
-
-:::
-
-
-::: {.callout-note}
-## 4. Friday 17 January
-
-Block 2: Prediction
-
-- New readings    
-    - first
-    - second
-
-
-:::
 
 ::: {.callout-note}
 ## 5. Tuesday 21 January, 2025

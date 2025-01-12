@@ -2,10 +2,8 @@
   "hash": "9a715ea9df0e6bf27482d1eab602dd19",
   "result": {
     "engine": "knitr",
-    "markdown": "<!-- Load packages, etc. -->\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n<!-- Submission link -->\n\n\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [
-      "start-up_files"
-    ],
+    "markdown": "<!-- Load packages, etc. -->\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n<!-- Submission link -->\n\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

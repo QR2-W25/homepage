@@ -11,7 +11,6 @@ website:
       - href: syllabus.qmd
         text: Syllabus & policies
 
-
 format:
   html:
     theme: cosmo

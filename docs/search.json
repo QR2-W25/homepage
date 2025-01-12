@@ -14,6 +14,13 @@
     "text": "Question 1:\n\n\n\nOn page 9, the book doesn’t report the difference between the “low” happiness score for 50-54 year olds compared to the “high” score for the 70-74 age group. Make a guess for what the difference might be, based on your intuition. You don’t have to justify your guess.\n  question id: S1-QB1-1 \nThen, rereading the paragraph carefully to gather what facts are available, say what you think is the smallest difference between these groups that would be worth mentioning.\n  question id: S1-QB1-2 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nThe reading lists some “necessary component[s]” of being a data scientists. List them, briefly.\n  question id: S1-QB2 \n\n\n\nS0-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
+    "objectID": "questions/R1-after.html",
+    "href": "questions/R1-after.html",
+    "title": "Rossling Chapter 1 Follow-up",
+    "section": "",
+    "text": "Just some filler.\n  question id: dove-sees-smoke \n\nR1-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
     "objectID": "questions/S4-before.html",
     "href": "questions/S4-before.html",
     "title": "Spiegelhalter Chapter 4",
@@ -21,67 +28,228 @@
     "text": "Question 1:\n\n\n\nIn discussing clinical trials, the book offers eight principles for a good study. List them by name and, for each, say whether or not you understand (or agree!) that the principle is important for drawing conclusions from data. Be honest! You don’t have to agree with David Spiegelhalter. And, insofar as you accept his authority on the matter, it is best to face head on any reasons you might have for skepticism.\n  question id: S04A-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nTraditional statistics course avoid issues of causation, other to warn students not to draw causal conclusions from observational—as opposed to experimental—data. Many of the modern ideas and methods concerning causality stem from the needs of epidemiology. What do you think it is about epidemiology that encourages an emphasis on causality?\n  question id: S04B-2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nExplain in your own words what confounding variables, lurking variabiables, and covariates have in common.\n  question id: S04B-3 \n\n\n\n\n\n\n\n\nQuestion 4:\n\n\n\nExplain in your own words what confounding variables, lurking variabiables, and covariates have in common.\n  question id: S04B-4 \n\n\n\nS4-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "questions/S2-after.html",
-    "href": "questions/S2-after.html",
-    "title": "Spiegelhalter Chapter 2 Follow-up",
+    "objectID": "questions/S1-before.html",
+    "href": "questions/S1-before.html",
+    "title": "Spiegelhalter Chapter 1",
     "section": "",
-    "text": "Question 1:\n\n\n\nWhich three graphics in Chapter 2 use jittering?\n  question id: S02A-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nIn Figure 2.5, there are three variables presented. Say what they are, which are categorical and which quantitative, and what graphical feature—x, y, facet—each is mapped to. Do you think the choice of the y-mapped variable is sensible as the response variable in a model, that is, which variable can be explained in terms of the other two variables.\n  question id: S02A-2 \n\n\n\nS2-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "text": "Question 1:\n\n\n\nWhat is binary data?\n  question id: S01-B1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nThere are at least two examples in the chapter of ways to make graphics more informative. What are they?\n  question id: S01-B2 \n\n\n\nS1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "demonstrations/Narrow-and-wide.html",
-    "href": "demonstrations/Narrow-and-wide.html",
-    "title": "Wide and narrow data",
+    "objectID": "demonstrations/Gender-neutral-names.html",
+    "href": "demonstrations/Gender-neutral-names.html",
+    "title": "Gender-neutral names",
     "section": "",
-    "text": "Wrangling demonstrations. Cases where the variables are really levels of a variable\n\nSpiegelhalter Fig 2.7\n\n\nAnother population dataset\nFor Fig 2.8 have them wrangle to get the proportion increase and then draw the graph using color for the relative size. Also, … what is the unit of observation? Are all the rows the same kind of unit of observation?"
+    "text": "NOTE IN DRAFT\n\n\n\nPoint out that this will be just a demonstration. Use babynames as an inclass example of wrangling?\n\nHow can we figure out what are the most gender neutral names.\nfilter and summarize babynames: proportion of males and females with each name, select out those where the ratio is 0.25 to 0.75. Calculate the information (p ln(p))"
   },
   {
-    "objectID": "Reading-questions.html",
-    "href": "Reading-questions.html",
-    "title": "Reading Questions",
+    "objectID": "Kaplan_posts.html",
+    "href": "Kaplan_posts.html",
+    "title": "Class notes and posts for Prof. Kaplan’s section",
     "section": "",
-    "text": "For instructors only\n\n\n\nThis document is intended for instructors as they create their day-to-day schedules. Those schedules will provide the student-facing link to reading-question documents.\nEach of the six blocks in QR2 has assigned readings from Spiegelhalter, Rossling, and the computing tutorials. There are corresponding reading questions. These are organized by book chapter. Your instructor will indicate which questions are due and when.\nSome of the reading questions should be completed and submitted before the date scheduled for the classroom discussion. Others are intended as follow up after the discussion. Due dates for the follow-up questions will be specified by individual instructors.\nNote that some documents may be empty."
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJan 28, 2025\n\n\nKaplan’s in-class notes for 2025-01-28\n\n\n \n\n\n\n\nJan 28, 2025\n\n\nKaplan’s in-class notes for 2025-01-28\n\n\n \n\n\n\n\nJan 24, 2025\n\n\nKaplan’s in-class notes for 2025-01-24\n\n\n \n\n\n\n\nJan 21, 2025\n\n\nKaplan’s in-class notes for 2025-01-21\n\n\n \n\n\n\n\nJan 17, 2025\n\n\nKaplan’s in-class notes for 2025-01-17\n\n\n \n\n\n\n\nJan 14, 2025\n\n\nKaplan’s in-class notes for 2025-01-14\n\n\n \n\n\n\n\nJan 10, 2025\n\n\nKaplan’s in-class notes for 2025-01-10\n\n\n \n\n\n\n\nJan 7, 2025\n\n\nKaplan’s notes for 2025-01-07\n\n\n \n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "Reading-questions.html#block-1-data-visualization-trends",
-    "href": "Reading-questions.html#block-1-data-visualization-trends",
-    "title": "Reading Questions",
-    "section": "Block 1: Data, visualization, trends",
-    "text": "Block 1: Data, visualization, trends\n\nSpiegelhalter Introduction: before & follow-up\nSpiegelhalter Chapter 1: before & follow-up\nRossling Chapter 1: before & follow-up\nRossling Chapter 2: before & follow-up\nComputing tutorial 1: before class session"
+    "objectID": "day-by-day/Ruth-schedule.html",
+    "href": "day-by-day/Ruth-schedule.html",
+    "title": "QR2 Prof. Ruth’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
   },
   {
-    "objectID": "Reading-questions.html#block-2-prediction",
-    "href": "Reading-questions.html#block-2-prediction",
-    "title": "Reading Questions",
-    "section": "Block 2: Prediction",
-    "text": "Block 2: Prediction\n\nSpiegelhalter Chapter 3: before & follow-up\nSpiegelhalter Chapter 6: before & follow-up\nRossling Chapter 4: before & follow-up\nRossling Chapter 5: before & follow-up\nComputing tutorial 2: before class session"
+    "objectID": "day-by-day/Ruth-schedule.html#near-future",
+    "href": "day-by-day/Ruth-schedule.html#near-future",
+    "title": "QR2 Prof. Ruth’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
   },
   {
-    "objectID": "Reading-questions.html#block-3-regression-and-adjustment",
-    "href": "Reading-questions.html#block-3-regression-and-adjustment",
-    "title": "Reading Questions",
-    "section": "Block 3: Regression and Adjustment",
-    "text": "Block 3: Regression and Adjustment\n\nSpiegelhalter Chapter 5: before & follow-up\nRossling Chapter 3: before & follow-up\nComputing tutorial 3: before class session"
+    "objectID": "day-by-day/Ruth-schedule.html#further-out-i.e.-tentative",
+    "href": "day-by-day/Ruth-schedule.html#further-out-i.e.-tentative",
+    "title": "QR2 Prof. Ruth’s Section",
+    "section": "Further out (i.e. tentative)",
+    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1. Read before class session.\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Thursday 16 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Monday 20 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Thursday 23 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Thursday 30 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Thursday 6 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Thursday 13 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Monday 17 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Thursday 20 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Thursday 27 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Thursday 6 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Thursday 13 March"
   },
   {
-    "objectID": "Reading-questions.html#block-4-precision",
-    "href": "Reading-questions.html#block-4-precision",
-    "title": "Reading Questions",
-    "section": "Block 4: Precision",
-    "text": "Block 4: Precision\n\nSpiegelhalter Chapter 8: before & follow-up\nSpiegelhalter Chapter 9: before & follow-up\nRossling Chapter 6: before & follow-up\nRossling Chapter 7: before & follow-up\nComputing tutorial 4: before class session"
+    "objectID": "day-by-day/Ruth-schedule.html#already-past",
+    "href": "day-by-day/Ruth-schedule.html#already-past",
+    "title": "QR2 Prof. Ruth’s Section",
+    "section": "Already past",
+    "text": "Already past\nSchedule items will be moved here (in reverse chronological order) as an archive."
   },
   {
-    "objectID": "Reading-questions.html#block-5-confounding-accuracy-and-adjustment",
-    "href": "Reading-questions.html#block-5-confounding-accuracy-and-adjustment",
-    "title": "Reading Questions",
-    "section": "Block 5: Confounding, accuracy, and adjustment",
-    "text": "Block 5: Confounding, accuracy, and adjustment\n\nSpiegelhalter Chapter 4: before & follow-up\nRossling Chapter 8: before & follow-up\nRossling Chapter 9: before & follow-up\nComputing tutorial 5: before class session"
+    "objectID": "day-by-day/Overbey-schedule.html",
+    "href": "day-by-day/Overbey-schedule.html",
+    "title": "QR2 Prof. Overbey’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nSyllabus Review (syllabus in Populi).\nRosling Introduction\nSpiegelhalter Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Tuesday 7 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
   },
   {
-    "objectID": "Reading-questions.html#block-6-hypothetical-reasoning",
-    "href": "Reading-questions.html#block-6-hypothetical-reasoning",
-    "title": "Reading Questions",
-    "section": "Block 6: Hypothetical reasoning",
-    "text": "Block 6: Hypothetical reasoning\n\nSpiegelhalter Chapter 11: before & follow-up\nSpiegelhalter Chapter 13: before & follow-up\nSpiegelhalter Chapter 14: before & follow-up\nRossling Chapter 10: before & follow-up\nComputing tutorial 6: before class session"
+    "objectID": "day-by-day/Overbey-schedule.html#near-future",
+    "href": "day-by-day/Overbey-schedule.html#near-future",
+    "title": "QR2 Prof. Overbey’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nSyllabus Review (syllabus in Populi).\nRosling Introduction\nSpiegelhalter Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Tuesday 7 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+  },
+  {
+    "objectID": "day-by-day/Overbey-schedule.html#further-out-i.e.-tentative",
+    "href": "day-by-day/Overbey-schedule.html#further-out-i.e.-tentative",
+    "title": "QR2 Prof. Overbey’s Section",
+    "section": "Further out (i.e. tentative)",
+    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1. Read before class session.\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Tuesday 16 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Monday 20 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Tuesday 21 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Tuesday 28 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Tuesday 4 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Tuesday 11 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Monday 17 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Tuesday 18 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Tuesday 25 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Tuesday 4 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Tuesday 12 March"
+  },
+  {
+    "objectID": "day-by-day/Overbey-schedule.html#already-past",
+    "href": "day-by-day/Overbey-schedule.html#already-past",
+    "title": "QR2 Prof. Overbey’s Section",
+    "section": "Already past",
+    "text": "Already past\nSchedule items will be moved here (in reverse chronological order) as an archive."
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html",
+    "href": "day-by-day/Kolpakov-schedule.html",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should do preparatory reading before class. For the first days of class, we shall make an exception, and probably discuss a few things on the tangent, too.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\nComputing:\n\nPlease have your laptops with you! There will be a few in-class computing exercises.\nThe main computing tool for this class is R. You do not need to install it on your computer, although you definitely may.\n\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html#near-future",
+    "href": "day-by-day/Kolpakov-schedule.html#near-future",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "",
+    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should do preparatory reading before class. For the first days of class, we shall make an exception, and probably discuss a few things on the tangent, too.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\nComputing:\n\nPlease have your laptops with you! There will be a few in-class computing exercises.\nThe main computing tool for this class is R. You do not need to install it on your computer, although you definitely may.\n\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html#further-out-i.e.-tentative",
+    "href": "day-by-day/Kolpakov-schedule.html#further-out-i.e.-tentative",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "Further out (i.e. tentative)",
+    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1. Read before class session.\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRosling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Thursday 16 January\n\n\n\nBlock 2: Prediction\n\n\n\n\n\n\n\n\nMonday 20 January, 2025\n\n\n\nMLK Observance (will hold class on Wednesday, January 22)\n\n\n\n\n\n\n\n\n5. Wednesday 22 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Thursday 23 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Thursday 30 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Thursday 6 February\n\n\n\n\nFinal project preparation: choose your dataset, get ideas, test them over the reading break\n\n\n\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\nReading break (no class)\n\n\n\n\n\n\n\n\n12. Thursday 13 February\n\n\n\nReading break (no class)\n\n\n\n\n\n\n\n\nMonday 17 February\n\n\n\nPresident’s Day (will hold class on Wednesday, February 19)\n\n\n\n\n\n\n\n\n13. Wednesday 19 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Thursday 20 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Thursday 27 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Thursday 6 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Thursday 13 March\n\n\n\nFinal project presentation"
+  },
+  {
+    "objectID": "day-by-day/Kolpakov-schedule.html#already-past",
+    "href": "day-by-day/Kolpakov-schedule.html#already-past",
+    "title": "QR2 Prof. Kolpakov’s Section",
+    "section": "Already past",
+    "text": "Already past\nPast schedule items will be moved here …"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html",
+    "href": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html",
+    "title": "Kaplan’s notes for 2025-01-07",
+    "section": "",
+    "text": "The course is called “QR2.” This is not very descriptive. It would have been fair to name it “Data Science.” Data science is an appropriate core course for college students because modern society is data-driven to a great extent. Knowing even the basics of how to work with data, and how to draw valid conclusions from data (even if it’s just to be able to argue with others!) is tremendously empowering."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#debrief",
+    "href": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#debrief",
+    "title": "Kaplan’s notes for 2025-01-07",
+    "section": "Debrief",
+    "text": "Debrief\nWhat do you know about data?\nWhat do you know about statistics?\n\nDid you have a previous stats course? (Or a data-science course, but these aren’t yet so common at the high-school level?)\n\nPossibilities:\n\nCorrelation is not causation."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#rossling",
+    "href": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#rossling",
+    "title": "Kaplan’s notes for 2025-01-07",
+    "section": "Rossling",
+    "text": "Rossling\nA book about development and public health, what’s technically called “global health.”\nI selected this because\n\nIt involves data.\nEpidemiology provides a good reference client for useful statistics. What is epidemiology?\n\nMaking decisions with crappy data to guide actions.\n\nIt’s organized around 10 misleading heuristics that are widely used to interpret the world and that give a very misleading impression. Heuristics, e.g. “Us” and “them”; splitting things into two categories e.g. rich and poor; ….\n\nHave the class take the quiz."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#spiegelhalter",
+    "href": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#spiegelhalter",
+    "title": "Kaplan’s notes for 2025-01-07",
+    "section": "Spiegelhalter",
+    "text": "Spiegelhalter\nDID NOT DO THIS IN CLASS\nBag of tricks. Some simple graphics. Short case study about drawing information out of graphics.\nBeing able to see patterns in data.\nExample: Gapminder data\n\nMurders per 100,000 people per year from this page\n\nWhat’s going on in Albania? Is this a large or small murder rate? Speculation about why. (Balkan wars post Yugoslavia break up.)\nWhat happened in Argentina?"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#syllabus-daily-assignments",
+    "href": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#syllabus-daily-assignments",
+    "title": "Kaplan’s notes for 2025-01-07",
+    "section": "Syllabus, daily assignments",
+    "text": "Syllabus, daily assignments\n\nReadings from the two books (not always in chapter order).\n\nMost readings will have reading questions.\nSome of these are to be handed in before the class when we will discuss the readings, some are due by the following class. The reading questions are typically non-technical.\n\nComputing tutorials. These are somewhat interactive and you should interact with them."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#data-organization-of",
+    "href": "Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html#data-organization-of",
+    "title": "Kaplan’s notes for 2025-01-07",
+    "section": "Data (organization of …)",
+    "text": "Data (organization of …)\nWhat words do you associate with “data?”\nWhat do you know about how data is organized?\nGOT TO HERE IN CLASS\n\nWhat is a database?\nWhat is a “relational” database.\n\nWhat names/words might you have heard that relate to relational databases.\nWhen were they invented.\nHow big a sector of the economy? How does one measure “how big” when talking about the economy. Introduce data frame:\n\n\n\nColumns and rows.\nVariables and “specimens”\nQuantitative and categorical.\nIn R, data frames can be given names. We’ll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.\nGalton\npoint_plot() and pipes\nTilde notation"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html",
+    "href": "Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-24",
+    "section": "",
+    "text": "Blank document"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html",
+    "href": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-28",
+    "section": "",
+    "text": "Blank document"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html",
+    "href": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-14",
+    "section": "",
+    "text": "Blank document"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html",
+    "href": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "",
+    "text": "Recent article about morning coffee and wellness\n\n“The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers—but the research could not prove whether coffee was the sole cause.”\n\n\nWhy look at both “dying from cardiovascular disease” and “mortality.”-\n“Lower risk.” How do you measure risk?\nWhat does “prove” mean in this context? Is proof an appropriate criterion for interpreting the study? What’s its purpose in this paragraph?\n\n\n“Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: ‘We need clinical trials to test the potential impact of changing the time of day when people drink coffee.’”\n\n\nWhat is meant by “clinical trials?”\nWhy do they refer to the potential impact of changing the time of day when people drink coffee?\n\n\n“The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.”\n\n\nWhat does 40,725—the sample size—tell you here?\n\n\n“The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.”\n\n\nSuggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#critical-thinking-and-qr2",
+    "href": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#critical-thinking-and-qr2",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "",
+    "text": "Recent article about morning coffee and wellness\n\n“The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers—but the research could not prove whether coffee was the sole cause.”\n\n\nWhy look at both “dying from cardiovascular disease” and “mortality.”-\n“Lower risk.” How do you measure risk?\nWhat does “prove” mean in this context? Is proof an appropriate criterion for interpreting the study? What’s its purpose in this paragraph?\n\n\n“Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: ‘We need clinical trials to test the potential impact of changing the time of day when people drink coffee.’”\n\n\nWhat is meant by “clinical trials?”\nWhy do they refer to the potential impact of changing the time of day when people drink coffee?\n\n\n“The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.”\n\n\nWhat does 40,725—the sample size—tell you here?\n\n\n“The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.”\n\n\nSuggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#discussion-rosling-ch.-1",
+    "href": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#discussion-rosling-ch.-1",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "Discussion: Rosling Ch. 1",
+    "text": "Discussion: Rosling Ch. 1\nReading questions\nAvoiding the “gap instinct”:\n\ndon’t look at averages outside of the context of variation."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#discussion-spiegelhalter-ch.-1",
+    "href": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#discussion-spiegelhalter-ch.-1",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "Discussion: Spiegelhalter Ch. 1",
+    "text": "Discussion: Spiegelhalter Ch. 1\nTable 1.1: Tabular format of data\nRelative vs absolute risk: bacon sandwich eating. 20% increase in risk. Compare to Fig 1.4\n\nRisk ratio: risk of cancer with bacon divided by without bacon\nCan’t add together relative risks. Instead, multiply them.\n\nExplain (briefly) what odds is about, why we need it.\nReading questions"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#introduction-to-computing",
+    "href": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html#introduction-to-computing",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "Introduction to computing",
+    "text": "Introduction to computing\nYour window to R computing will be through R-chunks embedded in documents. Each box provides full access to all the capabilities in R, although ours have been set up to provide seamless access only to the tools we’ll need in QR2.\nIn writing documents, I use a different system.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nOur data will be stored in data frames.\n\nEach frame has a name, e.g. Galton and is already available to you in\nOccasionally we will load in data from other sources. You’ll be shown how to do this, but you don’t need to master the methods.\n\n\n\n\nExample: Galton\n\nUsually we don’t want to look at the whole thing in print.\nPipe syntax, function names, parentheses\nnames(), head(), nrow(). Specimens and variables.\nInputs (from pipe) and arguments (in parentheses)\n\nRandom samples. We discussed this on Tuesday. Can take a random sample from a data frame with take_sample(n=...).\nUse wrangling operations to construct new data frames from an existing one. Vocabulary: filter(), mutate(), summarize(), arrange(), select(), grouping (with .by=).\n\nWhat is a database?\nWhat is a “relational” database.\n\nWhat names/words might you have heard that relate to relational databases.\nWhen were they invented.\nHow big a sector of the economy? How does one measure “how big” when talking about the economy.\n\n\nCalculate the amount of variation in a quantitative variable. Vocabulary: variance, var(), “standard deviation.”\nConstruct and interpret annotated point plots from a data frame. Vocabulary: point_plot(), tilde expression, response variable, explanatory variable, covariate, facet, trend, model, mapping, violin.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html",
+    "href": "Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-17",
+    "section": "",
+    "text": "Blank document"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html",
+    "href": "Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-28",
+    "section": "",
+    "text": "Blank document"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html",
+    "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-21",
+    "section": "",
+    "text": "Blank document"
   },
   {
     "objectID": "index.html",
@@ -109,21 +277,28 @@
     "href": "day-by-day/Kaplan-schedule.html",
     "title": "QR2 Prof. Kaplan’s Section",
     "section": "",
-    "text": "1. Tuesday 7 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction Link to a randomly selected seller\nRosling Introduction Link to a randomly selected seller of the book\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction reading questions\nRosling Introduction reading questions\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Friday 10 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "text": "Class Day 3. Tuesday 14 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nRosling Chap 2 & reading questions\nComputing tutorial 1. Read before class session.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nAs regards the computing tutorials … There are some “reading tasks” with questions that you should answer and submit in the usual way. Equally important, however, are the many R Chunks. You’re expected to play around a bit as you work through the tutorial, trying out different commands, changing names, etc. Make mistakes! That’s a great way to learn. Each time you run an R chunk, that activity is stored in your browser until you close or refresh the page. Submit your work using the button and link at the bottom of the tutorial document. This will let me see what you’ve done, and will be a component of class participation.\nIf you stop part way through a document with questions, chunks, etc., submit your work up to that point. When you return to the document, you can do additional work and submit that. You don’t have to worry about submitting multiple times.\nNote that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.\n\nIn-class notes\n\n\n\n\n\n\n\n\n\n4. Class Day Friday 17 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nRosling Chap 4 & reading questions. We’re skipping Rosling 3, saving that for another day.\nSpiegelhalter Chap 3 & reading questions\n\nAssignments due:\n\nAs always, reading questions from new readings are due before class, but I’ll stop mentioning this explicitly for future class days.\ntoday or tomorrow: Computing Activities for Tutorial 1.\n\nYou don’t have to do the ones labelled “In-class”. But do as many of the others as you can.\n\n\nIn-class notes"
   },
   {
     "objectID": "day-by-day/Kaplan-schedule.html#near-future",
     "href": "day-by-day/Kaplan-schedule.html#near-future",
     "title": "QR2 Prof. Kaplan’s Section",
     "section": "",
-    "text": "1. Tuesday 7 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction Link to a randomly selected seller\nRosling Introduction Link to a randomly selected seller of the book\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction reading questions\nRosling Introduction reading questions\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Friday 10 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "text": "Class Day 3. Tuesday 14 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nRosling Chap 2 & reading questions\nComputing tutorial 1. Read before class session.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nAs regards the computing tutorials … There are some “reading tasks” with questions that you should answer and submit in the usual way. Equally important, however, are the many R Chunks. You’re expected to play around a bit as you work through the tutorial, trying out different commands, changing names, etc. Make mistakes! That’s a great way to learn. Each time you run an R chunk, that activity is stored in your browser until you close or refresh the page. Submit your work using the button and link at the bottom of the tutorial document. This will let me see what you’ve done, and will be a component of class participation.\nIf you stop part way through a document with questions, chunks, etc., submit your work up to that point. When you return to the document, you can do additional work and submit that. You don’t have to worry about submitting multiple times.\nNote that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.\n\nIn-class notes\n\n\n\n\n\n\n\n\n\n4. Class Day Friday 17 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nRosling Chap 4 & reading questions. We’re skipping Rosling 3, saving that for another day.\nSpiegelhalter Chap 3 & reading questions\n\nAssignments due:\n\nAs always, reading questions from new readings are due before class, but I’ll stop mentioning this explicitly for future class days.\ntoday or tomorrow: Computing Activities for Tutorial 1.\n\nYou don’t have to do the ones labelled “In-class”. But do as many of the others as you can.\n\n\nIn-class notes"
+  },
+  {
+    "objectID": "day-by-day/Kaplan-schedule.html#archive-of-past-class-days.",
+    "href": "day-by-day/Kaplan-schedule.html#archive-of-past-class-days.",
+    "title": "QR2 Prof. Kaplan’s Section",
+    "section": "Archive of past class days.",
+    "text": "Archive of past class days.\nJanuary: 7, 10, 14, 17, 21, 24, 31\n\nClass Day 1. Tuesday 7 January, 2025\nOrientation to QR2\n\nIn-class notes\nReadings:\n\nSpiegelhalter Introduction Link to a randomly selected seller\nRosling Introduction Link to a randomly selected seller of the book\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction reading questions\nRosling Introduction reading questions\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\nClass Day 2. Friday 10 January\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing\n\nIn-class notes"
   },
   {
     "objectID": "day-by-day/Kaplan-schedule.html#further-out-i.e.-tentative",
     "href": "day-by-day/Kaplan-schedule.html#further-out-i.e.-tentative",
     "title": "QR2 Prof. Kaplan’s Section",
     "section": "Further out (i.e. tentative)",
-    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Tuesday 14 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1. Read before class session. Make sure to play around with the different commands, changing names, etc. Each time you run an active R chunk, that activity is stored in your browser until you close or refresh the page. Submitting your work using the button and link at the bottom of the document will let me see what you’ve done, and will be a component of class participation.\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Friday 17 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Tuesday 21 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Friday 24 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Tuesday 28 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Friday 31 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Tuesday 4 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Friday 7 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Tuesday 11 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Friday 14 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Tuesday 18 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Friday 21 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Tuesday 25 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Friday 28 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Tuesday 4 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Friday 7 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Tuesday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Friday 14 March"
+    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n5. Tuesday 21 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Friday 24 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Tuesday 28 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Friday 31 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Tuesday 4 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Friday 7 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Tuesday 11 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Friday 14 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Tuesday 18 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Friday 21 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Tuesday 25 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Friday 28 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Tuesday 4 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Friday 7 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Tuesday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Friday 14 March"
   },
   {
     "objectID": "day-by-day/Kaplan-schedule.html#already-past",
@@ -133,81 +308,88 @@
     "text": "Already past\nSchedule items will be moved here (in reverse chronological order) as an archive."
   },
   {
-    "objectID": "demonstrations/Gender-neutral-names.html",
-    "href": "demonstrations/Gender-neutral-names.html",
-    "title": "Gender-neutral names",
+    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html",
+    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
     "section": "",
-    "text": "NOTE IN DRAFT\n\n\n\nPoint out that this will be just a demonstration. Use babynames as an inclass example of wrangling?\n\nHow can we figure out what are the most gender neutral names.\nfilter and summarize babynames: proportion of males and females with each name, select out those where the ratio is 0.25 to 0.75. Calculate the information (p ln(p))"
+    "text": "Recent article about morning coffee and wellness\n\n“The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers—but the research could not prove whether coffee was the sole cause.”\n\n\nWhy look at both “dying from cardiovascular disease” and “mortality.”-\n“Lower risk.” How do you measure risk?\nWhat does “prove” mean in this context? Is proof an appropriate criterion for interpreting the study? What’s its purpose in this paragraph?\n\n\n“Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: ‘We need clinical trials to test the potential impact of changing the time of day when people drink coffee.’”\n\n\nWhat is meant by “clinical trials?”\nWhy do they refer to the potential impact of changing the time of day when people drink coffee?\n\n\n“The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.”\n\n\nWhat does 40,725—the sample size—tell you here?\n\n\n“The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.”\n\n\nSuggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people."
   },
   {
-    "objectID": "questions/S1-before.html",
-    "href": "questions/S1-before.html",
-    "title": "Spiegelhalter Chapter 1",
+    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#critical-thinking-and-qr2",
+    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#critical-thinking-and-qr2",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
     "section": "",
-    "text": "Question 1:\n\n\n\nWhat is binary data?\n  question id: S01-B1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nThere are at least two examples in the chapter of ways to make graphics more informative. What are they?\n  question id: S01-B2 \n\n\n\nS1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "text": "Recent article about morning coffee and wellness\n\n“The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers—but the research could not prove whether coffee was the sole cause.”\n\n\nWhy look at both “dying from cardiovascular disease” and “mortality.”-\n“Lower risk.” How do you measure risk?\nWhat does “prove” mean in this context? Is proof an appropriate criterion for interpreting the study? What’s its purpose in this paragraph?\n\n\n“Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: ‘We need clinical trials to test the potential impact of changing the time of day when people drink coffee.’”\n\n\nWhat is meant by “clinical trials?”\nWhy do they refer to the potential impact of changing the time of day when people drink coffee?\n\n\n“The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.”\n\n\nWhat does 40,725—the sample size—tell you here?\n\n\n“The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.”\n\n\nSuggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people."
   },
   {
-    "objectID": "questions/R1-after.html",
-    "href": "questions/R1-after.html",
-    "title": "Rossling Chapter 1 Follow-up",
+    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-rosling-ch.-1",
+    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-rosling-ch.-1",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "Discussion: Rosling Ch. 1",
+    "text": "Discussion: Rosling Ch. 1\nReading questions\nAvoiding the “gap instinct”:\n\ndon’t look at averages outside of the context of variation."
+  },
+  {
+    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-spiegelhalter-ch.-1",
+    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-spiegelhalter-ch.-1",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "Discussion: Spiegelhalter Ch. 1",
+    "text": "Discussion: Spiegelhalter Ch. 1\nTable 1.1: Tabular format of data\nRelative vs absolute risk: bacon sandwich eating. 20% increase in risk. Compare to Fig 1.4\n\nRisk ratio: risk of cancer with bacon divided by without bacon\nCan’t add together relative risks. Instead, multiply them.\n\nExplain (briefly) what odds is about, why we need it.\nReading questions"
+  },
+  {
+    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#introduction-to-computing",
+    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#introduction-to-computing",
+    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "section": "Introduction to computing",
+    "text": "Introduction to computing\nYour window to R computing will be through R-chunks embedded in documents. Each box provides full access to all the capabilities in R, although ours have been set up to provide seamless access only to the tools we’ll need in QR2.\nIn writing documents, I use a different system.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nOur data will be stored in data frames.\n\nEach frame has a name, e.g. Galton and is already available to you in\nOccasionally we will load in data from other sources. You’ll be shown how to do this, but you don’t need to master the methods.\n\n\n\n\nExample: Galton\n\nUsually we don’t want to look at the whole thing in print.\nPipe syntax, function names, parentheses\nnames(), head(), nrow(). Specimens and variables.\nInputs (from pipe) and arguments (in parentheses)\n\nRandom samples. We discussed this on Tuesday. Can take a random sample from a data frame with take_sample(n=...).\nUse wrangling operations to construct new data frames from an existing one. Vocabulary: filter(), mutate(), summarize(), arrange(), select(), grouping (with .by=).\n\nWhat is a database?\nWhat is a “relational” database.\n\nWhat names/words might you have heard that relate to relational databases.\nWhen were they invented.\nHow big a sector of the economy? How does one measure “how big” when talking about the economy.\n\n\nCalculate the amount of variation in a quantitative variable. Vocabulary: variance, var(), “standard deviation.”\nConstruct and interpret annotated point plots from a data frame. Vocabulary: point_plot(), tilde expression, response variable, explanatory variable, covariate, facet, trend, model, mapping, violin.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Reading-questions.html",
+    "href": "Reading-questions.html",
+    "title": "Reading Questions",
     "section": "",
-    "text": "Just some filler.\n  question id: dove-sees-smoke \n\nR1-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "text": "For instructors only\n\n\n\nThis document is intended for instructors as they create their day-to-day schedules. Those schedules will provide the student-facing link to reading-question documents.\nEach of the six blocks in QR2 has assigned readings from Spiegelhalter, Rossling, and the computing tutorials. There are corresponding reading questions. These are organized by book chapter. Your instructor will indicate which questions are due and when.\nSome of the reading questions should be completed and submitted before the date scheduled for the classroom discussion. Others are intended as follow up after the discussion. Due dates for the follow-up questions will be specified by individual instructors.\nNote that some documents may be empty."
   },
   {
-    "objectID": "questions/R1-before.html",
-    "href": "questions/R1-before.html",
-    "title": "Rossling Chapter 1: The Gap Instinct",
-    "section": "",
-    "text": "Question 1:\n\n\n\nWhat does Rosling mean by “the west and the rest.”Name a historian on campus who wrote a book subtitled, “The West and the Rest.” That book is about the most recent 500 years of global history. What period of time is encompass by the positive changes Rosling writes about?\n  question id: S01B1-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nExplain what Rosling means when he says that “averages mislead.” If you had a high-school stats course, did they emphasize this?\n  question id: R01B2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nLook at the horizontal scale of the bottom figure on p. 43. Are the labeled values equally spaced on paper? Are they equally spaced in value? What is this kind of scale called?\n  question id: R01B3 \n\n\n\n\n\n\n\n\nQuestion 4:\n\n\n\nWhich of Rosling’s bullet points on p. 46 has something to say about an object of political debate called “the 1 percent?” In Brazil (to judge from the p.43 graph), how does the income of the top 1% compare proportionately to the “typical” income of Brazilians?\n  question id: R01B4 \n\n\n\n\n\n\n\n\nQuestion 5:\n\n\n\nWhat would happen if everyone in Category 4 gave $3/day to the people in Category 1?\n  question id: R01B5 \n\n\n\n\n\n\n\n\nQuestion 6:\n\n\n\nRossling uses four aspects of daily to illustrate the different income Categories 1-4:\n\nWater\nTransport\nCooking\nPlate of food\n\nWhat would, in your opinion, be a plausible and meaningful way of measuring quantitatively the level of each of these aspects?\n  question id: R01B6 \n\n\n\nR1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "objectID": "Reading-questions.html#block-1-data-visualization-trends",
+    "href": "Reading-questions.html#block-1-data-visualization-trends",
+    "title": "Reading Questions",
+    "section": "Block 1: Data, visualization, trends",
+    "text": "Block 1: Data, visualization, trends\n\nSpiegelhalter Introduction: before & follow-up\nSpiegelhalter Chapter 1: before & follow-up\nRossling Chapter 1: before & follow-up\nRossling Chapter 2: before & follow-up\nComputing tutorial 1. Read before class session."
   },
   {
-    "objectID": "questions/S0-after.html",
-    "href": "questions/S0-after.html",
-    "title": "Spiegelhalter Introduction",
-    "section": "",
-    "text": "Question 1:\n\n\n\nOn page 11, the reading refers to a “basic bag of [statistical] tools,” which is the focus of what the author claims is an outdated way of teaching about data science. What previous contact have you had with statistical tools that might be in such a “basic bag?”\n  question id: S1-QB3 \n\n\n\nS0-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "objectID": "Reading-questions.html#block-2-prediction",
+    "href": "Reading-questions.html#block-2-prediction",
+    "title": "Reading Questions",
+    "section": "Block 2: Prediction",
+    "text": "Block 2: Prediction\n\nSpiegelhalter Chapter 3: before & follow-up\nSpiegelhalter Chapter 6: before & follow-up\nRossling Chapter 4: before & follow-up\nRossling Chapter 5: before & follow-up\nComputing tutorial 2. Read before class session."
   },
   {
-    "objectID": "questions/R2-before.html",
-    "href": "questions/R2-before.html",
-    "title": "Rossling Chapter 2: The Negativity Instinct",
-    "section": "",
-    "text": "Question 1:\n\n\n\nWhat does Rosling mean about distinguishing between “better” and “bad?” Did you know that there is a component of the standard high-school curriculum that provides a framework for dealing with such distinctions? What do you think it is called?\n  question id: R02B1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nWhat is “selective reporting?”\n  question id: R02B2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nWhat is the problem Rosling identifies as “feeling, no thinking?”\n  question id: R02B3 \n\n\n\nR2-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "objectID": "Reading-questions.html#block-3-regression-and-adjustment",
+    "href": "Reading-questions.html#block-3-regression-and-adjustment",
+    "title": "Reading Questions",
+    "section": "Block 3: Regression and Adjustment",
+    "text": "Block 3: Regression and Adjustment\n\nSpiegelhalter Chapter 5: before & follow-up\nRossling Chapter 3: before & follow-up\nComputing tutorial 3. Read before class session."
   },
   {
-    "objectID": "questions/R0-before.html",
-    "href": "questions/R0-before.html",
-    "title": "Rossling Introduction",
-    "section": "",
-    "text": "Question 1:\n\n\n\nWhat was your score on the 13-point performance questionnaire? Be honest?\n\n 0        1        2        3        4        5        6        7        8        9        10        11        12        13       \n\nquestion id: rosling-questionnaire\n\n\nWhich questions surprised you the most?\n  question id: SOOB-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nIn what town did Rosling see a former UN Secretary General? Who was it? (You’ll have to do some web searching for the second question.)\n  question id: S0B2-1 \n\n\n\nR0-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+    "objectID": "Reading-questions.html#block-4-precision",
+    "href": "Reading-questions.html#block-4-precision",
+    "title": "Reading Questions",
+    "section": "Block 4: Precision",
+    "text": "Block 4: Precision\n\nSpiegelhalter Chapter 8: before & follow-up\nSpiegelhalter Chapter 9: before & follow-up\nRossling Chapter 6: before & follow-up\nRossling Chapter 7: before & follow-up\nComputing tutorial 4. Read before class session."
   },
   {
-    "objectID": "day-by-day/Ruth-schedule.html",
-    "href": "day-by-day/Ruth-schedule.html",
-    "title": "QR2 Prof. Ruth’s Section",
-    "section": "",
-    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "objectID": "Reading-questions.html#block-5-confounding-accuracy-and-adjustment",
+    "href": "Reading-questions.html#block-5-confounding-accuracy-and-adjustment",
+    "title": "Reading Questions",
+    "section": "Block 5: Confounding, accuracy, and adjustment",
+    "text": "Block 5: Confounding, accuracy, and adjustment\n\nSpiegelhalter Chapter 4: before & follow-up\nRossling Chapter 8: before & follow-up\nRossling Chapter 9: before & follow-up\nComputing tutorial 5. Read before class session."
   },
   {
-    "objectID": "day-by-day/Ruth-schedule.html#near-future",
-    "href": "day-by-day/Ruth-schedule.html#near-future",
-    "title": "QR2 Prof. Ruth’s Section",
-    "section": "",
-    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
-  },
-  {
-    "objectID": "day-by-day/Ruth-schedule.html#further-out-i.e.-tentative",
-    "href": "day-by-day/Ruth-schedule.html#further-out-i.e.-tentative",
-    "title": "QR2 Prof. Ruth’s Section",
-    "section": "Further out (i.e. tentative)",
-    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1: before class session\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Thursday 16 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Monday 20 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Thursday 23 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Thursday 30 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Thursday 6 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Thursday 13 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Monday 17 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Thursday 20 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Thursday 27 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Thursday 6 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Thursday 13 March"
-  },
-  {
-    "objectID": "day-by-day/Ruth-schedule.html#already-past",
-    "href": "day-by-day/Ruth-schedule.html#already-past",
-    "title": "QR2 Prof. Ruth’s Section",
-    "section": "Already past",
-    "text": "Already past\nSchedule items will be moved here (in reverse chronological order) as an archive."
+    "objectID": "Reading-questions.html#block-6-hypothetical-reasoning",
+    "href": "Reading-questions.html#block-6-hypothetical-reasoning",
+    "title": "Reading Questions",
+    "section": "Block 6: Hypothetical reasoning",
+    "text": "Block 6: Hypothetical reasoning\n\nSpiegelhalter Chapter 11: before & follow-up\nSpiegelhalter Chapter 13: before & follow-up\nSpiegelhalter Chapter 14: before & follow-up\nRossling Chapter 10: before & follow-up\nComputing tutorial 6. Read before class session."
   },
   {
     "objectID": "syllabus.html",
@@ -266,136 +448,59 @@
     "text": "Academic Misconduct\nInstructors at UATX have the authority to assess possible plagiarism, unauthorized use of artificial intelligence, and other forms of cheating in their courses. Normally, cheating will result in failing the assignment. Students may appeal such decisions to the Disciplinary Council, where they may exercise their right to a public hearing, by writing to the Dean of the Center responsible for the course."
   },
   {
-    "objectID": "day-by-day/Kolpakov-schedule.html",
-    "href": "day-by-day/Kolpakov-schedule.html",
-    "title": "QR2 Prof. Kolpakov’s Section",
+    "objectID": "demonstrations/Narrow-and-wide.html",
+    "href": "demonstrations/Narrow-and-wide.html",
+    "title": "Wide and narrow data",
     "section": "",
-    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should do preparatory reading before class. For the first days of class, we shall make an exception, and probably discuss a few things on the tangent, too.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\nComputing:\n\nPlease have your laptops with you! There will be a few in-class computing exercises.\nThe main computing tool for this class is R. You do not need to install it on your computer, although you definitely may.\n\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "text": "Wrangling demonstrations. Cases where the variables are really levels of a variable\n\nSpiegelhalter Fig 2.7\n\n\nAnother population dataset\nFor Fig 2.8 have them wrangle to get the proportion increase and then draw the graph using color for the relative size. Also, … what is the unit of observation? Are all the rows the same kind of unit of observation?"
   },
   {
-    "objectID": "day-by-day/Kolpakov-schedule.html#near-future",
-    "href": "day-by-day/Kolpakov-schedule.html#near-future",
-    "title": "QR2 Prof. Kolpakov’s Section",
+    "objectID": "questions/S2-after.html",
+    "href": "questions/S2-after.html",
+    "title": "Spiegelhalter Chapter 2 Follow-up",
     "section": "",
-    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should do preparatory reading before class. For the first days of class, we shall make an exception, and probably discuss a few things on the tangent, too.\n\nDiscussion:\n\nLearning about data and statistics\nSpiegelhalter Introduction\nRosling Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\nComputing:\n\nPlease have your laptops with you! There will be a few in-class computing exercises.\nThe main computing tool for this class is R. You do not need to install it on your computer, although you definitely may.\n\n\n\n\n\n\n\n\n\n\n\n2. Thursday 9 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "text": "Question 1:\n\n\n\nWhich three graphics in Chapter 2 use jittering?\n  question id: S02A-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nIn Figure 2.5, there are three variables presented. Say what they are, which are categorical and which quantitative, and what graphical feature—x, y, facet—each is mapped to. Do you think the choice of the y-mapped variable is sensible as the response variable in a model, that is, which variable can be explained in terms of the other two variables.\n  question id: S02A-2 \n\n\n\nS2-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "day-by-day/Kolpakov-schedule.html#further-out-i.e.-tentative",
-    "href": "day-by-day/Kolpakov-schedule.html#further-out-i.e.-tentative",
-    "title": "QR2 Prof. Kolpakov’s Section",
-    "section": "Further out (i.e. tentative)",
-    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1: before class session\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRosling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Thursday 16 January\n\n\n\nBlock 2: Prediction\n\n\n\n\n\n\n\n\nMonday 20 January, 2025\n\n\n\nMLK Observance (will hold class on Wednesday, January 22)\n\n\n\n\n\n\n\n\n5. Wednesday 22 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Thursday 23 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Thursday 30 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Thursday 6 February\n\n\n\n\nFinal project preparation: choose your dataset, get ideas, test them over the reading break\n\n\n\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\nReading break (no class)\n\n\n\n\n\n\n\n\n12. Thursday 13 February\n\n\n\nReading break (no class)\n\n\n\n\n\n\n\n\nMonday 17 February\n\n\n\nPresident’s Day (will hold class on Wednesday, February 19)\n\n\n\n\n\n\n\n\n13. Wednesday 19 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Thursday 20 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Thursday 27 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Thursday 6 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Thursday 13 March\n\n\n\nFinal project presentation"
-  },
-  {
-    "objectID": "day-by-day/Kolpakov-schedule.html#already-past",
-    "href": "day-by-day/Kolpakov-schedule.html#already-past",
-    "title": "QR2 Prof. Kolpakov’s Section",
-    "section": "Already past",
-    "text": "Already past\nPast schedule items will be moved here …"
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html",
-    "title": "Kaplan’s notes for 2025-01-07",
+    "objectID": "questions/R0-before.html",
+    "href": "questions/R0-before.html",
+    "title": "Rossling Introduction",
     "section": "",
-    "text": "This course is called “QR2” which is not very descriptive. It would have been fair to name it “Data Science.” Data science is an appropriate core course for college students because modern society is data-driven to a great extent. Knowing even the basics of how to work with data, and how to draw valid conclusions from data (even if it’s just to be able to argue with others!) is tremendously empowering."
+    "text": "Question 1:\n\n\n\nWhat was your score on the 13-point performance questionnaire? Be honest?\n\n 0        1        2        3        4        5        6        7        8        9        10        11        12        13       \n\nquestion id: rosling-questionnaire\n\n\nWhich questions surprised you the most?\n  question id: SOOB-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nIn what town did Rosling see a former UN Secretary General? Who was it? (You’ll have to do some web searching for the second question.)\n  question id: S0B2-1 \n\n\n\nR0-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#spiegelhalter",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#spiegelhalter",
-    "title": "Kaplan’s notes for 2025-01-07",
-    "section": "Spiegelhalter",
-    "text": "Spiegelhalter\nDID NOT DO THIS IN CLASS\nBag of tricks. Some simple graphics. Short case study about drawing information out of graphics.\nBeing able to see patterns in data.\nExample: Gapminder data\n\nMurders per 100,000 people per year from this page\n\nWhat’s going on in Albania? Is this a large or small murder rate? Speculation about why. (Balkan wars post Yugoslavia break up.)\nWhat happened in Argentina?"
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#debrief",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#debrief",
-    "title": "Kaplan’s notes for 2025-01-07",
-    "section": "Debrief",
-    "text": "Debrief\nWhat do you know about data?\nWhat do you know about statistics?\n\nDid you have a previous stats course? (Or a data-science course, but these aren’t yet so common at the high-school level?)\n\nPossibilities:\n\nCorrelation is not causation."
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#rossling",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#rossling",
-    "title": "Kaplan’s notes for 2025-01-07",
-    "section": "Rossling",
-    "text": "Rossling\nA book about development and public health, what’s technically called “global health.”\nI selected this because\n\nIt involves data.\nEpidemiology provides a good reference client for useful statistics. What is epidemiology?\n\nMaking decisions with crappy data to guide actions.\n\nIt’s organized around 10 misleading heuristics that are widely used to interpret the world and that give a very misleading impression. Heuristics, e.g. “Us” and “them”; splitting things into two categories e.g. rich and poor; ….\n\nHave the class take the quiz."
-  },
-  {
-    "objectID": "day-by-day/Overbey-schedule.html",
-    "href": "day-by-day/Overbey-schedule.html",
-    "title": "QR2 Prof. Overbey’s Section",
+    "objectID": "questions/R2-before.html",
+    "href": "questions/R2-before.html",
+    "title": "Rossling Chapter 2: The Negativity Instinct",
     "section": "",
-    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nSyllabus Review (syllabus in Populi).\nRosling Introduction\nSpiegelhalter Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Tuesday 7 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "text": "Question 1:\n\n\n\nWhat does Rosling mean about distinguishing between “better” and “bad?” Did you know that there is a component of the standard high-school curriculum that provides a framework for dealing with such distinctions? What do you think it is called?\n  question id: R02B1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nWhat is “selective reporting?”\n  question id: R02B2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nWhat is the problem Rosling identifies as “feeling, no thinking?”\n  question id: R02B3 \n\n\n\nR2-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "day-by-day/Overbey-schedule.html#near-future",
-    "href": "day-by-day/Overbey-schedule.html#near-future",
-    "title": "QR2 Prof. Overbey’s Section",
+    "objectID": "questions/S0-after.html",
+    "href": "questions/S0-after.html",
+    "title": "Spiegelhalter Introduction",
     "section": "",
-    "text": "1. Monday 6 January, 2025\n\n\n\nOrientation to QR2\n\nReadings:\n\nSpiegelhalter Introduction\nRosling Introduction\nNote: As a rule, you should have completed a first pass of the day’s readings before the class meets. This being the first day, I can only ask to to try to do so.\n\nDiscussion:\n\nSyllabus Review (syllabus in Populi).\nRosling Introduction\nSpiegelhalter Introduction\nNote: The items under the “Discussion” header in this document are just FYI. The readings and the reading questions are the appropriate preparation.\n\n\n\n\n\n\n\n\n\n\n2. Tuesday 7 January\n\n\n\nBlock 1: Data, visualization, trends\n\nNew readings:\n\nSpiegelhalter Chap 1 questions\nRosling Chap 1 questions\n\nAssignments due before class time:\n\nBefore-class reading questions as linked above.\nSpiegelhalter introduction follow-up reading questions\n\nDiscussions:\n\nSorting out any start-up problems\nSpiegelhalter and Rosling readings\nIn-class orientation to computing"
+    "text": "Question 1:\n\n\n\nOn page 11, the reading refers to a “basic bag of [statistical] tools,” which is the focus of what the author claims is an outdated way of teaching about data science. What previous contact have you had with statistical tools that might be in such a “basic bag?”\n  question id: S1-QB3 \n\n\n\nS0-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "day-by-day/Overbey-schedule.html#further-out-i.e.-tentative",
-    "href": "day-by-day/Overbey-schedule.html#further-out-i.e.-tentative",
-    "title": "QR2 Prof. Overbey’s Section",
-    "section": "Further out (i.e. tentative)",
-    "text": "Further out (i.e. tentative)\n\n\n\n\n\n\n3. Monday 13 January, 2025\n\n\n\nBlock 1 (cont.)\n\nNew readings:\n\nComputing tutorial 1: before class session\nRosling Chap 2 questions\n\nAssignments due before class time:\n\nRemember that the “New readings” section has links to the relevant reading questions.\nFor the computing tutorials, there are no “questions” as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar “Collect answers” and submission process. Your “answers” will be the contents of the Active R Chunks that you have run.\nThese principles apply to all class sessions, but won’t be restated explicitly in other day’s itemizations.\n\nDiscussions and Activities\n\nRossling reading\nReview of Computing Tutorial 1\nIn-class group work on computing activities (TBA)\n\n\n\n\n\n\n\n\n\n\n4. Tuesday 16 January\n\n\n\nBlock 2: Prediction\n\nNew readings\n\nfirst\nsecond\n\n\n\n\n\n\n\n\n\n\n5. Monday 20 January, 2025\n\n\n\nNew Readings\nAssignments due before class time:\n\nComputing Tutorial 1\n\n\n\n\n\n\n\n\n\n6. Tuesday 21 January\n\n\n\n\n\n\n\n\n\n\n\n\n7. Monday 27 January, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n8. Tuesday 28 January\n\n\n\n\n\n\n\n\n\n\n\n\n9. Monday 3 February\n\n\n\n\n\n\n\n\n\n\n\n\n10. Tuesday 4 February\n\n\n\n\n\n\nMid-term break\n\n\n\n\n\n\n11. Monday 10 February\n\n\n\n\n\n\n\n\n\n\n\n\n12. Tuesday 11 February\n\n\n\n\n\n\n\n\n\n\n\n\n13. Monday 17 February\n\n\n\n\n\n\n\n\n\n\n\n\n14. Tuesday 18 February\n\n\n\n\n\n\n\n\n\n\n\n\n15. Monday 24 February\n\n\n\n\n\n\n\n\n\n\n\n\n16. Tuesday 25 February\n\n\n\n\n\n\n\n\n\n\n\n\n17. Monday 3 March\n\n\n\n\n\n\n\n\n\n\n\n\n18. Tuesday 4 March\n\n\n\n\n\n\n\n\n\n\n\n\n19. Monday 11 March\n\n\n\n\n\n\n\n\n\n\n\n\n20. Tuesday 12 March"
-  },
-  {
-    "objectID": "day-by-day/Overbey-schedule.html#already-past",
-    "href": "day-by-day/Overbey-schedule.html#already-past",
-    "title": "QR2 Prof. Overbey’s Section",
-    "section": "Already past",
-    "text": "Already past\nSchedule items will be moved here (in reverse chronological order) as an archive."
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#syllabus-daily-assignments",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#syllabus-daily-assignments",
-    "title": "Kaplan’s notes for 2025-01-07",
-    "section": "Syllabus, daily assignments",
-    "text": "Syllabus, daily assignments\n\nReadings from the two books (not always in chapter order).\n\nMost readings will have reading questions.\nSome of these are to be handed in before the class when we will discuss the readings, some are due by the following class. The reading questions are typically non-technical.\n\nComputing tutorials. These are somewhat interactive and you should interact with them."
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#data-organization-of",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-07-notes.html#data-organization-of",
-    "title": "Kaplan’s notes for 2025-01-07",
-    "section": "Data (organization of …)",
-    "text": "Data (organization of …)\nWhat words do you associate with “data?”\nWhat do you know about how data is organized?\nGOT TO HERE IN CLASS\n\nWhat is a database?\nWhat is a “relational” database.\n\nWhat names/words might you have heard that relate to relational databases.\nWhen were they invented.\nHow big a sector of the economy? How does one measure “how big” when talking about the economy. Introduce data frame:\n\n\n\nColumns and rows.\nVariables and “specimens”\nQuantitative and categorical.\nIn R, data frames can be given names. We’ll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.\nGalton\npoint_plot() and pipes\nTilde notation"
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html",
-    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "objectID": "questions/R1-before.html",
+    "href": "questions/R1-before.html",
+    "title": "Rossling Chapter 1: The Gap Instinct",
     "section": "",
-    "text": "Recent article about morning coffee and wellness\n\n“The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers—but the research could not prove whether coffee was the sole cause.”\n\n\nWhy look at both “dying from cardiovascular disease” and “mortality.”-\n“Lower risk.” How do you measure risk?\nWhat does “prove” mean in this context? Is proof an appropriate criterion for interpreting the study? What’s its purpose in this paragraph?\n\n\n“Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: ‘We need clinical trials to test the potential impact of changing the time of day when people drink coffee.’”\n\n\nWhat is meant by “clinical trials?”\nWhy do they refer to the potential impact of changing the time of day when people drink coffee?\n\n\n“The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.”\n\n\nWhat does 40,725—the sample size—tell you here?\n\n\n“The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.”\n\n\nSuggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people."
+    "text": "Question 1:\n\n\n\nWhat does Rosling mean by “the west and the rest.”Name a historian on campus who wrote a book subtitled, “The West and the Rest.” That book is about the most recent 500 years of global history. What period of time is encompass by the positive changes Rosling writes about?\n  question id: S01B1-1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nExplain what Rosling means when he says that “averages mislead.” If you had a high-school stats course, did they emphasize this?\n  question id: R01B2 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nLook at the horizontal scale of the bottom figure on p. 43. Are the labeled values equally spaced on paper? Are they equally spaced in value? What is this kind of scale called?\n  question id: R01B3 \n\n\n\n\n\n\n\n\nQuestion 4:\n\n\n\nWhich of Rosling’s bullet points on p. 46 has something to say about an object of political debate called “the 1 percent?” In Brazil (to judge from the p.43 graph), how does the income of the top 1% compare proportionately to the “typical” income of Brazilians?\n  question id: R01B4 \n\n\n\n\n\n\n\n\nQuestion 5:\n\n\n\nWhat would happen if everyone in Category 4 gave $3/day to the people in Category 1?\n  question id: R01B5 \n\n\n\n\n\n\n\n\nQuestion 6:\n\n\n\nRossling uses four aspects of daily to illustrate the different income Categories 1-4:\n\nWater\nTransport\nCooking\nPlate of food\n\nWhat would, in your opinion, be a plausible and meaningful way of measuring quantitatively the level of each of these aspects?\n  question id: R01B6 \n\n\n\nR1-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#critical-thinking-and-qr2",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#critical-thinking-and-qr2",
-    "title": "Kaplan’s in-class notes for 2025-01-10",
+    "objectID": "questions/R1-quiz8932.html",
+    "href": "questions/R1-quiz8932.html",
+    "title": "Rossling Chapter 1 Quiz",
     "section": "",
-    "text": "Recent article about morning coffee and wellness\n\n“The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers—but the research could not prove whether coffee was the sole cause.”\n\n\nWhy look at both “dying from cardiovascular disease” and “mortality.”-\n“Lower risk.” How do you measure risk?\nWhat does “prove” mean in this context? Is proof an appropriate criterion for interpreting the study? What’s its purpose in this paragraph?\n\n\n“Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: ‘We need clinical trials to test the potential impact of changing the time of day when people drink coffee.’”\n\n\nWhat is meant by “clinical trials?”\nWhy do they refer to the potential impact of changing the time of day when people drink coffee?\n\n\n“The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.”\n\n\nWhat does 40,725—the sample size—tell you here?\n\n\n“The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.”\n\n\nSuggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people."
+    "text": "Which answer best represents the misconception Rosling calls “The Gap Instinct?”\n\n\n\n the misconception that “the world is divided in two”\n\n\n the misconception that the knowledge gap between experts and non-experts is large\n\n\n the misconception that the education gap between males and females is large\n\n\n the misconception that the gaps in our own personal knowledge are large\n\n\n\nquestion id: R1-quiz-1\n\n\n\nWhat is the role of the chimpanzee in Rosling’s Intro & Chapter 1?\n\n\n\n It is an example of a species whose population is usually underestimated.\n\n\n It is an example of a “random guesser” to which human responses might be compared.\n\n\n It represents the baseline to which evolutionary improvement might be compared.\n\n\n It represents a population negatively affected by climate change.\n\n\n\nquestion id: R1-quiz-2\n\n\n\nThe Rosling picture below refers to what year?\n\n\n 1965        1980        1995        2010       \n\nquestion id: R1-quiz-3\n\n\n\n\n\nFigure from Rosling Ch 1\n\n\n\nR1-quiz8932.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   },
   {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-rosling-ch.-1",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-rosling-ch.-1",
-    "title": "Kaplan’s in-class notes for 2025-01-10",
-    "section": "Discussion: Rosling Ch. 1",
-    "text": "Discussion: Rosling Ch. 1\nReading questions\nAvoiding the “gap instinct”:\n\ndon’t look at averages outside of the context of variation."
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-spiegelhalter-ch.-1",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#discussion-spiegelhalter-ch.-1",
-    "title": "Kaplan’s in-class notes for 2025-01-10",
-    "section": "Discussion: Spiegelhalter Ch. 1",
-    "text": "Discussion: Spiegelhalter Ch. 1\nTable 1.1: Tabular format of data\nRelative vs absolute risk: bacon sandwich eating. 20% increase in risk. Compare to Fig 1.4\n\nRisk ratio: risk of cancer with bacon divided by without bacon\nCan’t add together relative risks. Instead, multiply them.\n\nExplain (briefly) what odds is about, why we need it.\nReading questions"
-  },
-  {
-    "objectID": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#introduction-to-computing",
-    "href": "day-by-day/Dailies-Kaplan/2025-01-10-notes.html#introduction-to-computing",
-    "title": "Kaplan’s in-class notes for 2025-01-10",
-    "section": "Introduction to computing",
-    "text": "Introduction to computing\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\nWhat is a database?\nWhat is a “relational” database.\n\nWhat names/words might you have heard that relate to relational databases.\nWhen were they invented.\nHow big a sector of the economy? How does one measure “how big” when talking about the economy. Introduce data frame:\n\n\n\nColumns and rows.\nVariables and “specimens”\nQuantitative and categorical.\nIn R, data frames can be given names. We’ll work with a handful a lot so that we can become familiar with them and use them to illustrate general concepts.\nGalton\npoint_plot() and pipes\nTilde notation"
+    "objectID": "questions/S1-quiz-ysle.html",
+    "href": "questions/S1-quiz-ysle.html",
+    "title": "Spiegelhalter Chapter 1 Quiz",
+    "section": "",
+    "text": "Choose the best answer: Categorical variables are measures that …\n\n\n\n are unambiguously explicit and direct.\n\n\n are employed in the study of category theory in mathematics.\n\n\n can be categorized as continuous or discrete.\n\n\n can take on two or more categories.\n\n\n\nquestion id: S1-quiz-1\n\n\n\nSpiegelhalter shows a 3D pie chart as an example of presenting categorical data. His purpose for showing this example is to demonstrate that …\n\n\n\n 3D pie charts generally ought not be used as they distort areas.\n\n\n 3D pie charts generally ought to be used as they are straightforward to interpret.\n\n\n 3D plots are generally less informative than 2D plots.\n\n\n 3D plots are generally more informative than 2D plots.\n\n\n\nquestion id: S1-quiz-2\n\n\n\nSpiegelhalter refers to a study about risks of taking statins, and poses the question, “How can a rise from 85% to 87% be called a ______% increase?” What number was in the blank in the reading?\n\n\n 1        10        20        40       \n\nquestion id: S1-quiz-3\n\n\n\nS1-quiz-ysle.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   }
 ]

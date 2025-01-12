@@ -1,8 +1,9 @@
 ---
 title: "Kaplan's notes for 2025-01-07"
+date: 2025-01-07
 ---
 
-This course is called "QR2" which is not very descriptive. It would have been fair to name it "Data Science." Data science is an appropriate *core* course for college students because modern society is data-driven to a great extent. Knowing even the basics of how to work with data, and how to draw valid conclusions from data (even if it's just to be able to argue with others!) is tremendously empowering.
+The course is called "QR2." This is not very descriptive. It would have been fair to name it "Data Science." Data science is an appropriate *core* course for college students because modern society is data-driven to a great extent. Knowing even the basics of how to work with data, and how to draw valid conclusions from data (even if it's just to be able to argue with others!) is tremendously empowering.
 
 ## Debrief
 

@@ -1,0 +1,95 @@
+---
+title: "Kaplan's in-class notes for 2025-01-10"
+date: 2025-01-10
+---
+
+## Critical thinking and QR2
+
+[Recent article about morning coffee and wellness](https://www.bbc.com/news/articles/cgj6j7yvz55o)
+
+> "*The study found that people who drank coffee in the morning had a lower risk of dying from cardiovascular disease and had a lower mortality risk than all-day coffee consumers---but the research could not prove whether coffee was the sole cause.*"
+
+- Why look at both "dying from cardiovascular disease" and "mortality."- 
+
+- "Lower risk." How do you measure risk?
+
+- What does "prove" mean in this context? Is proof an appropriate criterion for interpreting the study? What's its purpose in this paragraph?
+
+> "*Dr Qi said further studies are needed to see if their findings could also be observed in other populations, adding: 'We need clinical trials to test the potential impact of changing the time of day when people drink coffee.'*"
+
+- What is meant by "clinical trials?"
+
+- Why do they refer to the potential impact of changing the time of day when people drink coffee?
+
+> "*The researchers from Tulane University in New Orleans, looked at 40,725 adults who had taken part in the National Health and Nutrition Examination Survey in the US between 1999 and 2018.*"
+
+- What does 40,725---the sample size---tell you here?
+
+> "*The researchers found that morning coffee drinkers were 16% less likely to have died compared to those who did not drink coffee, and 31% less likely to have died from heart disease.*"
+
+- Suggest some mechanisms that might be consistent with this result but not imply that having more people drink coffee in the morning would reduce risk for those people.
+
+## Discussion: Rosling Ch. 1
+
+[Reading questions](https://qr2-w25.github.io/homepage/questions/R1-before.html)
+
+Avoiding the "gap instinct": 
+
+- don't look at averages outside of the context of variation.
+
+## Discussion: Spiegelhalter Ch. 1
+
+Table 1.1: Tabular format of data
+
+Relative vs absolute risk: bacon sandwich eating. 20% increase in risk. Compare to Fig 1.4
+
+- Risk ratio: risk of cancer with bacon divided by without bacon
+- Can't add together relative risks. Instead, multiply them.
+
+Explain (briefly) what odds is about, why we need it.
+
+[Reading questions](https://qr2-w25.github.io/homepage/questions/S1-before.html)
+
+## Introduction to computing
+
+Your window to R computing will be through R-chunks embedded in documents. Each box provides full access to all the capabilities in R, although ours have been set up to provide seamless access only to the tools we'll need in QR2.
+
+In writing documents, I use a different system. 
+
+
+```{webr-r}
+# A comment!
+```
+
+1. Our data will be stored in data frames. 
+    i. Each frame has a name, e.g. `Galton` and is already available to you in
+    ii. Occasionally we will load in data from other sources. You'll be shown how to do this, but you don't need to master the methods.
+    
+![](https://dtkaplan.github.io/QR2-computing/www/data-frame-schematic.png)    
+    
+    
+2. Example: Galton
+    i. Usually we don't want to look at the whole thing in print.
+    ii. Pipe syntax, function names, parentheses
+    iii. `names()`, `head()`, `nrow()`. Specimens and variables. 
+    iv. Inputs (from pipe) and arguments (in parentheses)
+    
+
+3. Random samples. We discussed this on Tuesday. Can take a random sample from a data frame with `take_sample(n=...)`. 
+
+4. Use **wrangling** operations to construct new data frames from an existing one. Vocabulary: `filter()`, `mutate()`, `summarize()`, `arrange()`, `select()`, grouping (with `.by=`).
+
+    - What is a database? 
+    - What is a "relational" database. 
+        i. What names/words might you have heard that relate to relational databases.
+        ii. When were they invented.
+        iii. How big a sector of the economy? How does one measure "how big" when talking about the economy. 
+
+5. Calculate the amount of variation in a quantitative variable. Vocabulary: variance, var(), “standard deviation.”
+
+6. Construct and interpret annotated point plots from a data frame. Vocabulary: `point_plot()`, tilde expression, response variable, explanatory variable, covariate, facet, trend, model, mapping, violin.
+
+```{webr-r}
+# Another chunk for using R
+```
+

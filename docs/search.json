@@ -193,7 +193,7 @@
     "href": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html",
     "title": "Kaplan’s in-class notes for 2025-01-14",
     "section": "",
-    "text": "Blank document"
+    "text": "Tell me what types of statistical graphics you’ve encountered. Draw some (imagined) examples of different types on the board.\n\nWe will mainly work with one type: the “annotated point plot.”\nGeneral statistical graphics words: - graphics frame - glyphs - graphical property (“aesthetic”): color, transparency, angle, length, size, … - scale: transformation from data values to graphical property, E.G. or y or color or size or whatever - “guide” the tick marks or legend. - facet\npoint_plot() system:\n\npoints and annotations\na point_plot() is fundamentally about a data frame and the trends encountered therein.\n\neach point corresponds to one specimen from the data frame.\npoint plots work with either quantitative or categorical variables\na point is a simple glyph with location (x, y, facet) and color, transparency (point_ink).\n\nan “annotation” is another kind of glyph, typically with somewhat complex structure\n\nwe will use two basic types of annotations, \"model\" and \"violin\". They serve different purposes.\nannotations reflect collective properties of multiple specimens (often all the specimens)\n\n\nTry out different variables.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nShow different scales: categorical and quantitative\nAdd violin annotations.\nAdd model annotations.\nThe meaning of var ~ 1. We’ll call this the Null model.\npoint_ink, model_ink annotations. (Explain the use of _ instead of - within a name.)"
   },
   {
     "objectID": "Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html",
@@ -502,5 +502,33 @@
     "title": "Spiegelhalter Chapter 1 Quiz",
     "section": "",
     "text": "Choose the best answer: Categorical variables are measures that …\n\n\n\n are unambiguously explicit and direct.\n\n\n are employed in the study of category theory in mathematics.\n\n\n can be categorized as continuous or discrete.\n\n\n can take on two or more categories.\n\n\n\nquestion id: S1-quiz-1\n\n\n\nSpiegelhalter shows a 3D pie chart as an example of presenting categorical data. His purpose for showing this example is to demonstrate that …\n\n\n\n 3D pie charts generally ought not be used as they distort areas.\n\n\n 3D pie charts generally ought to be used as they are straightforward to interpret.\n\n\n 3D plots are generally less informative than 2D plots.\n\n\n 3D plots are generally more informative than 2D plots.\n\n\n\nquestion id: S1-quiz-2\n\n\n\nSpiegelhalter refers to a study about risks of taking statins, and poses the question, “How can a rise from 85% to 87% be called a ______% increase?” What number was in the blank in the reading?\n\n\n 1        10        20        40       \n\nquestion id: S1-quiz-3\n\n\n\nS1-quiz-ysle.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#graphics-background",
+    "href": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#graphics-background",
+    "title": "Kaplan’s in-class notes for 2025-01-14",
+    "section": "",
+    "text": "Tell me what types of statistical graphics you’ve encountered. Draw some (imagined) examples of different types on the board.\n\nWe will mainly work with one type: the “annotated point plot.”\nGeneral statistical graphics words: - graphics frame - glyphs - graphical property (“aesthetic”): color, transparency, angle, length, size, … - scale: transformation from data values to graphical property, E.G. or y or color or size or whatever - “guide” the tick marks or legend. - facet\npoint_plot() system:\n\npoints and annotations\na point_plot() is fundamentally about a data frame and the trends encountered therein.\n\neach point corresponds to one specimen from the data frame.\npoint plots work with either quantitative or categorical variables\na point is a simple glyph with location (x, y, facet) and color, transparency (point_ink).\n\nan “annotation” is another kind of glyph, typically with somewhat complex structure\n\nwe will use two basic types of annotations, \"model\" and \"violin\". They serve different purposes.\nannotations reflect collective properties of multiple specimens (often all the specimens)\n\n\nTry out different variables.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nShow different scales: categorical and quantitative\nAdd violin annotations.\nAdd model annotations.\nThe meaning of var ~ 1. We’ll call this the Null model.\npoint_ink, model_ink annotations. (Explain the use of _ instead of - within a name.)"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#rossling-chapter-2",
+    "href": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#rossling-chapter-2",
+    "title": "Kaplan’s in-class notes for 2025-01-14",
+    "section": "Rossling Chapter 2",
+    "text": "Rossling Chapter 2\nShow some answers to the reading questions"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#wrangling",
+    "href": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#wrangling",
+    "title": "Kaplan’s in-class notes for 2025-01-14",
+    "section": "Wrangling",
+    "text": "Wrangling\nYou are expected to learn the names of the basic operations but not to be able to create complex “queries” with them. Such mastery comes with experience.\nTalk about units of observation. Show how summarize changes the unit of observation, but the other wrangling functions leave it alone.\nThe basic operations.\nThe most advanced wrangling operation is a “join” or “merge”. This is the only wrangling operation that takes two data frames as input. [Try Grades, Sessions, Gradepoint database.]\n\nYou do not need to master joins. But it is essential to work with databases. As of 10 years ago, few people other than database professionals knew about it: I taught it to hundreds of faculty, most of whom were shocked that something so simple accomplished what they had been doing by hand and calling “cross referencing.”"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#interpreting-trends",
+    "href": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html#interpreting-trends",
+    "title": "Kaplan’s in-class notes for 2025-01-14",
+    "section": "Interpreting trends",
+    "text": "Interpreting trends\nBirths78 shows a pattern, a kind of trend"
   }
 ]

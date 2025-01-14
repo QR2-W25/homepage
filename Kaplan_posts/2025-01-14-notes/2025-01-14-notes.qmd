@@ -3,7 +3,9 @@ title: "Kaplan's in-class notes for 2025-01-14"
 date: 2025-01-14
 ---
 
-
+```{r include=FALSE}
+library(LSTbook)
+```
 
 
 ## Graphics background
@@ -54,8 +56,30 @@ The meaning of `var ~ 1`. We'll call this the Null model.
 
 ## Rossling Chapter 2
 
-Show some answers to the reading questions
 
+### Reading questions
+
+**Bad and better**
+
+> People feel like just because things aren't the best, they cant simply be better. They feel that there is still bad in the world (which there is) but they don't stop to think how much it has improved.
+
+> Distinguishing between "better" and "bad" means to distinguish between a level and a trend. For example, something can be bad overall (like poverty being high) but can be trending in a direction indicating that it's getting better. I think the component of high school curriculum that makes a framework for this distinction is the SAT.
+
+> Room for improvement. Not satisfactory but developed from the last time it was measured. Sounds kind of like the growth mindset.
+
+Distinguishing between the current state and how the state is changing is in the domain of calculus.
+
+Give examples: (We'll leave out "middling" and "staying the same.")
+
+- Good and getting better
+- Good and getting worse
+- Bad and getting worse
+- Bad and getting better
+
+
+
+**Feeling, not thinking**
+> The idea that your outlook remains negative even after seeing positive data because you know problems still exist (even if they're getting better).
 ## Wrangling
 
 You are expected to learn the names of the basic operations but not to be able to create complex "queries" with them. Such mastery comes with experience.
@@ -68,8 +92,39 @@ The basic operations.
 
 The most advanced wrangling operation is a "join" or "merge". This is the only wrangling operation that takes two data frames as input. [Try `Grades`, `Sessions`, `Gradepoint` database.]
 
+```{webr-r}
+# Grades and Sessions
+
+Grades |> 
+  left_join(Sessions) |> 
+  left_join(Gradepoint) |> 
+  model_train(gradepoint ~ sid + iid) |> 
+  anova_summary()
+```
+
 - You do not need to master *joins*. But it is essential to work with databases. As of 10 years ago, few people other than database professionals knew about it: I taught it to hundreds of faculty, most of whom were shocked that something so simple accomplished what they had been doing by hand and calling "cross referencing."
 
 ## Interpreting trends
 
 `Births78` shows a pattern, a kind of trend
+
+```{webr-r}
+Births78 |>
+  point_plot(births ~ day_of_year)
+```
+
+Form hypotheses about the two bands. Then go back to data and check them.
+
+
+
+Wrangle out the anomolies, e.g. `births ~ day_of_week`
+
+```{r}
+Births78 |>
+  point_plot(births ~ wday)
+Births78 |>
+  select(date, births, wday) |>
+  mutate(r = rank(births), .by = wday) |>
+  arrange(r) |>
+  head(14)
+```

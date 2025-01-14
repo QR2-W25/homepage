@@ -1,0 +1,43 @@
+---
+title: "Rossling Chapter 3: *The Straight-line Instinct*"
+subtitle: "Answer and submit *before* class discussion"
+---
+
+{{< include ../start-up.qmd >}}
+
+THESE ARE JUST TEMPLATES
+
+::: {.callout-note}
+## Question 1:
+
+What is the moon made of?
+
+```{mcq}
+#| label: R3b-moon
+1. Blue cheese
+2. Cheddar cheese
+3. Our dreams
+4. Rock, etc. [correct]
+```
+
+:::
+
+::: {.callout-note}
+## Question 2:
+
+How can we solve the problems of the world? Respond briefly.
+
+`r devoirs_text("Q3B-world")`
+
+:::
+
+
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

@@ -10,7 +10,7 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ::: {.callout-note}
 ## 3. Monday 13 January, 2025
 
-Block 1 (cont.)
+Block 1 (continued)
 
 - New readings:
     a. `r tutorial_link(1)`

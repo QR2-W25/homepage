@@ -401,7 +401,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"id":1,"options":{"comment":"","context":"interactive","editor-word-wrap":"true","editor-quick-suggestions":"false","out-height":"","dpi":72,"warning":"true","label":"unnamed-chunk-1","results":"markup","fig-cap":"","message":"true","read-only":"false","fig-height":5,"fig-width":7,"editor-max-height":"","autorun":"false","editor-font-scale":"1","classes":"","out-width":"700px","output":"true"},"code":"names(Penguins)\nPenguins |>\n  point_plot()"},{"id":2,"options":{"comment":"","context":"interactive","editor-word-wrap":"true","editor-quick-suggestions":"false","out-height":"","dpi":72,"warning":"true","label":"unnamed-chunk-2","results":"markup","fig-cap":"","message":"true","read-only":"false","fig-height":5,"fig-width":7,"editor-max-height":"","autorun":"false","editor-font-scale":"1","classes":"","out-width":"700px","output":"true"},"code":"# Grades and Sessions\n\nGrades |> \n  left_join(Sessions) |> \n  left_join(Gradepoint) |> \n  model_train(gradepoint ~ sid + iid) |> \n  anova_summary()"},{"id":3,"options":{"comment":"","context":"interactive","editor-word-wrap":"true","editor-quick-suggestions":"false","out-height":"","dpi":72,"warning":"true","label":"unnamed-chunk-3","results":"markup","fig-cap":"","message":"true","read-only":"false","fig-height":5,"fig-width":7,"editor-max-height":"","autorun":"false","editor-font-scale":"1","classes":"","out-width":"700px","output":"true"},"code":"Births78 |>\n  point_plot(births ~ day_of_year)"}];
+globalThis.qwebrCellDetails = [{"code":"names(Penguins)\nPenguins |>\n  point_plot()","options":{"comment":"","autorun":"false","fig-height":5,"editor-font-scale":"1","message":"true","fig-cap":"","label":"unnamed-chunk-1","results":"markup","fig-width":7,"dpi":72,"context":"interactive","warning":"true","output":"true","classes":"","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px","out-height":"","editor-word-wrap":"true"},"id":1},{"code":"# Grades and Sessions\n\nGrades |> \n  left_join(Sessions) |> \n  left_join(Gradepoint) |> \n  model_train(gradepoint ~ sid + iid) |> \n  anova_summary()","options":{"comment":"","autorun":"false","fig-height":5,"editor-font-scale":"1","message":"true","fig-cap":"","label":"unnamed-chunk-2","results":"markup","fig-width":7,"dpi":72,"context":"interactive","warning":"true","output":"true","classes":"","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px","out-height":"","editor-word-wrap":"true"},"id":2},{"code":"Births78 |>\n  point_plot(births ~ day_of_year)","options":{"comment":"","autorun":"false","fig-height":5,"editor-font-scale":"1","message":"true","fig-cap":"","label":"unnamed-chunk-3","results":"markup","fig-width":7,"dpi":72,"context":"interactive","warning":"true","output":"true","classes":"","read-only":"false","editor-max-height":"","editor-quick-suggestions":"false","out-width":"700px","out-height":"","editor-word-wrap":"true"},"id":3}];
 
 </script>
 <script type="module">
@@ -2026,7 +2026,15 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <p>Tell me what types of statistical graphics you’ve encountered. Draw some (imagined) examples of different types on the board.</p>
 <hr>
 <p>We will mainly work with one type: the “annotated point plot.”</p>
-<p>General statistical graphics words: - graphics frame - glyphs - graphical property (“aesthetic”): color, transparency, angle, length, size, … - scale: transformation from data values to graphical property, E.G. or y or color or size or whatever - “guide” the tick marks or legend. - facet</p>
+<p>General statistical graphics words:</p>
+<ul>
+<li>graphics frame</li>
+<li>glyphs</li>
+<li>graphical property (“aesthetic”): color, transparency, angle, length, size, …</li>
+<li>scale: transformation from data values to graphical property, E.G. or y or color or size or whatever</li>
+<li>“guide” the tick marks or legend.</li>
+<li>facet</li>
+</ul>
 <p><code>point_plot()</code> system:</p>
 <ul>
 <li>points and annotations</li>

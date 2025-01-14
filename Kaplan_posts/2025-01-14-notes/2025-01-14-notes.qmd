@@ -17,6 +17,7 @@ Tell me what types of statistical graphics you've encountered. Draw some (imagin
 We will mainly work with one type: the "annotated point plot."
 
 General statistical graphics words: 
+
 - graphics frame
 - glyphs
 - graphical property ("aesthetic"): color, transparency, angle, length, size, ...

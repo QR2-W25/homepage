@@ -1,6 +1,7 @@
 ---
 title: "Spiegelhalter Introduction"
 subtitle: "Answer and submit *before* class discussion"
+format: 
 ---
 
 {{< include ../start-up.qmd >}}

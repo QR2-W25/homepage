@@ -7,3 +7,13 @@ date: 2025-01-17
 
 
 ## Rossling Ch. 4
+
+
+## What is a prediction?
+
+- We extend the everyday meaning: Saying something about the as-yet-unknown value of a variable based on known values for other variables.
+    - Not just "Will you get sick?" but "Are you sick now?"
+    
+- The proper form for a prediction.
+
+- Risk and "risk factors"

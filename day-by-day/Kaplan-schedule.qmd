@@ -11,34 +11,9 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 ## Near future
 
-::: {.callout-note}
-## Class Day 3. Tuesday 14 January, 2025 {#sec-14Jan}
-
-Block 1 (cont.)
-
-- New readings:
-
-    a. Rosling Chap 2 & [reading questions](../questions/R2-before.html)
-    b. `r tutorial_link(1)` 
-    
-- Discussions and Activities
-    i. Rossling reading
-    ii. Review of Computing Tutorial 1
-    iii. In-class group work on computing activities (TBA)
-
-- Assignments due before class time: 
-    - Remember that the "New readings" section has links to the relevant reading questions. 
-    - As regards the computing tutorials ... There are some "reading tasks" with questions that you should answer and submit in the usual way. Equally important, however, are the many R Chunks. You're expected to play around a bit as you work through the tutorial, trying out different commands, changing names, etc. Make mistakes! That's a great way to learn. Each time you run an R chunk, that activity is stored in your browser until you close or refresh the page. Submit your work using the button and link at the bottom of the tutorial document. This will let me see what you've done, and will be a component of class participation. 
-    - If you stop part way through a document with questions, chunks, etc., submit your work up to that point. When you return to the document, you can do additional work and submit that. You don't have to worry about submitting multiple times.
-    - Note that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.
-
-- [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
-
-:::
-
 
 ::: {.callout-note}
-## 4. Class Day Friday 17 January {#sec-17Jan}
+## 4. Class Day 4 Friday 17 January {#sec-17Jan}
 
 Block 2: Prediction
 
@@ -46,18 +21,74 @@ Block 2: Prediction
     a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
     b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
 
+- Start work
+    i. [computing activities for Tutorial 1](https://dtkaplan.github.io/QR2-computing/exercises-1.html). Will be due before the next class meeting. You don't have to do the ones labelled "In-class". But do as many of the others as you can. 
+
+
 - Assignments due:
-    - As always, reading questions from new readings are due before class, but I'll stop mentioning this explicitly for future class days.
-    - today or tomorrow: [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
-        - You don't have to do the ones labelled "In-class". But do as many of the others as you can. 
+    - As always, reading questions from new readings are due before class. 
+    - The "computing activities" are due before the class day *after* the class day where they are listed under "Start work." The activities for Tutorial 1 are listed for today, so they will be due by class time on Tuesday.
+    - I'll stop mentioning this explicitly for future class days. 
+    
+- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html)
+:::
+
+::: {.callout-note}
+## Class Day 5 Tuesday 21 January {#sec-21Jan}
+
+Block 2 Prediction (cont.)
+
+- New readings:
+    - Spiegelhalter Ch 6 and [reading questions](../questions/S6-before.html)
+    - Start on `r tutorial_link(2)` 
+
+- Assignments due before class:
+    - Today's new reading questions (as always)
+    - [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
 
 - [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-14-notes.html)
+
 :::
 
 
+::: {.callout-note}
+## Class Day 6 Tuesday 24 January {#sec-24Jan}
+
+Block 2 Prediction (cont.)
+
+- New readings
+    - Rosling Ch. 5 & [reading questions](../questions/R5-before.html)
+    - Complete `r tutorial_link(2)` 
+
+- Start work
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html). Will be due before class on Day 8 (Tuesday 31 Jan.)
+    
+- [In-class notes](../Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html)
+
+:::
 
 
+::: {.callout-note}
+## . Class Day 7 Tuesday 31 January {#sec-27Jan}
 
+Still under construction
+
+
+- [In-class notes](../Kaplan_posts/2025-01-27-notes/2025-01-24-notes.html)
+
+:::
+
+::: {.callout-note}
+## . Class Day 8 Tuesday 31 January {#sec-31Jan}
+
+Still under construction
+
+- Assignments due:
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html).
+
+- [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
+
+:::
 
 <!-- The basement starts here. Don't mistakenly edit in it. -->
 
@@ -109,6 +140,30 @@ Block 1: Data, visualization, trends
     - In-class orientation to computing
 
 - [In-class notes](../Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html)
+
+
+#### Class Day 3. Tuesday 14 January, 2025 {#sec-14Jan}
+
+Block 1 (cont.)
+
+- New readings:
+
+    a. Rosling Chap 2 & [reading questions](../questions/R2-before.html)
+    b. `r tutorial_link(1)` 
+    
+- Discussions and Activities
+    i. Rossling reading
+    ii. Review of Computing Tutorial 1
+    iii. In-class group work on computing activities (TBA)
+
+- Assignments due before class time: 
+    - Remember that the "New readings" section has links to the relevant reading questions. 
+    - As regards the computing tutorials ... There are some "reading tasks" with questions that you should answer and submit in the usual way. Equally important, however, are the many R Chunks. You're expected to play around a bit as you work through the tutorial, trying out different commands, changing names, etc. Make mistakes! That's a great way to learn. Each time you run an R chunk, that activity is stored in your browser until you close or refresh the page. Submit your work using the button and link at the bottom of the tutorial document. This will let me see what you've done, and will be a component of class participation. 
+    - If you stop part way through a document with questions, chunks, etc., submit your work up to that point. When you return to the document, you can do additional work and submit that. You don't have to worry about submitting multiple times.
+    - Note that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.
+
+- [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
+
 
 
 

@@ -52,7 +52,7 @@ Block 2 Prediction (cont.)
 
 
 ::: {.callout-note}
-## Class Day 6 Tuesday 24 January {#sec-24Jan}
+## Class Day 6 Friday 24 January {#sec-24Jan}
 
 Block 2 Prediction (cont.)
 
@@ -69,19 +69,28 @@ Block 2 Prediction (cont.)
 
 
 ::: {.callout-note}
-## . Class Day 7 Tuesday 31 January {#sec-27Jan}
+## Class Day 7 Tuesday 28 January {#sec-28Jan}
 
-Still under construction
+Block 3 Regression & Adjustment
 
+- New readings
+    - Spiegelhalter Ch. 5 & [reading questions](../questions/S05-before.html)
+    
+- Start work
+    - Census project
 
 - [In-class notes](../Kaplan_posts/2025-01-27-notes/2025-01-24-notes.html)
 
 :::
 
 ::: {.callout-note}
-## . Class Day 8 Tuesday 31 January {#sec-31Jan}
+## Class Day 8 Friday 31 January {#sec-31Jan}
 
-Still under construction
+Block 3 Regression & Adjustment (cont.)
+
+- New readings
+    - Rosling Ch. 3 & [reading questions](../questions/R03-before.html)
+    - Start `r tutorial_link(3)`
 
 - Assignments due:
     - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html).
@@ -89,6 +98,252 @@ Still under construction
 - [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
 
 :::
+
+::: {.callout-note}
+## Class Day 9 Tuesday 4 February
+
+Block 3 Regression & Adjustment (cont)
+
+- New readings  
+    - Finish `r tutorial_link(4)`
+
+- Start work
+    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
+    
+- Assignments due:
+    - Progress report I: Census project
+
+     
+    
+- [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
+
+
+
+:::
+
+::: {.callout-note}
+## Class Day 10 Friday 7 Febuary
+
+Block 4: Precision
+
+- New readings   
+    - Spiegelhalter Ch. 8 & [reading questions](../questions/S08-before.html)
+    - Rosling Ch. 6 & [reading questions](../questions/R06-before.html)
+
+- Start work
+    
+- Assignments due:
+   
+    
+- [In-class notes](../Kaplan_posts/2025-02-07-notes/2025-02-07-notes.html)
+
+
+
+
+:::
+
+Reading break 10-14 February.
+
+-  Assignment due:
+    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) 
+
+::: {.callout-note}
+## Class Day 11 Tuesday 18 February
+
+Block 4: Precision (cont.)
+
+- New readings  
+    - Spiegelhalter Ch. 9 & [reading questions](../questions/S09-before.html)
+    - `r tutorial_link(4)`
+
+- Start work
+    - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html) due 25 Feb
+    
+- Assignments due:
+     
+    
+- [In-class notes](../Kaplan_posts/2025-02-18-notes/2025-02-18-notes.html)
+
+
+
+:::
+
+::: {.callout-note}
+## Class Day 12 Friday 21 February
+
+Block 4: Precision (cont.)
+
+- New readings  
+    - Rosling Ch. 7 & [reading questions](../questions/R07-before.html)
+
+
+- Start work
+    
+- Assignments due:
+    - Progress report II: Census project
+     
+    
+- [In-class notes](../Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html)
+
+
+
+:::
+
+
+::: {.callout-note}
+## Class Day 13 Tuesday 25 February
+
+Block 5: Confounding & Causality
+
+- New readings  
+    - Spiegelhalter Ch 4 & [reading questions](../questions/S04-before.html)
+    - Start `r tutorial_link(5)`
+    
+- Start work
+    
+- Assignments due:
+    - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html)
+    
+- [In-class notes](../Kaplan_posts/2025-02-25-notes/2025-02-25-notes.html)
+
+
+
+:::
+
+::: {.callout-note}
+## Class Day 14 Friday 28 February
+
+Block 5: Confounding & Causality (cont.)
+
+- New readings 
+    - Rosling Ch. 8 & [reading questions](../questions/R08-before.html)
+    - Complete `r tutorial_link(5)`
+
+- Start work
+    
+- Assignments due:
+     
+    
+- [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
+
+
+
+:::
+
+::: {.callout-note}
+## Class Day 15 Tuesday 4 March
+
+Block 5: Confounding & Causality (cont.)
+
+- New readings   
+    - Rosling Ch. 9 & [reading questions](../questions/R09-before.html)
+
+- Start work
+    
+- Assignments due:
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
+
+:::
+
+
+::: {.callout-note}
+## Class Day 16 Friday 7 March
+
+Block 5: Confounding & Causality (cont.)
+
+- New readings   
+   
+
+- Start work
+    [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
+
+- Assignments due:
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html)
+
+
+:::
+
+::: {.callout-note}
+## Class Day 17 Tuesday 11 March
+
+Block 6: Hypothetical Reasoning
+
+- New readings   
+    - Spiegelhalter Ch. 11 & [reading questions](../questions/S11-before.html)
+    - Start `r tutorial_link(3)`
+
+- Start work
+    
+- Assignments due:
+    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html).
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-11-notes/2025-03-11-notes.html)
+
+:::
+
+::: {.callout-note}
+## Class Day 18 Friday 14 March
+
+Block 6: Hypothetical Reasoning (cont.)
+
+- New readings    
+    - Rosling Ch. 10 & [reading questions](../questions/R10-before.html)
+    - Complete `r tutorial_link(6)`
+    
+    
+- Assignments due:
+    - Remember that your project presentation is due 21 March.
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-14-notes/2025-03-14-notes.html)
+
+
+
+
+
+:::
+
+::: {.callout-note}
+## Class Day 19 Tuesday 18 March
+
+Block 6: Hypothetical Reasoning (cont.)
+
+
+- New readings   
+    - Spiegelhalter Ch. 13 & [reading questions](../questions/S13-before.html)
+    - Spiegelhalter Ch. 14 & [reading questions](../questions/S14-before.html)
+
+- Start work
+    - [Computing Activities for Tutorial 6](https://dtkaplan.github.io/QR2-computing/exercises-6.html). Will be due March 24.
+    
+- Assignments due:
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-18-notes/2025-03-18-notes.html)
+
+
+
+
+:::
+
+::: {.callout-note}
+## Class Day 20 Friday 21 March
+
+- New readings
+    - (538 article about p-values)[https://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/]
+    
+- Assignment due:
+    - Project presentation
+    - For March 24, [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html). 
+:::
+
+
+
 
 <!-- The basement starts here. Don't mistakenly edit in it. -->
 
@@ -164,118 +419,5 @@ Block 1 (cont.)
 
 - [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
 
-
-
-
-
-## Further out (i.e. tentative)
-
-
-::: {.callout-note}
-## 5. Tuesday 21 January, 2025
-
-New Readings
-
-
-Assignments due before class time:
-
-- [Computing Tutorial 1](https://dtkaplan.github.io/QR2-computing/tutorial-1.html)
-
-:::
-
-
-::: {.callout-note}
-## 6. Friday 24 January
-
-:::
-
-::: {.callout-note}
-## 7. Tuesday 28 January, 2025
-
-:::
-
-
-::: {.callout-note}
-## 8. Friday 31 January
-
-:::
-
-::: {.callout-note}
-## 9. Tuesday 4 February
-
-:::
-
-
-::: {.callout-note}
-## 10. Friday 7 February
-
-:::
-
-Mid-term break
-
-::: {.callout-note}
-## 11. Tuesday 11 February
-
-:::
-
-
-::: {.callout-note}
-## 12. Friday 14 February
-
-:::
-
-
-::: {.callout-note}
-## 13. Tuesday 18 February
-
-:::
-
-
-::: {.callout-note}
-## 14. Friday 21 February
-
-:::
-
-
-::: {.callout-note}
-## 15. Tuesday 25 February
-
-:::
-
-
-::: {.callout-note}
-## 16. Friday 28 February
-
-:::
-
-
-::: {.callout-note}
-## 17. Tuesday 4 March
-
-:::
-
-
-::: {.callout-note}
-## 18. Friday 7 March
-
-:::
-
-
-::: {.callout-note}
-## 19. Tuesday 11 March
-
-:::
-
-
-::: {.callout-note}
-## 20. Friday 14 March
-
-:::
-
-
-
-## Already past
-
-Schedule items will be moved here (in reverse chronological order) as an archive.
 
 

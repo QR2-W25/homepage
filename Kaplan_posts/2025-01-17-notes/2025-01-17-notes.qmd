@@ -17,20 +17,117 @@ date: 2025-01-17
 - I'm thinking to make this about 50%. Split more or less evenly between class participation and short (15 min) inclass quizzes roughly once a week. 
 - I won't necessarily tell you in advance about such a quiz. If you need to make one up, we can do it in my office. 
 
-
+We'll have a Quiz on Tuesday. No need to worry about it. 
 
 
 ## Spiegelhalter Ch. 3
 
+**Deduction versus induction**
+
+- induction and "proof"
+
+[Meaning of "prove"](https://www.google.com/search?q=definition+proof&rlz=1C5GCEM_enUS1006US1006&oq=definition+proof&gs_lcrp=EgZjaHJvbWUyDggAEEUYORhGGPkBGIAEMgcIARAAGIAEMgcIAhAAGIAEMgcIAxAAGIAEMggIBBAAGBYYHjIICAUQABgWGB4yCAgGEAAYFhgeMggIBxAAGBYYHjIICAgQABgWGB4yCAgJEAAYFhge0gEIMzQwMWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8). We're hampered by the mathematical use of proof as a "correct deduction."
+
+- Are all deductions either correct or incorrect? Can all mathematical truths be proved.
+
+**Internal and external validity**
+
+> "*Internal validity is the quality of the study based on how truthful and unbiased
+the study is. External validity is testing the effects of chemicals on mice
+and relating that to humans to have the same impact. The distinguishing
+factor is that internal validity has to do with the study process, and
+external validity has to do with who or what is applicable based on the data.*"
+
+> *Latin probare ‘to test, prove’. Current senses of the verb date from the late 19th century.*
+
+
+David Hume: "The problem of induction" Hume didn't even know what science is.
+
+> *The problem of induction is a philosophical problem that questions the rationality of predictions about unobserved things based on previous observations. These inferences from the observed to the unobserved are known as "inductive inferences". David Hume, who first formulated the problem in 1739, argued that there is no non-circular way to justify inductive inferences, while he acknowledged that everyone does and must make such inferences.* --- Wikipedia
+
+
+- bell-shaped curve, aka "normal distribution". In scientific circles: the "gaussian function"
+    - There is nothing normal about it.
+    - It's relevant when there are lots of things contributing to each observation. E.g. height, means, ....
+    
+- don't mistake it for a law of Nature.
+
+
+Age, BP and BMI
+
+```{webr-r}
+PIMA |>
+  point_plot(age ~ 1, annot = "violin")
+```
+
+> "*as diabetes is a categorical. Categorical is discrete, and "normal" is
+something applied only to continuous data."*
 
 ## Rossling Ch. 4
+
+Be aware of biases in thinking: what the economists sometimes call "*irrationality*."
+
+- IMHO, all that you can expect from an educated person is that they are *aware* of such biases, and can exert mental effort to compensate for them. 
+
+> "*The "Attention Filter" refers to how humans are naturally inclined to focus more
+on shocking information, easily forgetting the less shocking news, leaving
+individuals with an unbalanced perspective of events. Selective reporting by
+media acts on this human instinct by choosing what the audience remembers.*"
+
+b. Fear instinct
+
+> "*Fear Instinct is that natural fear that human beings possess whether it be heights, spiders, snakes, ect. These are instinctive because when everyone was at level 1, they were constant threats to daily survival. To those who are still on level 1, the fear instinct is helpful, but to those on level 4, it can be considered a phobia. Phobias can often highjack ones life and make them think they are in danger when really there is no danger at all.*"
+
+c. Why have natural disasters become less dangerous?
+
+> "*Rosling says that the number of casualties from natural disasters decreased over the last century because of advancements in technology.*"
+
+- What are some examples?
+
+d. Fear factors
+
+e. Anchoring (from Kahnemann and Tverskey)
+
 
 
 ## What is a prediction?
 
 - We extend the everyday meaning: Saying something about the as-yet-unknown value of a variable based on known values for other variables.
     - Not just "Will you get sick?" but "Are you sick now?"
+    - Classifiers versus regression models.
     
 - The proper form for a prediction.
 
+- Prediction and risk
+
 - Risk and "risk factors"
+
+- Framing for the statistical prediction problem
+    - training data
+    - performance
+    - testing data and related techniques, e.g. cross-validation
+    
+- Statistical prediction is a compromise between what we already know and what the data tell us. 
+    - Important problem in critical thinking generally: How to combine our beliefs with our observations?
+    
+    
+## Building a prediction model
+
+Question: I want to predict a person's age. What inputs can I use?
+
+Question: I want to predict whether an airline passenger is a terrorist? What inputs can I use? 
+
+- Security theater.
+
+
+Example in computing tutorials (which have not been assigned): Predicting a person's height.
+
+- Step 1: Choose the response variable whose value you want to predict for a given specimen.
+- Step 2: Choose explanatory variables that will be available at the time you need to make the prediction.
+- Step 3: Use the training data to develop an association between 
+
+```{webr-r}
+Model <- Galton |> 
+
+```
+

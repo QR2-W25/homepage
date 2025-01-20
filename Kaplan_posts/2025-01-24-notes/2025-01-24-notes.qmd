@@ -3,5 +3,15 @@ title: "Kaplan's in-class notes for 2025-01-24"
 date: 2025-01-24
 ---
 
-Blank document
+Odds, log odds, logistic regression
+
+Perhaps drivers of mortality a la USAFA example
+
+---------------
+
+Quantitative outcome variable
+
+Prediction interval and how it corresponds to the "normal" curve.
+
+Mean square error
 

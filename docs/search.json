@@ -249,7 +249,7 @@
     "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html",
     "title": "Kaplan’s in-class notes for 2025-01-21",
     "section": "",
-    "text": "Blank document"
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\nRisk and risk ratio\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nRisk ratio: 0.50 / 0.20 = 2.5. Birdkeeping is a “risk factor” for lung cancer.\nConstruct a one-node classification tree of lung cancer versus bird-keeping.\nConstruct the confusion matrix. False-positives and negatives, sensitivity, specificity, accuracy\n\nBuild a one-node classification tree based on YR. Meaning of the threshold. Receiver operating curve.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "index.html",
@@ -585,7 +585,7 @@
     "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#work-with-the-start-of-tutorial-2",
     "title": "Kaplan’s in-class notes for 2025-01-21",
     "section": "Work with the start of Tutorial 2",
-    "text": "Work with the start of Tutorial 2"
+    "text": "Work with the start of Tutorial 2\nmodel_train() and model_eval().\nPrediction interval\nUse an example with a binary response variable."
   },
   {
     "objectID": "Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html#building-a-prediction-model",
@@ -607,5 +607,26 @@
     "title": "Spiegelhalter Chapter 4",
     "section": "",
     "text": "Question 1:\n\n\n\nAs best you can, explain why a sensitivity of 100% can always be achieved at the cost of lowering specificity to 0, and a specificity of 100% can always be had in exchange for a sensitivity of 0.\n  question id: S06-QA1 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nWhat is overfitting? Explain what the division of historical data (that is, data with the outcome already recorded) into training and testing datasets can help avoid overfitting.\n  question id: S06-QA2-overfitting \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nSpiegelhalter characterizes the classification tree in Fig 6.6 (“Over-fitted classification tree for the Titanic data”) as having a “rather strange set of questions.” What do you think motivates this? (Hint: Look at the role of “fare” in determining the predicted outcome.)\n  question id: S06-QA3 \n\n\n\nS6-after.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#demonstrate-construction-of-a-classification-tree",
+    "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#demonstrate-construction-of-a-classification-tree",
+    "title": "Kaplan’s in-class notes for 2025-01-21",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.\nRisk and risk ratio\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nRisk ratio: 0.50 / 0.20 = 2.5. Birdkeeping is a “risk factor” for lung cancer.\nConstruct a one-node classification tree of lung cancer versus bird-keeping.\nConstruct the confusion matrix. False-positives and negatives, sensitivity, specificity, accuracy\n\nBuild a one-node classification tree based on YR. Meaning of the threshold. Receiver operating curve.\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#spiegelhalter-ch-6",
+    "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#spiegelhalter-ch-6",
+    "title": "Kaplan’s in-class notes for 2025-01-21",
+    "section": "Spiegelhalter Ch 6",
+    "text": "Spiegelhalter Ch 6"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#quiz",
+    "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#quiz",
+    "title": "Kaplan’s in-class notes for 2025-01-21",
+    "section": "Quiz",
+    "text": "Quiz"
   }
 ]

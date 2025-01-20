@@ -3,8 +3,60 @@ title: "Kaplan's in-class notes for 2025-01-21"
 date: 2025-01-21
 ---
 
-## Spiegelhalter Ch 5
+
+
+```{r include=FALSE}
+library(LSTbook)
+```
+
+
+
+## Demonstrate construction of a classification tree
+
+
+
+```{webr-r}
+Birdkeepers |>
+  point_plot(LC ~ BK, annot = "model")
+```
+
+Risk and risk ratio
+
+```{webr-r}
+Birdkeepers |>
+  summarize(total = n(), 
+            nC = sum(LC == "LungCancer"), 
+            probC = mean(LC == "LungCancer"), 
+            .by = BK)
+```
+
+Risk ratio: 0.50 / 0.20 = 2.5. Birdkeeping is a "risk factor" for lung cancer.
+
+Construct a one-node classification tree of lung cancer versus bird-keeping.
+
+Construct the confusion matrix. False-positives and negatives, sensitivity, specificity, ~~accuracy~~ 
+
+- Build a one-node classification tree based on `YR`. Meaning of the threshold. Receiver operating curve. 
+
+
+
+```{webr-r}
+Birdkeepers |>
+  point_plot(LC ~ YR + 1 + BK, annot = "model")
+```
+
+
+## Spiegelhalter Ch 6
+
+
+
 
 ## Work with the start of Tutorial 2
 
+`model_train()` and `model_eval()`. 
 
+Prediction interval
+
+Use an example with a binary response variable.
+
+## Quiz

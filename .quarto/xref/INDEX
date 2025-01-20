@@ -112,5 +112,11 @@
   },
   "questions/S3-before.qmd": {
     "S3-before.html": "5491c53b"
+  },
+  "questions/S6-before.qmd": {
+    "S6-before.html": "428bbc95"
+  },
+  "questions/S6-after.qmd": {
+    "S6-after.html": "e4471faf"
   }
 }

@@ -1,0 +1,46 @@
+---
+title: "Spiegelhalter Chapter 4"
+subtitle: "Answer and submit *before* class discussion"
+---
+
+{{< include ../start-up.qmd >}}
+
+
+This is a challenging but important chapter. The techniques Spiegelhalter mentions ("random forests," "logistic regression," "support vector machines", among others) seem like wizards' incantations. The book was published in 2019. Even in the few years since then, other techniques have found their way into popular culture: ---e.g. "deep learning," "generative pre-trained transformers" (GPT).
+
+Spiegelhalter chooses to exemplify all this very recent, ongoing development with one of the very oldest methods: "classification trees" from the 1960s. This is a good choice in many ways. It requires little training to calculate the output from a classification tree given the explanatory variable inputs. And, although Spiegelhalter doesn't show how such trees are created, the process is readily understandable if presented step by step.
+
+The chapter title is "Algorithms, Analytics, and Prediction." Let's take some of the mystery out of "algorithm" and "analytics." To analyze means simply "taking apart." It is the opposite of synthesize: "putting together." The "classification tree" is a matter to taking a data frame apart into separate sets of rows, then aggregating each set to make a prediction (e.g. a 16% change of survival for the Misters)
+
+An "algorithm" is a recipe or set of instructions for a procedure. Spiegelhalter doesn't go over any algorithms; he shows the *results* produced by the particular algorithm for generating classification trees.
+
+::: {.callout-note}
+## Question 1:
+
+{{< include "../../INF-1220-QR2/_RQ/S06/QB1.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 2:
+
+{{< include "../../INF-1220-QR2/_RQ/S06/QB2.qmd" >}}
+
+:::
+
+
+::: {.callout-note}
+## Question 3:
+
+{{< include "../../INF-1220-QR2/_RQ/S06/QB3.qmd" >}}
+
+:::
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

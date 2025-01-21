@@ -179,7 +179,7 @@
     "href": "Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html",
     "title": "Kaplan’s in-class notes for 2025-01-24",
     "section": "",
-    "text": "Blank document"
+    "text": "Odds, log odds, logistic regression\nPerhaps drivers of mortality a la USAFA example\n\nQuantitative outcome variable\nPrediction interval and how it corresponds to the “normal” curve.\nMean square error"
   },
   {
     "objectID": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html",
@@ -585,7 +585,7 @@
     "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#work-with-the-start-of-tutorial-2",
     "title": "Kaplan’s in-class notes for 2025-01-21",
     "section": "Work with the start of Tutorial 2",
-    "text": "Work with the start of Tutorial 2\nmodel_train() and model_eval().\nPrediction interval\nUse an example with a binary response variable."
+    "text": "Work with the start of Tutorial 2"
   },
   {
     "objectID": "Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html#building-a-prediction-model",
@@ -628,5 +628,12 @@
     "title": "Kaplan’s in-class notes for 2025-01-21",
     "section": "Quiz",
     "text": "Quiz"
+  },
+  {
+    "objectID": "questions/S5-before.html",
+    "href": "questions/S5-before.html",
+    "title": "Spiegelhalter Chapter 5",
+    "section": "",
+    "text": "A “regression model” is a statistical model where the response variable is quantitative. In contrast, a “classifier” is a statistical model where the response variable is categorical. The reason for the distinction is mainly historical. Many modern modeling methods can work with either a categorical or a quantitative response variable. For both regression models and classifiers, the explanatory variables can be either categorical or quantitative in any mixture whatsoever.\nIf you took statistics previously (you can skip this paragraph if you didn’t) you will have encountered a variety of settings such as “the difference between two means” or “the difference between two proportions.” Almost all such textbook settings are covered by regression models, and very, very simple ones at that, having either zero or one explanatory variable.\nSpiegelhalter uses the term “gradient of regression” in Table 5.2 but switches to the word “coefficient” for Table 5.3. These are the same thing, and we will use simply “coefficient.” Spiegelhalter also mentions the “Pearson correlation,” a term we will not use.\n\n\n\n\n\n\nQuestion 1:\n\n\n\nAre speed cameras effective, according to Spiegelhalter? What does “regression to the mean” have to do with it?\n  question id: S05-QB1-speed-cameras \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nWhat is the “placebo effect” and what does it have to do with “regression to the mean?”\n  question id: S05-QB2-placebo \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nA binary variable can be treated as either a quantitative or a categorical variable. To make it quantitative, simply assign one level the numerical value 0 and the other level the numerical value 1.\nWhen a model involves a binary response variable, treating it as quantitative allows us to use regression modeling methods. Effectively, the model output is the proportion of times that the response variable is 1. What is the name of the special regression technique used for binary response variables?\n  question id: S05-QB3-logistic \n\n\n\n\n\n\n\n\nQuestion 4:\n\n\n\nSpiegelhalter’s Figure 5.1 shows the relationship between a father’s height and his sons heights. Here is another graph that includes both father and mother as explanatory variables.\n\nGalton |&gt; \n  filter(sex == \"M\") |&gt;\n  point_plot(height ~ father + 1 + mother, \n             annot = \"model\")\n\n\n\n\n\n\n\n\nWhat feature of the graph represents how taller mothers tend to have taller sons regardless of the height of the father?\n  question id: S05-QB4-mother \n\n\n\nS5-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   }
 ]

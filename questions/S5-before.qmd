@@ -1,0 +1,53 @@
+---
+title: "Spiegelhalter Chapter 5"
+subtitle: "Answer and submit *before* class discussion"
+---
+
+{{< include ../start-up.qmd >}}
+
+A "regression model" is a statistical model where the response variable is **quantitative**. In contrast, a "classifier" is a statistical model where the response variable is **categorical**. The reason for the distinction is mainly historical. Many modern modeling methods can work with either a categorical or a quantitative response variable. For both regression models and classifiers, the explanatory variables can be either categorical or quantitative in any mixture whatsoever.
+
+If you took statistics previously (you can skip this paragraph if you didn't) you will have encountered a variety of settings such as "the difference between two means" or "the difference between two proportions." Almost all such textbook settings are covered by regression models, and very, very simple ones at that, having either zero or one explanatory variable. 
+
+Spiegelhalter uses the term "gradient of regression" in Table 5.2 but switches to the word "coefficient" for Table 5.3. These are the same thing, and we will use simply "coefficient." Spiegelhalter also mentions the "Pearson correlation," a term we will not use.
+
+
+
+
+::: {.callout-note}
+## Question 1:
+
+{{< include "../../INF-1220-QR2/_RQ/S05/QB1.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 2:
+
+{{< include "../../INF-1220-QR2/_RQ/S05/QB2.qmd" >}}
+
+:::
+
+
+::: {.callout-note}
+## Question 3:
+
+{{< include "../../INF-1220-QR2/_RQ/S05/QB3.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 4:
+
+{{< include "../../INF-1220-QR2/_RQ/S05/QB4.qmd" >}}
+
+:::
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

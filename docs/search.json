@@ -585,7 +585,7 @@
     "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#work-with-the-start-of-tutorial-2",
     "title": "Kaplan’s in-class notes for 2025-01-21",
     "section": "Work with the start of Tutorial 2",
-    "text": "Work with the start of Tutorial 2"
+    "text": "Work with the start of Tutorial 2\nmodel_train() and model_eval().\nPrediction interval\nUse an example with a binary response variable."
   },
   {
     "objectID": "Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html#building-a-prediction-model",
@@ -620,7 +620,7 @@
     "href": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#spiegelhalter-ch-6",
     "title": "Kaplan’s in-class notes for 2025-01-21",
     "section": "Spiegelhalter Ch 6",
-    "text": "Spiegelhalter Ch 6"
+    "text": "Spiegelhalter Ch 6\nLet’s be careful about language, especially “true”\n\nThe confusion matrix is essentially the data your algorithm incorrectly predicts.\n\n\nA confusion matrix is a table that classifies identification functions in machine learning.\n\n\nSensitivity is what is true that your algorithm also gets right, while the specificity is what is not true that your algorithm gets right."
   },
   {
     "objectID": "Kaplan_posts/2025-01-21-notes/2025-01-21-notes.html#quiz",

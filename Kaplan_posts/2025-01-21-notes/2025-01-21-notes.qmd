@@ -48,7 +48,15 @@ Birdkeepers |>
 
 ## Spiegelhalter Ch 6
 
+Let's be careful about language, especially "true"
 
+> The confusion matrix is essentially the data your algorithm incorrectly
+predicts.
+
+> A confusion matrix is a table that classifies identification functions in machine learning.
+
+> Sensitivity is what is true that your algorithm also gets right, while the
+specificity is what is not true that your algorithm gets right.
 
 
 ## Work with the start of Tutorial 2

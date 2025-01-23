@@ -57,7 +57,7 @@ Block 2 Prediction (cont.)
 Block 2 Prediction (cont.)
 
 - New readings
-    - Rosling Ch. 5 & [reading questions](../questions/S5-before.html)
+    - Rosling Ch. 5 & [reading questions](../questions/R5-before.html)
     - Complete `r tutorial_link(2)` 
 
 - Start work

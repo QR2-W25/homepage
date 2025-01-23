@@ -1,36 +1,30 @@
 ---
-title: "Rossling Chapter 3: *The Straight-line Instinct*"
+title: "Rosling Chapter 3: *The Straight-line Instinct*"
 subtitle: "Answer and submit *before* class discussion"
 ---
 
 {{< include ../start-up.qmd >}}
 
-THESE ARE JUST TEMPLATES
-
 ::: {.callout-note}
 ## Question 1:
 
-What is the moon made of?
-
-```{mcq}
-#| label: R3b-moon
-1. Blue cheese
-2. Cheddar cheese
-3. Our dreams
-4. Rock, etc. [correct]
-```
+{{< include "../../INF-1220-QR2/_RQ/R03/QB1.qmd" >}}
 
 :::
 
 ::: {.callout-note}
 ## Question 2:
 
-How can we solve the problems of the world? Respond briefly.
-
-`r devoirs_text("Q3B-world")`
+{{< include "../../INF-1220-QR2/_RQ/R03/QB2.qmd" >}}
 
 :::
 
+::: {.callout-note}
+## Question 3:
+
+{{< include "../../INF-1220-QR2/_RQ/R03/QB3.qmd" >}}
+
+:::
 
 
 <!-- Boilerplate for devoirs functionality -->

@@ -8,70 +8,14 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 ::: {.callout-note}
-## 3. Monday 13 January, 2025
-
-Block 1 (continued)
-
-- New readings:
-    a. `r tutorial_link(1)`
-    b. Rosling Chap 2 [questions](../questions/R2-before.html)
-
-- Assignments due before class time: 
-    - Remember that the "New readings" section has links to the relevant reading questions. 
-    - For the computing tutorials, there are no "questions" as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar "Collect answers" and submission process. Your "answers" will be the contents of the Active R Chunks that you have run. 
-    - These principles apply to all class sessions, but won't be restated explicitly in other day's itemizations.
-
-
-- Discussions and Activities
-    i. Rosling reading
-    ii. Review of Computing Tutorial 1
-    iii. In-class group work on computing activities
-
-:::
-
-::: {.callout-note}
-## 4. Thursday 16 January
-
-Block 2: Prediction
-
-- New readings    
-    a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
-    b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
-
-- Assignments due:
-    - Please be sure to complete [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
-
-:::
-
-::: {.callout-note}
-##  Monday 20 January, 2025
-
-MLK Observance (will hold class on Wednesday, January 22)
-
-:::
-
-
-## Further out (i.e. tentative)
-
-::: {.callout-note}
-## 5. Wednesday 22 January, 2025
-
-New Readings
-
-Assignments due before class time:
-
-- ...
-
-:::
-
-
-::: {.callout-note}
-## 6. Thursday 23 January
-
-:::
-
-::: {.callout-note}
 ## 7. Monday 27 January, 2025
+
+Block 3: Regression & Adjustment
+
+- New readings
+    - Spiegelhalter Chap 5 & [reading questions](../questions/S5-before.html)
+    - Rosling Chap 3 & [reading questions](../questions/R3-before.html)
+    - Start `r tutorial_link(3)`. Read and explore before class session.
 
 :::
 
@@ -79,7 +23,16 @@ Assignments due before class time:
 ::: {.callout-note}
 ## 8. Thursday 30 January
 
+Block 3 Regression & Adjustment (continued)
+
+- New readings  
+    - Start `r tutorial_link(4)`. Read and explore before class session.
+
 :::
+
+
+## Further out (i.e. tentative)
+
 
 ::: {.callout-note}
 ## 9. Monday 3 February
@@ -168,9 +121,74 @@ Final project presentation
 :::
 
 
-
 ## Already past
 
+
+::: {.callout-note}
+## 6. Thursday 23 January
+Block 2: Prediction (continued)
+
+- New readings:
+  - Quantifying Uncertainty of Populi (Sections 3 and 4)
+  
+- Assignments due:
+  - Please be sure to complete  [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html).
+:::
+
+
+::: {.callout-note}
+## 5. Wednesday 22 January, 2025
+Block 2: Prediction (continued)
+
+- New readings:
+  a. Quantifying Uncertainty of Populi (Sections 1 and 2)
+  b. Start `r tutorial_link(2)`. Read and explore before class session.
+:::
+
+
+::: {.callout-note}
+##  Monday 20 January, 2025
+
+MLK Observance (will hold class on Wednesday, January 22)
+
+:::
+
+::: {.callout-note}
+## 4. Thursday 16 January
+
+Block 2: Prediction
+
+- New readings    
+    a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
+    b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
+
+- Assignments due:
+    - Please be sure to complete [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
+
+:::
+
+
+::: {.callout-note}
+## 3. Monday 13 January, 2025
+
+Block 1 (continued)
+
+- New readings:
+    a. `r tutorial_link(1)`
+    b. Rosling Chap 2 [questions](../questions/R2-before.html)
+
+- Assignments due before class time: 
+    - Remember that the "New readings" section has links to the relevant reading questions. 
+    - For the computing tutorials, there are no "questions" as such, but be sure to run and, better, play around with the Active R Chunks. Then go through the familiar "Collect answers" and submission process. Your "answers" will be the contents of the Active R Chunks that you have run. 
+    - These principles apply to all class sessions, but won't be restated explicitly in other day's itemizations.
+
+
+- Discussions and Activities
+    i. Rosling reading
+    ii. Review of Computing Tutorial 1
+    iii. In-class group work on computing activities
+
+:::
 
 
 ::: {.callout-note}

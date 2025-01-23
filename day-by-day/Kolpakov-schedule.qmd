@@ -13,13 +13,8 @@ subtitle: "Day-by-day schedule, readings, and notes"
 Block 3: Regression & Adjustment
 
 - New readings
-<<<<<<< HEAD
     - Spiegelhalter Chap 5 & [reading questions](../questions/S5-before.html)
     - Rosling Chap 3 & [reading questions](../questions/R3-before.html)
-=======
-    - Spiegelhalter Ch. 5 & [reading questions](../questions/S05-before.html)
-    - Rosling Ch. 3 & [reading questions](../questions/R03-before.html)
->>>>>>> 88e1eeb1626348299e7adf46e27e0aaba5f5c344
     - Start `r tutorial_link(3)`. Read and explore before class session.
 
 :::

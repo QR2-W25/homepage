@@ -15,7 +15,7 @@ Block 3: Regression & Adjustment
 - New readings
     - Spiegelhalter Chap 5 & [reading questions](../questions/S5-before.html)
     - Rosling Chap 3 & [reading questions](../questions/R3-before.html)
-    - Start `r tutorial_link(3)`. Read and explore before class session.
+    - Start `r tutorial_link(3)`.
 
 :::
 
@@ -26,7 +26,7 @@ Block 3: Regression & Adjustment
 Block 3 Regression & Adjustment (continued)
 
 - New readings  
-    - Start `r tutorial_link(4)`. Read and explore before class session.
+    - Start `r tutorial_link(4)`.
 
 :::
 
@@ -142,7 +142,7 @@ Block 2: Prediction (continued)
 
 - New readings:
   a. Quantifying Uncertainty of Populi (Sections 1 and 2)
-  b. Start `r tutorial_link(2)`. Read and explore before class session.
+  b. Start `r tutorial_link(2)`.
 :::
 
 

@@ -26,6 +26,19 @@ subtitle: "Answer and submit *before* class discussion"
 
 :::
 
+::: {.callout-note}
+## Question 4:
+
+{{< include "../../INF-1220-QR2/_RQ/R03/QB4.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 5:
+
+{{< include "../../INF-1220-QR2/_RQ/R03/QB5.qmd" >}}
+
+:::
 
 <!-- Boilerplate for devoirs functionality -->
 

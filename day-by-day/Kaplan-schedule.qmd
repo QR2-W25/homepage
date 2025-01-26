@@ -74,7 +74,7 @@ Block 2 Prediction (cont.)
 Block 3 Regression & Adjustment
 
 - New readings
-    - Spiegelhalter Ch. 5 & [reading questions](../questions/S05-before.html)
+    - Spiegelhalter Ch. 5 & [reading questions](../questions/S5-before.html)
     
 - Start work
     - Census project
@@ -91,7 +91,7 @@ Block 3 Regression & Adjustment
 Block 3 Regression & Adjustment (cont.)
 
 - New readings
-    - Rosling Ch. 3 & [reading questions](../questions/R03-before.html)
+    - Rosling Ch. 3 & [reading questions](../questions/R3-before.html)
     - Start `r tutorial_link(3)`
 
 - Assignments due:
@@ -129,8 +129,8 @@ Block 3 Regression & Adjustment (cont)
 Block 4: Precision
 
 - New readings   
-    - Spiegelhalter Ch. 8 & [reading questions](../questions/S08-before.html)
-    - Rosling Ch. 6 & [reading questions](../questions/R06-before.html)
+    - Spiegelhalter Ch. 8 & [reading questions](../questions/S8-before.html)
+    - Rosling Ch. 6 & [reading questions](../questions/R6-before.html)
 
 - Start work
     
@@ -155,7 +155,7 @@ Reading break 10-14 February.
 Block 4: Precision (cont.)
 
 - New readings  
-    - Spiegelhalter Ch. 9 & [reading questions](../questions/S09-before.html)
+    - Spiegelhalter Ch. 9 & [reading questions](../questions/S9-before.html)
     - `r tutorial_link(4)`
 
 - Start work
@@ -176,7 +176,7 @@ Block 4: Precision (cont.)
 Block 4: Precision (cont.)
 
 - New readings  
-    - Rosling Ch. 7 & [reading questions](../questions/R07-before.html)
+    - Rosling Ch. 7 & [reading questions](../questions/R7-before.html)
 
 
 - Start work
@@ -198,7 +198,7 @@ Block 4: Precision (cont.)
 Block 5: Confounding & Causality
 
 - New readings  
-    - Spiegelhalter Ch 4 & [reading questions](../questions/S04-before.html)
+    - Spiegelhalter Ch 4 & [reading questions](../questions/S4-before.html)
     - Start `r tutorial_link(5)`
     
 - Start work
@@ -218,7 +218,7 @@ Block 5: Confounding & Causality
 Block 5: Confounding & Causality (cont.)
 
 - New readings 
-    - Rosling Ch. 8 & [reading questions](../questions/R08-before.html)
+    - Rosling Ch. 8 & [reading questions](../questions/R8-before.html)
     - Complete `r tutorial_link(5)`
 
 - Start work
@@ -238,7 +238,7 @@ Block 5: Confounding & Causality (cont.)
 Block 5: Confounding & Causality (cont.)
 
 - New readings   
-    - Rosling Ch. 9 & [reading questions](../questions/R09-before.html)
+    - Rosling Ch. 9 & [reading questions](../questions/R9-before.html)
 
 - Start work
     

@@ -13,71 +13,12 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 
 ::: {.callout-note}
-## 4. Class Day 4 Friday 17 January {#sec-17Jan}
-
-Block 2: Prediction
-
-- New readings    
-    a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
-    b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
-
-- Start work
-    i. [computing activities for Tutorial 1](https://dtkaplan.github.io/QR2-computing/exercises-1.html). Will be due before the next class meeting. You don't have to do the ones labelled "In-class". But do as many of the others as you can. 
-
-
-- Assignments due:
-    - As always, reading questions from new readings are due before class. 
-    - The "computing activities" are due before the class day *after* the class day where they are listed under "Start work." The activities for Tutorial 1 are listed for today, so they will be due by class time on Tuesday.
-    - I'll stop mentioning this explicitly for future class days. 
-    
-- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html)
-:::
-
-::: {.callout-note}
-## Class Day 5 Tuesday 21 January {#sec-21Jan}
-
-Block 2 Prediction (cont.)
-
-- New readings:
-    - Spiegelhalter Ch 6 and [reading questions](../questions/S6-before.html)
-    - Start on `r tutorial_link(2)` 
-
-- Assignments due before class:
-    - Today's new reading questions (as always)
-    - [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
-
-- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-14-notes.html)
-
-:::
-
-
-::: {.callout-note}
-## Class Day 6 Friday 24 January {#sec-24Jan}
-
-Block 2 Prediction (cont.)
-
-- New readings
-    - Rosling Ch. 5 & [reading questions](../questions/R5-before.html)
-    - Complete `r tutorial_link(2)` 
-
-- Start work
-    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html). Will be due before class on Day 8 (Tuesday 31 Jan.)
-    
-- [In-class notes](../Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html)
-
-:::
-
-
-::: {.callout-note}
 ## Class Day 7 Tuesday 28 January {#sec-28Jan}
 
 Block 3 Regression & Adjustment
 
 - New readings
     - Spiegelhalter Ch. 5 & [reading questions](../questions/S5-before.html)
-    
-- Start work
-    - Census project
     
 - Assignment due: [Follow-up reading questions for Spiegelhalter Ch 6](../questions/S6-after.html)
 
@@ -95,7 +36,10 @@ Block 3 Regression & Adjustment (cont.)
     - Start `r tutorial_link(3)`
 
 - Assignments due:
-    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html).
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html)
+    
+- Start work
+    - Census project (to be announced)
 
 - [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
 
@@ -420,6 +364,59 @@ Block 1 (cont.)
     - Note that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.
 
 - [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
+
+
+## 4. Class Day 4 Friday 17 January {#sec-17Jan}
+
+Block 2: Prediction
+
+- New readings    
+    a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
+    b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
+
+- Start work
+    i. [computing activities for Tutorial 1](https://dtkaplan.github.io/QR2-computing/exercises-1.html). Will be due before the next class meeting. You don't have to do the ones labelled "In-class". But do as many of the others as you can. 
+
+
+- Assignments due:
+    - As always, reading questions from new readings are due before class. 
+    - The "computing activities" are due before the class day *after* the class day where they are listed under "Start work." The activities for Tutorial 1 are listed for today, so they will be due by class time on Tuesday.
+    - I'll stop mentioning this explicitly for future class days. 
+    
+- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html)
+
+
+
+## Class Day 5 Tuesday 21 January {#sec-21Jan}
+
+Block 2 Prediction (cont.)
+
+- New readings:
+    - Spiegelhalter Ch 6 and [reading questions](../questions/S6-before.html)
+    - Start on `r tutorial_link(2)` 
+
+- Assignments due before class:
+    - Today's new reading questions (as always)
+    - [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
+
+- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-14-notes.html)
+
+
+
+
+## Class Day 6 Friday 24 January {#sec-24Jan}
+
+Block 2 Prediction (cont.)
+
+- New readings
+    - Rosling Ch. 5 & [reading questions](../questions/R5-before.html)
+    - Complete `r tutorial_link(2)` 
+
+- Start work
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html). Will be due before class on Day 8 (Tuesday 31 Jan.)
+    
+- [In-class notes](../Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html)
+
 
 
 

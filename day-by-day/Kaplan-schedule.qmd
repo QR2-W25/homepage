@@ -22,7 +22,7 @@ Block 3 Regression & Adjustment
     
 - Assignment due: [Follow-up reading questions for Spiegelhalter Ch 6](../questions/S6-after.html)
 
-- [In-class notes](../Kaplan_posts/2025-01-27-notes/2025-01-24-notes.html)
+- [In-class notes](../Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html)
 
 :::
 

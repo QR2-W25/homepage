@@ -628,5 +628,12 @@
     "title": "QR2 Prof. Kaplan’s Section",
     "section": "Class Day 6 Friday 24 January",
     "text": "Class Day 6 Friday 24 January\nBlock 2 Prediction (cont.)\n\nNew readings\n\nRosling Ch. 5 & reading questions\nComplete Computing tutorial 2. Read before class session.\n\nStart work\n\nComputing Activities for Tutorial 2. Will be due before class on Day 8 (Tuesday 31 Jan.)\n\nIn-class notes"
+  },
+  {
+    "objectID": "questions/S8-before.html",
+    "href": "questions/S8-before.html",
+    "title": "Spiegelhalter Chapter 8",
+    "section": "",
+    "text": "Question 1:\n\n\n\nList Spiegelhalter’s four “simple” probability rules.\n  question id: S08-QB1-prob-rules \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nWhich of the characterizations of probability on pp. 217-218 most closely corresponds to how you think about probability?\n  question id: S08-QB2-prob-thinking \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nWhat is the “prosecutor’s fallacy?”\n  question id: S08-QB3-prosecutor \n\n\n\n\n\n\n\n\nQuestion 4:\n\n\n\nGive an example of a relationship modeled by the Poisson distribution in this chapter.\n  question id: S08-QB4-poisson \n\n\n\n\n\n\n\n\nQuestion 5:\n\n\n\nBONUS. Consider Game 3 (similar to Game 1 and Game 2 in the reading): Throw 3 fair dice at most 144 times, and win if you get triple 6. Is this game a better or worse bet than Game 2? (If you’d like a hint, see endnote 1 to the chapter).\n  question id: S08-QB5-bonus \n\n\n\nS8-before.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
   }
 ]

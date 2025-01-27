@@ -3,5 +3,83 @@ title: "Kaplan's in-class notes for 2025-01-28"
 date: 2025-01-28
 ---
 
-Blank document
+```{r include=FALSE}
+library(LSTbook)
+```
+
+## Go over quiz.
+
+Question 3: What is a "unit of observation" in a data frame?
+
+Question 4: Distinction between response and explanatory variable.
+
+- It is the human modeler's choice. That choice depends on the goals motivating your analysis of data.
+- There need not be an **causal** relationship between the explanatory variables and the response variable.
+    - In *prediction*, often **association** is all that's needed, and causality, if any, might even go in the opposite direction.
+    - In Block 5, we'll take on the issue of causality directly. For now, just understand that causality is a goal chiefly when we want to anticipate what change in output will result from a given change in input. 
+
+Question 5. Make this plot ...
+
+```{r echo=FALSE}
+Penguins |> 
+  point_plot(flipper ~ mass + island + sex, annot = "model")
+```
+
+Question 6: In what ways is this table **not** a data frame:
+
+| brightness | distance | red shift | type
+| -----------|----------|-----------|------
+ | 3 | 2 parsec | 5% | M
+ | 3 | 6 light-year | 0.07 | M
+ | 2 | 8 | .09 | S
+ | 1.3 | 19.2 | 10% | S
+total | 9.3 | 35.2 | 2M 2S
+
+
+A real-world example of this: [people in the DOD](www/rg2409.pdf) [Source](https://dwp.dmdc.osd.mil/dwp/app/dod-data-reports/workforce-reports)
+
+- How to format this into a proper data frame. (Hint: Many ways.)
+    - Start with: What is the *unit of observation*?
+- Imagine what it would look like if the unit of observation were a single person.
+
+
+
+Question 7:
+
+- response is always on vertical axis
+- the first explanatory variable is always on the x axis. 
+- `annot = "violin"` sketches a nice picture of the distribution.
+
+Show what happens as $n$ gets bigger.
+
+```{webr-r}
+Juice_prices <- datasim_make(
+  juice <- categorical(n, "orange", "apple"),
+  price <- round(rnorm(n, mean = 1.75, sd=0.50), 2) +
+    cat2value(juice, orange = 0.47, apple = 0 )
+)
+Juice_prices |>
+  take_sample(n=20) |>
+  point_plot(price ~ juice, annot = "violin")
+```
+
+## Census project
+
+[1940 Population schedule form and codebook](https://www.archives.gov/research/census/1940/research/census/1940/general-info#form)
+
+[Documents for Travis County, Texas](https://catalog.archives.gov/search-within/57229197)
+
+[A population schedule](www/m-t0627-04148-00916.jpg) from Austin
+
+Optaining enumeration districts: https://stevemorse.org/census/
+
+https://stevemorse.org/census/schedules.php
+
+4148. Travis; Travis (Austin) (227-1 to 227-7, 227-8 to 227-26 )
+4149. Travis (Austin) (227-27 to 227-47 )
+4150. Travis (Austin) (227-48 to 227-71 )
+
+
+
+## Spiegelhalter Chaps 5 and 6
 

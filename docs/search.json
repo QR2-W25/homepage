@@ -207,7 +207,7 @@
     "href": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html",
     "title": "Kaplan’s in-class notes for 2025-01-28",
     "section": "",
-    "text": "Blank document"
+    "text": "Question 3: What is a “unit of observation” in a data frame?\nQuestion 4: Distinction between response and explanatory variable.\n\nIt is the human modeler’s choice. That choice depends on the goals motivating your analysis of data.\nThere need not be an causal relationship between the explanatory variables and the response variable.\n\nIn prediction, often association is all that’s needed, and causality, if any, might even go in the opposite direction.\nIn Block 5, we’ll take on the issue of causality directly. For now, just understand that causality is a goal chiefly when we want to anticipate what change in output will result from a given change in input.\n\n\nQuestion 5. Make this plot …\n\n\n\n\n\n\n\n\n\nQuestion 6: In what ways is this table not a data frame:\n\n\n\nbrightness\ndistance\nred shift\ntype\n\n\n\n\n3\n2 parsec\n5%\nM\n\n\n3\n6 light-year\n0.07\nM\n\n\n2\n8\n.09\nS\n\n\n1.3\n19.2\n10%\nS\n\n\ntotal\n9.3\n35.2\n2M 2S\n\n\n\nA real-world example of this: people in the DOD Source\n\nHow to format this into a proper data frame. (Hint: Many ways.)\n\nStart with: What is the unit of observation?\n\nImagine what it would look like if the unit of observation were a single person.\n\nQuestion 7:\n\nresponse is always on vertical axis\nthe first explanatory variable is always on the x axis.\nannot = \"violin\" sketches a nice picture of the distribution.\n\nShow what happens as \\(n\\) gets bigger.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
     "objectID": "Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html",
@@ -642,5 +642,26 @@
     "title": "Rosling Chapter 3: The Straight-line Instinct",
     "section": "",
     "text": "Question 1:\n\n\n\nWhat is meant by the “straight line instinct” in Rosling? Explain in simple words.\n  question id: R03-QB6 \n\n\n\n\n\n\n\n\nQuestion 2:\n\n\n\nCan you come up with a concrete example of how this cognitive bias can be detrimental?\n  question id: R03-QB7 \n\n\n\n\n\n\n\n\nQuestion 3:\n\n\n\nGiven the “straight line instinct” leads to wrong conclusions, how would you balance it with the fact that we use linear regression?\n  question id: R03-QB8 \n\n\n\nR3-before-AK.rmarkdown Collect your answers\n\nNo answers yet collected\n\n\n\n\n\n\n\nSubmit collected answers here"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html#go-over-quiz.",
+    "href": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html#go-over-quiz.",
+    "title": "Kaplan’s in-class notes for 2025-01-28",
+    "section": "",
+    "text": "Question 3: What is a “unit of observation” in a data frame?\nQuestion 4: Distinction between response and explanatory variable.\n\nIt is the human modeler’s choice. That choice depends on the goals motivating your analysis of data.\nThere need not be an causal relationship between the explanatory variables and the response variable.\n\nIn prediction, often association is all that’s needed, and causality, if any, might even go in the opposite direction.\nIn Block 5, we’ll take on the issue of causality directly. For now, just understand that causality is a goal chiefly when we want to anticipate what change in output will result from a given change in input.\n\n\nQuestion 5. Make this plot …\n\n\n\n\n\n\n\n\n\nQuestion 6: In what ways is this table not a data frame:\n\n\n\nbrightness\ndistance\nred shift\ntype\n\n\n\n\n3\n2 parsec\n5%\nM\n\n\n3\n6 light-year\n0.07\nM\n\n\n2\n8\n.09\nS\n\n\n1.3\n19.2\n10%\nS\n\n\ntotal\n9.3\n35.2\n2M 2S\n\n\n\nA real-world example of this: people in the DOD Source\n\nHow to format this into a proper data frame. (Hint: Many ways.)\n\nStart with: What is the unit of observation?\n\nImagine what it would look like if the unit of observation were a single person.\n\nQuestion 7:\n\nresponse is always on vertical axis\nthe first explanatory variable is always on the x axis.\nannot = \"violin\" sketches a nice picture of the distribution.\n\nShow what happens as \\(n\\) gets bigger.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html#census-project",
+    "href": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html#census-project",
+    "title": "Kaplan’s in-class notes for 2025-01-28",
+    "section": "Census project",
+    "text": "Census project\n1940 Population schedule form and codebook\nDocuments for Travis County, Texas\nA population schedule from Austin\nOptaining enumeration districts: https://stevemorse.org/census/\nhttps://stevemorse.org/census/schedules.php\n\nTravis; Travis (Austin) (227-1 to 227-7, 227-8 to 227-26 )\nTravis (Austin) (227-27 to 227-47 )\nTravis (Austin) (227-48 to 227-71 )"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html#spiegelhalter-chaps-5-and-6",
+    "href": "Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html#spiegelhalter-chaps-5-and-6",
+    "title": "Kaplan’s in-class notes for 2025-01-28",
+    "section": "Spiegelhalter Chaps 5 and 6",
+    "text": "Spiegelhalter Chaps 5 and 6"
   }
 ]

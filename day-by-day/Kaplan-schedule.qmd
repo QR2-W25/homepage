@@ -51,7 +51,7 @@ Block 3 Regression & Adjustment (cont.)
 Block 3 Regression & Adjustment (cont)
 
 - New readings  
-    - Finish `r tutorial_link(4)`
+    - Finish `r tutorial_link(3)`
 
 - Start work
     - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week

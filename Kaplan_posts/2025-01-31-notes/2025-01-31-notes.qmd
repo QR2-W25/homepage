@@ -3,5 +3,5 @@ title: "Kaplan's in-class notes for 2025-01-28"
 date: 2025-01-28
 ---
 
-Blank document
+An article about reporting baseline characteristics in clinical trials, arguing that to avoid the trade-off between a data-mining kind of choice of covariates and not including them as needed, best just to plan for adjustment and do it without looking at the baseline balance. Maybe something for hypothesis-testing section: https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.4780131703
 

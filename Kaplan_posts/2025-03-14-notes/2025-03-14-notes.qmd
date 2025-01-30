@@ -1,0 +1,9 @@
+---
+title: "Kaplan's in-class notes for 2025-03-14"
+date: 2025-03-14
+---
+
+```{r include=FALSE}
+library(LSTbook)
+```
+

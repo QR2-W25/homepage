@@ -149,6 +149,9 @@ It makes a difference where you enter an answer!
 
 Go through 5-before questions and 6-follow-up.
 
+
+[We got to here on Tuesday.]
+
 ## Computing
 
 Contrast prediction with regression: Same model training, but different goal: to understand what the connections are in a system.

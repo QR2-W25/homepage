@@ -8,34 +8,10 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 ::: {.callout-note}
-## 7. Monday 27 January, 2025
-
-Block 3: Regression & Adjustment
-
-- New readings
-    - Spiegelhalter Chap 5 & [reading questions](../questions/S5-before.html)
-    - Rosling Chap 3 & [reading questions](../questions/R3-before.html)
-    - Start `r tutorial_link(3)`.
-
-:::
-
-
-::: {.callout-note}
-## 8. Thursday 30 January
-
-Block 3 Regression & Adjustment (continued)
-
-- New readings  
-    - Start `r tutorial_link(4)`.
-
-:::
-
-
-## Further out (i.e. tentative)
-
-
-::: {.callout-note}
 ## 9. Monday 3 February
+
+- We shall discuss confidence intervals (see notes on Populi)
+- We shall talk about regression coefficients `r tutorial_link(4)`
 
 :::
 
@@ -43,9 +19,15 @@ Block 3 Regression & Adjustment (continued)
 ::: {.callout-note}
 ## 10. Thursday 6 February
 
-- Final project preparation: choose your dataset, get ideas, test them over the reading break
+- We shall start some Course Project preparations: accessing the dataset, merging its parts together, trying to get some basic information from it (over the reading break)
+
+- Assignments due:
+  - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) 
 
 :::
+
+
+## Further out (i.e. tentative)
 
 
 ::: {.callout-note}
@@ -123,6 +105,27 @@ Final project presentation
 
 ## Already past
 
+::: {.callout-note}
+## 8. Thursday 30 January
+
+Block 3 Regression & Adjustment (continued)
+
+- New readings  
+    - Start `r tutorial_link(4)`
+
+:::
+
+::: {.callout-note}
+## 7. Monday 27 January, 2025
+
+Block 3: Regression & Adjustment
+
+- New readings
+    - Spiegelhalter Chap 5 & [reading questions](../questions/S5-before.html)
+    - Rosling Chap 3 & [reading questions](../questions/R3-before.html)
+    - Start `r tutorial_link(3)`
+
+:::
 
 ::: {.callout-note}
 ## 6. Thursday 23 January
@@ -142,7 +145,7 @@ Block 2: Prediction (continued)
 
 - New readings:
   a. Quantifying Uncertainty of Populi (Sections 1 and 2)
-  b. Start `r tutorial_link(2)`.
+  b. Start `r tutorial_link(2)`
 :::
 
 

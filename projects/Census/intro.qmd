@@ -1,0 +1,70 @@
+---
+title: "QR 2 Term Project: Census Data"
+---
+
+Note: The dates when the different stages of the project are due will be given by your instructor, and will likely differ somewhat from one instructor to another. Some instructors may use a different course project. Look to your instructor's syllabus for guidance.
+
+## Introduction
+
+The US Census is a decenial (that is, every ten years) enumeration of people living in the US and associated territories that is mandated by Article I section 2 of the US Constitution. Census data is published in widely available summary forms, e.g. the population of each state broken down by age and sex groups.
+
+This project is about census data on the level of an individual person. For instance, in 2020, the census recorded information from about 330 million persons. This person-by-person data is held confidential for 70 years after the census is conducted. After that, it become available to any interested party. The most recent census with such *microdata* available is 1950. This project concerns the 1940 census. 
+
+Your work on this project will be conducted in several phases. Instructions for each will be given and a (short) report will be required about your progress after each phase. The first phase, "initial transcription," has several steps, the goal being to put the data pertaining to one "population schedule" into machine readable form
+
+### Phase 1: Initial transcription {.no-number}
+
+#### STEP 1: {.no-number} 
+You will select a single document called a "Population Schedule" which gives the data collected on each of roughly 30 to 40 people. The 1940 Census involved about 4 million such schedules, but we will focus on the hundreds from Travis County, TX. A large collection of images of the schedules is available, as well as the [codebook](https://www.archives.gov/research/census/1940/research/census/1940/general-info#form) for the schedules.
+
+a. [This site](https://catalog.archives.gov/search-within/57229197) contains an archive of the Tavis County population schedules. The archive is organized into a list of about 100 distinct "enumeration districts," each with a title like "1940 Census Population Schedules - Texas - Travis County - ED 227-84."
+
+b. Pick one of the hundred at random.[^NOTE: If you are from Travis County or have a location of interest to you personally such as your family's or your grandparents' home, you might want to pick the corresponding population schedule. But avoid landmarks such as the Capitol that many students would be tempted to pick.] One possibility, select a district whose number ends with the day of them month you were born, plus 4 times the month you were born. (For instance, if your birthday is Feb 28, your "random" number is 28 + 4 $\times$ 2, pointing to ED 227-36.
+
+c. Navigate to the ED you picked in (b). For instance, our Feb 28 student will go to ED 227-36 where she will find 38 population schedules. Pick one at random, but try to avoid schedules that don't have almost all rows filled in.
+
+d. Download the JPG image for your population schedule to your laptop or another convenient location.
+
+#### STEP 2 {.no-number}
+
+Register your population schedule on [this spreadsheet](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing). We will all share this Population Schedule Registrar, each of us being responsible for one row.
+
+i. The unit of observation is one population schedule. (Typically covering about 40 people.)
+
+ii. There is an example entry on line 2. Follow that pattern when entering your own sheet.
+
+    a. We'll find the latitude and longitude at the heart of your schedule later. Following professional practice, enter the latitude and longitude as "NA," a common signifier for "missing data."
+    b. The `ED_sheet_count` is not about your particular sheet, but about the ED from which you selected your particular sheet. It is the number of sheets (indicated on the ED page) from which you selected one.
+    c. The `person_sheet` and `household_sheet` will be filled in as part of STEP 3.
+    
+#### STEP 3 {.no-number}
+
+1. Create TWO google sheet documents where you will enter the data from your population schedule.
+    a. One sheet will have "a person" as the unit of observation.
+    b. The second sheet will have "a household" as the unit of observation.    
+    
+If you are not sure how to do this, ask a friend or search online. 
+    
+2. Arrange via Google sheets to "share" your sheets with anyone with the links. Copy the links into the `person_sheet` and `household_sheet` columns in the Population Schedule Register (STEP 2). 
+
+#### STEP 4 {.no-number}
+
+Figure out how you can display your population schedule so that you can readily read from it. If you have a large external monitor, you might find that sufficient. If not, consider printing out the schedule at a sufficient resolution that you can read the entries. Unless you have very sharp eyes, or a magnifying glass, you will need more than one page to print the whole image.
+
+In STEP 6 you will start to transcribe data from the schedule into your STEP 3 Google spreadsheets. A laptop display may be sufficient for this. Arrange your desk/displays so that you can easily read from the image while typing in the spreadsheet. 
+
+#### STEP 5 {.no-number}
+
+THINK about what you want to call your variables and how you want to encode them. Feel free to talk to your classmates or even work together in doing this. It's a good idea to create yet another sharable document that you use as your codebook giving the meaning of the variable names and specifying the levels of any categorical variables and the units of any quantitative ones. (Some of the schedule entries don't have a ixed set of levels, for instance, the person's name. You don't have to specify those in your codebook, but you might want to set the format, e.g., "surname, first middle, with CAPITALS as written on the schedule.")  
+
+The "person" and "household" spreadsheets will presumably have different variables.
+
+#### STEP 6 {.no-number}
+
+Transcribe your schedule into your person and household spreadsheets.
+
+### Phase 2: Cleaning
+
+Instructions forthcoming ....
+
+

@@ -10,6 +10,8 @@ website:
         text: Home
       - href: syllabus.qmd
         text: Syllabus & policies
+      - href: projects/Census/intro.qmd
+        text: Course project
 
 format:
   html:

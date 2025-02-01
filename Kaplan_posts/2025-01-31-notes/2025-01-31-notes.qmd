@@ -11,9 +11,13 @@ library(LSTbook)
 
 Interpolation and extrapolation. Why extrapolation is hard. Why linear interpolation is good.
 
+What's wrong with the figure on p. 90
 
+![](www/rosler-chap-3.png)
 
 ## Regression techniques
+
+
 
 ## Computing
 
@@ -29,7 +33,7 @@ Galton |>
 
 - Show also "confidence band"
 
-```{r}
+```{webr-r}
 Hmod1 <- Galton |>
   model_train(height ~ mother + father + sex) 
 Hmod1 |> conf_interval()
@@ -54,14 +58,14 @@ Confidence intervals get smaller/tighter the more data you have.
 
 Simulation: We'll simulate the height data so that we can generate as much (made-up) data as we like.
 
-```{r}
+```{webr-r}
 Galton |> 
   summarize(mean(mother), sd(mother), 
             mean(father), sd(father))
 ```
 
 
-```{r}
+```{webr-r}
 Hsim <- datasim_make(
   mom <- rnorm(n, mean=64, sd = 2.3),
   dad <- rnorm(n, mean=69, sd = 2.5),
@@ -76,7 +80,7 @@ Hsim |> take_sample(n = 5)
 
 Prediction intervals don't change so much with sample size:
 
-```{r}
+```{webr-r}
 Hsim |> 
   take_sample(n = 100) |>
   point_plot(height ~ mom, annot = "model", interval = "prediction")
@@ -92,7 +96,7 @@ Now change the interval to `"confidence"` and see how nice the graph looks.
 
 Another model summary: How much of the variation in the response variable has been explained.
 
-```{r}
+```{webr-r}
 Hmod1 |> R2()
 ```
 
@@ -100,7 +104,7 @@ Hmod1 |> R2()
 
 Show coefficients change as we add in covariates:
 
-```{r}
+```{webr-r}
 Galton |> 
   model_train(height ~ mother) |>
   conf_interval()
@@ -117,7 +121,7 @@ In class I asked you what states have the highest SAT scores on average. Someone
 
 In the spirit of Rosler, let's look at the data:
 
-```{r}
+```{webr-r}
 SAT |> 
   select(state, sat) |>
   arrange(desc(sat)) |>
@@ -126,7 +130,7 @@ SAT |>
 
 Look at the worst states. How should I modify the command?
 
-```{r}
+```{webr-r}
 SAT |>
   select(state, sat) |>
   filter(state %in% c("California", "Massachusetts"))
@@ -134,7 +138,7 @@ SAT |>
 
 Let's look at some explanatory variables that might account for SAT score: expenditures, class size, teacher salaries, ???
 
-```{r}
+```{webr-r}
 SAT |> 
   model_train(sat ~ expend) |>
   conf_interval()
@@ -144,7 +148,7 @@ Interpret the coefficient. "Effect size" but don't necessarily put a causal inte
 
 A covariate: class size?
 
-```{r}
+```{webr-r}
 SAT |> 
   model_train(sat ~ expend + ratio) |>
   conf_interval()
@@ -153,7 +157,7 @@ SAT |>
 
 Two graphs:
 
-```{r}
+```{webr-r}
 SAT |>
   point_plot(sat ~ expend, annot = "model")
 SAT |>

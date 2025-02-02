@@ -148,7 +148,9 @@ window.Quarto = {
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
   <ul class="collapse">
   <li><a href="#phase-1-initial-transcription" id="toc-phase-1-initial-transcription" class="nav-link" data-scroll-target="#phase-1-initial-transcription">Phase 1: Initial transcription</a></li>
-  <li><a href="#phase-2-cleaning" id="toc-phase-2-cleaning" class="nav-link" data-scroll-target="#phase-2-cleaning">Phase 2: Cleaning</a></li>
+  <li><a href="#phase-2-combining-and-cleaning" id="toc-phase-2-combining-and-cleaning" class="nav-link" data-scroll-target="#phase-2-combining-and-cleaning">Phase 2: Combining and Cleaning</a></li>
+  <li><a href="#phase-3-data-summarization" id="toc-phase-3-data-summarization" class="nav-link" data-scroll-target="#phase-3-data-summarization">Phase 3: Data summarization</a></li>
+  <li><a href="#phase-4-modeling" id="toc-phase-4-modeling" class="nav-link" data-scroll-target="#phase-4-modeling">Phase 4: Modeling</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -228,16 +230,32 @@ window.Quarto = {
 <section id="step-5" class="level4 no-number">
 <h4 class="no-number anchored" data-anchor-id="step-5">STEP 5</h4>
 <p>THINK about what you want to call your variables and how you want to encode them. Feel free to talk to your classmates or even work together in doing this. It’s a good idea to create yet another sharable document that you use as your codebook giving the meaning of the variable names and specifying the levels of any categorical variables and the units of any quantitative ones. (Some of the schedule entries don’t have a ixed set of levels, for instance, the person’s name. You don’t have to specify those in your codebook, but you might want to set the format, e.g., “surname, first middle, with CAPITALS as written on the schedule.”)</p>
-<p>The “person” and “household” spreadsheets will presumably have different variables.</p>
+<p>The “person” and “household” spreadsheets will presumably have different variables. Also, since every person is a member of a “household” (even if it is of size 1), you will add a household ID for each household and enter the corresponding ID as a variable in the person spreadsheet.</p>
 </section>
 <section id="step-6" class="level4 no-number">
 <h4 class="no-number anchored" data-anchor-id="step-6">STEP 6</h4>
-<p>Transcribe your schedule into your person and household spreadsheets.</p>
+<p>Transcribe your schedule into your person and household spreadsheets. Add a new variable to each of these spreadsheets: the ID of the population schedule from which you transcribed the data. This will be the same for all rows (that is, <strong>no</strong> variation). In Phase 2 you will see why this has been added.</p>
+<p>In addition, you will figure out an reasonable <code>latitude</code> and <code>longitude</code> for your population schedule and enter this into our shared <a href="https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing">Population Schedule Registry</a></p>
 </section>
 </section>
-<section id="phase-2-cleaning" class="level3">
-<h3 class="anchored" data-anchor-id="phase-2-cleaning">Phase 2: Cleaning</h3>
-<p>Instructions forthcoming ….</p>
+<section id="phase-2-combining-and-cleaning" class="level3 no-number">
+<h3 class="no-number anchored" data-anchor-id="phase-2-combining-and-cleaning">Phase 2: Combining and Cleaning</h3>
+<p>In this phase, you will work with a team of two or three classmates. Your team will combine your spreadsheets into new, team documents that contain the entries for your three or four population schedules. (Keep your original, individual spreadsheets!) The team sheets will have roughly 100 persons and about 20 households.</p>
+<p>In the process of combining your spreadsheets you are likely to encounter errors in your initial data entry or situations where data was entered in incompatible ways by different people in the team. Fixing such problems is an example of “data cleaning.”</p>
+<p>To facilitate identifying problems, your instructor will show you how to read your data into R so that you can wrangle summaries that point to inconsistencies. You don’t need to do this on your own; your instructor will help.</p>
+<p>Once all teams have completed combining and cleaning their team sheets, we will as a class discuss inconsistencies between teams and reconcile them. Be prepared to do additional cleaning of your team sheets.</p>
+</section>
+<section id="phase-3-data-summarization" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-data-summarization">Phase 3: Data summarization</h3>
+<p>Using grit, hard work, computing savvy, and magic, a heroic instructor will combine the various team spreadsheets into new, comprehensive sheets that encompass several hundred 1940 persons and a hundred or so households.</p>
+<p>You may well get feedback from the hero-instructor about edits you should make to your team’s sheets. This is why you added a population schedule ID to every row of your individual spreadsheet, so that the instructor can figure out who is responsible for making the change. Please respond in a timely way so that all of us can move on.</p>
+<p>Your primary task—you, as an individual student—in Phase 3 is to create simple summaries of the combined data in tabular and/or graphical form. For instance, how many 1940 persons fall into the various household “roles” of head, spouse, child, lodger, etc. You will make several such summaries for your Phase 3 report. Be creative. Your instructor can help you to write the data wrangling commands needed.</p>
+</section>
+<section id="phase-4-modeling" class="level3">
+<h3 class="anchored" data-anchor-id="phase-4-modeling">Phase 4: Modeling</h3>
+<p>You will choose a demographic/statistical/etc question of interest to you and carry out the data wrangling and modeling needed to make definite statements about the question. As an example, a person interested in housing affordability might model whether owning or renting a house is related to explanatory variables such as farm-vs-city, size of household, income of household, and so on.</p>
+<p>Your report will include not just the statistical analysis but also interpretation and supporting summaries. For the housing affordability example, it would be appropriate for instance to make a map showing housing costs as a function of geographic position to identify well- and poorly-housed areas of Travis County in 1940.</p>
+<p>You will submit your written report and also give a short (3- to 5-minute) presentation in class. You are welcome to work with your student colleagues, but your model, report, and presentation will be your individual product.</p>
 
 
 </section>

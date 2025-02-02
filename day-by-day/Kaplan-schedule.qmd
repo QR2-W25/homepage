@@ -55,12 +55,9 @@ Block 3 Regression & Adjustment (cont)
 
 - Start work
     - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Phase 1
     
-- Assignments due:
-    - Progress report I: Census project
 
-     
-    
 - [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
 
 
@@ -79,19 +76,14 @@ Block 4: Precision
 - Start work
     
 - Assignments due:
-   
+    - Census project report through *Step 3*. Your report takes the form of your entry into the [Population Schedule Registry](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing). 
     
 - [In-class notes](../Kaplan_posts/2025-02-07-notes/2025-02-07-notes.html)
-
-
-
 
 :::
 
 Reading break 10-14 February.
 
--  Assignment due:
-    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) 
 
 ::: {.callout-note}
 ## Class Day 11 Tuesday 18 February
@@ -106,7 +98,7 @@ Block 4: Precision (cont.)
     - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html) due 25 Feb
     
 - Assignments due:
-     
+     - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html)      
     
 - [In-class notes](../Kaplan_posts/2025-02-18-notes/2025-02-18-notes.html)
 
@@ -126,7 +118,7 @@ Block 4: Precision (cont.)
 - Start work
     
 - Assignments due:
-    - Progress report II: Census project
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) through Phase I Step 5. Your report will consist of starting to transcribe a couple of "person" and "household" rows into the two spreadsheets you created in Step 3. These do not need to be perfect; you may well want to reconfigure them later.
      
     
 - [In-class notes](../Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html)
@@ -165,10 +157,13 @@ Block 5: Confounding & Causality (cont.)
     - Rosling Ch. 8 & [reading questions](../questions/R8-before.html)
     - Complete `r tutorial_link(5)`
 
-- Start work
+- Assignment due:
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Complete transcription of your population schedule into your household and persons spreadsheets.
+
+- Start work:
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Confer with two or three of your classmates to settle on a common format for your household and persons team spreadsheets. For Tuesday 4 March you have those team spreadsheets available (via link) to your instructor. 
     
-- Assignments due:
-     
+
     
 - [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
 
@@ -187,6 +182,7 @@ Block 5: Confounding & Causality (cont.)
 - Start work
     
 - Assignments due:
+    - Respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
      
     
 - [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
@@ -203,9 +199,11 @@ Block 5: Confounding & Causality (cont.)
    
 
 - Start work
-    [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
-
+    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
+    
 - Assignments due:
+    - Continue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
+     
      
     
 - [In-class notes](../Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html)
@@ -223,6 +221,7 @@ Block 6: Hypothetical Reasoning
     - Start `r tutorial_link(3)`
 
 - Start work
+    - You should receive at this point the comprehensive, QR2-wide census data. Look through it and decide on the aspect of the data you are going to model.
     
 - Assignments due:
     - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html).
@@ -243,6 +242,8 @@ Block 6: Hypothetical Reasoning (cont.)
     
     
 - Assignments due:
+    - Simple summaries of the all-of-QR2 Census data
+    - Statement of your "research topic" for your Census modeling project. This will include picking response and explanatory variables, including covariates. DO NOT AGONIZE about this. You are not going to be writing a PhD dissertation. 
     - Remember that your project presentation is due 21 March.
      
     
@@ -268,8 +269,8 @@ Block 6: Hypothetical Reasoning (cont.)
     - [Computing Activities for Tutorial 6](https://dtkaplan.github.io/QR2-computing/exercises-6.html). Will be due March 24.
     
 - Assignments due:
+    - Preliminary Census written report uploaded to Populi. Basic model summaries and graphics for your Census "research topic." This will be the basis for your class presentation due on March 21. Formatting can be extremely rough; you will merely be cutting-and-pasting statistical summaries and graphics into an online document that you can reference fro your presentation.
      
-    
 - [In-class notes](../Kaplan_posts/2025-03-18-notes/2025-03-18-notes.html)
 
 
@@ -284,8 +285,10 @@ Block 6: Hypothetical Reasoning (cont.)
     - [538 article about p-values](https://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
     
 - Assignment due:
-    - Project presentation
+    - Phase 4 Census Project presentation
+    - For March 24, final Census Project report uploaded to Populi. This will be essentially your preliminary report along with some narrative description of your conclusions and identifying shortcomings that you would have worked on had this been a much more extensive project. It should be neat, but doesn't need to be fancy! Take perhaps one hour to put it together.
     - For March 24, [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html). 
+
 :::
 
 

@@ -57,14 +57,38 @@ In STEP 6 you will start to transcribe data from the schedule into your STEP 3 G
 
 THINK about what you want to call your variables and how you want to encode them. Feel free to talk to your classmates or even work together in doing this. It's a good idea to create yet another sharable document that you use as your codebook giving the meaning of the variable names and specifying the levels of any categorical variables and the units of any quantitative ones. (Some of the schedule entries don't have a ixed set of levels, for instance, the person's name. You don't have to specify those in your codebook, but you might want to set the format, e.g., "surname, first middle, with CAPITALS as written on the schedule.")  
 
-The "person" and "household" spreadsheets will presumably have different variables.
+The "person" and "household" spreadsheets will presumably have different variables. Also, since every person is a member of a "household" (even if it is of size 1), you will add a household ID for each household and enter the corresponding ID as a variable in the person spreadsheet.
 
 #### STEP 6 {.no-number}
 
-Transcribe your schedule into your person and household spreadsheets.
+Transcribe your schedule into your person and household spreadsheets. Add a new variable to each of these spreadsheets: the ID of the population schedule from which you transcribed the data. This will be the same for all rows (that is, **no** variation). In Phase 2 you will see why this has been added.
 
-### Phase 2: Cleaning
+In addition, you will figure out an reasonable `latitude` and `longitude` for your population schedule and enter this into our shared [Population Schedule Registry](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing)
 
-Instructions forthcoming ....
+### Phase 2: Combining and Cleaning {.no-number}
+
+In this phase, you will work with a team of two or three classmates. Your team will  combine your spreadsheets into new, team documents that contain the entries for your three or four population schedules. (Keep your original, individual spreadsheets!) The team sheets will have roughly 100 persons and about 20 households.
+
+In the process of combining your spreadsheets you are likely to encounter errors in your initial data entry or situations where data was entered in incompatible ways by different people in the team. Fixing such problems is an example of "data cleaning."
+
+To facilitate identifying problems, your instructor will show you how to read your data into R so that you can wrangle summaries that point to inconsistencies. You don't need to do this on your own; your instructor will help.
+
+Once all teams have completed combining and cleaning their team sheets, we will as a class discuss inconsistencies between teams and reconcile them. Be prepared to do additional cleaning of your team sheets.
+
+### Phase 3: Data summarization
+
+Using grit, hard work, computing savvy, and magic, a heroic instructor will combine the various team spreadsheets into new, comprehensive sheets that encompass several hundred 1940 persons and a hundred or so households. 
+
+You may well get feedback from the hero-instructor about edits you should make to your team's sheets. This is why you added a population schedule ID to every row of your individual spreadsheet, so that the instructor can figure out who is responsible for making the change. Please respond in a timely way so that all of us can move on.
+
+Your primary task---you, as an individual student---in Phase 3 is to create simple summaries of the combined data in tabular and/or graphical form. For instance, how many 1940 persons fall into the various household "roles" of head, spouse, child, lodger, etc. You will make several such summaries for your Phase 3 report. Be creative. Your instructor can help you to write the data wrangling commands needed.
+
+### Phase 4: Modeling
+
+You will choose a demographic/statistical/etc question of interest to you and carry out the data wrangling and modeling needed to make definite statements about the question. As an example, a person interested in housing affordability might model whether owning or renting a house is related to explanatory variables such as farm-vs-city, size of household, income of household, and so on. 
+
+Your report will include not just the statistical analysis but also interpretation and supporting summaries. For the housing affordability example, it would be appropriate for instance to make a map showing housing costs as a function of geographic position to identify well- and poorly-housed areas of Travis County in 1940.
+
+You will submit your written report and also give a short (3- to 5-minute) presentation in class. You are welcome to work with your student colleagues, but your model, report, and presentation will be your individual product.
 
 

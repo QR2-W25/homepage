@@ -12,38 +12,6 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 
-::: {.callout-note}
-## Class Day 7 Tuesday 28 January {#sec-28Jan}
-
-Block 3 Regression & Adjustment
-
-- New readings
-    - Spiegelhalter Ch. 5 & [reading questions](../questions/S5-before.html)
-    
-- Assignment due: [Follow-up reading questions for Spiegelhalter Ch 6](../questions/S6-after.html)
-
-- [In-class notes](../Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html)
-
-:::
-
-::: {.callout-note}
-## Class Day 8 Friday 31 January {#sec-31Jan}
-
-Block 3 Regression & Adjustment (cont.)
-
-- New readings
-    - Rosling Ch. 3 & [reading questions](../questions/R3-before.html)
-    - Start `r tutorial_link(3)`
-
-- Assignments due:
-    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html)
-    
-- Start work
-    - Census project (to be announced)
-
-- [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
-
-:::
 
 ::: {.callout-note}
 ## Class Day 9 Tuesday 4 February
@@ -419,6 +387,35 @@ Block 2 Prediction (cont.)
     - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html). Will be due before class on Day 8 (Tuesday 31 Jan.)
     
 - [In-class notes](../Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html)
+
+
+## Class Day 7 Tuesday 28 January {#sec-28Jan}
+
+Block 3 Regression & Adjustment
+
+- New readings
+    - Spiegelhalter Ch. 5 & [reading questions](../questions/S5-before.html)
+    
+- Assignment due: [Follow-up reading questions for Spiegelhalter Ch 6](../questions/S6-after.html)
+
+- [In-class notes](../Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html)
+
+
+## Class Day 8 Friday 31 January {#sec-31Jan}
+
+Block 3 Regression & Adjustment (cont.)
+
+- New readings
+    - Rosling Ch. 3 & [reading questions](../questions/R3-before.html)
+    - Start `r tutorial_link(3)`
+
+- Assignments due:
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html)
+    
+- Start work
+    - Census project (to be announced)
+
+- [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
 
 
 

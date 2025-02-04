@@ -7,3 +7,126 @@ date: 2025-02-04
 library(LSTbook)
 ```
 
+## Where we are
+
+We know how to "fit" models: `model_train()` 
+
+Models are themselves complex computational objects:
+
+```{r}
+mod <- Galton |>
+  model_train(height ~ mother + father + sex)
+str(mod)
+```
+
+We have met three ways of summarizing models:
+
+1. Plot them. `point_plot()` does this. We can also use `model_plot()` directly on the model. (But best to display data along with the models.)
+2. Coefficients with the `conf_interval()` summary.
+3. R^2^ with the `R2()` summary.
+
+In the previous block, we discussed *prediction* and *prediction intervals*. We used the same *regression* models to quantify prediction. But here, our aim is different, to characterize the **relationship between** the explanatory and response variables.
+
+i. Is there any relationship?
+ii. If there is a relationship, is it **positive** or **negative**. This corresponds to the **sign** of the coefficient.
+
+ADJUSTMENT:
+
+iii. Are there other explanatory variables that might contribute to or "color" the relationship indicated by (ii)?
+
+
+## Adjustment
+
+Adjustment generally: keeping other things the same when examining the relationship between two variables of interest. Classical experimental design, keeping conditions and materials constant while varying an input of interest, is an example of setting things up to *avoid* having to adjust. But with observational data, we can't intervene and instead have to use modeling to try to approximate the experimental conditions.
+
+Interpretting the Galton model when adjusting for other potential explanatory variables. Example: 
+
+A negative relationship! Bigger families have shorter kids.
+
+```{webr-r}
+Galton |> point_plot(height ~ nkids, annot = "model")
+Galton |> model_train(height ~ nkids) |>
+  conf_interval()
+Galton |> model_train(height ~ nkids) |>
+  R2()
+```
+
+What if we "adjust" for the child's sex?
+
+```{webr-r}
+Galton |> point_plot(height ~ nkids + sex, annot = "model")
+Galton |> model_train(height ~ nkids + sex) |>
+  conf_interval()
+Galton |> model_train(height ~ nkids + sex) |>
+  R2()
+```
+
+What if we get rid of the one family with 15 kids? Maybe they are pulling down the average.
+
+```{webr-r}
+Galton |>
+  filter(nkids < 12) |>
+  point_plot(height ~ nkids, annot = "model")
+Galton |>
+  filter(nkids < 12) |>
+  point_plot(height ~ nkids + sex, annot = "model")
+Galton |>
+  filter(nkids < 12) |>
+  model_train(height ~ nkids + sex) |>
+  conf_interval()
+```
+
+
+Trivial example of adjustment: school expenditures and student performance (as indicated by standardized tests).
+
+- The very idea of a "standardized" test is an experiment-like attempt to hold conditions constant. If states or school districts designed their own evaluations, it would be difficult to compare different states or districts. I wouldn't call this adjustment, since it's an intervention, but an intervention with the same aim as adjustment.
+
+- Student performance: average across individuals in order to avoid reports that cherry-pick the best students. (School districts have indeed been found out both *altering* student test forms and telling poor students to stay away during standardized testing days.)
+
+- Expenditures. There are big states that spend large amounts on education and small states that spend relatively small amounts. To avoid confusing (a word we will see later is "confounding") state size with the intensity of spending, a sensible (and common-sense) form of adjustment is *per capita* adjustment: divide spending by the number of people. For education, *per pupil* spending is appropriate.
+
+Show the SAT data:
+
+```{webr-r}
+?SAT
+```
+
+1. What do you think are the best and worst states (on average) for education? Let's see how this lines up with expenditures (per pupil).
+
+```{r}
+SAT |> 
+  select(state, expend) |>
+  arrange(desc(expend)) |>
+  DT::datatable()
+```
+
+WARNING: If you have heard from other students or read this example previously, don't be a spoiler! Keep it to yourself.
+
+SAT performance versus per-capita school expenditures. This adjusts for state size.
+
+```{webr-r}
+SAT |>
+  point_plot(sat ~ expend, annot = "model")
+```
+
+Try also `ratio` (something like class size) and `salary` (how well they pay teachers).
+
+```{webr-r}
+SAT |>
+  point_plot(sat ~ ratio, annot = "model")
+```
+
+
+### Adjusting for who takes the SAT
+
+```{webr-r}
+SAT |>
+  select(state, frac) |>
+  arrange(frac)
+```
+
+```{webr-r}
+
+SAT |>
+  point_plot(sat ~ expend + frac, annot = "model")
+```

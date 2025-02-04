@@ -17,7 +17,7 @@ Your work on this project will be conducted in several phases. Instructions for 
 #### STEP 1: {.no-number} 
 You will select a single document called a "Population Schedule" which gives the data collected on each of roughly 30 to 40 people. The 1940 Census involved about 4 million such schedules, but we will focus on the hundreds from Travis County, TX. A large collection of images of the schedules is available, as well as the [codebook](https://www.archives.gov/research/census/1940/research/census/1940/general-info#form) for the schedules.
 
-a. [This site](https://catalog.archives.gov/search-within/57229197) contains an archive of the Tavis County population schedules. The archive is organized into a list of about 100 distinct "enumeration districts," each with a title like "1940 Census Population Schedules - Texas - Travis County - ED 227-84."
+a. [This site](https://catalog.archives.gov/search-within/57229197) contains an archive of the Travis County population schedules. The archive is organized into a list of about 100 distinct "enumeration districts," each with a title like "1940 Census Population Schedules - Texas - Travis County - ED 227-84."
 
 b. Pick one of the hundred at random.[^NOTE: If you are from Travis County or have a location of interest to you personally such as your family's or your grandparents' home, you might want to pick the corresponding population schedule. But avoid landmarks such as the Capitol that many students would be tempted to pick.] One possibility, select a district whose number ends with the day of them month you were born, plus 4 times the month you were born. (For instance, if your birthday is Feb 28, your "random" number is 28 + 4 $\times$ 2, pointing to ED 227-36.
 

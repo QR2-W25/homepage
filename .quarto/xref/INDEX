@@ -169,5 +169,8 @@
   },
   "projects/Census/intro.qmd": {
     "intro.html": "7a61c2ac"
+  },
+  "questions/R6-before.qmd": {
+    "R6-before.html": "da650fa5"
   }
 }

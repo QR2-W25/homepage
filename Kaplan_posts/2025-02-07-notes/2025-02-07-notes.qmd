@@ -1,0 +1,66 @@
+---
+title: "Kaplan's in-class notes for 2025-02-07"
+date: 2025-02-07
+---
+
+```{r include=FALSE}
+library(LSTbook)
+```
+
+We've finished with Block 3: Regression and adjustment. We will be using these tools extensively in the second half of the course.
+
+The Spiegelhalter reading for Tuesday after break is Chapter 9. Spielgelhalter writes at the start of the chapter:
+
+> *Warning. This is perhaps the most challenging chapter in this book, but persevering with this important topic will give you valuable insights into statistical inference.*
+
+Some other sections had a mid-term largely about Spiegelhalter Chapter 8, on probability. Spiegelhalter writes:
+
+> *Traditionally, a statistics course would start with probability---that is how I have always begun when teaching in Cambridge---but this rather mathematical initiation can be an obstruction to grasping all the important ideas in the preceding chapters that did not require probability theory. In contrast, this book is part of what could be called a new wave in statistics teaching, in which formal probability theory as a basis for statistical inference does not come in till much later.*
+
+Critical ideas:
+
+1. Response vs explanatory variables
+2. Model coefficients, which is what model training gives us. These go into a model function.
+3. Including a covariate in a model is a way of mathematically "adjusting" for that sort of variation. Adjusting is an attempt at reaching a goal: a simulation that holds the covariate constant.
+4. How do we measure variation? The variance. What is the variance? Pairwise differences.
+
+Important but not critical:
+
+1. Our regression models take the form of a "linear combination" of the variables.
+    i. Really I should say "model terms." `sexM` is an example of a model term, rather than a variable.
+        a. The numerical value of `sexM` is 1 or zero, depending on whether the specimen is at the stated level. You can only be at one level.
+    ii. The coefficients are the multipliers on the model terms. Do the multiplications, add up the results, then add in the "Itercept" and you get the model value, which we call `.output` in the results from `model_eval()`.
+    iii. In machine learning, fancier forms of mathematical functions are used. 
+2. Distinction between linear and logistic regression. Example: Is the person shorter than 5' 6'': the response is a binary variable
+    a. Meaning of coefficients is a little tricky: Log odds.
+    b. Undo the log with `exp()`. This gives us an odds
+    c. Coefficients on quantitative variables are odds per unit of the variable. Multiply the coefficient by the value of the variable and add them up in the usual way. (Don't forget the intercept!) The result is the **odds** of 1. We can easily convert odds to probability.
+    d. Calculus students: log(p/(1-p)) is a way of shrinking [$-\infty, \infty$] down to [0, 1].
+    
+    
+
+
+1. Quiz today (last 15 minutes). There will be a question involving logistic regression. You can answer as if the coefficients were handled in the linear way. You don't need to worry about logs and odds.
+
+2. A famous question 
+
+> *Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice and also participated in anti-nuclear demonstrations.* 
+
+Which is more probable?
+    
+a. Linda is a bank teller.
+b. Linda is a bank teller and is active in the feminist movement.
+
+Results: 12 students answered. 92% got it right!
+
+What would have happened if I had walked into the equivalent of this class on another planet? What would be the result?
+
+I can't know. Our project for Block 4 is to figure out how to estimate the variation among all the imaginary UATX planets, with just the information $n=12$, $p_0 = 0.92$.
+
+We will do this in two steps:
+
+i. Developing an approach and testing it on simulations, where we know that all of the "planets" are of a kind.
+
+ii. Applying the tested approach on the results from modeling our data.
+
+

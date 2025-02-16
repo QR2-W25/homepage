@@ -5,6 +5,12 @@ subtitle: "Answer and submit *before* class discussion"
 
 {{< include ../start-up.qmd >}}
 
+::: {.callout-note}
+## Question 0:
+
+{{< include "../../INF-1220-QR2/_RQ/S09/QB0.qmd" >}}
+
+:::
 
 ::: {.callout-note}
 ## Question 1:

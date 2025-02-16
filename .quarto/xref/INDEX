@@ -178,5 +178,11 @@
   },
   "questions/S9-before.qmd": {
     "S9-before.html": "b032d369"
+  },
+  "questions/S10-after.qmd": {
+    "S10-after.html": "e679b428"
+  },
+  "questions/S10-before.qmd": {
+    "S10-before.html": "98f5e17a"
   }
 }

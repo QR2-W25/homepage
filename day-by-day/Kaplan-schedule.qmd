@@ -238,6 +238,7 @@ Block 6: Hypothetical Reasoning (cont.)
     - [Computing Activities for Tutorial 6](https://dtkaplan.github.io/QR2-computing/exercises-6.html). Will be due March 24.
     
 - Assignments due:
+    - Rosling Ch. 10 post discussion [questions](../questions/R10-after.html)
     - Preliminary Census written report uploaded to Populi. Basic model summaries and graphics for your Census "research topic." This will be the basis for your class presentation due on March 21. Formatting can be extremely rough; you will merely be cutting-and-pasting statistical summaries and graphics into an online document that you can reference fro your presentation.
      
 - [In-class notes](../Kaplan_posts/2025-03-18-notes/2025-03-18-notes.html)

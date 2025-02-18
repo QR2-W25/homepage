@@ -8,22 +8,25 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 ::: {.callout-note}
-## 9. Monday 3 February
+## 13. Wednesday 19 February
 
-- We shall discuss confidence intervals (see notes on Populi)
-- We shall talk about regression coefficients `r tutorial_link(4)`
+Course Project
+
+- We shall be working towards understanding the problem and formulating Sprint 2
+- Assignments due: Report on Sprint 1 (on Github)
 
 :::
 
-
 ::: {.callout-note}
-## 10. Thursday 6 February
+## 14. Thursday 20 February
 
-- We shall start some Course Project preparations: accessing the dataset, merging its parts together, trying to get some basic information from it (over the reading break)
+Block 5 Accuracy, confounding and adjustment 
 
+- We shall talk about accuracy vs precision `r tutorial_link(5)`
+- We shall understand what confounding is, and how to adjust for it
 - Assignments due:
-  - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) 
-
+  - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html) 
+  
 :::
 
 
@@ -31,42 +34,13 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 
 ::: {.callout-note}
-## 11. Monday 10 February
-
-Reading break (no class)
-
-:::
-
-
-::: {.callout-note}
-## 12. Thursday 13 February
-
-Reading break (no class)
-
-:::
-
-
-::: {.callout-note}
-## Monday 17 February
-
-President’s Day (will hold class on Wednesday, February 19)
-
-:::
-
-::: {.callout-note}
-## 13. Wednesday 19 February
-
-:::
-
-
-::: {.callout-note}
-## 14. Thursday 20 February
-
-:::
-
-
-::: {.callout-note}
 ## 15. Monday 24 February
+
+Course Project
+
+- What is accuracy and precision as applied to your project?
+- What about possible confounders? 
+- Sprint 2 starts (on Github)
 
 :::
 
@@ -74,11 +48,22 @@ President’s Day (will hold class on Wednesday, February 19)
 ::: {.callout-note}
 ## 16. Thursday 27 February
 
+Block 5 Accuracy, confounding and adjustment (continued)
+
+- Assignments due:
+  - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) 
+
 :::
 
 
 ::: {.callout-note}
 ## 17. Monday 3 March
+Block 6 Hypothetical reasoning & Bayes
+
+- Bayesian approach: prior and posterior probabilities. 
+- We shall talk about hypothesis testing. 
+- New readings:
+  - Start `r tutorial_link(6)`
 
 :::
 
@@ -86,11 +71,29 @@ President’s Day (will hold class on Wednesday, February 19)
 ::: {.callout-note}
 ## 18. Thursday 6 March
 
+Block 6 Hypothetical reasoning & Bayes (continued)
+
+- New readings 
+  - Spiegelhalter Chap 10
+- We continue discussing hypothesis testing
+- Which hypotheses can you formulate and test in your project? 
+- Assignments due:
+  - Report on Sprint 2 (on Github)
+
+
 :::
 
 
 ::: {.callout-note}
 ## 19. Monday 11 March
+
+Block 6 Hypothetical reasoning & Bayes (continued)
+
+- New readings:
+  - Spiegelhalter Chap 11
+- Discussion of Bayesian approach and its applications
+- Can you make use of it in your project? 
+- Sprint 3 starts
 
 :::
 
@@ -98,12 +101,71 @@ President’s Day (will hold class on Wednesday, February 19)
 ::: {.callout-note}
 ## 20. Thursday 13 March
 
-Final project presentation
+- New readings:
+  - Spiegelhalter Chap 12 and Chap 13
+- We will discuss the reproducibility crisis in sciences
+- Assignments due:   
+  - [Computing Activities for Tutorial 6](https://dtkaplan.github.io/QR2-computing/exercises-6.html) 
+
+:::
+
+
+::: {.callout-note}
+## 21. Monday 17 March
+
+Course Project
+
+- Assignments due:
+  - Sprint 3 report (on Github)
+
+:::
+
+::: {.callout-note}
+## 20. Thursday 20 March
+
+Course Project 
+
+- Final project presentation
 
 :::
 
 
 ## Already past
+
+::: {.callout-note}
+## 11. Monday 10 February - Monday 17 February
+
+Reading break 
+
+- No classes will be held
+- Work on the dataset you picked, try getting some familiarity with it
+- Work on Sprint 1 (on Github)
+
+:::
+
+::: {.callout-note}
+## 10. Thursday 6 February
+
+Course Project 
+
+- We shall start some Course Project preparations: accessing the dataset, merging its parts together, trying to get some basic information from it (over the reading break)
+
+- Sprint 1 starts (on GitHub)
+
+- Assignments due:
+  - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) 
+
+:::
+
+::: {.callout-note}
+## 9. Monday 3 February
+
+Block 4 Precision & Confidence
+
+- We shall discuss confidence intervals (see notes on Populi)
+- We shall talk about regression coefficients `r tutorial_link(4)`
+
+:::
 
 ::: {.callout-note}
 ## 8. Thursday 30 January

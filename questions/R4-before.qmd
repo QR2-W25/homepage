@@ -1,5 +1,5 @@
 ---
-title: "Rossling Chapter 6: *The Generalization Instinct*"
+title: "Rosling Chapter 3: *The Straight-line Instinct*"
 subtitle: "Answer and submit *before* class discussion"
 ---
 
@@ -8,25 +8,23 @@ subtitle: "Answer and submit *before* class discussion"
 ::: {.callout-note}
 ## Question 1:
 
-{{< include "../../INF-1220-QR2/_RQ/R06/QB1.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/R04/QB1.qmd" >}}
 
 :::
 
 ::: {.callout-note}
 ## Question 2:
 
-{{< include "../../INF-1220-QR2/_RQ/R06/QB2.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/R04/QB2.qmd" >}}
 
 :::
 
 ::: {.callout-note}
 ## Question 3:
 
-{{< include "../../INF-1220-QR2/_RQ/R06/QB3.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/R04/QB3.qmd" >}}
 
 :::
-
-
 
 
 

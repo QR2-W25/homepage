@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -112,8 +146,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#precision" id="toc-precision" class="nav-link active" data-scroll-target="#precision">Precision</a></li>
+  <li><a href="#a-look-at-the-census-project" id="toc-a-look-at-the-census-project" class="nav-link" data-scroll-target="#a-look-at-the-census-project">A look at the Census project</a></li>
+  <li><a href="#precision-1" id="toc-precision-1" class="nav-link" data-scroll-target="#precision-1">Precision</a></li>
+  <li><a href="#quiz" id="toc-quiz" class="nav-link" data-scroll-target="#quiz">Quiz</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -143,14 +186,235 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="precision" class="level2">
+<h2 class="anchored" data-anchor-id="precision">Precision</h2>
+<p>Look at Quiz Question 4 with an eye toward the confidence interval rather than just the coefficient.</p>
+<p>QUIZ QUESTION 4: We’re going to make some models of lung cancer in the <code>Birdkeepers</code>, looking at smoking and age as risk factors for cancer. <code>CD</code> is the number of cigarettes smoked per day (0 for a non-smoker). <code>YR</code> is the number of years that the person has smoked (0 for a non-smoker), and <code>AG</code> is the persons age. <code>cancer</code> is a binary variable with value 1 indicating cancer and 0 indicating otherwise. datawith the same response variable.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Birdkeepers <span class="sc">|&gt;</span> <span class="fu">model_train</span>(cancer <span class="sc">~</span> CD) <span class="sc">|&gt;</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  term           .lwr   .coef    .upr
+  &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+1 (Intercept) -2.32   -1.54   -0.829 
+2 CD           0.0143  0.0511  0.0909</code></pre>
+</div>
+</div>
+<ol type="a">
+<li>Interpret the output. Does the <code>CD</code> coefficient of 0.05 mean that smoking an additional cigarette per day <em>increases</em> or <em>decreases</em> or <em>doesn’t affect</em> the odds of getting lung cancer?</li>
+</ol>
+<p>Someone claims that the coefficient 0.05 is misleading and that what really matters is how many years the person has been smoking.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Birdkeepers <span class="sc">|&gt;</span> <span class="fu">model_train</span>(cancer <span class="sc">~</span> CD <span class="sc">+</span> YR) <span class="sc">|&gt;</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3 × 4
+  term           .lwr   .coef    .upr
+  &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+1 (Intercept) -3.70   -2.46   -1.43  
+2 CD          -0.0211  0.0238  0.0689
+3 YR           0.0129  0.0460  0.0816</code></pre>
+</div>
+</div>
+<ol start="2" type="a">
+<li>Interpret the coefficients 0.023 and 0.046 from the model. Does taking into account the years of smoking <em>increase</em>, <em>decrease</em>, or <em>leave alone</em> the effect of smoking an additional cigarette per day.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<ol start="3" type="a">
+<li>According to the <code>cancer ~ CD + YR</code> model, if a person could reduce their smoking consumption by 20 cigarettes per day, how many more years could they keep on smoking to arrive at the same risk of lung cancer?</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>You realize that anyone who smokes an extra year must also be an extra year older. Age increases the risk of illness so you theorize that some of the credit being given to years of smoking is really about “years of living.” So you try a third model …</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Birdkeepers <span class="sc">|&gt;</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(cancer <span class="sc">~</span> CD <span class="sc">+</span> YR <span class="sc">+</span> AG) <span class="sc">|&gt;</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 4 × 4
+  term           .lwr   .coef     .upr
+  &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;
+1 (Intercept) -2.73    0.373  3.45    
+2 CD          -0.0306  0.0163 0.0630  
+3 YR           0.0276  0.0719 0.126   
+4 AG          -0.131  -0.0619 0.000984</code></pre>
+</div>
+</div>
+<ol start="4" type="a">
+<li>We have a technical word for an explanatory variable introduced to a model to place another explanatory variable in context. What is that word?</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<ol start="5" type="a">
+<li>Do the coefficients of the <code>cancer ~ CD + YR + AG</code> model supportt the hypothesis that some of the effect of years of smoking is really attributable to ordinary aging? Explain briefly.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+</section>
+<section id="a-look-at-the-census-project" class="level2">
+<h2 class="anchored" data-anchor-id="a-look-at-the-census-project">A look at the Census project</h2>
+<p>Population Schedule <a href="https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?gid=0#gid=0">registration sheet</a></p>
+<p>Bring up these in separate tabs:</p>
+<ul>
+<li><a href="https://catalog.archives.gov/id/138629517">Population schedule thumbnail</a>
+<ol type="i">
+<li>how to download</li>
+<li>how to display so that you can transcribe</li>
+</ol></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1iE1gWuj_EgyDuYPqoTAJDE7AbNulYoZB5NyaaLH1bsE/edit?gid=0#gid=0">Transcribed “persons” sheet</a>
+<ol type="i">
+<li>How will we know what household a person belongs to?</li>
+<li>Don’t want to have any line depend on information in any other line. So the dashes must go, as must “Same Place”</li>
+<li>Under relationship, this census taker has listed the relationship to the institution. Maybe we need an institution table as well. (This project is too small for that, I think.)</li>
+<li>Notice the pencilled-in notations “Head”. The sheet lists the profession but doesn’t make clear that the person is the head of a household. On the raw sheets, there is a pencilled-in * or + or x to indicate that the person is the head of a household.</li>
+</ol></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1RnFY7JaurTzuGsbkNo2qxTWoHoJDHStOZ_xACoXydQE/edit?gid=0#gid=0">Stub of a “household” sheet</a>.
+<ol type="i">
+<li>How can we provide an “anchor” so that the person can refer to a household?</li>
+<li>Question: Is family name an attribute of a household or a person? Can different people in the same household have different family names?</li>
+<li>Do we want to put the number of people in the household here, or calculate it from other data.</li>
+</ol></li>
+<li>Perhaps, Eitan Zarin’s persons and households.</li>
+</ul>
+</section>
+<section id="precision-1" class="level2">
+<h2 class="anchored" data-anchor-id="precision-1">Precision</h2>
 <ol type="1">
 <li><p>In groups of 3 or 4 people, discuss for 3 minutes the distinction, if any, between “precision” and “accuracy”. Then we’ll report back to the class.</p></li>
 <li><p>Discuss Figure 9.2 from Spiegelhalter, the funnel plot. Discuss what’s going on … we have some standard theories for why the colon-cancer death rate might be different from district to district: different diets, different age structures, environmental toxins, etc. In formulating an explanation for the district-to-district variation in death rate, we need to account for an inevitable factor that stems from mathematics and not biological pathology: the variation induced by sample size.</p></li>
-<li><p>Construct the Linda simulation: Randomly picking 12 cases out of a population in which 92% of the cases turned out heads, with 8% turning out tails.</p></li>
-<li><p>Talk about Eitan Zarin’s persons and households.</p></li>
+<li><p>Construct the Linda simulation: Randomly picking 12 cases out of a population in which 92% of the cases turned out heads, with 8% turning out tails. Calculate variance</p></li>
 </ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sample_size <span class="ot">&lt;-</span> <span class="dv">12</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>tibble<span class="sc">::</span><span class="fu">tibble</span>(</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">answer =</span> </span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">take_sample</span>(</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>      <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>,<span class="dv">11</span>),<span class="dv">0</span>), </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>      <span class="at">n =</span> sample_size, </span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>      <span class="at">replace=</span><span class="cn">TRUE</span>) <span class="co"># Change to TRUE </span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">frac =</span> <span class="fu">mean</span>(answer)) <span class="co"># |&gt; trials(50) </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 1
+   frac
+  &lt;dbl&gt;
+1 0.833</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># |&gt; summarize(center = mean(frac), samp_variance = var(frac))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="3" type="1">
+<li>Redo the simulation but with a larger sample size.</li>
+</ol>
+</section>
+<section id="quiz" class="level2">
+<h2 class="anchored" data-anchor-id="quiz">Quiz</h2>
+<p>Example: Look at Quiz problems 3</p>
+<p><strong>QUESTION 3</strong>: The data (from <code>Birdkeepers</code>) comes from a study of birdkeeping and lung cancer. Here is a simple tabulation of the number of people in <code>Birdkeepers</code> who have lung cancer (<code>LC</code>) and who are birdkeepers (<code>BK</code>).</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>Birdkeepers <span class="sc">|&gt;</span> <span class="fu">summarize</span>(<span class="fu">n</span>(), <span class="at">.by =</span> <span class="fu">c</span>(LC, BK))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>          LC     BK n()
+1 LungCancer   Bird  33
+2 LungCancer NoBird  16
+3   NoCancer NoBird  64
+4   NoCancer   Bird  34</code></pre>
+</div>
+</div>
+<ol type="a">
+<li>Using birdkeeping as a test for lung cancer, say what level of <code>BK</code> should correspond to a positive test result, then calculate the sensitivity, specificity, and prevalence, risk ratio, and odds ratio for <code>LungCancer</code>.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<ol start="2" type="a">
+<li>The prevalence of cancer in the study group is very high: one-third. This is intentional: one third (49) of the subjects were being treated for lung cancer, each was matched up with two controls with similar ages. How does the overly high prevalence change the interpretation of the sensitivity and specificity of the test.</li>
+</ol>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answer
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<hr>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

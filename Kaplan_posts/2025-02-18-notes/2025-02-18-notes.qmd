@@ -7,11 +7,152 @@ date: 2025-02-18
 library(LSTbook)
 ```
 
+## Precision
+
+Look at Quiz Question 4 with an eye toward the confidence interval rather than just the coefficient.
+
+QUIZ QUESTION 4: We're going to make some models of lung cancer in the `Birdkeepers`, looking at smoking and age as risk factors for cancer. `CD` is the number of cigarettes smoked per day (0 for a non-smoker). `YR` is the number of years that the person has smoked (0 for a non-smoker), and `AG` is the persons age. `cancer` is a binary variable with value 1 indicating cancer and 0 indicating otherwise. datawith the same response variable. 
+
+```{r echo=FALSE}
+Birdkeepers <- Birdkeepers |> mutate(cancer = zero_one(LC, one = "LungCancer"))
+options(digits=4)
+```
+
+```{r message=FALSE}
+Birdkeepers |> model_train(cancer ~ CD) |> 
+  conf_interval()
+```
+a. Interpret the output. Does the `CD` coefficient of 0.05 mean that smoking an additional cigarette per day *increases* or *decreases* or *doesn't affect* the odds of getting lung cancer?
+
+Someone claims that the coefficient 0.05 is misleading and that what really matters is how many years the person has been smoking.
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+```{r message=FALSE}
+Birdkeepers |> model_train(cancer ~ CD + YR) |> 
+  conf_interval()
+```
+b. Interpret the coefficients 0.023 and 0.046 from the model. Does taking into account the years of smoking *increase*, *decrease*, or *leave alone* the effect of smoking an additional cigarette per day.
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+c. According to the `cancer ~ CD + YR` model, if a person could reduce their smoking consumption by 20 cigarettes per day, how many more years could they keep on smoking to arrive at the same risk of lung cancer?
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+You realize that anyone who smokes an extra year must also be an extra year older. Age increases the risk of illness so you theorize that some of the credit being given to years of smoking is really about "years of living." So you try a third model ...
+
+```{r message=FALSE}
+Birdkeepers |> 
+  model_train(cancer ~ CD + YR + AG) |> 
+  conf_interval()
+```
+
+
+d. We have a technical word for an explanatory variable introduced to a model to place another explanatory variable in context. What is that word?
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+e. Do the coefficients of the `cancer ~ CD + YR + AG` model supportt the hypothesis that some of the effect of years of smoking is really attributable to ordinary aging? Explain briefly.
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+
+## A look at the Census project
+
+Population Schedule [registration sheet](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?gid=0#gid=0)
+
+Bring up these in separate tabs:
+
+- [Population schedule thumbnail](https://catalog.archives.gov/id/138629517) 
+    i. how to download
+    ii. how to display so that you can transcribe
+- [Transcribed "persons" sheet](https://docs.google.com/spreadsheets/d/1iE1gWuj_EgyDuYPqoTAJDE7AbNulYoZB5NyaaLH1bsE/edit?gid=0#gid=0) 
+    i. How will we know what household a person belongs to?
+    ii. Don't want to have any line depend on information in any other line. So the dashes must go, as must "Same Place"
+    iii. Under relationship, this census taker has listed the relationship to the institution. Maybe we need an institution table as well. (This project is too small for that, I think.)
+    iv. Notice the pencilled-in notations "Head". The sheet lists the profession but doesn't make clear that the person is the head of a household. On the raw sheets, there is a pencilled-in * or + or x to indicate that the person is the head of a household. 
+- [Stub of a "household" sheet](https://docs.google.com/spreadsheets/d/1RnFY7JaurTzuGsbkNo2qxTWoHoJDHStOZ_xACoXydQE/edit?gid=0#gid=0). 
+    i. How can we provide an "anchor" so that the person can refer to a household?
+    ii. Question: Is family name an attribute of a household or a person? Can different people in the same household have different family names?
+    iii. Do we want to put the number of people in the household here, or calculate it from other data.
+- Perhaps, Eitan Zarin's persons and households. 
+
+
+
+
+## Precision 
+
 
 1. In groups of 3 or 4 people, discuss for 3 minutes the distinction, if any, between "precision" and "accuracy". Then we'll report back to the class.
 
 2. Discuss Figure 9.2 from Spiegelhalter, the funnel plot. Discuss what's going on ... we have some standard theories for why the colon-cancer death rate might be different from district to district: different diets, different age structures, environmental toxins, etc. In formulating an explanation for the district-to-district variation in death rate, we need to account for an inevitable factor that stems from mathematics and not biological pathology: the variation induced by sample size.
 
-2. Construct the Linda simulation: Randomly picking 12 cases out of a population in which 92% of the cases turned out heads, with 8% turning out tails.
+2. Construct the Linda simulation: Randomly picking 12 cases out of a population in which 92% of the cases turned out heads, with 8% turning out tails. Calculate variance
 
-3. Talk about Eitan Zarin's persons and households. 
+```{r}
+sample_size <- 12
+tibble::tibble(
+  answer = 
+    take_sample(
+      c(rep(1,11),0), 
+      n = sample_size, 
+      replace=TRUE) # Change to TRUE 
+) |>
+  summarize(frac = mean(answer)) # |> trials(50) 
+# |> summarize(center = mean(frac), samp_variance = var(frac))
+ 
+```
+
+
+
+3. Redo the simulation but with a larger sample size.  
+
+
+## Quiz
+
+Example: Look at Quiz problems 3
+
+**QUESTION 3**: The data (from `Birdkeepers`) comes from a study of birdkeeping and lung cancer. Here is a simple tabulation of the number of people in `Birdkeepers` who have lung cancer (`LC`) and who are birdkeepers (`BK`).  
+
+```{r}
+Birdkeepers |> summarize(n(), .by = c(LC, BK))
+```
+
+a. Using birdkeeping as a test for lung cancer, say what level of `BK` should correspond to a positive test result, then calculate the sensitivity, specificity, and prevalence, risk ratio, and odds ratio for `LungCancer`.
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+b. The prevalence of cancer in the study group is very high: one-third. This is intentional: one third (49) of the subjects were being treated for lung cancer, each was matched up with two controls with similar ages. How does the overly high prevalence change the interpretation of the sensitivity and specificity of the test.
+
+::: {.callout-tip}
+## Answer
+
+
+:::
+
+--------

@@ -1,5 +1,5 @@
 ---
-title: "Rossling Chapter 6: *The Generalization Instinct*"
+title: "Rossling Chapter 7: *The Destiny Instinct*"
 subtitle: "Answer and submit *before* class discussion"
 ---
 
@@ -8,21 +8,21 @@ subtitle: "Answer and submit *before* class discussion"
 ::: {.callout-note}
 ## Question 1:
 
-{{< include "../../INF-1220-QR2/_RQ/R06/QB1.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/R07/QB1.qmd" >}}
 
 :::
 
 ::: {.callout-note}
 ## Question 2:
 
-{{< include "../../INF-1220-QR2/_RQ/R06/QB2.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/R07/QB2.qmd" >}}
 
 :::
 
 ::: {.callout-note}
 ## Question 3:
 
-{{< include "../../INF-1220-QR2/_RQ/R06/QB3.qmd" >}}
+{{< include "../../INF-1220-QR2/_RQ/R07/QB3.qmd" >}}
 
 :::
 

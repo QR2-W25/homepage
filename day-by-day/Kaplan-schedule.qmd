@@ -13,45 +13,7 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 
 
-::: {.callout-note}
-## Class Day 9 Tuesday 4 February
 
-Block 3 Regression & Adjustment (cont)
-
-- New readings  
-    - Finish `r tutorial_link(3)`
-    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html)
-
-- Start work
-    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
-    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Phase 1
-    
-
-- [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
-
-
-
-:::
-
-::: {.callout-note}
-## Class Day 10 Friday 7 Febuary
-
-Block 4: Precision
-
-- New readings   
-    - Spiegelhalter Ch. 8 & [reading questions](../questions/S8-before.html)
-    - Rosling Ch. 6 & [reading questions](../questions/R6-before.html)
-
-- Start work
-    
-- Assignments due:
-    - Census project report through *Step 3*. Your report takes the form of your entry into the [Population Schedule Registry](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing). 
-    
-- [In-class notes](../Kaplan_posts/2025-02-07-notes/2025-02-07-notes.html)
-
-:::
-
-Reading break 10-14 February.
 
 
 ::: {.callout-note}
@@ -82,7 +44,7 @@ Block 4: Precision (cont.)
 
 - New readings  
     - Rosling Ch. 7 & [reading questions](../questions/R7-before.html)
-
+    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html) (This was originally listed for Feb 4. The reading questions are now available.)
 
 - Start work
     
@@ -420,6 +382,42 @@ Block 3 Regression & Adjustment (cont.)
 
 - [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
 
+
+## Class Day 10 Friday 7 Febuary
+
+Block 4: Precision
+
+- New readings   
+    - Spiegelhalter Ch. 8 & [reading questions](../questions/S8-before.html)
+    - Rosling Ch. 6 & [reading questions](../questions/R6-before.html)
+
+- Start work
+    
+- Assignments due:
+    - Census project report through *Step 3*. Your report takes the form of your entry into the [Population Schedule Registry](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing). 
+    
+- [In-class notes](../Kaplan_posts/2025-02-07-notes/2025-02-07-notes.html)
+
+
+## Class Day 9 Tuesday 4 February
+
+Block 3 Regression & Adjustment (cont)
+
+- New readings  
+    - Finish `r tutorial_link(3)`
+    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html)
+
+- Start work
+    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Phase 1
+    
+
+- [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
+
+
+
+
+Reading break 10-14 February.
 
 
 

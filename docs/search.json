@@ -347,7 +347,7 @@
     "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html",
     "title": "Kaplan’s in-class notes for 2025-02-21",
     "section": "",
-    "text": "Interpolation and extrapolation. Why extrapolation is hard. Why linear interpolation is good."
+    "text": "QUESTION 1: The following lines of code\n\nModel_1 &lt;- Galton |&gt;\n  model_train(height ~ mother + father + sex)\nModel_1 |&gt;\n  model_eval(sex = \"M\", mother = 70, father = 66)\n\nlead to this printed output\nsex  mother   father    .lwr   .output    .upr\nM        70       66    65.6    69.9      74.1\n\nPrediction interval bounds are not hard limits. They are intended to indicate an interval that contains 95% of the actual inputs.\n\n\nIn the output, there are some labels, a categorical level, and five numbers. Briefly explain what each of the five numbers means.\nYou can’t see the model coefficients from this output. Which R function should you pipe Model_1 into in order to read the coefficients?\n\n\nI’m seeing summary(), coef() and such which are not in the vocabulary we are using in the tutorial. Where are you hearing about these? A web search?\n\n\nShow whether the following coefficients are roughly consistent with the above output from model_eval(sex = \"M\", mother = 70, father = 66). Explain your reasoning.\n\n  term         .lwr  .coef   .upr\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n1 (Intercept) 9.95    15.0   20.7  \n2 mother      0.260    0.6  0.683\n3 father      0.349    0.5  0.863\n4 sexM        0.523    2.0   5.51 \nQUESTION 2: Bmod is the name of a model trained on a data frame named Buildings. You have never seen the Buildings data, nor do you know what response and explanatory variables were used in Bmod. Even so, you should be able to say which if any of the outputs A, B, and C below is a possible result from the following command. If the output is not possible, briefly explain why.\nBMod |&gt; \n  model_eval(data = Buildings) |&gt;\n  summarize(mean(.resid), \n            sd(.resid), \n            var(.resid))\nOutput A\n   mean(.resid) sd(.resid) var(.resid)\n1       1.4e-14         12         144\n\n“A is not possible because of the very low mean considering its large variance” - The mean does not constrain the variance. - Mean of residuals will always be zero (in-sample)\n\nOutput B\n   mean(.resid) sd(.resid) var(.resid)\n1             0         12         189\nOutput C\n   mean(.resid) sd(.resid) var(.resid)\n1             1         12         144\nQUESTION 3: The data (from Birdkeepers) comes from a study of birdkeeping and lung cancer. Here is a simple tabulation of the number of people in Birdkeepers who have lung cancer (LC) and who are birdkeepers (BK).\n\nBirdkeepers |&gt; summarize(n(), .by = c(LC, BK))\n\n          LC     BK n()\n1 LungCancer   Bird  33\n2 LungCancer NoBird  16\n3   NoCancer NoBird  64\n4   NoCancer   Bird  34\n\n\n\nUsing birdkeeping as a test for lung cancer, say what level of BK should correspond to a positive test result, then calculate the sensitivity, specificity, and prevalence, risk ratio, and odds ratio for LungCancer.\n\n\nPeople were good at this, but sometimes got mixed up between the actual state and the outcome of the do-you-own-a-bird test.\n\n\nThe prevalence of cancer in the study group is very high: one-third. This is intentional: one third (49) of the subjects were being treated for lung cancer, each was matched up with two controls with similar ages. How does the overly high prevalence change the interpretation of the sensitivity and specificity of the test.\n\n\nSome people suggested that high prevalence indicates that study is misleading (external validity) and somehow more random or untrustworthy than usual. But the high prevalence is due to the design of the study, not the result of sampling variation."
   },
   {
     "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#rosling-ch.-3-the-straight-line-instinct",
@@ -1076,5 +1076,54 @@
     "title": "QR2 Prof. Kaplan’s Section",
     "section": "Class Day 9 Tuesday 4 February",
     "text": "Class Day 9 Tuesday 4 February\nBlock 3 Regression & Adjustment (cont)\n\nNew readings\n\nFinish Computing tutorial 3. Read before class session.\nSpiegelhalter Ch. 7 & reading questions\n\nStart work\n\nComputing Activities for Tutorial 3 due at end of reading week\nCensus project Phase 1\n\nIn-class notes\n\nReading break 10-14 February."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#review-of-quiz-from-feb-7",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#review-of-quiz-from-feb-7",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "",
+    "text": "QUESTION 1: The following lines of code\n\nModel_1 &lt;- Galton |&gt;\n  model_train(height ~ mother + father + sex)\nModel_1 |&gt;\n  model_eval(sex = \"M\", mother = 70, father = 66)\n\nlead to this printed output\nsex  mother   father    .lwr   .output    .upr\nM        70       66    65.6    69.9      74.1\n\nPrediction interval bounds are not hard limits. They are intended to indicate an interval that contains 95% of the actual inputs.\n\n\nIn the output, there are some labels, a categorical level, and five numbers. Briefly explain what each of the five numbers means.\nYou can’t see the model coefficients from this output. Which R function should you pipe Model_1 into in order to read the coefficients?\n\n\nI’m seeing summary(), coef() and such which are not in the vocabulary we are using in the tutorial. Where are you hearing about these? A web search?\n\n\nShow whether the following coefficients are roughly consistent with the above output from model_eval(sex = \"M\", mother = 70, father = 66). Explain your reasoning.\n\n  term         .lwr  .coef   .upr\n  &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n1 (Intercept) 9.95    15.0   20.7  \n2 mother      0.260    0.6  0.683\n3 father      0.349    0.5  0.863\n4 sexM        0.523    2.0   5.51 \nQUESTION 2: Bmod is the name of a model trained on a data frame named Buildings. You have never seen the Buildings data, nor do you know what response and explanatory variables were used in Bmod. Even so, you should be able to say which if any of the outputs A, B, and C below is a possible result from the following command. If the output is not possible, briefly explain why.\nBMod |&gt; \n  model_eval(data = Buildings) |&gt;\n  summarize(mean(.resid), \n            sd(.resid), \n            var(.resid))\nOutput A\n   mean(.resid) sd(.resid) var(.resid)\n1       1.4e-14         12         144\n\n“A is not possible because of the very low mean considering its large variance” - The mean does not constrain the variance. - Mean of residuals will always be zero (in-sample)\n\nOutput B\n   mean(.resid) sd(.resid) var(.resid)\n1             0         12         189\nOutput C\n   mean(.resid) sd(.resid) var(.resid)\n1             1         12         144\nQUESTION 3: The data (from Birdkeepers) comes from a study of birdkeeping and lung cancer. Here is a simple tabulation of the number of people in Birdkeepers who have lung cancer (LC) and who are birdkeepers (BK).\n\nBirdkeepers |&gt; summarize(n(), .by = c(LC, BK))\n\n          LC     BK n()\n1 LungCancer   Bird  33\n2 LungCancer NoBird  16\n3   NoCancer NoBird  64\n4   NoCancer   Bird  34\n\n\n\nUsing birdkeeping as a test for lung cancer, say what level of BK should correspond to a positive test result, then calculate the sensitivity, specificity, and prevalence, risk ratio, and odds ratio for LungCancer.\n\n\nPeople were good at this, but sometimes got mixed up between the actual state and the outcome of the do-you-own-a-bird test.\n\n\nThe prevalence of cancer in the study group is very high: one-third. This is intentional: one third (49) of the subjects were being treated for lung cancer, each was matched up with two controls with similar ages. How does the overly high prevalence change the interpretation of the sensitivity and specificity of the test.\n\n\nSome people suggested that high prevalence indicates that study is misleading (external validity) and somehow more random or untrustworthy than usual. But the high prevalence is due to the design of the study, not the result of sampling variation."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#precision-with-confidence-intervals",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#precision-with-confidence-intervals",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "Precision with confidence intervals",
+    "text": "Precision with confidence intervals\nHere is the raw bowel-cancer data from Spiegelhalter Fig. 9.2\n\nBowel_cancer_UK &lt;- \n  suppressMessages(readr::read_csv(\"09-2-bowel-cancer-data-x.csv\", )) |&gt;\n  mutate(rate_per_100000 = (n/d)*100000)\nBowel_cancer_UK |&gt; nrow()\n\n[1] 379\n\nBowel_cancer_UK |&gt; head()\n\n# A tibble: 6 × 5\n  Country          District            n      d rate_per_100000\n  &lt;chr&gt;            &lt;chr&gt;           &lt;dbl&gt;  &lt;dbl&gt;           &lt;dbl&gt;\n1 Scotland         Aberdeen City      63 286755            22.0\n2 Scotland         Aberdeenshire      65 358324            18.1\n3 Scotland         Angus              35 205399            17.0\n4 Northern Ireland Antrim             12  56953            21.1\n5 Northern Ireland Ards               20 102145            19.6\n6 Scotland         Argyll and Bute    39 157449            24.8\n\nme &lt;- function(pop, multiplier = 1.96) { \n  multiplier* 100000*sqrt(0.000176*(1-0.000176)/pop)\n}\ncurves &lt;- tibble::tibble(\n  pop = 10^seq(4.5, 6.2, length=200),\n  t95 = 17.6 + me(pop, 1.96),\n  b95 = 17.6 - me(pop, 1.96),\n  t99 = 17.6 + me(pop, 2.58),\n  b99 = 17.6 - me(pop, 2.58),\n)\nBowel_cancer_UK |&gt;\n  gf_point(rate_per_100000 ~ d, size=.5) |&gt;\n  gf_ribbon(t99 + b99 ~ pop, data = curves, \n            fill = \"blue\", alpha = 0.1, inherit=FALSE) |&gt;\n  gf_ribbon(t95 + b95 ~ pop, data = curves, \n            fill = \"green\", alpha = 0.2, inherit=FALSE)"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#simulation-of-funnel-plot",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#simulation-of-funnel-plot",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "Simulation of funnel plot",
+    "text": "Simulation of funnel plot\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#simulation",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#simulation",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "Simulation",
+    "text": "Simulation\nMake a system with known coefficients and different amounts of randomness.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#take-new-random-samples-from-a-big-set",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#take-new-random-samples-from-a-big-set",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "Take new random samples from a big set",
+    "text": "Take new random samples from a big set\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nDemonstrate the \\(1/\\sqrt{n}\\) dependence of SE on sample size (or \\(1/n\\) for sampling variance).\nDerive standard error of the mean by algebra."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#resample",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#resample",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "Resample",
+    "text": "Resample\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#just-rely-on-model_train-and-conf_interval",
+    "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#just-rely-on-model_train-and-conf_interval",
+    "title": "Kaplan’s in-class notes for 2025-02-21",
+    "section": "Just rely on model_train() and conf_interval()",
+    "text": "Just rely on model_train() and conf_interval()\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   }
 ]

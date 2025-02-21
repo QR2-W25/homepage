@@ -9,6 +9,91 @@ library(ggformula)
 library(dplyr)
 ```
 
+## Review of Quiz from Feb 7
+
+**QUESTION 1**: The following lines of code
+```{r eval=FALSE}
+Model_1 <- Galton |>
+  model_train(height ~ mother + father + sex)
+Model_1 |>
+  model_eval(sex = "M", mother = 70, father = 66)
+```
+
+lead to this printed output
+
+```
+sex  mother   father    .lwr   .output    .upr
+M        70       66    65.6    69.9      74.1
+```
+
+> *Prediction interval bounds are not hard limits. They are intended to indicate an interval that contains 95% of the actual inputs.*
+
+a. In the output, there are some labels, a categorical level, and five numbers. Briefly explain what each of the five numbers means. 
+
+b. You can't see the model coefficients from this output. Which R function should you  pipe `Model_1` into in order to read the coefficients?
+
+> *I'm seeing `summary()`, `coef()` and such which are not in the vocabulary we are using in the tutorial. Where are you hearing about these? A web search?*
+
+c. Show whether the following coefficients are roughly consistent with the above output from `model_eval(sex = "M", mother = 70, father = 66)`. Explain your reasoning.
+
+```
+  term         .lwr  .coef   .upr
+  <chr>       <dbl>  <dbl>  <dbl>
+1 (Intercept) 9.95    15.0   20.7  
+2 mother      0.260    0.6  0.683
+3 father      0.349    0.5  0.863
+4 sexM        0.523    2.0   5.51 
+```
+
+**QUESTION 2**: `Bmod` is the name of a model trained on a data frame named `Buildings`. You have never seen the `Buildings` data, nor do you know what response and explanatory variables were used in `Bmod`. Even so, you should be able to say which if any of the outputs A, B, and C below is a possible result from the following command. If the output is not possible, briefly explain why.
+
+```
+BMod |> 
+  model_eval(data = Buildings) |>
+  summarize(mean(.resid), 
+            sd(.resid), 
+            var(.resid))
+```
+
+**Output A**
+```
+   mean(.resid) sd(.resid) var(.resid)
+1       1.4e-14         12         144
+```
+
+> *"A is not possible because of the very low mean considering its large variance"*
+- The mean does not constrain the variance.
+- Mean of residuals will always be zero (in-sample)
+
+**Output B**
+```
+   mean(.resid) sd(.resid) var(.resid)
+1             0         12         189
+```
+
+**Output C**
+```
+   mean(.resid) sd(.resid) var(.resid)
+1             1         12         144
+```
+
+**QUESTION 3**: The data (from `Birdkeepers`) comes from a study of birdkeeping and lung cancer. Here is a simple tabulation of the number of people in `Birdkeepers` who have lung cancer (`LC`) and who are birdkeepers (`BK`).  
+
+```{r}
+Birdkeepers |> summarize(n(), .by = c(LC, BK))
+```
+
+a. Using birdkeeping as a test for lung cancer, say what level of `BK` should correspond to a positive test result, then calculate the sensitivity, specificity, and prevalence, risk ratio, and odds ratio for `LungCancer`.
+
+> *People were good at this, but sometimes got mixed up between the actual state and the outcome of the do-you-own-a-bird test.*
+
+b. The prevalence of cancer in the study group is very high: one-third. This is intentional: one third (49) of the subjects were being treated for lung cancer, each was matched up with two controls with similar ages. How does the overly high prevalence change the interpretation of the sensitivity and specificity of the test.
+
+> Some people suggested that high prevalence indicates that study is misleading (external validity) and somehow more random or untrustworthy than usual. But the high prevalence is due to the design of the study, not the result of sampling variation.
+
+
+## Precision with confidence intervals
+
 Here is the raw bowel-cancer data from Spiegelhalter Fig. 9.2
 ```{r}
 Bowel_cancer_UK <- 
@@ -27,7 +112,7 @@ curves <- tibble::tibble(
   b99 = 17.6 - me(pop, 2.58),
 )
 Bowel_cancer_UK |>
-  gf_point(rate_per_100000 ~ d) |>
+  gf_point(rate_per_100000 ~ d, size=.5) |>
   gf_ribbon(t99 + b99 ~ pop, data = curves, 
             fill = "blue", alpha = 0.1, inherit=FALSE) |>
   gf_ribbon(t95 + b95 ~ pop, data = curves, 
@@ -37,10 +122,17 @@ Bowel_cancer_UK |>
 
 ## Simulation of funnel plot
 
-```{r}
+```{webr-r}
 BCsim <- datasim_make(
   popsize <- round(10^seq(4.5, 6.1, length = n)),
   rate <- 100000*rbinom(n, popsize, prob = 0.000176) / popsize
+)
+curves <- tibble::tibble(
+  pop = 10^seq(4.5, 6.2, length=200),
+  t95 = 17.6 + me(pop, 1.96),
+  b95 = 17.6 - me(pop, 1.96),
+  t99 = 17.6 + me(pop, 2.58),
+  b99 = 17.6 - me(pop, 2.58),
 )
 BCsim |> take_sample(10000) |>
   gf_point(rate ~ popsize, alpha = 0.1, size = .5) |>
@@ -54,7 +146,7 @@ BCsim |> take_sample(10000) |>
 
 Make a system with known coefficients and different amounts of randomness.
 
-```{r}
+```{webr-r}
 height_sim <- datasim_make(
   mom <- rnorm(n, mean=62, sd=3),
   dad <- rnorm(n, mean=66, sd=3.5),
@@ -67,14 +159,64 @@ take_sample(height_sim, n=400) |>
   model_train(kid ~ mom + dad + sex) |>
   conf_interval() |>
   trials(10) |>
-  summarize(m = mean(.coef), v = var(.coef), .by = term)
+  summarize(m = mean(.coef), v = var(.coef), se = sqrt(v), .by = term)
 
 ```
 ## Take new random samples from a big set
 
+```{webr-r}
+#| message: false
+Samples <- Natality_2014 |> 
+  mutate(sex = zero_one(sex, one = "F")) |> 
+  take_sample(n=100) |>
+  model_train(sex ~ mager) |>
+  conf_interval() |>
+  trials(100) 
+Samples |> 
+  filter(term == "mager") |>
+  summarize(mager = mean(.coef), sv = var(.coef), se = sqrt(sv))
+Samples |>
+  filter(term == "mager") |>
+  gf_errorbar(.lwr + .upr ~ .trial) |>
+  gf_point(.coef ~ .trial, color = "red")
+  
+``` 
+
+Demonstrate the $1/\sqrt{n}$ dependence of SE on sample size (or $1/n$ for sampling variance).
+
+
+Derive standard error of the mean by algebra.
+
 
 ## Resample
 
+```{webr-r}
+#| message: false
+Our_sample <- Natality_2014 |> 
+  mutate(sex = zero_one(sex, one = "F")) |> 
+  take_sample(n=1000)
+
+Resamples <- Our_sample |> resample() |>
+  model_train(sex ~ mager) |>
+  conf_interval() |>
+  trials(100)
+
+Resamples |>
+  filter(term == "mager") |>
+  summarize(mean(.coef), var(.coef), sd(.coef))
+
+Resamples |>
+  filter(term == "mager") |>
+  gf_errorbar(.lwr + .upr ~ .trial) |>
+  gf_point(.coef ~ .trial, color = "red")
+```
 
 ## Just rely on `model_train()` and `conf_interval()`
 
+```{webr-r}
+Natality_2014 |> 
+  mutate(sex = zero_one(sex, one = "F")) |> 
+  take_sample(n = 100) |>
+  model_train(sex ~ mager) |>
+  conf_interval()
+```

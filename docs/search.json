@@ -1110,20 +1110,20 @@
     "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#take-new-random-samples-from-a-big-set",
     "title": "Kaplan’s in-class notes for 2025-02-21",
     "section": "Take new random samples from a big set",
-    "text": "Take new random samples from a big set\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\nDemonstrate the \\(1/\\sqrt{n}\\) dependence of SE on sample size (or \\(1/n\\) for sampling variance).\nDerive standard error of the mean by algebra."
+    "text": "Take new random samples from a big set\n\nSamples &lt;- Natality_2014 |&gt; \n  mutate(sex = zero_one(sex, one = \"F\")) |&gt; \n  take_sample(n=100) |&gt;\n  model_train(sex ~ mager) |&gt;\n  conf_interval() |&gt;\n  trials(100) \nSamples |&gt; \n  filter(term == \"mager\") |&gt;\n  summarize(mager = mean(.coef), sv = var(.coef), se = sqrt(sv))\n\n        mager         sv         se\n1 0.008401271 0.00114872 0.03389277\n\nSamples |&gt;\n  filter(term == \"mager\") |&gt;\n  gf_errorbar(.lwr + .upr ~ .trial) |&gt;\n  gf_point(.coef ~ .trial, color = \"red\")\n\n\n\n\n\n\n\n\nDemonstrate the \\(1/\\sqrt{n}\\) dependence of SE on sample size (or \\(1/n\\) for sampling variance).\nDerive standard error of the mean by algebra."
   },
   {
     "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#resample",
     "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#resample",
     "title": "Kaplan’s in-class notes for 2025-02-21",
     "section": "Resample",
-    "text": "Resample\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Resample\n\nOur_sample &lt;- Natality_2014 |&gt; \n  mutate(sex = zero_one(sex, one = \"F\")) |&gt; \n  take_sample(n=1000)\n\nResamples &lt;- Our_sample |&gt; resample() |&gt;\n  model_train(sex ~ mager) |&gt;\n  conf_interval() |&gt;\n  trials(100)\n\nResamples |&gt;\n  filter(term == \"mager\") |&gt;\n  summarize(mean(.coef), var(.coef), sd(.coef))\n\n  mean(.coef)   var(.coef) sd(.coef)\n1  0.01587188 0.0001346133 0.0116023\n\nResamples |&gt;\n  filter(term == \"mager\") |&gt;\n  gf_errorbar(.lwr + .upr ~ .trial) |&gt;\n  gf_point(.coef ~ .trial, color = \"red\")"
   },
   {
     "objectID": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#just-rely-on-model_train-and-conf_interval",
     "href": "Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html#just-rely-on-model_train-and-conf_interval",
     "title": "Kaplan’s in-class notes for 2025-02-21",
     "section": "Just rely on model_train() and conf_interval()",
-    "text": "Just rely on model_train() and conf_interval()\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "text": "Just rely on model_train() and conf_interval()\n\nNatality_2014 |&gt; \n  mutate(sex = zero_one(sex, one = \"F\")) |&gt; \n  take_sample(n = 100) |&gt;\n  model_train(sex ~ mager) |&gt;\n  conf_interval()\n\nWaiting for profiling to be done...\n\n\n# A tibble: 2 × 4\n  term           .lwr   .coef   .upr\n  &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;\n1 (Intercept) -1.16    0.694  2.59  \n2 mager       -0.0953 -0.0270 0.0398"
   }
 ]

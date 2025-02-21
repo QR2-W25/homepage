@@ -134,6 +134,9 @@ curves <- tibble::tibble(
   t99 = 17.6 + me(pop, 2.58),
   b99 = 17.6 - me(pop, 2.58),
 )
+me <- function(pop, multiplier = 1.96) { 
+  multiplier* 100000*sqrt(0.000176*(1-0.000176)/pop)
+}
 BCsim |> take_sample(10000) |>
   gf_point(rate ~ popsize, alpha = 0.1, size = .5) |>
   gf_ribbon(t99 + b99 ~ pop, data = curves, 
@@ -164,22 +167,22 @@ take_sample(height_sim, n=400) |>
 ```
 ## Take new random samples from a big set
 
-```{webr-r}
+```{r}
 #| message: false
 Samples <- Natality_2014 |> 
   mutate(sex = zero_one(sex, one = "F")) |> 
-  take_sample(n=100) |>
+  take_sample(n=20000) |>
   model_train(sex ~ mager) |>
-  conf_interval() |>
-  trials(100) 
-Samples |> 
-  filter(term == "mager") |>
-  summarize(mager = mean(.coef), sv = var(.coef), se = sqrt(sv))
-Samples |>
-  filter(term == "mager") |>
-  gf_errorbar(.lwr + .upr ~ .trial) |>
-  gf_point(.coef ~ .trial, color = "red")
-  
+  conf_interval() # |>
+#   trials(100) 
+# Samples |> 
+#   filter(term == "mager") |>
+#   summarize(mager = mean(.coef), sv = var(.coef), se = sqrt(sv))
+# Samples |>
+#   filter(term == "mager") |>
+#   gf_errorbar(.lwr + .upr ~ .trial) |>
+#   gf_point(.coef ~ .trial, color = "red")
+#   
 ``` 
 
 Demonstrate the $1/\sqrt{n}$ dependence of SE on sample size (or $1/n$ for sampling variance).

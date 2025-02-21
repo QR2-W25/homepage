@@ -401,7 +401,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"BCsim <- datasim_make(\n  popsize <- round(10^seq(4.5, 6.1, length = n)),\n  rate <- 100000*rbinom(n, popsize, prob = 0.000176) / popsize\n)\ncurves <- tibble::tibble(\n  pop = 10^seq(4.5, 6.2, length=200),\n  t95 = 17.6 + me(pop, 1.96),\n  b95 = 17.6 - me(pop, 1.96),\n  t99 = 17.6 + me(pop, 2.58),\n  b99 = 17.6 - me(pop, 2.58),\n)\nBCsim |> take_sample(10000) |>\n  gf_point(rate ~ popsize, alpha = 0.1, size = .5) |>\n  gf_ribbon(t99 + b99 ~ pop, data = curves, \n            fill = \"blue\", alpha = 0.1, inherit=FALSE) |>\n  gf_ribbon(t95 + b95 ~ pop, data = curves, \n            fill = \"green\", alpha = 0.2, inherit=FALSE)","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"height_sim <- datasim_make(\n  mom <- rnorm(n, mean=62, sd=3),\n  dad <- rnorm(n, mean=66, sd=3.5),\n  sex <- categorical(n, F=1, M=1 ),\n  kid <- 15 + 0.35*mom + 0.40*dad + \n    cat2value(sex, F=0, M=5) + \n    rnorm(n, sd=3.4)\n)\ntake_sample(height_sim, n=400) |>\n  model_train(kid ~ mom + dad + sex) |>\n  conf_interval() |>\n  trials(10) |>\n  summarize(m = mean(.coef), v = var(.coef), se = sqrt(v), .by = term)","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Samples <- Natality_2014 |> \n  mutate(sex = zero_one(sex, one = \"F\")) |> \n  take_sample(n=100) |>\n  model_train(sex ~ mager) |>\n  conf_interval() |>\n  trials(100) \nSamples |> \n  filter(term == \"mager\") |>\n  summarize(mager = mean(.coef), sv = var(.coef), se = sqrt(sv))\nSamples |>\n  filter(term == \"mager\") |>\n  gf_errorbar(.lwr + .upr ~ .trial) |>\n  gf_point(.coef ~ .trial, color = \"red\")\n  ","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"false","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Our_sample <- Natality_2014 |> \n  mutate(sex = zero_one(sex, one = \"F\")) |> \n  take_sample(n=1000)\n\nResamples <- Our_sample |> resample() |>\n  model_train(sex ~ mager) |>\n  conf_interval() |>\n  trials(100)\n\nResamples |>\n  filter(term == \"mager\") |>\n  summarize(mean(.coef), var(.coef), sd(.coef))\n\nResamples |>\n  filter(term == \"mager\") |>\n  gf_errorbar(.lwr + .upr ~ .trial) |>\n  gf_point(.coef ~ .trial, color = \"red\")","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"false","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Natality_2014 |> \n  mutate(sex = zero_one(sex, one = \"F\")) |> \n  take_sample(n = 100) |>\n  model_train(sex ~ mager) |>\n  conf_interval()","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qwebrCellDetails = [{"code":"BCsim <- datasim_make(\n  popsize <- round(10^seq(4.5, 6.1, length = n)),\n  rate <- 100000*rbinom(n, popsize, prob = 0.000176) / popsize\n)\ncurves <- tibble::tibble(\n  pop = 10^seq(4.5, 6.2, length=200),\n  t95 = 17.6 + me(pop, 1.96),\n  b95 = 17.6 - me(pop, 1.96),\n  t99 = 17.6 + me(pop, 2.58),\n  b99 = 17.6 - me(pop, 2.58),\n)\nBCsim |> take_sample(10000) |>\n  gf_point(rate ~ popsize, alpha = 0.1, size = .5) |>\n  gf_ribbon(t99 + b99 ~ pop, data = curves, \n            fill = \"blue\", alpha = 0.1, inherit=FALSE) |>\n  gf_ribbon(t95 + b95 ~ pop, data = curves, \n            fill = \"green\", alpha = 0.2, inherit=FALSE)","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"height_sim <- datasim_make(\n  mom <- rnorm(n, mean=62, sd=3),\n  dad <- rnorm(n, mean=66, sd=3.5),\n  sex <- categorical(n, F=1, M=1 ),\n  kid <- 15 + 0.35*mom + 0.40*dad + \n    cat2value(sex, F=0, M=5) + \n    rnorm(n, sd=3.4)\n)\ntake_sample(height_sim, n=400) |>\n  model_train(kid ~ mom + dad + sex) |>\n  conf_interval() |>\n  trials(10) |>\n  summarize(m = mean(.coef), v = var(.coef), se = sqrt(v), .by = term)","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 </script>
 <script type="module">
@@ -2189,20 +2189,86 @@ M        70       66    65.6    69.9      74.1</code></pre>
 </section>
 <section id="take-new-random-samples-from-a-big-set" class="level2">
 <h2 class="anchored" data-anchor-id="take-new-random-samples-from-a-big-set">Take new random samples from a big set</h2>
-<div id="qwebr-insertion-location-3"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>Samples <span class="ot">&lt;-</span> Natality_2014 <span class="sc">|&gt;</span> </span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sex =</span> <span class="fu">zero_one</span>(sex, <span class="at">one =</span> <span class="st">"F"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(sex <span class="sc">~</span> mager) <span class="sc">|&gt;</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>() <span class="sc">|&gt;</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">trials</span>(<span class="dv">100</span>) </span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>Samples <span class="sc">|&gt;</span> </span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(term <span class="sc">==</span> <span class="st">"mager"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mager =</span> <span class="fu">mean</span>(.coef), <span class="at">sv =</span> <span class="fu">var</span>(.coef), <span class="at">se =</span> <span class="fu">sqrt</span>(sv))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>        mager         sv         se
+1 0.008401271 0.00114872 0.03389277</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>Samples <span class="sc">|&gt;</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(term <span class="sc">==</span> <span class="st">"mager"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gf_errorbar</span>(.lwr <span class="sc">+</span> .upr <span class="sc">~</span> .trial) <span class="sc">|&gt;</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gf_point</span>(.coef <span class="sc">~</span> .trial, <span class="at">color =</span> <span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2025-02-21-notes_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 <p>Demonstrate the <span class="math inline">\(1/\sqrt{n}\)</span> dependence of SE on sample size (or <span class="math inline">\(1/n\)</span> for sampling variance).</p>
 <p>Derive standard error of the mean by algebra.</p>
 </section>
 <section id="resample" class="level2">
 <h2 class="anchored" data-anchor-id="resample">Resample</h2>
-<div id="qwebr-insertion-location-4"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>Our_sample <span class="ot">&lt;-</span> Natality_2014 <span class="sc">|&gt;</span> </span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sex =</span> <span class="fu">zero_one</span>(sex, <span class="at">one =</span> <span class="st">"F"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">1000</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>Resamples <span class="ot">&lt;-</span> Our_sample <span class="sc">|&gt;</span> <span class="fu">resample</span>() <span class="sc">|&gt;</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(sex <span class="sc">~</span> mager) <span class="sc">|&gt;</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>() <span class="sc">|&gt;</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">trials</span>(<span class="dv">100</span>)</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>Resamples <span class="sc">|&gt;</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(term <span class="sc">==</span> <span class="st">"mager"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="fu">mean</span>(.coef), <span class="fu">var</span>(.coef), <span class="fu">sd</span>(.coef))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  mean(.coef)   var(.coef) sd(.coef)
+1  0.01587188 0.0001346133 0.0116023</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>Resamples <span class="sc">|&gt;</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(term <span class="sc">==</span> <span class="st">"mager"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gf_errorbar</span>(.lwr <span class="sc">+</span> .upr <span class="sc">~</span> .trial) <span class="sc">|&gt;</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gf_point</span>(.coef <span class="sc">~</span> .trial, <span class="at">color =</span> <span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="2025-02-21-notes_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="just-rely-on-model_train-and-conf_interval" class="level2">
 <h2 class="anchored" data-anchor-id="just-rely-on-model_train-and-conf_interval">Just rely on <code>model_train()</code> and <code>conf_interval()</code></h2>
-<div id="qwebr-insertion-location-5"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>Natality_2014 <span class="sc">|&gt;</span> </span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sex =</span> <span class="fu">zero_one</span>(sex, <span class="at">one =</span> <span class="st">"F"</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n =</span> <span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(sex <span class="sc">~</span> mager) <span class="sc">|&gt;</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Waiting for profiling to be done...</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  term           .lwr   .coef   .upr
+  &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;
+1 (Intercept) -1.16    0.694  2.59  
+2 mager       -0.0953 -0.0270 0.0398</code></pre>
+</div>
+</div>
 
 
 </section>

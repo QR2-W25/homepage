@@ -49,7 +49,7 @@ Block 4: Precision (cont.)
 - Start work
     
 - Assignments due:
-    - Spiegelhalter Ch. 9 [post-discussion questions](../questions/R9-after.html)
+    - Spiegelhalter Ch. 9 [post-discussion questions](../questions/S9-after.html)
     - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) through Phase I Step 5. Your report will consist of starting to transcribe a couple of "person" and "household" rows into the two spreadsheets you created in Step 3. These do not need to be perfect; you may well want to reconfigure them later.
      
     

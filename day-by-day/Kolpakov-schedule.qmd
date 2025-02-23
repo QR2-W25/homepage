@@ -8,32 +8,6 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 ::: {.callout-note}
-## 13. Wednesday 19 February
-
-Course Project
-
-- We shall be working towards understanding the problem and formulating Sprint 2
-- Assignments due: Report on Sprint 1 (on Github)
-
-:::
-
-::: {.callout-note}
-## 14. Thursday 20 February
-
-Block 5 Accuracy, confounding and adjustment 
-
-- We shall talk about accuracy vs precision `r tutorial_link(5)`
-- We shall understand what confounding is, and how to adjust for it
-- Assignments due:
-  - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html) 
-  
-:::
-
-
-## Further out (i.e. tentative)
-
-
-::: {.callout-note}
 ## 15. Monday 24 February
 
 Course Project
@@ -55,6 +29,7 @@ Block 5 Accuracy, confounding and adjustment (continued)
 
 :::
 
+## Further out (i.e. tentative)
 
 ::: {.callout-note}
 ## 17. Monday 3 March
@@ -74,9 +49,9 @@ Block 6 Hypothetical reasoning & Bayes
 Block 6 Hypothetical reasoning & Bayes (continued)
 
 - New readings 
-  - Spiegelhalter Chap 10
-- We continue discussing hypothesis testing
-- Which hypotheses can you formulate and test in your project? 
+  - Spiegelhalter Chap 10 & [reading questions](../questions/S10-after.html)
+- We continue discussing hypothesis testing.
+- Which hypotheses did you formulate and test in your project? 
 - Assignments due:
   - Report on Sprint 2 (on Github)
 
@@ -91,7 +66,7 @@ Block 6 Hypothetical reasoning & Bayes (continued)
 
 - New readings:
   - Spiegelhalter Chap 11
-- Discussion of Bayesian approach and its applications
+- Discussion of Bayesian approach and its applications.
 - Can you make use of it in your project? 
 - Sprint 3 starts
 
@@ -131,6 +106,28 @@ Course Project
 
 
 ## Already past
+
+::: {.callout-note}
+## 14. Thursday 20 February
+
+Block 5 Accuracy, confounding and adjustment 
+
+- We shall talk about accuracy vs precision `r tutorial_link(5)`
+- We shall understand what confounding is, and how to adjust for it
+- Assignments due:
+  - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html) 
+  
+:::
+
+::: {.callout-note}
+## 13. Wednesday 19 February
+
+Course Project
+
+- We shall be working towards understanding the problem and formulating Sprint 2
+- Assignments due: Report on Sprint 1 (on Github)
+
+:::
 
 ::: {.callout-note}
 ## 11. Monday 10 February - Monday 17 February

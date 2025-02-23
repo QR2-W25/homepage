@@ -3,15 +3,47 @@ title: "Kaplan's in-class notes for 2025-01-24"
 date: 2025-01-24
 ---
 
-Odds, log odds, logistic regression
 
-Perhaps drivers of mortality a la USAFA example
+## Review
 
----------------
+**Block 1**: Data, graphics, a little bit of wrangling. Models through graphics. Show the way that confidence intervals were presented in the graphic.
 
-Quantitative outcome variable
+**Block 2**: Prediction, where we introduced model training and evaluation.
 
-Prediction interval and how it corresponds to the "normal" curve.
+**Block 3**: Regression, where we introduced the idea of a covariate and showed **how** to adjust for a covariate. But we left ambiguous **when** you should include a covariate.
 
-Mean square error
+**Block 4**: Precision and confidence intervals. 
+
+i. How to interpret them for a single model. Easy.
+ii. How to interpret them across many different studies: should the results from other studies color our interpretation of a specific study? Funnel plot.
+
+**Block 5** is ultimately about **accuracy**. The setting:
+
+> We are thinking of intervening, e.g. buying new running shoes for an important race. We want to assess the likely implications for this intervention, which requires us to draw conclusions relating to causality.
+
+i. Can we always treat a model coefficient in a causal way?
+ii. How can we know how best to choose covariates?
+iii. Where does experiment come into this?
+
+## Can we always treat a model coefficient in a causal way?
+
+Mathematical approach, model A ~ B and B ~ A to show that the coefficients will either both or neither have confidence intervals that include zero.
+
+i. Work from data.
+ii. Work from a simulation where we know the direction of causation.
+
+### Example
+
+[New York Times article on elite running shoes](https://www.nytimes.com/interactive/2019/12/13/upshot/nike-vaporfly-next-percent-shoe-estimates.html): 
+
+Nike *Vapor* shoes are used for one race
+
+1. Raise the issue of causality. Not practical to do an experiment: shoes cost too much and not possible to blind the experiment.
+2. Confounders: 
+    - Do runners who are in a particularly expansive mood buy the shoes for one race?
+    - Do runners buy expensive shoes as a reward for particularly intensive training program?
+    - Do runners buy the shoes specifically for easy courses to ensure that they get the shortest running time possible (e.g. in order to qualify for future races)?
+3. Need to compare like with like. Show the four methods of analysis.
+    - Point out the means and CIs.
+    
 

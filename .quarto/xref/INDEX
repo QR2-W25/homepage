@@ -199,5 +199,8 @@
   },
   "questions/S7-before.qmd": {
     "S7-before.html": "7d2a7087"
+  },
+  "Kaplan_posts/revealjs-try.qmd": {
+    "revealjs-try.html": "561b65ac"
   }
 }

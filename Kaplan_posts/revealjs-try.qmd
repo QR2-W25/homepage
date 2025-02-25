@@ -1,0 +1,16 @@
+---
+title: "Notes for class"
+format: 
+  revealjs:
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 3
+      buttons: true
+---
+
+# My first slide
+
+Here is some content
+
+# A second slide
+

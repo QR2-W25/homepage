@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -117,7 +151,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dog-causality" id="toc-dog-causality" class="nav-link active" data-scroll-target="#dog-causality">Dog causality</a></li>
+  <li><a href="#spurious-correlation" id="toc-spurious-correlation" class="nav-link active" data-scroll-target="#spurious-correlation">Spurious correlation</a></li>
+  <li><a href="#reverse-dog-causality" id="toc-reverse-dog-causality" class="nav-link" data-scroll-target="#reverse-dog-causality">“Reverse” dog causality</a>
+  <ul class="collapse">
+  <li><a href="#confounding" id="toc-confounding" class="nav-link" data-scroll-target="#confounding">Confounding</a></li>
+  <li><a href="#contributing-causes" id="toc-contributing-causes" class="nav-link" data-scroll-target="#contributing-causes">Contributing causes</a></li>
+  <li><a href="#confounding-and-colliding" id="toc-confounding-and-colliding" class="nav-link" data-scroll-target="#confounding-and-colliding">Confounding and colliding</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -149,17 +189,96 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Causality and forced expiratory volume</p>
-<p>https://homer.quarto.pub/lesson-12/#/height-and-age</p>
-<p>doi:10.1080/10691898.2020.1713936</p>
-<section id="dog-causality" class="level2">
-<h2 class="anchored" data-anchor-id="dog-causality">Dog causality</h2>
+<section id="spurious-correlation" class="level2">
+<h2 class="anchored" data-anchor-id="spurious-correlation">Spurious correlation</h2>
+<p><a href="https://www.tylervigen.com/spurious-correlations" class="uri">https://www.tylervigen.com/spurious-correlations</a></p>
+</section>
+<section id="reverse-dog-causality" class="level2">
+<h2 class="anchored" data-anchor-id="reverse-dog-causality">“Reverse” dog causality</h2>
 <ul>
 <li><p>Itching, scratching, and leg movement. When I scratch the dog, her leg moves in the same manner it does for autonomous movement.</p></li>
 <li><p>Laika is blowing her coat just as the warm weather is beginning. Makes sense, but in Minnesota she also blows her coat at the end of February, even though there is at least another month of cold weather.</p></li>
 </ul>
+<section id="confounding" class="level3">
+<h3 class="anchored" data-anchor-id="confounding">Confounding</h3>
+<p><img src="www/confounding.png" class="img-fluid"></p>
+</section>
+<section id="contributing-causes" class="level3">
+<h3 class="anchored" data-anchor-id="contributing-causes">Contributing causes</h3>
+<p><img src="www/contributing-causes.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sim_collider <span class="ot">&lt;-</span> <span class="fu">datasim_make</span>(</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  a <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  z <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">*</span>a <span class="sc">-</span> y <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>sim_collider <span class="sc">|&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(y <span class="sc">~</span> a) <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  term          .lwr   .coef  .upr
+  &lt;chr&gt;        &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt;
+1 (Intercept) -0.139  0.0479 0.235
+2 a           -0.228 -0.0467 0.135</code></pre>
+</div>
+</div>
+</section>
+<section id="confounding-and-colliding" class="level3">
+<h3 class="anchored" data-anchor-id="confounding-and-colliding">Confounding and colliding</h3>
+<p><img src="www/confounder-collider.png" class="img-fluid"></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>sim_cc <span class="ot">&lt;-</span> <span class="fu">datasim_make</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  c <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  a <span class="ot">&lt;-</span> <span class="sc">-</span><span class="dv">2</span><span class="sc">*</span>c <span class="sc">+</span> <span class="fu">rnorm</span>(n),</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">*</span>c <span class="sc">+</span> <span class="fu">rnorm</span>(n),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  z <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">*</span>a <span class="sc">-</span> y <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>sim_cc <span class="sc">|&gt;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(y <span class="sc">~</span> a) <span class="sc">|&gt;</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  term          .lwr   .coef   .upr
+  &lt;chr&gt;        &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;
+1 (Intercept) -0.247  0.0840  0.415
+2 a           -1.51  -1.36   -1.21 </code></pre>
+</div>
+</div>
+<p>Causality and forced expiratory volume</p>
+<p><img src="www/FEV-network.png" class="img-fluid"></p>
+<p>Which are the no-input nodes?</p>
+<p>What coefficients should we put on each link.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>breath_sim <span class="ot">&lt;-</span> <span class="fu">datasim_make</span>(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  sex <span class="ot">&lt;-</span> <span class="fu">categorical</span>(n, <span class="at">F=</span><span class="dv">1</span>, <span class="at">M=</span><span class="dv">1</span>),</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  smoke <span class="ot">&lt;-</span> age <span class="sc">+</span> <span class="fu">cat2value</span>(sex, <span class="at">M =</span> <span class="dv">1</span>, <span class="at">F=</span> <span class="sc">-</span><span class="dv">1</span>),</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  height <span class="ot">&lt;-</span> smoke <span class="sc">+</span> <span class="fu">cat2value</span>(sex, <span class="at">M =</span> <span class="dv">0</span>, <span class="at">F =</span> <span class="dv">0</span>) <span class="sc">+</span> age,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  fev <span class="ot">&lt;-</span> smoke <span class="sc">+</span> age <span class="sc">+</span> height <span class="sc">+</span> <span class="fu">cat2value</span>(sex, <span class="at">M =</span> <span class="dv">0</span>, <span class="at">F =</span> <span class="dv">0</span>) </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>breath_sim <span class="sc">|&gt;</span> <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 5 × 5
+     age sex     smoke height    fev
+   &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+1  1.05  F      0.0471  1.09   2.19 
+2 -0.803 M      0.197  -0.606 -1.21 
+3 -0.635 M      0.365  -0.271 -0.541
+4  0.561 F     -0.439   0.121  0.243
+5  0.894 F     -0.106   0.789  1.58 </code></pre>
+</div>
+</div>
+<p>https://homer.quarto.pub/lesson-12/#/height-and-age</p>
+<p>doi:10.1080/10691898.2020.1713936</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

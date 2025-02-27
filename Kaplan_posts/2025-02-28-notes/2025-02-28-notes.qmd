@@ -7,17 +7,85 @@ date: 2025-02-28
 library(LSTbook)
 ```
 
+## Spurious correlation
+
+<https://www.tylervigen.com/spurious-correlations>
+
+## "Reverse" dog causality
+
+- Itching, scratching, and leg movement. When I scratch the dog, her leg moves in the same manner it does for autonomous movement.
+
+- Laika is blowing her coat just as the warm weather is beginning. Makes sense, but in Minnesota she also blows her coat at the end of February, even though there is at least another month of cold weather.
+
+
+
+### Confounding
+
+![](www/confounding.png)
+
+### Contributing causes
+
+![](www/contributing-causes.png)
+
+```{r}
+sim_collider <- datasim_make(
+  a <- rnorm(n),
+  y <- rnorm(n),
+  z <- 2*a - y + rnorm(n)
+)
+
+sim_collider |>
+  take_sample(n=100) |>
+  model_train(y ~ a) |>
+  conf_interval()
+```
+
+### Confounding and colliding
+
+
+![](www/confounder-collider.png)
+
+```{r}
+sim_cc <- datasim_make(
+  c <- rnorm(n),
+  a <- -2*c + rnorm(n),
+  y <- 3*c + rnorm(n),
+  z <- 2*a - y + rnorm(n)
+)
+
+sim_cc |>
+  take_sample(n=100) |>
+  model_train(y ~ a) |>
+  conf_interval()
+```
+
+
 
 Causality and forced expiratory volume
+
+![](www/FEV-network.png)
+
+
+Which are the no-input nodes?
+
+What coefficients should we put on each link.
+
+```{r}
+breath_sim <- datasim_make(
+  age <- rnorm(n),
+  sex <- categorical(n, F=1, M=1),
+  smoke <- age + cat2value(sex, M = 1, F= -1),
+  height <- smoke + cat2value(sex, M = 0, F = 0) + age,
+  fev <- smoke + age + height + cat2value(sex, M = 0, F = 0) 
+)
+
+breath_sim |> take_sample(n=5)
+```
+
+
 
 https://homer.quarto.pub/lesson-12/#/height-and-age
 
 doi:10.1080/10691898.2020.1713936
 
-
-## Dog causality
-
-- Itching, scratching, and leg movement. When I scratch the dog, her leg moves in the same manner it does for autonomous movement.
-
-- Laika is blowing her coat just as the warm weather is beginning. Makes sense, but in Minnesota she also blows her coat at the end of February, even though there is at least another month of cold weather.
 

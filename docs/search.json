@@ -221,7 +221,7 @@
     "href": "Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html",
     "title": "Kaplan’s in-class notes for 2025-02-28",
     "section": "",
-    "text": "Causality and forced expiratory volume\nhttps://homer.quarto.pub/lesson-12/#/height-and-age\ndoi:10.1080/10691898.2020.1713936"
+    "text": "https://www.tylervigen.com/spurious-correlations"
   },
   {
     "objectID": "Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html#rosling-ch.-3-the-straight-line-instinct",
@@ -1307,5 +1307,19 @@
     "title": "Kaplan’s in-class notes for 2025-02-28",
     "section": "Dog causality",
     "text": "Dog causality\n\nItching, scratching, and leg movement. When I scratch the dog, her leg moves in the same manner it does for autonomous movement.\nLaika is blowing her coat just as the warm weather is beginning. Makes sense, but in Minnesota she also blows her coat at the end of February, even though there is at least another month of cold weather."
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html#spurious-correlation",
+    "href": "Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html#spurious-correlation",
+    "title": "Kaplan’s in-class notes for 2025-02-28",
+    "section": "",
+    "text": "https://www.tylervigen.com/spurious-correlations"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html#reverse-dog-causality",
+    "href": "Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html#reverse-dog-causality",
+    "title": "Kaplan’s in-class notes for 2025-02-28",
+    "section": "“Reverse” dog causality",
+    "text": "“Reverse” dog causality\n\nItching, scratching, and leg movement. When I scratch the dog, her leg moves in the same manner it does for autonomous movement.\nLaika is blowing her coat just as the warm weather is beginning. Makes sense, but in Minnesota she also blows her coat at the end of February, even though there is at least another month of cold weather.\n\n\nConfounding\n\n\n\nContributing causes\n\n\nsim_collider &lt;- datasim_make(\n  a &lt;- rnorm(n),\n  y &lt;- rnorm(n),\n  z &lt;- 2*a - y + rnorm(n)\n)\n\nsim_collider |&gt;\n  take_sample(n=100) |&gt;\n  model_train(y ~ a) |&gt;\n  conf_interval()\n\n# A tibble: 2 × 4\n  term          .lwr   .coef  .upr\n  &lt;chr&gt;        &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt;\n1 (Intercept) -0.139  0.0479 0.235\n2 a           -0.228 -0.0467 0.135\n\n\n\n\nConfounding and colliding\n\n\nsim_cc &lt;- datasim_make(\n  c &lt;- rnorm(n),\n  a &lt;- -2*c + rnorm(n),\n  y &lt;- 3*c + rnorm(n),\n  z &lt;- 2*a - y + rnorm(n)\n)\n\nsim_cc |&gt;\n  take_sample(n=100) |&gt;\n  model_train(y ~ a) |&gt;\n  conf_interval()\n\n# A tibble: 2 × 4\n  term          .lwr   .coef   .upr\n  &lt;chr&gt;        &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;\n1 (Intercept) -0.247  0.0840  0.415\n2 a           -1.51  -1.36   -1.21 \n\n\nCausality and forced expiratory volume\n\nWhich are the no-input nodes?\nWhat coefficients should we put on each link.\n\nbreath_sim &lt;- datasim_make(\n  age &lt;- rnorm(n),\n  sex &lt;- categorical(n, F=1, M=1),\n  smoke &lt;- age + cat2value(sex, M = 1, F= -1),\n  height &lt;- smoke + cat2value(sex, M = 0, F = 0) + age,\n  fev &lt;- smoke + age + height + cat2value(sex, M = 0, F = 0) \n)\n\nbreath_sim |&gt; take_sample(n=5)\n\n# A tibble: 5 × 5\n     age sex     smoke height    fev\n   &lt;dbl&gt; &lt;chr&gt;   &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n1  1.05  F      0.0471  1.09   2.19 \n2 -0.803 M      0.197  -0.606 -1.21 \n3 -0.635 M      0.365  -0.271 -0.541\n4  0.561 F     -0.439   0.121  0.243\n5  0.894 F     -0.106   0.789  1.58 \n\n\nhttps://homer.quarto.pub/lesson-12/#/height-and-age\ndoi:10.1080/10691898.2020.1713936"
   }
 ]

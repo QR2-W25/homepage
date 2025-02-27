@@ -1,0 +1,19 @@
+---
+title: "Confidence intervals and Graphics"
+---
+
+```{r include=FALSE}
+library(LSTbook)
+```
+
+```{r}
+Galton |> take_sample(n=100) |>
+  model_train(height ~ sex) |>
+  conf_interval()
+```
+
+```{r}
+Galton |> take_sample(n=100) |>
+  point_plot(height ~ sex, 
+  annot = "model")
+```

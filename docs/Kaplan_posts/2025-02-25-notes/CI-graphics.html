@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-24">
 
-<title>Kaplan’s in-class notes for 2025-01-24 – QR2</title>
+<title>Confidence intervals and Graphics – QR2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -112,25 +145,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#review" id="toc-review" class="nav-link active" data-scroll-target="#review">Review</a></li>
-  <li><a href="#can-we-always-treat-a-model-coefficient-in-a-causal-way" id="toc-can-we-always-treat-a-model-coefficient-in-a-causal-way" class="nav-link" data-scroll-target="#can-we-always-treat-a-model-coefficient-in-a-causal-way">Can we always treat a model coefficient in a causal way?</a>
-  <ul class="collapse">
-  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Kaplan’s in-class notes for 2025-01-24</h1>
+<h1 class="title">Confidence intervals and Graphics</h1>
 </div>
 
 
@@ -138,12 +161,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">January 24, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -153,54 +170,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="review" class="level2">
-<h2 class="anchored" data-anchor-id="review">Review</h2>
-<p><strong>Block 1</strong>: Data, graphics, a little bit of wrangling. Models through graphics. Show the way that confidence intervals were presented in the graphic.</p>
-<p><strong>Block 2</strong>: Prediction, where we introduced model training and evaluation.</p>
-<p><strong>Block 3</strong>: Regression, where we introduced the idea of a covariate and showed <strong>how</strong> to adjust for a covariate. But we left ambiguous <strong>when</strong> you should include a covariate.</p>
-<p><strong>Block 4</strong>: Precision and confidence intervals.</p>
-<ol type="i">
-<li>How to interpret them for a single model. Easy.</li>
-<li>How to interpret them across many different studies: should the results from other studies color our interpretation of a specific study? Funnel plot.</li>
-</ol>
-<p><strong>Block 5</strong> is ultimately about <strong>accuracy</strong>. The setting:</p>
-<blockquote class="blockquote">
-<p>We are thinking of intervening, e.g.&nbsp;buying new running shoes for an important race. We want to assess the likely implications for this intervention, which requires us to draw conclusions relating to causality.</p>
-</blockquote>
-<ol type="i">
-<li>Can we always treat a model coefficient in a causal way?</li>
-<li>How can we know how best to choose covariates?</li>
-<li>Where does experiment come into this?</li>
-</ol>
-</section>
-<section id="can-we-always-treat-a-model-coefficient-in-a-causal-way" class="level2">
-<h2 class="anchored" data-anchor-id="can-we-always-treat-a-model-coefficient-in-a-causal-way">Can we always treat a model coefficient in a causal way?</h2>
-<p>Mathematical approach, model A ~ B and B ~ A to show that the coefficients will either both or neither have confidence intervals that include zero.</p>
-<ol type="i">
-<li>Work from data.</li>
-<li>Work from a simulation where we know the direction of causation.</li>
-</ol>
-<section id="example" class="level3">
-<h3 class="anchored" data-anchor-id="example">Example</h3>
-<p><a href="https://www.nytimes.com/interactive/2019/12/13/upshot/nike-vaporfly-next-percent-shoe-estimates.html">New York Times article on elite running shoes</a>:</p>
-<p>Nike <em>Vapor</em> shoes are used for one race</p>
-<ol type="1">
-<li>Raise the issue of causality. Not practical to do an experiment: shoes cost too much and not possible to blind the experiment.</li>
-<li>Confounders:
-<ul>
-<li>Do runners who are in a particularly expansive mood buy the shoes for one race?</li>
-<li>Do runners buy expensive shoes as a reward for particularly intensive training program?</li>
-<li>Do runners buy the shoes specifically for easy courses to ensure that they get the shortest running time possible (e.g.&nbsp;in order to qualify for future races)?</li>
-</ul></li>
-<li>Need to compare like with like. Show the four methods of analysis.
-<ul>
-<li>Point out the means and CIs.</li>
-</ul></li>
-</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>Galton <span class="sc">|&gt;</span> <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(height <span class="sc">~</span> sex) <span class="sc">|&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 4
+  term         .lwr .coef  .upr
+  &lt;chr&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1 (Intercept) 63.8  64.6  65.3 
+2 sexM         3.14  4.21  5.28</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>Galton <span class="sc">|&gt;</span> <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">point_plot</span>(height <span class="sc">~</span> sex, </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">annot =</span> <span class="st">"model"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="CI-graphics_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

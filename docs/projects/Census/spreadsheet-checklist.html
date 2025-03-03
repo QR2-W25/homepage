@@ -227,7 +227,7 @@ Figure&nbsp;2: Select “revert to unformatted data” to undo the pretty format
 </section>
 <section id="sec-action-item-5" class="level3">
 <h3 class="anchored" data-anchor-id="sec-action-item-5">Action Item</h3>
-<p>Make sure that the household IDs are consistent between your <em>person</em> spreadsheet and your <em>household</em> spreadsheet. In there <em>household</em> spreadsheet, the IDs will never be repeated from one row to another, while in the <em>person</em> spreadsheet the IDs will be repeated as needed to indicate the household to which each person belongs.</p>
+<p>Make sure that the household IDs are consistent between your <em>person</em> spreadsheet and your <em>households</em> spreadsheet. In there <em>households</em> spreadsheet, the IDs will never be repeated from one row to another, while in the <em>person</em> spreadsheet the IDs will be repeated as needed to indicate the household to which each person belongs.</p>
 </section>
 </section>
 <section id="person-names" class="level2">
@@ -282,7 +282,7 @@ Figure&nbsp;2: Select “revert to unformatted data” to undo the pretty format
 </section>
 <section id="household-data" class="level2">
 <h2 class="anchored" data-anchor-id="household-data">Household data</h2>
-<p>The unit of observation in your <em>household</em> spreadsheet corresponds to one or more people living in a home, clinic, institution, and such. <a href="#fig-household-sheet-1" class="quarto-xref">Figure&nbsp;3</a> shows an example with the correct unit of observation, but with other items that need work.</p>
+<p>The unit of observation in your <em>households</em> spreadsheet corresponds to one or more people living in a home, clinic, institution, and such. <a href="#fig-household-sheet-1" class="quarto-xref">Figure&nbsp;3</a> shows an example with the correct unit of observation, but with other items that need work.</p>
 <div id="fig-household-sheet-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-household-sheet-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -353,8 +353,8 @@ Figure&nbsp;3: A pretty good start on a household sheet, but some revisions are 
 <p>The state, county, and city/town information might be in the top material in the original population schedule. These should refer to the location of the building. For the <em>persons</em> data, there may be different info. If you notice such a situation, mention it to <code>dkaplan@uaustin.org</code> and we’ll work out a solution.</p>
 <ol start="3" type="1">
 <li><p>Put the household value or rent in the same column, called <code>value</code>. We can sort out the rent vs own is matter when wrangling the data later on.</p></li>
-<li><p>We don’t need a family name in the <em>household</em> sheet. This is because often not everyone in a given household has the same last name. We can get the last name(s) from the <em>persons</em> sheet.</p></li>
-<li><p>Strictly speaking, we don’t need a number-of-people column. This can easily be calculated from the <em>persons</em> sheet. Nevertheless, let’s do include number-of-people in the <em>household</em> sheet. We can use it to check the internal consistency of the data.</p></li>
+<li><p>We don’t need a family name in the <em>households</em> sheet. This is because often not everyone in a given household has the same last name. We can get the last name(s) from the <em>persons</em> sheet.</p></li>
+<li><p>Strictly speaking, we don’t need a number-of-people column. This can easily be calculated from the <em>persons</em> sheet. Nevertheless, let’s do include number-of-people in the <em>households</em> sheet. We can use it to check the internal consistency of the data.</p></li>
 <li><p>Household types that I have seen include “home” and “farm”, but there may be others that you encounter. Enter them as you encounter them. Later, we’ll come back to this and standardize the levels.</p></li>
 </ol>
 </section>

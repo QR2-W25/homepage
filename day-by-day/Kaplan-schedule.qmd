@@ -21,6 +21,7 @@ Block 5: Confounding & Causality (cont.)
 
 - New readings   
     - Rosling Ch. 9 & [reading questions](../questions/R9-before.html)
+    - Peruse the [Census Project Phase II Checklist](../projects/Census/spreadsheet-checklist.html) to prepare for class discussion. 
 
 - Start work: Today in class we will be going over a checklist of items regarding the transcription of the Census data into your "person" and "household" spreadsheets. It's important to make considerable progress on this before the Friday 7 March class.
      

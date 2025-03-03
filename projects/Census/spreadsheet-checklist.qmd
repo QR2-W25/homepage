@@ -53,7 +53,7 @@ It's crucial that each household has a **unique** ID across all of the students 
 
 ### Action Item {#sec-action-item-5} 
 
-Make sure that the household IDs are consistent between your *person* spreadsheet and your *household* spreadsheet. In there *household* spreadsheet, the IDs will never be repeated from one row to another, while in the *person* spreadsheet the IDs will be repeated as needed to indicate the household to which each person belongs.
+Make sure that the household IDs are consistent between your *person* spreadsheet and your *households* spreadsheet. In there *households* spreadsheet, the IDs will never be repeated from one row to another, while in the *person* spreadsheet the IDs will be repeated as needed to indicate the household to which each person belongs.
 
 ## Person names
 
@@ -97,7 +97,7 @@ For numbers, enter the code `NA` (without quotes).
 
 ## Household data
 
-The unit of observation in your *household* spreadsheet corresponds to one or more people living in a home, clinic, institution, and such. @fig-household-sheet-1 shows an example with the correct unit of observation, but with other items that need work. 
+The unit of observation in your *households* spreadsheet corresponds to one or more people living in a home, clinic, institution, and such. @fig-household-sheet-1 shows an example with the correct unit of observation, but with other items that need work. 
 
 ::: {#fig-household-sheet-1}
 ![](www/household-sheet-1.png)
@@ -136,9 +136,9 @@ The state, county, and city/town information might be in the top material in the
 
 3. Put the household value or rent in the same column, called `value`. We can sort out the rent vs own is matter when wrangling the data later on.
 
-4. We don't need a family name in the *household* sheet. This is because often not everyone in a given household has the same last name. We can get the last name(s) from the *persons* sheet. 
+4. We don't need a family name in the *households* sheet. This is because often not everyone in a given household has the same last name. We can get the last name(s) from the *persons* sheet. 
 
-5. Strictly speaking, we don't need a number-of-people column. This can easily be calculated from the *persons* sheet. Nevertheless, let's do include number-of-people in the *household* sheet. We can use it to check the internal consistency of the data.
+5. Strictly speaking, we don't need a number-of-people column. This can easily be calculated from the *persons* sheet. Nevertheless, let's do include number-of-people in the *households* sheet. We can use it to check the internal consistency of the data.
 
 6. Household types that I have seen include "home" and "farm", but there may be others that you encounter. Enter them as you encounter them. Later, we'll come back to this and standardize the levels.
 

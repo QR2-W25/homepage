@@ -67,13 +67,17 @@ In addition, you will figure out an reasonable `latitude` and `longitude` for yo
 
 ### Phase 2: Combining and Cleaning {.no-number}
 
-In this phase, you will work with a team of two or three classmates. Your team will  combine your spreadsheets into new, team documents that contain the entries for your three or four population schedules. (Keep your original, individual spreadsheets!) The team sheets will have roughly 100 persons and about 20 households.
+To streamline this phase, we will work as a class to standardize the format of the spreadsheets and to identify errors. Disregard the earlier instructions for this phase. Instead, refer to the [spreadsheet checklist](spreadsheet-checklist.html).
+
+<!-- In this phase, you will work with a team of two or three classmates. Your team will  combine your spreadsheets into new, team documents that contain the entries for your three or four population schedules. (Keep your original, individual spreadsheets!) The team sheets will have roughly 100 persons and about 20 households.
 
 In the process of combining your spreadsheets you are likely to encounter errors in your initial data entry or situations where data was entered in incompatible ways by different people in the team. Fixing such problems is an example of "data cleaning."
 
 To facilitate identifying problems, your instructor will show you how to read your data into R so that you can wrangle summaries that point to inconsistencies. You don't need to do this on your own; your instructor will help.
 
 Once all teams have completed combining and cleaning their team sheets, we will as a class discuss inconsistencies between teams and reconcile them. Be prepared to do additional cleaning of your team sheets.
+
+-->
 
 ### Phase 3: Data summarization
 

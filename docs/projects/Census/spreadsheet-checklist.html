@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-02-28">
+<meta name="author" content="Daniel Kaplan">
 
-<title>Kaplan’s in-class notes for 2025-02-28 – QR2</title>
+<title>Census Project Phase II Checklist – QR2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -151,10 +117,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#confounding" id="toc-confounding" class="nav-link active" data-scroll-target="#confounding">Confounding</a></li>
-  <li><a href="#contributing-causes" id="toc-contributing-causes" class="nav-link" data-scroll-target="#contributing-causes">Contributing causes</a></li>
-  <li><a href="#confounding-and-colliding" id="toc-confounding-and-colliding" class="nav-link" data-scroll-target="#confounding-and-colliding">Confounding and colliding</a></li>
-  <li><a href="#dog-causality" id="toc-dog-causality" class="nav-link" data-scroll-target="#dog-causality">Dog causality</a></li>
+  <li><a href="#spreadsheet-basics" id="toc-spreadsheet-basics" class="nav-link active" data-scroll-target="#spreadsheet-basics">Spreadsheet basics</a>
+  <ul class="collapse">
+  <li><a href="#sec-action-item-1" id="toc-sec-action-item-1" class="nav-link" data-scroll-target="#sec-action-item-1">Action Item</a></li>
+  <li><a href="#sec-action-item-2" id="toc-sec-action-item-2" class="nav-link" data-scroll-target="#sec-action-item-2">Action Item</a></li>
+  <li><a href="#sec-action-item-3" id="toc-sec-action-item-3" class="nav-link" data-scroll-target="#sec-action-item-3">Action Item</a></li>
+  </ul></li>
+  <li><a href="#unique-household-id" id="toc-unique-household-id" class="nav-link" data-scroll-target="#unique-household-id">Unique household ID</a>
+  <ul class="collapse">
+  <li><a href="#sec-action-item-4" id="toc-sec-action-item-4" class="nav-link" data-scroll-target="#sec-action-item-4">Action Item</a></li>
+  <li><a href="#sec-action-item-5" id="toc-sec-action-item-5" class="nav-link" data-scroll-target="#sec-action-item-5">Action Item</a></li>
+  </ul></li>
+  <li><a href="#person-names" id="toc-person-names" class="nav-link" data-scroll-target="#person-names">Person names</a>
+  <ul class="collapse">
+  <li><a href="#sec-action-item-6" id="toc-sec-action-item-6" class="nav-link" data-scroll-target="#sec-action-item-6">Action Item</a></li>
+  <li><a href="#sec-action-item-7" id="toc-sec-action-item-7" class="nav-link" data-scroll-target="#sec-action-item-7">Action Item</a></li>
+  </ul></li>
+  <li><a href="#numbers-money" id="toc-numbers-money" class="nav-link" data-scroll-target="#numbers-money">Numbers &amp; money</a>
+  <ul class="collapse">
+  <li><a href="#sec-action-item-8" id="toc-sec-action-item-8" class="nav-link" data-scroll-target="#sec-action-item-8">Action Item</a></li>
+  <li><a href="#sec-action-item-9" id="toc-sec-action-item-9" class="nav-link" data-scroll-target="#sec-action-item-9">Action Item</a></li>
+  </ul></li>
+  <li><a href="#unclear-or-missing-data" id="toc-unclear-or-missing-data" class="nav-link" data-scroll-target="#unclear-or-missing-data">Unclear or missing data</a>
+  <ul class="collapse">
+  <li><a href="#sec-action-item-10" id="toc-sec-action-item-10" class="nav-link" data-scroll-target="#sec-action-item-10">Action Item</a></li>
+  </ul></li>
+  <li><a href="#household-data" id="toc-household-data" class="nav-link" data-scroll-target="#household-data">Household data</a></li>
+  <li><a href="#variable-names" id="toc-variable-names" class="nav-link" data-scroll-target="#variable-names">Variable names</a></li>
+  <li><a href="#categorical-levels" id="toc-categorical-levels" class="nav-link" data-scroll-target="#categorical-levels">Categorical levels</a></li>
   </ul>
 </nav>
     </div>
@@ -163,20 +153,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Kaplan’s in-class notes for 2025-02-28</h1>
+<h1 class="title">Census Project Phase II Checklist</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 28, 2025</p>
-    </div>
+             <p>Daniel Kaplan </p>
+          </div>
   </div>
+    
   
     
   </div>
@@ -186,90 +176,196 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="confounding" class="level3">
-<h3 class="anchored" data-anchor-id="confounding">Confounding</h3>
-<p><img src="www/confounding.png" class="img-fluid"></p>
-</section>
-<section id="contributing-causes" class="level3">
-<h3 class="anchored" data-anchor-id="contributing-causes">Contributing causes</h3>
-<p><img src="www/contributing-causes.png" class="img-fluid"></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sim_collider <span class="ot">&lt;-</span> <span class="fu">datasim_make</span>(</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  a <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  z <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">*</span>a <span class="sc">-</span> y <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>sim_collider <span class="sc">|&gt;</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(y <span class="sc">~</span> a) <span class="sc">|&gt;</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2 × 4
-  term          .lwr   .coef  .upr
-  &lt;chr&gt;        &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt;
-1 (Intercept) -0.259 -0.0743 0.110
-2 a           -0.240 -0.0523 0.135</code></pre>
+<p>You should already be at or beyond Step 6 in the <a href="../../projects/Census/intro.html">Census term project quide</a>. Before continuing with this document, make sure you have completed Steps 1 through 6. If you need help, this is the best possible time to ask!</p>
+<section id="spreadsheet-basics" class="level2">
+<h2 class="anchored" data-anchor-id="spreadsheet-basics">Spreadsheet basics</h2>
+<p>At this point, you have two spreadsheets—<em>persons</em> and <em>households</em>—created and have entered data in them.</p>
+<section id="sec-action-item-1" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-1">Action Item</h3>
+<p>For both spreadsheets, make sure they are read-accessible to anyone at UATX and that editor access has been given to <code>dkaplan@uaustin.org</code>. To accomplish this, go to the blue “Share” button in the top right corner of the sheet. Press the left side of the button it to bring up a sharing dialog box.</p>
+<p>Here is an example of the dialog box for a student who has already set up the sharing.</p>
+<p><img src="www/sharing-dialog.png" class="img-fluid"></p>
+<p>Notice that the student (thanks, Ethan!) is listed as an editor and that he has also added <code>dtkaplan@uaustin.org</code>, also as an editor. You can add others if you want. (Do this by entering an email address in the “Add people” box.)</p>
+<p>Notice also that under “General access” there is “Viewer” permission set for people from the UATX domain.</p>
+<div id="fig-still-too-formatted" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-still-too-formatted-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="www/formatted-as-table.png" class="img-fluid figure-img">
 </div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-still-too-formatted-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A table which has turned on automatic pretty formatting.
+</figcaption>
+</figure>
 </div>
 </section>
-<section id="confounding-and-colliding" class="level3">
-<h3 class="anchored" data-anchor-id="confounding-and-colliding">Confounding and colliding</h3>
-<p><img src="www/confounder-collider.png" class="img-fluid"></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>sim_cc <span class="ot">&lt;-</span> <span class="fu">datasim_make</span>(</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  c <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  a <span class="ot">&lt;-</span> <span class="sc">-</span><span class="dv">2</span><span class="sc">*</span>c <span class="sc">+</span> <span class="fu">rnorm</span>(n),</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  y <span class="ot">&lt;-</span> <span class="dv">3</span><span class="sc">*</span>c <span class="sc">+</span> <span class="fu">rnorm</span>(n),</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  z <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">*</span>a <span class="sc">-</span> y <span class="sc">+</span> <span class="fu">rnorm</span>(n)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>sim_cc <span class="sc">|&gt;</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">100</span>) <span class="sc">|&gt;</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(y <span class="sc">~</span> a) <span class="sc">|&gt;</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2 × 4
-  term          .lwr    .coef   .upr
-  &lt;chr&gt;        &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
-1 (Intercept) -0.310  0.00956  0.329
-2 a           -1.27  -1.14    -1.01 </code></pre>
+<section id="sec-action-item-2" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-2">Action Item</h3>
+<p>Many students have arranged their spreadsheet to be formatted prettily. Such pretty formatting is intended for a human reader, but almost always gets in the way of working with data on the computer. Undo the pretty formatting by clicking on the <code>V</code> menu in the green tab <em>per</em> <a href="#fig-undoing-formatting" class="quarto-xref">Figure&nbsp;2</a>.</p>
+<div id="fig-undoing-formatting" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-undoing-formatting-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="www/unformatting-from-tabular.png" class="img-fluid figure-img">
 </div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-undoing-formatting-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Select “revert to unformatted data” to undo the pretty formatting.
+</figcaption>
+</figure>
 </div>
-<p>Causality and forced expiratory volume</p>
-<p><img src="www/FEV-network.png" class="img-fluid"></p>
-<p>Which are the no-input nodes?</p>
-<p>What coefficients should we put on each link.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>breath_sim <span class="ot">&lt;-</span> <span class="fu">datasim_make</span>(</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  age <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(n),</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  sex <span class="ot">&lt;-</span> <span class="fu">categorical</span>(n, <span class="at">F=</span><span class="dv">1</span>, <span class="at">M=</span><span class="dv">1</span>),</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  smoke <span class="ot">&lt;-</span> age <span class="sc">+</span> <span class="fu">cat2value</span>(sex, <span class="at">M =</span> <span class="dv">1</span>, <span class="at">F=</span> <span class="sc">-</span><span class="dv">1</span>),</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  height <span class="ot">&lt;-</span> smoke <span class="sc">+</span> <span class="fu">cat2value</span>(sex, <span class="at">M =</span> <span class="dv">0</span>, <span class="at">F =</span> <span class="dv">0</span>) <span class="sc">+</span> age,</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  fev <span class="ot">&lt;-</span> smoke <span class="sc">+</span> age <span class="sc">+</span> height <span class="sc">+</span> <span class="fu">cat2value</span>(sex, <span class="at">M =</span> <span class="dv">0</span>, <span class="at">F =</span> <span class="dv">0</span>) </span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>breath_sim <span class="sc">|&gt;</span> <span class="fu">take_sample</span>(<span class="at">n=</span><span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 5
-     age sex    smoke  height     fev
-   &lt;dbl&gt; &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
-1 -0.433 M      0.567  0.133   0.266 
-2 -1.42  F     -2.42  -3.84   -7.68  
-3  0.521 F     -0.479  0.0429  0.0859
-4  0.848 F     -0.152  0.696   1.39  
-5  0.508 M      1.51   2.02    4.03  </code></pre>
-</div>
-</div>
-<p>https://homer.quarto.pub/lesson-12/#/height-and-age</p>
-<p>doi:10.1080/10691898.2020.1713936</p>
+<p>Make sure that the variable names are in row number 1.</p>
 </section>
-<section id="dog-causality" class="level2">
-<h2 class="anchored" data-anchor-id="dog-causality">Dog causality</h2>
-<ul>
-<li><p>Itching, scratching, and leg movement. When I scratch the dog, her leg moves in the same manner it does for autonomous movement.</p></li>
-<li><p>Laika is blowing her coat just as the warm weather is beginning. Makes sense, but in Minnesota she also blows her coat at the end of February, even though there is at least another month of cold weather.</p></li>
-</ul>
+<section id="sec-action-item-3" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-3">Action Item</h3>
+<p>Just FYI. I will arrange to “publish” your sheets so that I can read them in as data frames. You don’t have to do anything, but please don’t turn off the publishing if you happen to notice it.</p>
+</section>
+</section>
+<section id="unique-household-id" class="level2">
+<h2 class="anchored" data-anchor-id="unique-household-id">Unique household ID</h2>
+<p>Note that in <a href="#fig-still-too-formatted" class="quarto-xref">Figure&nbsp;1</a> there is a column entitled “HouseholdID.” The entries in this column are sensible-looking digits: 1, 2, and so on.</p>
+<section id="sec-action-item-4" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-4">Action Item</h3>
+<p>It’s crucial that each household has a <strong>unique</strong> ID across all of the students spreadsheet. Creating a unique ID is easy: select some token that is unique to you, for instance, your full name or the ID of the census schedule from which you transcribed the data. Then preface the existing ID with this token. For instance, replace the digit 1 with 227-13-1. It’s OK that the result will be a character string rather than a digit.</p>
+</section>
+<section id="sec-action-item-5" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-5">Action Item</h3>
+<p>Make sure that the household IDs are consistent between your <em>person</em> spreadsheet and your <em>household</em> spreadsheet. In there <em>household</em> spreadsheet, the IDs will never be repeated from one row to another, while in the <em>person</em> spreadsheet the IDs will be repeated as needed to indicate the household to which each person belongs.</p>
+</section>
+</section>
+<section id="person-names" class="level2">
+<h2 class="anchored" data-anchor-id="person-names">Person names</h2>
+<section id="sec-action-item-6" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-6">Action Item</h3>
+<p>Create two columns to hold the name of the person: one for the last name and the other for all other names, like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>surname</th>
+<th>prename</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Schmidt</td>
+<td>John Jacob Jingleheimer</td>
+</tr>
+<tr class="even">
+<td>Trump</td>
+<td>Donald John</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sec-action-item-7" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-7">Action Item</h3>
+<p>Give each person a surname, replacing the _________ sometimes used by the Census workers.</p>
+</section>
+</section>
+<section id="numbers-money" class="level2">
+<h2 class="anchored" data-anchor-id="numbers-money">Numbers &amp; money</h2>
+<section id="sec-action-item-8" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-8">Action Item</h3>
+<p>Variables like <code>age</code> are usually given as integers, e.g.&nbsp;17, but sometimes given in another format such as “8 months” or “1 1/2.” Both these latter should be transcribed in decimal form, respectively 0.67 and 1.5 for the examples.</p>
+</section>
+<section id="sec-action-item-9" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-9">Action Item</h3>
+<p>Some columns such as <code>income</code> or <code>rent</code> are given as money. List the amount without any money symbol. So, $140 should be entered as 140. The codebook is the place to put the documentation that the money is in dollars. (I don’t think we’ll have occasion to refer to non-dollar money. If this had been the case, we would need another variable, <code>denomination</code> which could have values like “peso”, “GBP”)</p>
+</section>
+</section>
+<section id="unclear-or-missing-data" class="level2">
+<h2 class="anchored" data-anchor-id="unclear-or-missing-data">Unclear or missing data</h2>
+<section id="sec-action-item-10" class="level3">
+<h3 class="anchored" data-anchor-id="sec-action-item-10">Action Item</h3>
+<p>Sometimes a cell in the original population schedule is entirely blank. Such cells should simply be blank in your transcribed spreadsheet.</p>
+<p>It’s a different situation when a cell in the original population schedule is not completely legible or is otherwise ambiguous. Examples from <a href="#fig-still-too-formatted" class="quarto-xref">Figure&nbsp;1</a> are “C2?” and “[wife name?]”. We will take a simple approach here:</p>
+<p>For categorical variables, enter the level “[unclear]” as was done sometimes in <a href="#fig-still-too-formatted" class="quarto-xref">Figure&nbsp;1</a>. Both of the above examples, “C2?” and “[wife name?]”, should be re-rendered as “[unclear]”.</p>
+<p>For numbers, enter the code <code>NA</code> (without quotes).</p>
+</section>
+</section>
+<section id="household-data" class="level2">
+<h2 class="anchored" data-anchor-id="household-data">Household data</h2>
+<p>The unit of observation in your <em>household</em> spreadsheet corresponds to one or more people living in a home, clinic, institution, and such. <a href="#fig-household-sheet-1" class="quarto-xref">Figure&nbsp;3</a> shows an example with the correct unit of observation, but with other items that need work.</p>
+<div id="fig-household-sheet-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-household-sheet-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="www/household-sheet-1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-household-sheet-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: A pretty good start on a household sheet, but some revisions are called for.
+</figcaption>
+</figure>
+</div>
+<p>Some good features seen in <a href="#fig-household-sheet-1" class="quarto-xref">Figure&nbsp;3</a>:</p>
+<ol type="a">
+<li>Each household ID will be globally unique.</li>
+<li>Blank cells are used appropriately in the “Value of home” and “monthly rent” columns.</li>
+</ol>
+<p>What needs work here?</p>
+<ol type="1">
+<li><p>Rows 1 and 2 are not needed. Instead, the variable names should be in Row 1. The right place to document the unit of observation is in a codebook. I haven’t asked you to generate an individual codebook because, in the end, we will all use the same codebook.</p></li>
+<li><p>The <code>Location</code> should be split into three separate variables:</p>
+<ol type="a">
+<li>street_name</li>
+<li>house_number</li>
+<li>household_type</li>
+<li>state</li>
+<li>county</li>
+<li>city</li>
+</ol></li>
+</ol>
+<p>For <a href="#fig-household-sheet-1" class="quarto-xref">Figure&nbsp;3</a> the three columns would look like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>street_name</th>
+<th>house_number</th>
+<th>household_type</th>
+<th>state</th>
+<th>county</th>
+<th>city</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Heval</td>
+<td>4202</td>
+<td>home</td>
+<td>TX</td>
+<td>Travis</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Heval</td>
+<td>4200</td>
+<td>home</td>
+<td>TX</td>
+<td>Travis</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Ave H</td>
+<td>4201</td>
+<td>home</td>
+<td>TX</td>
+<td>Travis</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The state, county, and city/town information might be in the top material in the original population schedule. These should refer to the location of the building. For the <em>persons</em> data, there may be different info. If you notice such a situation, mention it to <code>dkaplan@uaustin.org</code> and we’ll work out a solution.</p>
+<ol start="3" type="1">
+<li><p>Put the household value or rent in the same column, called <code>value</code>. We can sort out the rent vs own is matter when wrangling the data later on.</p></li>
+<li><p>We don’t need a family name in the <em>household</em> sheet. This is because often not everyone in a given household has the same last name. We can get the last name(s) from the <em>persons</em> sheet.</p></li>
+<li><p>Strictly speaking, we don’t need a number-of-people column. This can easily be calculated from the <em>persons</em> sheet. Nevertheless, let’s do include number-of-people in the <em>household</em> sheet. We can use it to check the internal consistency of the data.</p></li>
+<li><p>Household types that I have seen include “home” and “farm”, but there may be others that you encounter. Enter them as you encounter them. Later, we’ll come back to this and standardize the levels.</p></li>
+</ol>
+</section>
+<section id="variable-names" class="level2">
+<h2 class="anchored" data-anchor-id="variable-names">Variable names</h2>
+<p>We should all use the same names for variables. We will talk about this in class and enter the decision here.</p>
+</section>
+<section id="categorical-levels" class="level2">
+<h2 class="anchored" data-anchor-id="categorical-levels">Categorical levels</h2>
+<p>We will need to standardize the levels for categorical variables. I will survey the whole set of sheets to see what people are using. We can decide as a class what the standard names should be.</p>
+<p>Note that <code>surname</code> and <code>prenames</code> cannot be constrained to a standard set of levels.</p>
 
 
 </section>

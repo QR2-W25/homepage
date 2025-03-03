@@ -13,48 +13,6 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 
 
-::: {.callout-note}
-## Class Day 13 Tuesday 25 February
-
-Block 5: Confounding & Causality
-
-- New readings  
-    - Spiegelhalter Ch 4 & [reading questions](../questions/S4-before.html)
-    - Start `r tutorial_link(5)`
-    
-- Start work
-    
-- Assignments due:
-    - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html)
-    
-- [In-class notes](../Kaplan_posts/2025-02-25-notes/2025-02-25-notes.html)
-
-
-
-:::
-
-::: {.callout-note}
-## Class Day 14 Friday 28 February
-
-Block 5: Confounding & Causality (cont.)
-
-- New readings 
-    - Rosling Ch. 8 & [reading questions](../questions/R8-before.html)
-    - Complete `r tutorial_link(5)`
-
-- Assignment due:
-    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Complete transcription of your population schedule into your household and persons spreadsheets.
-
-- Start work:
-    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Confer with two or three of your classmates to settle on a common format for your household and persons team spreadsheets. For Tuesday 4 March you have those team spreadsheets available (via link) to your instructor. 
-    
-QUIZ today through Block 4 (Precision) 
-    
-- [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
-
-
-
-:::
 
 ::: {.callout-note}
 ## Class Day 15 Tuesday 4 March
@@ -64,10 +22,7 @@ Block 5: Confounding & Causality (cont.)
 - New readings   
     - Rosling Ch. 9 & [reading questions](../questions/R9-before.html)
 
-- Start work
-    
-- Assignments due:
-    - Respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
+- Start work: Today in class we will be going over a checklist of items regarding the transcription of the Census data into your "person" and "household" spreadsheets. It's important to make considerable progress on this before the Friday 7 March class.
      
     
 - [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
@@ -406,6 +361,41 @@ Block 4: Precision (cont.)
      
     
 - [In-class notes](../Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html)
+
+::: {.callout-note}
+## Class Day 13 Tuesday 25 February
+
+Block 5: Confounding & Causality
+
+- New readings  
+    - Spiegelhalter Ch 4 & [reading questions](../questions/S4-before.html)
+    - Start `r tutorial_link(5)`
+    
+- Start work
+    
+- Assignments due:
+    - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html)
+    
+- [In-class notes](../Kaplan_posts/2025-02-25-notes/2025-02-25-notes.html)
+
+
+## Class Day 14 Friday 28 February
+
+Block 5: Confounding & Causality (cont.)
+
+- New readings 
+    - Rosling Ch. 8 & [reading questions](../questions/R8-before.html)
+    - Complete `r tutorial_link(5)`
+
+- Assignment due:
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Complete transcription of your population schedule into your household and persons spreadsheets.
+
+- Start work:
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Confer with two or three of your classmates to settle on a common format for your household and persons team spreadsheets. For Tuesday 4 March you have those team spreadsheets available (via link) to your instructor. 
+    
+QUIZ today through Block 4 (Precision) 
+    
+- [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
 
 
 

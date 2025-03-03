@@ -82,7 +82,13 @@ breath_sim <- datasim_make(
 breath_sim |> take_sample(n=5)
 ```
 
+## Census project
 
+
+
+
+
+## Basement
 
 https://homer.quarto.pub/lesson-12/#/height-and-age
 

@@ -7,3 +7,6 @@ date: 2025-03-04
 library(LSTbook)
 ```
 
+1. Discussion about the *persons* and *households* spreadsheets for the Census project. See the [Phase II checklist](https://qr2-w25.github.io/homepage/projects/Census/spreadsheet-checklist.html)
+
+2. Introduce "pathway," "correlating,", "non-correlating," "blocked," and "open" with respect to DAGS.

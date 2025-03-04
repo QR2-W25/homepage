@@ -7,7 +7,59 @@ date: 2025-03-04
 library(LSTbook)
 ```
 
+Agenda:
+
+i. Rosling Chaps 8 & 9
+ii. Census project progress
+iii. DAGs and covariates
+
+## Rosling chapters 8 & 9
+
+### Chap 8: Single perspective instinct
+
+1. Experts are expert in a limited domain. Don't trust them outside that domain.
+
+2. Saves time to have strong opinions. Examples:
+
+    a. Next Tuesday we start the final Block, about "hypothetical reasoning". The reading is Spiegelhalter Ch. 11. He describes a messy situation in the foundations of statistical reasoning. Really, it is a dispute between two groups of people with strong views:
+        - Frequentist: Probability is relevant only to situations where trials can be run many times. Science should involve only *objective* facts, not opinions.
+        - Bayesian: Probability also applies to our state of knowledge. This is common sense in engineering and decision-making. Science inevitably involves subjectivity, e.g. the kinds of Causal Inference Diagrams (DAGs) we talked about on Friday and will again this week.
+    b. Is there any point to teaching algebra?
+        - Mathematicians (experts in algebra): Teaching algebra makes students smarter.
+        - Contrarian point of view: Smart people have traits that tend to help them make sense of algebra: good short-term memory, pattern-recognition, memory for the "rules." That is, "reverse causation," which is just a way of saying that the causal influences flow in the reverse direction than conventional wisdom accepts.
+    c. Higher per-capita GDP is better. But ...
+        - GDP is "gross" not "net." Doesn't take into account depreciation or destruction as negatives.
+        - Putting non-market services, e.g. child care, on a market basis increases GDP even if it doesn't increase wealth.
+            i. Low GDP situation: Parent cares for child. Another person does job A with pay.
+            ii. High GDP situation: Parent does job A with pay. The other person gets paid for performing the child care.
+    d. Why chimpanzees can do better on Rosler's quiz: they don't have strong opinions.
+        
+3. Cuba & Mozambique
+    - Premier of Mozambigue looked at the quality of shoes people were wearing as an indicator of economic health.
+    - Cuba. Rosling points out "healthiest of the poor" but can also be seen as "poorest of the healthy." 
+        - Danny's observations in Cuba. Good shoes, not just flip-flops. Good teeth. Health care distributed by "Committees for the defense of the revolution," groups of about 100 people who are assigned a health-care worker. No sign of ambulatory disability, but many amputees. Dangerous electrical junction boxes. Why few ambulatory handicapped: Because you can't get around with a wheel chair, roads are too broken up, no elevators. 
+
+        
+### Chap 9: The blame instinct
+
+Who to punch in the face?
+
+Why it's bad to blame pilots for accidents. It's always the system that let the accident happen. Recognizing that provides room for safety improvement.
+
+- Pilots are protected when they report an incident. Encourages them to report incidents.
+
+Contrast with situation in medicine. How do you improve outcomes in anesthesia. 
+
+- Punish physicians who make mistakes
+- Anesthesia machine standardization, pulse oxymetry.
+
+Student drops out of college. We blame the student. We need a "mortality and morbidity conference."
+
+## Census project
+
 1. Discussion about the *persons* and *households* spreadsheets for the Census project. See the [Phase II checklist](https://qr2-w25.github.io/homepage/projects/Census/spreadsheet-checklist.html)
+
+## Causal influence diagrams (DAGS) and selection of coverariates.
 
 2. Introduce "pathway," "correlating,", "non-correlating," "blocked," and "open" with respect to DAGS.
 

@@ -1665,8 +1665,20 @@ globalThis.qwebrExecuteCode = async function (
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rosling-chapters-8-9" id="toc-rosling-chapters-8-9" class="nav-link active" data-scroll-target="#rosling-chapters-8-9">Rosling chapters 8 &amp; 9</a>
+  <ul class="collapse">
+  <li><a href="#chap-8-single-perspective-instinct" id="toc-chap-8-single-perspective-instinct" class="nav-link" data-scroll-target="#chap-8-single-perspective-instinct">Chap 8: Single perspective instinct</a></li>
+  <li><a href="#chap-9-the-blame-instinct" id="toc-chap-9-the-blame-instinct" class="nav-link" data-scroll-target="#chap-9-the-blame-instinct">Chap 9: The blame instinct</a></li>
+  </ul></li>
+  <li><a href="#census-project" id="toc-census-project" class="nav-link" data-scroll-target="#census-project">Census project</a></li>
+  <li><a href="#causal-influence-diagrams-dags-and-selection-of-coverariates." id="toc-causal-influence-diagrams-dags-and-selection-of-coverariates." class="nav-link" data-scroll-target="#causal-influence-diagrams-dags-and-selection-of-coverariates.">Causal influence diagrams (DAGS) and selection of coverariates.</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -1980,15 +1992,83 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </header>
 
 
+<p>Agenda:</p>
+<ol type="i">
+<li>Rosling Chaps 8 &amp; 9</li>
+<li>Census project progress</li>
+<li>DAGs and covariates</li>
+</ol>
+<section id="rosling-chapters-8-9" class="level2">
+<h2 class="anchored" data-anchor-id="rosling-chapters-8-9">Rosling chapters 8 &amp; 9</h2>
+<section id="chap-8-single-perspective-instinct" class="level3">
+<h3 class="anchored" data-anchor-id="chap-8-single-perspective-instinct">Chap 8: Single perspective instinct</h3>
 <ol type="1">
-<li><p>Discussion about the <em>persons</em> and <em>households</em> spreadsheets for the Census project. See the <a href="https://qr2-w25.github.io/homepage/projects/Census/spreadsheet-checklist.html">Phase II checklist</a></p></li>
-<li><p>Introduce “pathway,” “correlating,”, “non-correlating,” “blocked,” and “open” with respect to DAGS.</p></li>
+<li><p>Experts are expert in a limited domain. Don’t trust them outside that domain.</p></li>
+<li><p>Saves time to have strong opinions. Examples:</p>
+<ol type="a">
+<li>Next Tuesday we start the final Block, about “hypothetical reasoning”. The reading is Spiegelhalter Ch. 11. He describes a messy situation in the foundations of statistical reasoning. Really, it is a dispute between two groups of people with strong views:
+<ul>
+<li>Frequentist: Probability is relevant only to situations where trials can be run many times. Science should involve only <em>objective</em> facts, not opinions.</li>
+<li>Bayesian: Probability also applies to our state of knowledge. This is common sense in engineering and decision-making. Science inevitably involves subjectivity, e.g.&nbsp;the kinds of Causal Inference Diagrams (DAGs) we talked about on Friday and will again this week.</li>
+</ul></li>
+<li>Is there any point to teaching algebra?
+<ul>
+<li>Mathematicians (experts in algebra): Teaching algebra makes students smarter.</li>
+<li>Contrarian point of view: Smart people have traits that tend to help them make sense of algebra: good short-term memory, pattern-recognition, memory for the “rules.” That is, “reverse causation,” which is just a way of saying that the causal influences flow in the reverse direction than conventional wisdom accepts.</li>
+</ul></li>
+<li>Higher per-capita GDP is better. But …
+<ul>
+<li>GDP is “gross” not “net.” Doesn’t take into account depreciation or destruction as negatives.</li>
+<li>Putting non-market services, e.g.&nbsp;child care, on a market basis increases GDP even if it doesn’t increase wealth.
+<ol type="i">
+<li>Low GDP situation: Parent cares for child. Another person does job A with pay.</li>
+<li>High GDP situation: Parent does job A with pay. The other person gets paid for performing the child care.</li>
+</ol></li>
+</ul></li>
+<li>Why chimpanzees can do better on Rosler’s quiz: they don’t have strong opinions.</li>
+</ol></li>
+<li><p>Cuba &amp; Mozambique</p>
+<ul>
+<li>Premier of Mozambigue looked at the quality of shoes people were wearing as an indicator of economic health.</li>
+<li>Cuba. Rosling points out “healthiest of the poor” but can also be seen as “poorest of the healthy.”
+<ul>
+<li>Danny’s observations in Cuba. Good shoes, not just flip-flops. Good teeth. Health care distributed by “Committees for the defense of the revolution,” groups of about 100 people who are assigned a health-care worker. No sign of ambulatory disability, but many amputees. Dangerous electrical junction boxes. Why few ambulatory handicapped: Because you can’t get around with a wheel chair, roads are too broken up, no elevators.</li>
+</ul></li>
+</ul></li>
+</ol>
+</section>
+<section id="chap-9-the-blame-instinct" class="level3">
+<h3 class="anchored" data-anchor-id="chap-9-the-blame-instinct">Chap 9: The blame instinct</h3>
+<p>Who to punch in the face?</p>
+<p>Why it’s bad to blame pilots for accidents. It’s always the system that let the accident happen. Recognizing that provides room for safety improvement.</p>
+<ul>
+<li>Pilots are protected when they report an incident. Encourages them to report incidents.</li>
+</ul>
+<p>Contrast with situation in medicine. How do you improve outcomes in anesthesia.</p>
+<ul>
+<li>Punish physicians who make mistakes</li>
+<li>Anesthesia machine standardization, pulse oxymetry.</li>
+</ul>
+<p>Student drops out of college. We blame the student. We need a “mortality and morbidity conference.”</p>
+</section>
+</section>
+<section id="census-project" class="level2">
+<h2 class="anchored" data-anchor-id="census-project">Census project</h2>
+<ol type="1">
+<li>Discussion about the <em>persons</em> and <em>households</em> spreadsheets for the Census project. See the <a href="https://qr2-w25.github.io/homepage/projects/Census/spreadsheet-checklist.html">Phase II checklist</a></li>
+</ol>
+</section>
+<section id="causal-influence-diagrams-dags-and-selection-of-coverariates." class="level2">
+<h2 class="anchored" data-anchor-id="causal-influence-diagrams-dags-and-selection-of-coverariates.">Causal influence diagrams (DAGS) and selection of coverariates.</h2>
+<ol start="2" type="1">
+<li>Introduce “pathway,” “correlating,”, “non-correlating,” “blocked,” and “open” with respect to DAGS.</li>
 </ol>
 <p>Implementing a hypothesis as a simulation/DAG.</p>
 <div id="qwebr-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

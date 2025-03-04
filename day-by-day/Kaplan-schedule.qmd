@@ -59,7 +59,7 @@ Block 6: Hypothetical Reasoning
 
 - New readings   
     - Spiegelhalter Ch. 11 & [reading questions](../questions/S11-before.html)
-    - Start `r tutorial_link(3)`
+    - Start `r tutorial_link(6)`
 
 - Start work
     - You should receive at this point the comprehensive, QR2-wide census data. Look through it and decide on the aspect of the data you are going to model.

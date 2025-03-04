@@ -10,3 +10,14 @@ library(LSTbook)
 1. Discussion about the *persons* and *households* spreadsheets for the Census project. See the [Phase II checklist](https://qr2-w25.github.io/homepage/projects/Census/spreadsheet-checklist.html)
 
 2. Introduce "pathway," "correlating,", "non-correlating," "blocked," and "open" with respect to DAGS.
+
+
+Implementing a hypothesis as a simulation/DAG.
+
+```{webr-r}
+Hyp <- datasim_make(
+  A <- rnorm(),
+  B <- 0.5*A + rnorm()
+)
+dag_draw(Hyp)
+```

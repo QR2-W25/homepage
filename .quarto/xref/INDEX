@@ -208,5 +208,11 @@
   },
   "projects/Census/spreadsheet-checklist.qmd": {
     "spreadsheet-checklist.html": "8ecf47fa"
+  },
+  "questions/R9-before.qmd": {
+    "R9-before.html": "942e7112"
+  },
+  "questions/R10-before.qmd": {
+    "R10-before.html": "40a61f2e"
   }
 }

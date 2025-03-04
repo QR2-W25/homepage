@@ -1,0 +1,27 @@
+---
+title: "Rossling Chapter 9: *The Blame Instinct*"
+subtitle: "Answer and submit *before* class discussion"
+---
+
+{{< include ../start-up.qmd >}}
+
+::: {.callout-note}
+## Question 1:
+
+{{< include "../../INF-1220-QR2/_RQ/R09/QB1.qmd" >}}
+
+:::
+
+
+
+
+
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

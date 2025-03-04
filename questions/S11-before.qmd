@@ -1,0 +1,31 @@
+---
+title: "Spiegelhalter Chapter 11"
+subtitle: "Answer and submit *before* class discussion"
+---
+
+{{< include ../start-up.qmd >}}
+
+
+::: {.callout-note}
+## Question 1:
+
+{{< include "../../INF-1220-QR2/_RQ/S11/QB1.qmd" >}}
+
+:::
+
+::: {.callout-note}
+## Question 2:
+
+{{< include "../../INF-1220-QR2/_RQ/S11/QB2.qmd" >}}
+
+:::
+
+
+<!-- Boilerplate for devoirs functionality -->
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
+```
+`r QR2_submission_link()`

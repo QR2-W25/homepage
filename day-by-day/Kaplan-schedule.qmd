@@ -148,9 +148,11 @@ Block 6: Hypothetical Reasoning (cont.)
 
 ## Archive of past class days.
 
-January: [7](#sec-7Jan), [10](#sec-10Jan), [14](#wrn-14Jan), [17](#wrn-17Jan), [21](#wrn-21Jan), [24](#wrn-24Jan), [31](#wrn-31Jan)
+January: [7](#sec-07Jan), [10](#sec-10Jan), [14](#sec-14Jan), [17](#sec-17Jan), [21](#sec-21Jan), [24](#sec-24Jan), [28](#sec-28Jan), [31](#sec-31Jan)   
+February: [4](#sec-04Feb), [7](#sec-07Feb), [18](#sec-18Feb), [21](#sec-21Feb), [25](#sec-25Feb), [28](#sec-28Feb)    
+March: [4](#sec-04Mar), [7](#sec-07Mar), [11](#sec-11Mar), [14](#sec-14Mar), [18](#sec-18Mar), [21](#sec-21Mar)
 
-##### Class Day 1. Tuesday 7 January, 2025 {#sec-7Jan .nonumber}
+#### Class Day 1. Tuesday 7 January, 2025 {#sec-07Jan}
 
 Orientation to QR2
 
@@ -168,7 +170,7 @@ Orientation to QR2
     - Note: The items under the "Discussion" header in this document are just FYI. The readings and the reading questions are the appropriate preparation.
 
 
-#### Class Day 2. Friday 10 January {#sec-10Jan .nonumber}
+#### Class Day 2. Friday 10 January {#sec-10Jan}
 
 Block 1: Data, visualization, trends
 
@@ -211,7 +213,7 @@ Block 1 (cont.)
 - [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
 
 
-## 4. Class Day 4 Friday 17 January {#sec-17Jan}
+#### 4. Class Day 4 Friday 17 January {#sec-17Jan}
 
 Block 2: Prediction
 
@@ -232,7 +234,7 @@ Block 2: Prediction
 
 
 
-## Class Day 5 Tuesday 21 January {#sec-21Jan}
+#### Class Day 5 Tuesday 21 January {#sec-21Jan}
 
 Block 2 Prediction (cont.)
 
@@ -249,7 +251,7 @@ Block 2 Prediction (cont.)
 
 
 
-## Class Day 6 Friday 24 January {#sec-24Jan}
+#### Class Day 6 Friday 24 January {#sec-24Jan}
 
 Block 2 Prediction (cont.)
 
@@ -263,7 +265,7 @@ Block 2 Prediction (cont.)
 - [In-class notes](../Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html)
 
 
-## Class Day 7 Tuesday 28 January {#sec-28Jan}
+#### Class Day 7 Tuesday 28 January {#sec-28Jan}
 
 Block 3 Regression & Adjustment
 
@@ -275,7 +277,7 @@ Block 3 Regression & Adjustment
 - [In-class notes](../Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html)
 
 
-## Class Day 8 Friday 31 January {#sec-31Jan}
+#### Class Day 8 Friday 31 January {#sec-31Jan}
 
 Block 3 Regression & Adjustment (cont.)
 
@@ -292,7 +294,23 @@ Block 3 Regression & Adjustment (cont.)
 - [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
 
 
-## Class Day 10 Friday 7 Febuary
+
+#### Class Day 9 Tuesday 4 February {#sec-04Feb }
+
+Block 3 Regression & Adjustment (cont)
+
+- New readings  
+    - Finish `r tutorial_link(3)`
+    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html)
+
+- Start work
+    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Phase 1
+    
+
+- [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
+
+#### Class Day 10 Friday 7 Febuary {#sec-07Feb}
 
 Block 4: Precision
 
@@ -308,28 +326,12 @@ Block 4: Precision
 - [In-class notes](../Kaplan_posts/2025-02-07-notes/2025-02-07-notes.html)
 
 
-## Class Day 9 Tuesday 4 February
-
-Block 3 Regression & Adjustment (cont)
-
-- New readings  
-    - Finish `r tutorial_link(3)`
-    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html)
-
-- Start work
-    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
-    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Phase 1
-    
-
-- [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
-
-
 
 
 Reading break 10-14 February.
 
 
-## Class Day 11 Tuesday 18 February
+#### Class Day 11 Tuesday 18 February {#sec-18Feb}
 
 Block 4: Precision (cont.)
 
@@ -346,7 +348,7 @@ Block 4: Precision (cont.)
 - [In-class notes](../Kaplan_posts/2025-02-18-notes/2025-02-18-notes.html)
 
 
-## Class Day 12 Friday 21 February
+#### Class Day 12 Friday 21 February {#sec-21Feb}
 
 Block 4: Precision (cont.)
 
@@ -363,8 +365,7 @@ Block 4: Precision (cont.)
     
 - [In-class notes](../Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html)
 
-::: {.callout-note}
-## Class Day 13 Tuesday 25 February
+#### Class Day 13 Tuesday 25 February {#sec-25Feb}
 
 Block 5: Confounding & Causality
 
@@ -380,7 +381,7 @@ Block 5: Confounding & Causality
 - [In-class notes](../Kaplan_posts/2025-02-25-notes/2025-02-25-notes.html)
 
 
-## Class Day 14 Friday 28 February
+#### Class Day 14 Friday 28 February {#sec-28Feb}
 
 Block 5: Confounding & Causality (cont.)
 

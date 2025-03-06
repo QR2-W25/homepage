@@ -36,13 +36,15 @@ Block 5: Confounding & Causality (cont.)
 
 Block 5: Confounding & Causality (cont.)
 
-- New readings   
+- New readings:
+    - [Coding standards](projects/data-standards.html) for the *persons* Census spreadsheets.
    
 
 - Start work
     - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
     
 - Assignments due:
+    - Check whether you have recieved two links to *my copies* of your Census spreadsheets. You should be editing *my copies* from now on. 
     - Continue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
      
      

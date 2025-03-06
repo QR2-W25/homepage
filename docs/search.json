@@ -1489,5 +1489,12 @@
     "title": "Recoding Census persons variables",
     "section": "Standardized encoding of variables",
     "text": "Standardized encoding of variables\nModify the entries in your sheet to correspond to the standards given below. Take some care to spell consistently with the standards and to use dashes when called for.\nSome of the variables (like occupation) don’t need to be standardized at this point.\n\nsex\n\nF or M\n\nhrole\n\nhead, wife, mother, partner, sister, brother\n\n\nhalf-brother, half-sister\n\n\ndaughter, son, nephew, niece\n\n\nstep-son, step-daughter, step-sister, step-brother\n\n\ngrandson, granddaughter, grandfather, grandmother\n\n\ndaughter-in-law, son-in-law, sister-in-law, brother-in-law\n\n\nlodger, lodger-wife, servant\n\n\nsister-in-law, daughter-in-law, son-in-law, partner, lodger-wife,\n\nrace\n\nnegro, white\n\n\nIf you see others, enter them as you read them.\n\nage\n\nnumeric in years. 1½ and such should be rendered 1.5\n\nmstatus\n\nsingle, married, divorced, widowed\n\ninschool\n\nno, yes\n\nedu\n\nuse numbers from 0 to 20: years of education\n\n\nFor G0, G1, …, G8 use 0, 1, …, 8\n\n\nFor H1, H2, H3, H4 use 9, 10, 11, 12\n\n\nFor “none” use 0\n\n\nFor C1, C2, … use 13, 14, …\n\nstate\n\nuse modern postal code, e.g. TX, OK, KS, CA\n\nfarm, employed, emergency, havejob, otherincome\n\nyes or no\n\nnonworkstatus\n\nhome, school, disabled, other\n\nworkhours, unemployedhours, weeksworked, wages, rent, farmschedn\n\nnumerical, but don’t include a unit.\n\noccupation, industry\n\nThere are about 200 different levels. Use whatever English word or phrase is appropriate.\n\nworkclass\n\nPW, OA, GW, NP, DA, NP, E\n\n\nI can’t figure out what the codes mean. But maybe that’s a potential topic for the data analysis phase of the project. But almost all the entries are a 2-letter code. If you see something else, enter it as is.\n\nowned\n\nown or rent"
+  },
+  {
+    "objectID": "Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html",
+    "href": "Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html",
+    "title": "Kaplan’s in-class notes for 2025-03-07",
+    "section": "",
+    "text": "Coding standards for the persons Census spreadsheets.\nCheck whether you have recieved two links to my copies of your Census spreadsheets. You should be editing my copies from now on.\nContinue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part."
   }
 ]

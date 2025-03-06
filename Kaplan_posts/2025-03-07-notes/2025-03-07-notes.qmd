@@ -6,4 +6,6 @@ date: 2025-03-07
 ```{r include=FALSE}
 library(LSTbook)
 ```
-
+- [Coding standards](projects/data-standards.html) for the *persons* Census spreadsheets.
+- Check whether you have recieved two links to *my copies* of your Census spreadsheets. You should be editing *my copies* from now on. 
+- Continue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.

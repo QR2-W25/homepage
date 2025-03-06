@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -183,7 +183,7 @@ Question 1:
 <p>“<em>I must now make an admission on behalf of the statistical community. The formal basis for learning from data is a bit of a mess. Although there have been numerous attempts to produce a single unifying theory of statistical inference, none has been fully accepted. It is no wonder mathematicians tend to dislike teaching statistics.</em>”</p>
 </blockquote>
 <p>What is your intuitive reaction when reading such a statement? Does it make you question the value of statistics as a discipline? Be honest, and consider raising any concerns you have in class discussion.</p>
-<p><textarea id="S11-QB1" name="S11-QB1" class="devoirs-text" rows="4" cols="50" placeholder="Type here. (ID S11-QB1)"></textarea></p>
+<p><textarea id="S11-QB1" name="S11-QB1" class="devoirs-text" rows="4" cols="50" placeholder="Type here for question ID S11-QB1"></textarea> </p><div style="color: grey;"> <small>question id: S11-QB1</small> </div><p></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -238,7 +238,7 @@ Question 2:
 <p>Your parents call from out of town soon after the match has finished. They don’t yet know the outcome of the match, but they can see on Facetime that you are in your room studying. What should they conclude about the outcome of the match?</p>
 <p>The relevant likelihood ratio involves the two rows where the observation is “studying.” Your parents’ likelihood ratio for the game outcome being a win will be 10% / 60% = 1/6.</p>
 <p>Which ones of the following ideas from Block 3 is in the form of a likelihood? Sensitivity, specificity, prevalence, false-positive rate.</p>
-<p><textarea id="S11-QB2" name="S11-QB2" class="devoirs-text" rows="4" cols="50" placeholder="Type here. (ID S11-QB2)"></textarea></p>
+<p><textarea id="S11-QB2" name="S11-QB2" class="devoirs-text" rows="4" cols="50" placeholder="Type here for question ID S11-QB2"></textarea> </p><div style="color: grey;"> <small>question id: S11-QB2</small> </div><p></p>
 <p>Going back to the soccer match …. Your parents had a prior opinion about whether your team would win, say 70%. (They are fans, but realistic.) This corresponds to a prior odds of winning of 70/30 = 2.33.</p>
 <p>Also, your parents know you pretty well, so they are familiar with the likelihoods in the table above.</p>
 <p>The posterior odds of winning—that is, the odds once they have observed that you are studying but haven’t yet asked you the outcome of the match—are provided by Bayes’ rule:</p>
@@ -441,6 +441,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -551,6 +553,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
+      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

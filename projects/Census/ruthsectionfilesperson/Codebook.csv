@@ -1,0 +1,39 @@
+variable,type,meaning
+hid,character,globally unique <household> id
+prename,character, first name and middle names if any
+surname,character,last name
+hrole,categorical,role in the census <household>
+sex,categorical,sex
+race,categorical,race/ethnicity
+age,numerical,age in years
+mstatus,categorical,marital status
+inschool,categorical, currently in school
+edu,numerical, highest educational grade-level achieved
+birthstate,categorical,state of birth
+city,categorical,city town or village of residence
+county,categorical,residence county
+state,categorical,residence state
+farm,categorical,a farm so no city listed
+employed,categorical,currently employed
+emergency,categorical,emergency work BUT WHAT DOES THIS MEAN
+seeking,categorical,seeking work
+havejob,categorical,not sure how this differes from employed
+nonworkstatus,categorical, various categories of homework disabled and so on
+workhours,numerical,how many hours worked per week
+unemployedhours,numerical,not sure
+occupation,categorical,label for the occupation
+industry,categorical,label for the economic domain of work
+workclass,categorical,label for the type of work within the industry
+weeksworked,numerical,weeks worked in the last year
+wages,numerical,wages but perhaps its really income dollars
+otherincome,categorical,other income in dollars
+aptnum,categorical,apartment number
+citizenship,categorical,country of citizenship
+weeksunemployed,numerical, number of weeks enemployed
+farmschedn,numerical,for farms the order on the schedule
+owned,categorical,owned the house or rented
+rent,numerical,value of house or monthly renter
+transcriber,categorical,student who transcribed this entry
+hrolecode,categorical,a code about the <household> role don't know what this is
+unemployed,categorical, currently unemployed
+

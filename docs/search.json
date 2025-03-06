@@ -1454,5 +1454,40 @@
     "title": "Kaplan’s in-class notes for 2025-03-04",
     "section": "Causal influence diagrams (DAGS) and selection of coverariates.",
     "text": "Causal influence diagrams (DAGS) and selection of coverariates.\n\nIntroduce “pathway,” “correlating,”, “non-correlating,” “blocked,” and “open” with respect to DAGS.\n\nImplementing a hypothesis as a simulation/DAG.\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "projects/Census/data-standards.html",
+    "href": "projects/Census/data-standards.html",
+    "title": "Recoding Census persons variables",
+    "section": "",
+    "text": "The project instructions called for creating your persons and households sheets in your own Google Drive account. That’s exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, dtkaplan@gmail.com.\n\nDo not edit your original sheets except to add dtkaplan@gmail.com as an editor.\nYou will receive an invitation from me to edit the copy of your sheet that I will create. It will have a name like sbrown-households.\nDo all edits in the sheet stored in my account. It will likely show up in your “Shared” folder in Google sheets."
+  },
+  {
+    "objectID": "projects/Census/data-standards.html#important-note",
+    "href": "projects/Census/data-standards.html#important-note",
+    "title": "Recoding Census persons variables",
+    "section": "",
+    "text": "The project instructions called for creating your persons and households sheets in your own Google Drive account. That’s exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, dtkaplan@gmail.com.\n\nDo not edit your original sheets except to add dtkaplan@gmail.com as an editor.\nYou will receive an invitation from me to edit the copy of your sheet that I will create. It will have a name like sbrown-households.\nDo all edits in the sheet stored in my account. It will likely show up in your “Shared” folder in Google sheets."
+  },
+  {
+    "objectID": "projects/Census/data-standards.html#persons",
+    "href": "projects/Census/data-standards.html#persons",
+    "title": "Recoding Census persons variables",
+    "section": "Persons",
+    "text": "Persons\nWork first on the persons spreadsheet.\n\nAdd a household ID variable (hid). This must be unique across all of the census data sets. So if you have numbered them 1, 2, 3, … you’ll need to preface that number with a unique identifier such as the “enumeration district” for your sheet, for example, 227-84-.\nAdd a transcriber variable. This will be the same for all rows that you did. Your full name or email prefix are good choices.\nWe need to standardize the names of variables so that the different sheets can be combined. To that end, I have created a codebook."
+  },
+  {
+    "objectID": "projects/Census/data-standards.html#codebook",
+    "href": "projects/Census/data-standards.html#codebook",
+    "title": "Recoding Census persons variables",
+    "section": "Codebook",
+    "text": "Codebook\n\n\n\nTable 1: Standardized variables for persons sheets.\n\n\n\n\n\n\n\n\n\n\nvariable\ntype\nmeaning\n\n\n\n\nhid\ncharacter\nglobally unique &lt;household&gt; id\n\n\nprename\ncharacter\nfirst name and middle names if any\n\n\nsurname\ncharacter\nlast name\n\n\nhrole\ncategorical\nrole in the census &lt;household&gt;\n\n\nsex\ncategorical\nsex\n\n\nrace\ncategorical\nrace/ethnicity\n\n\nage\nnumerical\nage in years\n\n\nmstatus\ncategorical\nmarital status\n\n\ninschool\ncategorical\ncurrently in school\n\n\nedu\nnumerical\nhighest educational grade-level achieved\n\n\nbirthstate\ncategorical\nstate of birth\n\n\ncity\ncategorical\ncity town or village of residence\n\n\ncounty\ncategorical\nresidence county\n\n\nstate\ncategorical\nresidence state\n\n\nfarm\ncategorical\na farm so no city listed\n\n\nemployed\ncategorical\ncurrently employed\n\n\nemergency\ncategorical\nemergency work BUT WHAT DOES THIS MEAN\n\n\nseeking\ncategorical\nseeking work\n\n\nhavejob\ncategorical\nnot sure how this differes from employed\n\n\nnonworkstatus\ncategorical\nvarious categories of homework disabled and so on\n\n\nworkhours\nnumerical\nhow many hours worked per week\n\n\nunemployedhours\nnumerical\nnot sure\n\n\noccupation\ncategorical\nlabel for the occupation\n\n\nindustry\ncategorical\nlabel for the economic domain of work\n\n\nworkclass\ncategorical\nlabel for the type of work within the industry\n\n\nweeksworked\nnumerical\nweeks worked in the last year\n\n\nwages\nnumerical\nwages but perhaps its really income dollars\n\n\notherincome\ncategorical\nother income in dollars\n\n\naptnum\ncategorical\napartment number\n\n\ncitizenship\ncategorical\ncountry of citizenship\n\n\nweeksunemployed\nnumerical\nnumber of weeks enemployed\n\n\nfarmschedn\nnumerical\nfor farms the order on the schedule\n\n\nowned\ncategorical\nowned the house or rented\n\n\nrent\nnumerical\nvalue of house or monthly renter\n\n\ntranscriber\ncategorical\nstudent who transcribed this entry\n\n\nhrolecode\ncategorical\na code about the &lt;household&gt; role don't know what this is\n\n\nunemployed\ncategorical\ncurrently unemployed\n\n\n\n\n\n\n\n\n\n\nYour sheet may have additional variables that do not appear in Table 1. LEAVE THEM AS IS.\nYour sheet may not have some of the variables listed in Table 1. Make a good-faith effort to transcribe the relevant data into your sheet, but not all sheets have all variables. If you can’t find on your “Population Schedule” one or more of the variables listed, then don’t worry about it."
+  },
+  {
+    "objectID": "projects/Census/data-standards.html#standardized-encoding-of-variables",
+    "href": "projects/Census/data-standards.html#standardized-encoding-of-variables",
+    "title": "Recoding Census persons variables",
+    "section": "Standardized encoding of variables",
+    "text": "Standardized encoding of variables\nModify the entries in your sheet to correspond to the standards given below. Take some care to spell consistently with the standards and to use dashes when called for.\nSome of the variables (like occupation) don’t need to be standardized at this point.\n\nsex\n\nF or M\n\nhrole\n\nhead, wife, mother, partner, sister, brother\n\n\nhalf-brother, half-sister\n\n\ndaughter, son, nephew, niece\n\n\nstep-son, step-daughter, step-sister, step-brother\n\n\ngrandson, granddaughter, grandfather, grandmother\n\n\ndaughter-in-law, son-in-law, sister-in-law, brother-in-law\n\n\nlodger, lodger-wife, servant\n\n\nsister-in-law, daughter-in-law, son-in-law, partner, lodger-wife,\n\nrace\n\nnegro, white\n\n\nIf you see others, enter them as you read them.\n\nage\n\nnumeric in years. 1½ and such should be rendered 1.5\n\nmstatus\n\nsingle, married, divorced, widowed\n\ninschool\n\nno, yes\n\nedu\n\nuse numbers from 0 to 20: years of education\n\n\nFor G0, G1, …, G8 use 0, 1, …, 8\n\n\nFor H1, H2, H3, H4 use 9, 10, 11, 12\n\n\nFor “none” use 0\n\n\nFor C1, C2, … use 13, 14, …\n\nstate\n\nuse modern postal code, e.g. TX, OK, KS, CA\n\nfarm, employed, emergency, havejob, otherincome\n\nyes or no\n\nnonworkstatus\n\nhome, school, disabled, other\n\nworkhours, unemployedhours, weeksworked, wages, rent, farmschedn\n\nnumerical, but don’t include a unit.\n\noccupation, industry\n\nThere are about 200 different levels. Use whatever English word or phrase is appropriate.\n\nworkclass\n\nPW, OA, GW, NP, DA, NP, E\n\n\nI can’t figure out what the codes mean. But maybe that’s a potential topic for the data analysis phase of the project. But almost all the entries are a 2-letter code. If you see something else, enter it as is.\n\nowned\n\nown or rent"
   }
 ]

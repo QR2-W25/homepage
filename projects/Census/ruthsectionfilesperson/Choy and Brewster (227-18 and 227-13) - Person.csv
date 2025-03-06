@@ -1,0 +1,74 @@
+surname,hrole,age,mstatus,sex,race,birthstate,edu,occupation,industry,Residence in 1935,owned,rent
+Edward P. Jones,Head,60,Married,M,W,Texas,H-16,Proprietor,Retail,"Austin, Texas",Owned,3000
+Anna Belle Jones,Wife,60,Married,F,W,Texas,H-1,None,None,"Austin, Texas",Owned,3000
+Aberom Guillan,Son-in-law,26,Single,M,W,Texas,H-11,Teacher,Public School,"Guillin, Texas",Rented,26
+Paul Helpz,Daughter,27,Married,F,W,Texas,H-1,None,None,"Austin, Texas",Owned,720
+Kath Helpz,Granddaughter,4,Single,F,W,Texas,None,None,None,"Austin, Texas",Owned,None
+Ella Wilson,Head,41,Widowed,F,W,Texas,H-2,Proprietor,Retail,"Leyon, Texas",Rented,1000
+William T. Finch,Head,50,Single,M,W,Virginia,C-4,Carpenter,Construction,"Hogstoff, Virginia",Owned,850
+Annie D. Finch,Wife,51,Married,F,W,Illinois,C-1,Cook,Food Service,"Chicago, Illinois",Owned,None
+James T. Smith,Head,60,Married,M,W,Virginia,H-H,Proprietor,Retail,"Austin, Texas",Owned,3706
+Mande Smith,Wife,45,Married,F,W,Kentucky,C-4,Waitress,Food Service,"Austin, Texas",Owned,None
+C. Jones,Son,20,Single,M,W,Kansas,H-6,Plater,Manufacturing,"Kansas City, Kansas",Owned,None
+Earther Yordon,Head,20,Single,M,W,Oklahoma,H-4,Dairy Worker,Dairy,"Oklahoma City, Oklahoma",Rented,540
+Ruly Yordon,Wife,17,Married,F,W,Oklahoma,H-2,None,None,"Oklahoma City, Oklahoma",Owned,None
+Hershel Janes,Head,28,Married,M,W,Texas,H-4,Proprietor,Retail,"Austin, Texas",Owned,None
+Beatrica Janes,Wife,29,Married,F,W,Texas,H-1,None,None,"Austin, Texas",Owned,None
+Eorord Phelps,Head,28,Married,M,W,Texas,C-5,Machine Operator,Manufacturing,"Austin, Texas",Owned,None
+Edward Kallein,Wife,25,Married,F,W,Missouri,H-7,None,None,"Austin, Texas",Owned,None
+Reglors Ed,Head,62,Married,M,W,Texas,C-4,Proprietor,Retail,"Austin, Texas",Owned,None
+T. Louis Jones,Daughter,32,Single,F,W,Texas,H-4,Retail Worker,Retail,"Austin, Texas",Owned,None
+Eugene Jones,Son,22,Single,M,W,Texas,H-3,None,None,"Austin, Texas",Owned,None
+Lock Inmon,Head,61,Married,M,W,Texas,H-4,Computer Technician,Technology,"Austin, Texas",Owned,858
+Ligzi Inmon,Wife,45,Married,F,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Dennis Cowon,Head,24,Married,M,W,Texas,H-4,Dental Technician,Medical,"Austin, Texas",Owned,1215
+Theodocia Cowon,Wife,22,Married,F,W,Texas,H-4,Secretary,Administration,"Austin, Texas",Owned,None
+Jos K. McBride,Head,70,Married,M,W,Texas,C-5,Commission Worker,Government,"Austin, Texas",Owned,500
+Mothello Pulli,Head,55,Married,M,W,Texas,H-4,Surveyor,Survey,"Austin, Texas",Owned,None
+Ray Tog,Son,30,Single,M,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Hozule Pullian,Sister,20,Single,F,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Marie Pullion,Sister,18,Single,F,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+May Asher,Lodger,18,Single,F,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Henry Boerner,Head,72,Married,M,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Robert Hallmand,Head,30,Married,M,W,Texas,H-4,Inspector,Inspection,"Austin, Texas",Owned,None
+Alice Lampason,Wife,29,Married,F,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Helen Kay Lampason,Daughter,8,Single,F,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Robert Bont,Son,5,Single,M,W,Texas,H-4,None,None,"Austin, Texas",Owned,None
+Frank Hopper,Head,40,Married,M,W,Texas,H-4,None,None,"Austin, Texas",Owned,878
+,,,,,,,,,,,,
+Albert F. De Laney,Head,45,Married,M,W,Louisiana,H-4,Salesman,Real Estate,"Dallas, Texas",Owned,7500
+M. Graneth,Wife,45,Married,F,W,Missouri,H-4,None,None,"Dallas, Texas",Owned,7500
+Lowell Kerr,Head,39,Married,M,W,Texas,C-2,Salesman,Drugs,Same Place,Owned,5000
+Pearl M. Kerr,Wife,37,Married,F,W,Illinois,C-2,Stenographer,Typing,Same Place,Owned,None
+L. Jane Kerr,Daughter,12,Single,F,W,Texas,H-4,None,None,Same Place,Owned,None
+Harold E. Tobay,Head,56,Married,M,W,Minnesota,H-4,Engineer,Bridge Construction,Same Place,Owned,8500
+Lillian Tobay,Wife,48,Married,F,W,Iowa,H-4,Nurse,Health,Same Place,Owned,None
+Hoba W. Tobay,Son,15,Single,M,W,Texas,H-4,None,None,Same Place,Owned,None
+Heatington Zie,Head,26,Single,M,W,Louisiana,C-4,Laboratory Worker,Commission,Same Place,Rented,25
+Mary Clundon,Partner,31,Single,F,W,Texas,C-4,Clerk,Family Service,Same Place,Rented,None
+Anthu Skilly,Head,60,Married,M,W,Illinois,H-4,Salesman,Insurance,"Houston, Texas",Owned,40
+Elizabeth H. Skilly,Wife,33,Married,F,W,Missouri,H-4,None,None,"San Antonio, Texas",Owned,None
+H. Lillmand,Head,33,Married,M,W,Texas,C-3,Salesman,Manufacturing,Same Place,Owned,35
+Jane Im,Wife,29,Married,F,W,Texas,C-3,Stenographer,Security,Same Place,Owned,None
+Richard Brooke,Head,29,Married,M,W,Texas,C-4,Lawyer,Practice,Same Place,Owned,4000
+Annie Maro,Wife,27,Married,F,W,Texas,C-4,None,None,Same Place,Owned,None
+Ann Mathews,Daughter,18,Single,F,W,Texas,H-4,None,None,Same Place,Owned,None
+W.S. Drake,Head,31,Married,M,W,Texas,C-4,Lumberman,Dealer,Same Place,Owned,2500
+Elenor C. Drake,Wife,28,Married,F,W,Pennsylvania,C-4,None,None,Same Place,Owned,None
+Josephine Drake,Daughter,4,Single,F,W,Texas,None,None,None,Same Place,Owned,None
+Williamed III,Son,3,Single,M,W,Texas,None,None,None,Same Place,Owned,None
+Ruth Fiper,Servant,27,Single,F,W,Texas,H-2,Housework,General Housework,Same Place,Rented,40
+C. Rawls Player,Head,48,Married,M,W,Texas,C-4,Lumber Business,Dealer,Same Place,Owned,2400
+May Della Rawls,Wife,44,Married,F,W,Texas,C-4,None,None,Same Place,Owned,None
+Best D. Ford,Head,47,Married,M,W,Arkansas,C-4,Attorney,Legal,Same Place,Owned,7000
+Hattie Ford,Wife,44,Married,F,W,Texas,C-4,None,None,Same Place,Owned,None
+Virginia Ford,Daughter,18,Single,F,W,Texas,H-4,None,None,Same Place,Owned,None
+David Ford,Son,14,Single,M,W,Texas,H-4,None,None,Same Place,Owned,None
+Elizabeth Bledoe,Servant,37,Single,F,W,Texas,H-4,Maid,General Housework,Same Place,Rented,240
+E. Food Corknare,Head,48,Married,M,W,Texas,C-4,Real Estate,Specialties,Same Place,Owned,9500
+Carl E. Quick,Head,42,Married,M,W,Texas,H-3,Contractor,Building,Same Place,Owned,8500
+Dora E. Quick,Wife,39,Married,F,W,Texas,H-2,None,None,Same Place,Owned,None
+Harald E. Quick,Son,15,Single,M,W,Texas,H-4,None,None,Same Place,Owned,None
+Durward D. Mahon,Head,31,Married,M,W,Louisiana,C-4,Lawyer,Legal,"Dallas, Texas",Owned,4250
+Margark Mahon,Wife,28,Married,F,W,Texas,C-4,None,None,Same Place,Owned,None
+M. Dah,Daughter,4,Single,F,W,Texas,H-4,None,None,Same Place,Owned,None

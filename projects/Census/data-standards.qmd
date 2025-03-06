@@ -1,0 +1,99 @@
+---
+title: "Recoding Census persons variables"
+---
+
+## IMPORTANT NOTE
+
+The project instructions called for creating your *persons* and *households* sheets in your own Google Drive account. That's exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, `dtkaplan@gmail.com`.
+
+1. Do not edit your original sheets except to add `dtkaplan@gmail.com` as an editor.
+2. You will receive an invitation from me to edit the copy of your sheet that I will create. It will have a name like `sbrown-households`.
+3. Do all edits in the sheet stored in my account. It will likely show up in your "Shared" folder in Google sheets.
+
+## Persons
+
+Work first on the persons spreadsheet.
+
+1. Add a household ID variable (`hid`). This must be *unique* across all of the census data sets. So if you have numbered them 1, 2, 3, ... you'll need to preface that number with a unique identifier such as the "enumeration district" for your sheet, for example, 227-84-.
+
+2. Add a `transcriber` variable. This will be the same for all rows that you did. Your full name or email prefix are good choices.
+
+3. We need to standardize the names of variables so that the different sheets can be combined. To that end, I have created a *codebook*.
+
+## Codebook
+
+::: {#tbl-codebook}
+```{r}
+#| echo: FALSE
+#| message: FALSE
+cb <- read.csv("ruthsectionfilesperson/Codebook.csv")
+gt::gt(cb)
+```
+
+Standardized variables for *persons* sheets.
+:::
+
+Your sheet may have additional variables that do not appear in @tbl-codebook. LEAVE THEM AS IS. 
+
+Your sheet may not have some of the variables listed in @tbl-codebook. Make a good-faith effort to transcribe the relevant data into your sheet, but not all sheets have all variables. If you can't find on your "Population Schedule" one or more of the variables listed, then don't worry about it.
+
+## Standardized encoding of variables
+
+Modify the entries in your sheet to correspond to the standards given below. Take some care to spell consistently with the standards and to use dashes when called for.
+
+Some of the variables (like `occupation`) don't need to be standardized at this point. 
+
+sex
+: F or M
+
+hrole
+: head, wife, mother, partner, sister, brother
+: half-brother, half-sister
+: daughter, son, nephew, niece
+: step-son, step-daughter, step-sister, step-brother
+: grandson, granddaughter, grandfather, grandmother
+: daughter-in-law, son-in-law, sister-in-law, brother-in-law
+: lodger, lodger-wife, servant
+: sister-in-law, daughter-in-law, son-in-law, partner, lodger-wife,
+
+race
+: negro, white
+: If you see others, enter them as you read them. 
+
+age
+: numeric in years. 1½ and such should be rendered 1.5
+
+mstatus
+: single, married, divorced, widowed
+
+inschool
+: no, yes
+
+edu
+: use numbers from 0 to 20: years of education
+: For G0, G1, ..., G8 use 0, 1, ..., 8
+: For H1, H2, H3, H4 use 9, 10, 11, 12
+: For "none" use 0
+: For C1, C2, ... use 13, 14, ...
+
+state
+: use modern postal code, e.g. TX, OK, KS, CA
+
+farm, employed, emergency, havejob, otherincome
+: yes or no
+
+nonworkstatus
+: home, school, disabled, other
+
+workhours, unemployedhours, weeksworked, wages, rent, farmschedn
+: numerical, but don't include a unit.
+
+occupation, industry
+: There are about 200 different levels. Use whatever English word or phrase is appropriate.
+
+workclass
+: PW, OA, GW, NP, DA, NP, E
+:  I can't figure out what the codes mean. But maybe that's a potential topic for the data analysis phase of the project. But almost all the entries are a 2-letter code. If you see something else, enter it as is.
+
+owned
+: own or rent

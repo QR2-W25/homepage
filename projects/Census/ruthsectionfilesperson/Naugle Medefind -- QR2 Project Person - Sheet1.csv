@@ -1,0 +1,77 @@
+transcriber,hid,surname,prename,hrole,hrolecode,sex,race,age,mstatus,inschool,edu,educode,birthstate,bstatecode,citizenship,city,county,state,farm,farmcode,Private/nonemergency:,emergency,seeking,hadjob,Other: ,CODE: ,workhours,unemployed,occupation,industry,workclass,CODE 1,CODE 2,CODE 3,weeksworked,wages,nonwage,farmschedn,Line No:
+Marin,1,George,John,Head,0,M,W,75,M ,0,7,7,TX,87,,Brady, ,,, ,0,0,0,0,U,7, ,,, , , , ,,0,0,0,,41
+Marin,1,-,Lorinda (X),Wife,1,F,W,74,M,0,6,6,TX,87,,Brady, ,,, ,0,0,0,0,U,1, ,,, , , , ,,0,0,0,,42
+Marin,1,-,Henry,Son,2,M,W,40,S,0,H-2,10,TX,87,,Brady, ,,, ,1,-,-,-,-,1,48,,Painter,Buildinglostreets WA Project (?),PW,340,V9,1,52,1200,0,,43
+Marin,2,Reeves,George,Head,0,M,W,40,M,0,H-2,10,TX,87,,Brady, ,,,XOXO,1,-,-,-,-,2,48,,Pour Concrete,Building Construction,GW,988,V9,2,39,810,0,,44
+Marin,2,-,Emily (X),Wife,1,F,W,37,M,0,5,5,TX,87,,Brady, ,,,XOXO,0,0,0,0,H,5, ,, , , , , , ,0,0,0,,45
+Marin,2,Chapel,Kirby,Lodger,6,M,W,30,D,0,C-1,40,TX,87,,Brady, ,,,XOXO,1,-,-,-,-,1,24,,Locomotive mechanic,Marshall Ford Wam Project (?),PW,334,V9,1,12,480,0,,46
+Marin,3,Jones,Oscar,Head,0,M,W,64,M,0,H-1,9,TX,87,,Brady, ,,,XOXO,1,-,-,-,-,1,48,,Janitor,State University,GW,740,91,2,52,1020,0,,47
+Marin,3,-,Lillie Mae (X),Wife ,1,F,W,57,M,0,4,4,TX,87,,Brady, ,,,XOXO,0,0,0,0,H,5, ,, , , , , , ,3,0,0,,48
+Marin,3,Parks,Sammie R. ,Son-in-law,5,M,W,27,M,0,H-2,10,TX,87,,Brady, ,,,XOXO,1,-,-,-,-,1,48,,Sign painter,Contractor (painter) ,OA,340,83,H,26,0,1,,49
+Marin,3,-,Jessie Irene,Daughter,2,F,W,23,M,0,7,7,TX,87,,Brady, ,,,XOXO,0,0,0,0,H,5, ,,,, , , , ,0,0,0,,50
+Marin,3,-,Jackie Mae,Granddaughter,4,F,W,7,S,1,1,1,TX,87,,Brady, ,,,XOXO, , , , , , , ,,,, , , , ,, , ,,51
+Marin,3,- ,"Sammie Ra, Jr. ",Grandson,4,M,W,6,S,1,0, ,TX,87,,Brady, ,,,XOXO, , , , , , , ,,,, , , , ,, , ,,52
+Marin,3,-,Oscar L. ,Grandson,4,M,W,4,S,0,0, ,TX,87,,-, ,,,-, , ,  , , , , ,,,, , , , ,, , ,,53
+Marin,3,-,Katherine Aline,Granddaughter,4,F,W,2,S,0,0, ,TX,87,,-, ,,,-, , , , , , , ,,,, , , , ,, , ,,54
+Marin,3,-,Evelyn Gayle ,Granddaughter,4,F,W,7/A2 (?),S,0,0, ,TX,87,,-, ,,,-, , , , , , , ,,,, , , , ,, , ,,55
+Marin,4,Tranzetti,Joe C.,Head,0,M,W,29,M,0,H-3,20,TX,87,,Brady,  ,,,XOXO,1,-,-,-,-,1,50,,Salesman,Grocery store and market,E,156,61,3,52,0,1,,57
+Marin,4,-,Martha S. ,Wife,1,F,W,25,M,0,H-4,30,TX,87,,SanCatonis,  ,TX,0,4727,1,-,-,-,-,1,25,,Saleslady,Grocery store and market,NP,298,61,5,18,0,1,,58
+Marin,4,Sundberg,Peggy,Sister-in-law,5,F,W,20,S,0,H-4,30,TX,87,,Kenedy, ,TX,1,8784,1,-,-,-,-,1,50,,Saleslady,Grocery store and market,PW,298,61,1,51,765,1,,59
+Marin,5,King,Jamis W. ,Head,0,M,W,62,M,0,0, ,TX,87,,Kenedy, , , ,XOXO,0,0,1,-,-,3, ,35,Vegetable truck Driver,Peddled vegetables ,OA,272,61,4,13,0,1,,60
+Marin,5,- ,Hattie (X),Wife,1,F,W,51,M,0,6,6,TX,87,,Kenedy, , , ,XOXO,0,0,0,0,H,5, ,  ,, , , , , ,0,0,0,,61
+Marin,5,- ,May Belle,Daughter,2,F,W,19,S,0,H-2,10,TX,87,,Kenedy, , , ,XOXO,0,0,1,-,-,3, ,4,Waitress,Cafe,PW,780,71,1,26,156,0,,62
+Marin,5,-,Lonnie E. ,Son,2,M,W,13,S,1,7,7,TX,87,,Kenedy, , , ,XOXO, , , , , , , , ,, , , ,, , , , ,,63
+Marin,6,Summer,Cecil,Head,0,M,W,36,M,0,H-1,9,OK,87,,Kenedy, , , ,XOXO,1,-,-,-,-,1, , ,Workson sewage bin ,Sewage Dept,GW,988, 6V,2,35,685,0,,64
+Marin,6,-,Alberto (X) ,Wife ,1,F,W,25,M,0,6,6,TX,87,,Kenedy, , , ,XOXO,0,0,0,0,H,5, , ,, , , ,, ,0,0,0,,65
+Marin,7,King,Henry,Head,0,M,W,23,M,0,3,3,TX,87,,R, Williamson,TX,0,XOXO,0,0,1,-,-,3, ,18,Paper Hanger,Papering Contractor,OA,342,V9,4,22,0,1,,66
+Marin,7,-,Dollie,Wife,1,F,W,19,M,0,6,6,TX,87,,Same place, , , ,XOXO,0,0,0,0,H,5, ,,,, , , , ,0,0,0,,67
+Marin,8,League,Mary L. (X) ,Head,0,F,W,64,Wd,0,3,3,TX,87,,R,Williamson,TX ,0,8751,0,0,0,0,H,5, ,,,, , , , ,0,0,0,,68
+Marin,8,Lawrence,Tommy L. ,Grandson,4,M,W,10,S,1,3,3,TX,87,,Same place,,,,XOXO, , , , , , , ,,,, , , , , , , ,,69
+Marin,8,-,Thelma Mae,Granddaughter,4,F,W,9,S,1,2,2,TX,87,,Same place,,,,8751, , , , , , , ,,,, , ,, , , , ,,70
+Marin,9,Berger,Oscar,Head,0,M,W,40,M,0,7,7,TX,87,,Same place,,,,XOXO,1,-,-,-,-,1,48,,Upholstery,Upholstery (Furniture)  ,OA,364,85,1,39,0,1,,73
+Marin,9,-,Luna Mae,Wife,1,F,W,30,M,0,7,7,TX,87,,Same place,,,,XOXO,0,0,0,0,H,5, ,,, , , ,, ,0,0,0,,74
+Marin,9,Taylor,Dave C. ,Step son,2,M,W,12,S,1,7,7,TX,87,,Same place,,,,XOXO, , , , , , , ,,, , , , , , , , ,,75
+Marin,9,Berger,Betty Mildred,Daughter,2,F,W,8,S,1,2,2,TX,87,,Same place,,,,XOXO, , , , , , , ,,, , , , , , , , ,,76
+Marin,10,Brown,Humphery D. ,Head,0,M,W,32,M,0,H-4,30,TX,87,,Same place,,,,XOXO,0,0,1,-,-,3, ,2,Analysis clerk,Highway Department,GW,266,98,2,52,1500,0,,77
+Marin,10,-,Ida Mae (X) ,Wife,1,F,W,29,M,0,H-1,9,TX,87,,Same place,,,,XOXO,0,0,0,0,H,5, ,,, , , , , ,0,0,0,,78
+Marin,10,-,Charlotte J. ,Daughter,2,F,W,4,S,0,0, ,TX,87,,Same place,,,,XOXO, , , , , , , ,,, , , , , , , , ,,79
+Marin,11,Peterson,Manson M. ,Head ,0,M,W,34,M,0,6,6,TX,87,,Same place,,,,XOXO,1,-,-,-,-,1,75,,Salesman,Grocery Store,PW,298,61,1,52,540,0,,80
+Analina,,Bell,Laura Lee,Niece,,F,w,12,S,1,5,,TX,,,same home,,,,,,,,,,,,,,,,,,,,,,,
+Analina,,Avery,Stayce,Lodger,,F,w,42,S,0,H-4,,TX,,,same place,,,,,1,--,--,--,--,,44,,stenographer,industrial accident board,GW,,,,52,1693,0,,
+Analina,,Goodwin,Horsie,Lodger,,F,w,43,D,0,8,,TX,,,ft. worth,,TX,0,,1,--,--,--,--,,44,,secretary,attorney general,GW,,,,52,1387,0,,
+Analina,,Newton,Carolyn,Lodger,,F,w,29,S,0,C-4,,TX ,,,same place,, , ,,1,--,--,--,--,,44,,stenographer,attorney general,GW,,,,52,1350,0,,
+Analina,,Duffeu,William,Lodger,,M,w,32,M,0,C-5,,MO,,,Juscow ,Pima,AZ, ,,0,1,--,--,--,,44,--,superintendent,archaelogical survey,GW,,,,52,1920,0,,
+Analina,,Duffeu,Helena,Lodger Wife,,F,w,32,M,0,C-2,,MD,,,R,Baltimore,MD, ,,0,0,0,0,H,,,,,,,,,,0,0,0,,
+Analina,,Carlsow,Hamod,Head,,M,w,64,M,0,3,,TX,,,same place,, ,0,,1,--,--,--,--,,44,,mill worker,lumber co,Pw,,,,52,1344,0,,
+Analina,,Carlsow,Selma,Wife,,F,w,58,M,0,8,,TX,,,same place,, , ,,0,0,0,0,H,,,,,,,,,,0,0,0,,
+Analina,,Carlsow,Rosalie,Daughter,,F,w,20,M,0,H-3,,TX,,,same place,, , ,,0,0,0,0,Ot,,,,,,,,,,0,0,0,,
+Analina,,Carlsow,Elyisie,Daughter,,F,w,17,M,1,8,,TX,,,same place,, , ,,0,0,0,0,S,,,,,,,,,,0,0,0,,
+Analina,,Niel,Lulu,Head,,F,w,57,Wd,0,C-1,,TX,,,same place,, ,0,,0,0,0,0,H,,,,,,,,,,0,0,1,,
+Analina,,Niel,J. Tom,Son,,M,w,26,S,0,6,,TX,,,same place,, , ,,1,--,--,--,--,,66,--,cheercer,laundry,Pw,,,,52,884,0,,
+Analina,,Munchamp,Mary Margaret,Sister,,F,w,60,S,0,C-4,,england?,,,same place,, , ,,0,0,0,0,U,,,,,,,,,,0,0,0,,
+Analina,,Calthorpe?,Joe,Head,,M,w,28,S,0,8,,TX,,,R,Coryeel,TX ,1,,1,--,--,--,--,,48,--,photographer,visual education,Gw,,,,46,1056,0,,
+Analina,,Limberg,William,Head,,M,w,64,M,0,C-1,,germany,,,same house,,,0,,1,--,--,--,--,,,,operator,linereraty prese,Gw,,,,52,2000,1,,
+Analina,,Limberg,Lousie Augusta,Wife,,F,w,57,M,0,1,,TX,,,same house,,,0,,0,0,0,0,H,,,,,,,,,,0,0,0,,
+Analina,,Metzger,Herman,Head,,M,w,52,M,0,8,,TX,,,same house,,,0,,1,--,--,--,--,,44,,carpenter,building construction,Pw,,,,25,1890,0,,
+Analina,,Metzger,Maude,Wife,,F,w,51,M,0,C-4,,TX,,,same house,,, ,,0,0,0,0,H,,,,,,,,,,0,0,0,,
+Analina,,Metzger,Herbert,Son,,M,w,24,S,0,C-2,,TX,,,same house,,, ,,0,0,1,--,--,,,58,draftman,building construction,Pw,,,,6,40,0,,
+Analina,,Leser,Wallace,Head,,M,w,30,M,0,8,,TX,,,same house,,, ,,1,--,--,--,--,,48,,assistant manager,bowling alley,Pw,,,,52,1200,0,,
+Analina,,Leser,Lillian,Wife,,F,w,27,M,0,6,,TX,,,same house,,, ,,0,0,0,0,H,,,,,,,,,,0,0,0,,
+Analina,,Leser,La Vow???,daughter,,F,w,3,S,0,0,,TX,,,same house,,,,, ,,,,,,,,,,,,,,,, ,,
+Analina,,Leser,Lynelle,daughter,,F,w,12-Jan,S,0,0,,TX,,,--,,,,, ,,,,,,,,,,,,,,,, ,,
+Analina,,Garnet,Lora,servant,,F,w,18,S,0,8,,TX,,,same place,,,,,1,--,--,--,--,,56,,general helper,private home,Pw,,,,0,0,0,,
+Analina,,Harkino,Ernest,head,,M,w,50,M,0,6,,TX,,,same place,,,,,1,--,--,--,--,,50,,salesman,independent auto dealer,Da,,,,52,0,1,,
+Analina,,Harkino,Della,wife,,F,w,49,M,0,8,,TX,,,same place,,,,,1,--,--,--,--,,12,,salesman,corset comapny,Pw,,,,10,200,0,,
+Analina,,Harkino,Harry Hale,son,,M,w,20,S,0,H-3,,TX,,,same place,,,,,0,0,1,--,--,,--,3,attendant,fueling station,Pw,,,,52,780,0,,
+Analina,,Harkino,Claude,son,,M,w,18,S,1,H-2,,TX,,,same place,,,,,1,--,--,--,--,,33,--,salesman,grocery store,Pw,,,,0,0,0,,
+Analina,,harkino,Ernest,son,,M,w,16,S,1,H-1,,TX,,,same place,,,,,1,--,--,--,--,,15,--,attendant,bowling alley,Pw,,,,12,36,0,,
+Analina,,Dyess,Ray Lee,head,,M,w,50,M,0,7,,TX,,,same place,,,,,1,--,--,--,--,,48,,painter,building construction,Pw,,,,30,450,0,,
+Analina,,Dyess,Mary Emma,wife,,F,w,47,M,0,7,,TX,,,same place,,,,,1,--,--,--,--,,40,,dressmaker,at home,Pw,,,,52,260,0,,
+Analina,,Dyess,Dean L.,son,,M,w,22,M,0,H-2,,TX,,,same place,,,,,1,--,--,--,--,,70,,salesman,nursery,Pw,,,,48,715,0,,
+Analina,,Dyess,Alice Mae,daughter-in-law,,F,w,19,M,0,H-3,,TX,,,R,Mulan,TX,1,,0,0,0,0,H,,,,,,,,,,0,0,0,,
+Analina,,Dyess,Dean L,son,,M,w,12-Apr,S,0,0,,TX,,,--,,,,, , ,,,,,,,,,,,,,,, ,,
+Analina,,Sullivan,John W,lodger,,M,w,83,Wd,0,7,,KY,,,same place,,,,,0,0,0,0,U,,,,,,,,,,0,0,1,,
+Analina,,Callius,Helena,head,,F,w,74,Wd,0,8,,Canada,,,same place,,,,,1,--,--,--,,,10,,voice teacher,own home,Da,,,,52,0,1,,
+Analina,,Callius,Edna,daughter,,F,w,54,S,0,H-4,,canada,,,same place,,,,,1,--,--,--,,,40,,artist,own home,Da,,,,52,0,1,,
+Analina,,Vow Baeckman,Hurtha,head,,F,w,50,S,0,H-4,,TX,,,same house,,,,,0,0,0,0,U,,,,,,,,,,0,0,1,,
+Analina,,Vow Baeckman,Thang Edgar,brother,,M,w,49,S,0,5,,TX,,,same house,,,,,0,0,0,0,U,,,,,,,,,,0,0,1,,

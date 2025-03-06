@@ -1,0 +1,108 @@
+hid,prename,surname,hrole,sex,race,age,mstatus,inschool,edu,birthstate,city,county,state,farm,employed,emergency,seeking,havejob,nonworkstatus,workhours,unempoyedhours,occupation,industry,workclass,weeksworked,wages,otherincome
+194,Jack B,Albright,Head,M,W,38,M,No,H2,Texas,Same Place,NA,NA,NA,Yes,NA,NA,NA,NA,40,NA,Postal Clerk,US Post Office,GW,52,2100,Yes
+194,Lynal C,Albright,Wife,F,W,37,M,No,H2,Texas,Same Place,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+194,Helen,Albright,Daughter,F,W,19,S,No,C1,Texas,Same Place,NA,NA,NA,No,No,No,No,S,NA,NA,NA,NA,NA,0,0,No
+195,Clifton,Allen,Head,M,W,46,M,No,G8,Texas,R,Hays,Texas,Yes,Yes,NA,NA,NA,NA,70,NA,Farmer,Farm,OA,52,0,Yes
+195,Helen,Allen,Wife,F,W,40,M,No,G8,Germany,R,Hays,Texas,Yes,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+196,Otto,Marx,Head,M,W,55,M,No,G5,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,60,NA,Quary Worker,Rock,E,0,0,No
+196,Annie,Marx,Wife,F,W,45,M,No,G4,Texas,Same House,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,52,0,No
+196,Harry,Marx,Son,M,W,22,S,No,G7,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,50,NA,Farm Laborer,Farm,NP,52,0,No
+196,Otto Jr.,Marx,Son,M,W,20,S,No,G7,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,60,NA,Laborer,Rock,NP,0,0,No
+196,Marie,Marx,Daughter,F,W,16,S,Yes,G7,Texas,Same House,NA,NA,NA,No,No,No,No,S,NA,NA,NA,NA,NA,NA,NA,NA
+196,Mallie,Marx,Daughter,F,W,13,S,Yes,G6,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+196,Paul C ,Marx,Son,M,W,10,S,Yes,G3,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+196,Manuel,Marx,Son,M,W,8,S,Yes,G1,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+196,Rosie,Marx,Daughter,F,W,5,S,No,G0,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+196,Frank,Marx,Nephew,M,W,22,S,No,G7,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,60,NA,Quary Worker,Rock,NP,52,0,No
+196,Issac,Marx,Nephew,M,W,19,S,No,G6,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,60,NA,Quary Worker,Rock,NP,32,0,No
+196,Herman,Marx,Nephew,M,W,17,S,No,G5,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,60,NA,Quary Worker,Rock,NP,32,0,No
+197,Pleas,Eller,Head,M,W,67,Wd,No,G2,Texas,R,Travis,Texas,Yes,Yes,NA,NA,NA,NA,40,NA,Laborer,Farm,PW,26,130,No
+197,Leana,Eller,Daughter,F,W,17,S,No,G8,Texas,R,Travis,Texas,Yes,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+197,Ruth,Eller,Daughter,F,W,14,S,No,G5,Texas,R,Travis,Texas,Yes,Ni,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+198,John,Hurman,Head,M,W,67,M,No,G1,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,30,NA,Rock Worker,Rock,PW,15,150,No
+198,Novella,Hurman,Wife,F,W,57,M,No,G4,Texas,Same House,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+199,Grace,Vine Clure,Head,F,W,67,S,No,G3,Texas,Same House,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+199,Francis,Vine Clure,Sister,F,W,62,S,No,G3,Texas,Same House,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+200,WG,Maddox,Head,M,W,70,M,No,G5,Texas,Same House,NA,NA,NA,No,No,No,No,U,NA,NA,NA,NA,NA,0,0,Yes
+200,Sallie,Maddox,Wife,F,W,65,M,No,G4,Georgia,Same House,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,Yes
+201,Lee,Finch,Head,M,W,36,M,No,H1,Texas,R,Burnet,Texas,Yes,Yes,NA,NA,NA,NA,28,NA,Carpenter,Construction,PW,40,260,Yes
+201,Ida,Finch,Wife,F,W,32,M,No,H1,Texas,R,Burnet,Texas,Yes,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,Yes
+201,Darlene,Finch,Daughter,F,W,7,S,Yes,G1,Texas,R,Burnet,Texas,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+201,G.W.,Finch,Son,M,W,6,S,No,G0,Texas,R,Burnet,Texas,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+201,Micheal,Finch,Son,M,W,4,S,No,G0,Texas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+201,Shirley,Finch,Daughter,F,W,2,S,No,G0,Texas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+202,Ann,Brewer,Head,F,W,53,D,No,G7,Texas,Same Home,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+203,Oscar,Hueletter,Head,M,W,45,M,No,G8,Texas,Same Place,NA,NA,NA,Yes,NA,NA,NA,NA,47,NA,Yard Foreman,Lumber ,PW,52,1248,Yes
+203,Jodie,Hueletter,Wife,F,W,44,M,No,G8,Texas,Same Place,NA,NA,NA,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+203,Evelyn,Fulks,Step Daughter,F,W,20,S,No,H4,Texas,Same Place,NA,NA,NA,Yes,NA,NA,NA,NA,66,NA,#NAME?,State -,GW,52,500,No
+203,Jack ,Fulks,Step Son,M,W,19,S,No,H3,Texas,Same Place,NA,NA,NA,No,No,No,No,S,NA,NA,NA,NA,NA,0,0,No
+204,Ross,Brown,Head,M,W,43,M,No,H2,Texas,Sarado,Webb,Texas,No,No,Yes,Yes,NA,NA,NA,6,Electrician,Construction,PW,17,850,No
+204,Mannie,Brown,Wife,F,W,44,M,No,H4,NA,Sarado,Webb,Texas,No,No,No,No,No,H,NA,NA,NA,NA,NA,0,0,No
+26,Reuben,Berwell,head,M,W,42,M,N,G8,Texas,R,Burnett,Texas,No,no ,no,yes,yes,N/a,0,0,machinist,machine shop,PW,48,1334,no
+26,Flora,Berdwell,Wife,F,W,36,M,N,G7,Texas,R,Burnett,Texas,No,no ,no,no,no,H,0,n/a,n/a,n/a,n/a,0,0,no
+26,Will Le,Berdwell,Son,M,W,19,S,N,H4,Texas,R,Burnett,Texas,No,no ,no,yes,n/a,n/a,0,20,laborer,construction,PW,24,576,no
+26,Florine,Berdwell,Daughter,F,W,16,S,Y,H3,Texas,R,Burnett,Texas,No,no ,no,no,no,S,0,n/a,n/a,n/a,n/a,0,0,no
+26,Joe,Berdwell,Son,M,W,15,S,Y,H1,Texas,R,Burnett,Texas,No,no ,no,no,no,S,0,n/a,n/a,n/a,n/a,0,0,no
+27,Maximo,Arrelano,Head,M,W,79,W,N,G1,Mexico,Same Place,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a,n/a,n/a,0,0,no
+27,Maximo Jr,Arrelano,Son,M,W,30,S,N,G2,Texas,Same Place,N/A,N/A,No,no ,no,yes,n/a,n/a,0,64,laborer,common labor,PW,0,0,no
+27,Manuel,Arrelano,Son,M,W,24,S,N,G4,Texas,Same Place,N/A,N/A,No,no ,no,yes,n/a,n/a,0,108,laborer,common labor,PW,0,0,no
+27,Pancho,Arrelano,Son,M,W,23,S,N,G6,Texas,Same Place,N/A,N/A,No,no ,yes,n/a,n/a,n/a,0,78,laborer,common labor,GW,26,326,no
+27,John,Arrelano,Son,M,W,19,S,N,G3,Texas,Same Place,N/A,N/A,No,no ,no,yes,n/a,n/a,0,8,dish-washer,cafe ,PW,0,0,no
+27,Beatrice,Arrelano,Daughter,F,W,17,S,N,G3,Texas,Same Place,N/A,N/A,No,no ,no,no,no,H,0,n/a,n/a,n/a,n/a,0,0,no
+27,Manuel,Lopez,Grand-son,M,W,3,S,N,G0,Texas,Same Place,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a,n/a,n/a,0,0,no
+28,Luz,Arredondo,Head,M,W,33,M,N,G3,Texas,Same Place,N/A,N/A,No,no ,no,yes,n/a,n/a,0,250,laborer,common labor,PW,0,0,no
+28,Isabel,Arredondo,Wife,F,W,32,M,N,G2,Texas,Same Place,N/A,N/A,No,no ,no,no,no,H,0,n/a,n/a,n/a,n/a,0,0,no
+28,Beatrice,Arredondo,Daughter,F,W,11,S,Y ,G3,Texas,Same Place,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a,n/a,n/a,0,0,no
+28,Lucille,Arredondo,Daughter,F,W,9,S,Y,G4,Texas,Same Place,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a,n/a,n/a,0,0,no
+28,Angeline,Arredondo,Daughter,F,W,5,S,N,G0,Texas,Same Place,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a,n/a,n/a,0,0,no
+28,Rosie,Arredondo,Daughter,F,W,2,S,N,G0,Texas,n/a,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a,n/a,n/a,0,0,no
+30,Weslie,Plumley,Head,M,W,33,M,N,H4,Texas,Same Place,N/A,N/A,No,Yes,n/a,n/a,n/a,n/a,44,n/a,machinist,machine shop,PW,52,520,no
+30,Ellen W,Plumley,Wife,F,W,26,M,N,H1,Texas,Same Place,N/A,N/A,No,no ,no,no,no,H,0,n/a,n/a,n/a,n/a,0,0,yes
+31,Hermen,Erler,Head,M,W,26,M,N,G7,Texas,Dallas,Dallas,Texas,No,Yes,n/a,n/a,n/a,n/a,60,n/a,driver,taxi,PW,52,760,no
+31,Lucille,Erler,Wife,F,W,22,M,N,C2,Texas,Logansport,DeSoto,Louisiana ,No,Yes,n/a,n/a,n/a,n/a,54,n/a,waitress,cafe ,PW,52,520,no
+32,Joseph,Gibson,Head,M,W,57,M,N,G0,Texas,Same House,N/A,N/A,No,no ,no,no,no,U,0,520,520,n/a,n/a,0,0,no
+32,Liza,Gibson,Wife,F,W,57,M,N,G0,Texas,Same House,N/A,N/A,No,no ,no,no,no,H,0,n/a,n/a ,n/a,n/a,0,0,no
+33,Clyde,Welch,Head,M,W,33,S,N,G2,Texas,Same Place,N/A,N/A,No,Yes,n/a,n/a,n/a,n/a,20,n/a,laborer,landscape work,PW,20,160,no
+34,Green,Welch,Head,M,W,57,M,N,G4,Texas,Same Place,N/A,N/A,No,Yes,n/a,n/a,n/a,n/a,30,n/a,laborer,common labor,PW,25,250,no
+34,Pearl,Welch,Wife,F,W,48,M,N,G4,Texas,Same Place,N/A,N/A,No,no ,no,no,no,H,0,n/a,n/a ,n/a,n/a,0,0,no
+34,Aubrey,Welch,Son,M,W,20,S,N,G3,Texas,Same Place,N/A,N/A,No,Yes,n/a,n/a,n/a,n/a,40,n/a,laborer,General contractor,PW,16,160,no
+34,David,Welch,Son,M,W,13,S,N,G3,Texas,Same Place,N/A,N/A,No,no ,no,no,no,U,0,n/a,n/a ,n/a,n/a,0,0,no
+36,Pauline,King,Head,F,W,27,D,N,G5,Texas,R,Travis,Texas,No,yes,n/a,n/a,n/a,n/a,54,n/a,waitress,cafe ,PW,0,0,no
+36,Doris Nell,King,Daughter,F,W,8,S,N,G1,Texas,R,Travis,Texas,No,no,no,no,no,U,0,n/a,n/a ,n/a,n/a,0,0,no
+36,Geraldine,King,Daughter,F,W,6,S,N,G0,n/a,n/a,N/A,N/A,No,no,no,no,no,U,0,n/a,n/a ,n/a,n/a,0,0,no
+36,Billy H,King,Son,M,W,4,S,N,G0,n/a,n/a,N/A,N/A,No,no,no,no,no,U,0,n/a,n/a ,n/a,n/a,0,0,no
+36,Yvonne,King,Daughter,F,W,2,S,N,G0,n/a,n/a,N/A,N/A,No,no,no,no,no,U,0,n/a,n/a ,n/a,n/a,0,0,no
+36,Paslee,Montgomery,Mother,F,W,57,W,N,G3,Mississippi,R,Bell,Texas,No,no,no,no,no,H,0,n/a,n/a ,n/a,n/a,0,0,no
+37,John,Denson,Head,M,W,37,M,N,G7,Texas,R,Travis,Texas,No,no,yes,n/a,n/a,n/a,0,70,laborer,common labor,PW,24,264,no
+37,Beulah,Denson,Wife,F,W,32,M,N,H2,Texas,R,Travis,Texas,No,no,no,no,no,H,0,n/a,n/a ,n/a,n/a,0,0,no
+1,William,Lewis,Head,M,W,68,S,No,H-2,Kentucky,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,55,NA,Osteopath,Private Practice,E,52,0,Yes
+2,CD,West,Head,M,W,63,M,No,7,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,55,NA,Proprietor,Boarding Home,E,52,0,Yes
+2,Ella,West,Wife,F,W,54,M,No,8,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,55,NA,Housekeeper,Boarding Home,NP,52,0,No
+2,Erma K,West,Daughter,F,W,18,S,No,H-4,Texas,Same House,NA,NA,NA,No,No,Yes,NA,NA,NA,43,New Worker,None,NA,0,0,No
+2,JC,West,Brother,M,W,48,D,No,8,Texas,Same House,NA,NA,NA,No,No,Yes,NA,NA,NA,18,Caretaker,Dan Groust,GW,40,600,No
+2,William,Armstrong,Lodger,M,W,62,S,No,H-4,Mississippi,New York,New York,New York,No,No,No,No,No,U,NA,NA,NA,NA,NA,NA,0,No
+2,John David,Fisk,Lodger,M,W,32,S,Yes,C-1,Texas,Bastrop,Bastrop,Texas,No,Yes,NA,NA,NA,NA,44,NA,Stenographer,City Government,GW,52,1200,No
+2,William,Weach,Lodger,M,W,26,M,No,H-2,Texas,Dallas,Dallas,Texas,No,Yes,NA,NA,NA,NA,20,NA,Truck Driver,Gravel,NA,52,0,Yes
+2,WE,Reck,Servant,M,W,19,S,Yes,H-4,Texas,Johnson City,Blanco,Texas,Yes,Yes,NA,NA,NA,NA,20,NA,Waiter,Boarding Home,W,0,0,No
+3,TH,Coulter,Head,M,W,75,M,No,6,Mississippi,Same House,NA,NA,NA,No,No,No,No,U,50,NA,Super,Rooming House,PW,52,0,Yes
+3,Clara,Coulter,Wife,F,W,71,M,No,H-4,Illinois,Same House,NA,NA,NA,No,No,No,No,S,NA,NA,NA,NA,NA,0,0,No
+3,Charles,Harrison,Grandson,M,W,17,S,Yes,H-3,Texas,Same House,NA,NA,NA,No,No,No,No,U,NA,NA,NA,NA,NA,0,0,No
+3,Lady,Lowther,Lodger,F,W,76,Wd,Yes,C-5,New York,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,Yes
+3,Otis,Walker,Lodger,M,W,45,D,No,8,Texas,Same House,NA,NA,NA,No,No,No,No,Ot,12,NA,Driver,Taxi Cab Co,PW,52,780,No
+3,Charles,Kinney,Lodger,M,W,78,D,No,C-2,Texas,Childress,Childress,Texas,Yes,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,Yes
+3,Richard,Hutchings,Lodger,M,W,41,S,No,C-2,Texas,Same Place,NA,NA,No,No,No,No,No,U,60,NA,Salesman,Securities,PW,52,750,Yes
+3,William,Powell,Lodger,M,W,64,S,No,4,Texas,Jacksonville,Cherokee,Texas,No,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,No
+3,Jack,Fulkes,Lodger,M,W,41,D,No,7,Texas,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,41,NA,Clerk,Retail Leisure,PW,52,840,No
+3,Herbert,Cunningham,Lodger,M,W,37,M,No,C-5,West Virginia,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,56,NA,Golf Course + Archery Operator,Athletic Entertainment,PW,36,405,Yes
+3,Joseph,Droupy,Lodger,M,W,34,S,No,7,Syria,San Antonio,Bexar,Texas,No,Yes,NA,NA,NA,NA,70,NA,Waiter,Cafeteria,PW,40,300,No
+3,David,Pickle,Lodger,M,W,40,D,No,C-4,Texas,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,45,NA,Consulting,Building,PW,35,900,No
+3,Charles,Duma,Lodger,M,W,41,M,No,H-2,Arkansas,San Antonio,Bexar,Texas,No,Yes,NA,NA,NA,NA,48,NA,Shoemaker,Shoe-Shop,PW,52,1040,No
+4,Harry,Pruet,Head,M,W,54,D,No,5,Texas,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,36,NA,Property Owner,Real Estate,E,52,0,Yes
+4,HA,Calburn,Lodger,M,W,37,S,No,C-2,Kansas,San Juan,Hidalgo,Texas,No,Yes,NA,NA,NA,NA,56,NA,Horologist,Retail Jewelery Shop,PW,52,1000,No
+4,Benton,Coopwood,Lodger,M,W,39,D,No,C-5,Texas,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,45,NA,Attorney,Private Practice,E,52,0,Yes
+4,John,Rogers,Lodger,M,W,62,M,No,6,Texas,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,84,NA,Watchman,Hotel,PW,52,600,Yes
+4,Andrew,Spence,Servant,M,Neg,32,S,No,4,Texas,Georgetown,Williamson,Texas,Yes,No,No,No,No,U,40,NA,Janitor,Office Building,PW,40,600,No
+5,Martha,Lucas,Head,F,W,74,S,No,H-4,Tennessee,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,42,NA,Proprietor,Rooming House,OR,52,0,Yes
+5,James,Lucas,Brother,M,W,72,Wd,No,H-1,Tennessee,Same House,NA,NA,NA,Yes,NA,NA,NA,NA,NA,NA,NA,NA,NA,0,0,Yes
+5,Po,Davenport,Lodger,M,W,23,M,No,H-4,Texas,San Antonio,Bexar,Texas,No,Yes,NA,NA,NA,NA,35,NA,Musician,Band,PW,46,800,No
+5,Jimmie,Calhoun,Lodger,M,W,38,S,No,7,Texas,Same Place,NA,NA,No,Yes,NA,NA,NA,NA,51,NA,Clerk,Retail,PW,52,1792,No

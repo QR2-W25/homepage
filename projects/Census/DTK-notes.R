@@ -14,7 +14,7 @@ Sheets <- tibble::tribble(
   "tolsen", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTLA75CJZ8KWaw0XuPSt4XUPD_tbZGvMDE6bIrT3CwBolJ4hVJarYig9EdYg2E1DmDBL8OZmYih5saV/pub?gid=0&single=true&output=csv",
   "arubin", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vS_PKEQnr4Eey_NmR-qcfrd06j1-Zdnk1FWEluTTCyQGhvgQvC2Oy9kSpHPfpQSgGzdYtC54DmrjJ24/pub?gid=0&single=true&output=csv",
   "arubin", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTn1E9Tfk7WF8KGSIGb95GKTqN13nViXWzV8UMnBFk-jFznu9DcFzWwYKVnIXvA731yrlHU-v-eQEEy/pub?gid=0&single=true&output=csv",
-  "hwernick", "persons", "",
+  "hwernick", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQsXjZhTJwhbstMmxsQFFIeZDMuacbr6PbTn-iJSCsK_crUL-AOMFInHHkvuvrouphD7WJlYG6Lj0u1/pub?gid=217569701&single=true&output=csv",
   "hwernick", "households", "",
   "nfiles", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQzcPiOyk68xFUmBSStCzZQ7jYPI_jTAfFtfpumGElwBwJ3It-aNEAZLiIYFXp_DedMf99rn9b-3GkV/pub?gid=0&single=true&output=csv",
   "nfiles", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTr5Ywmrae1zVmf2cu3SK29YGIH3vxI2ErcLxBt4bOBcNI4_o_NWYkxIiOf-14dJMrKOSgNa5vkf0hF/pub?gid=0&single=true&output=csv",
@@ -25,9 +25,7 @@ Sheets <- tibble::tribble(
   "dwu", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRub9TIq0j3xA2KRA_N3RtnM0xXxcuggGhawkYCyNdkBjmnmdEOyHImdtseRcnCKhSRsTw4gFzNRhKA/pub?gid=0&single=true&output=csv",
   "dwu", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRfKFVqZtQP-KyuGnOUZAOVe6iodKs194FNTPT3O-U4sNI1tQ6PX7t_JxqDkQO5-M2t25RprpDnOKTC/pub?gid=0&single=true&output=csv",
   "rnambala", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTbB3Rj7cvmMvYL3KZRhYGw5di3LxED-2w8EUWG3Q4h7Iqy6WlNHYjXl63xWHhew0lpyFkkBLBMBZtl/pub?gid=0&single=true&output=csv",
-  "rnambala", "households", "",
-  "jerickson", "persons", "",
-  "jerickson", "households", "",
+  "rnambala", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQkZEZU3vrfPwdnznSJMlLJF7fwGYJyE-Xb2qiWxnvhq3cO1dTTIBqksYFuZ0PLN6GZb1VrDN2k2g5H/pub?gid=0&single=true&output=csv",
   "jlevin", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ_2y12C_Bw60Uxajrv8QCFZaQIqHyqDc0WRBMtbWuVs_sZd9jO9HnA0PJuGp7NBmCD8dFBXjQ0CdPf/pub?gid=0&single=true&output=csv",
   "jlevin", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgLfe7hjfaZHSc5tUEIW47LueWGWtFqbFBgzHtkXPTdRpBa0Gg5oD2_g6nmtWHDR_6IpMHWTVDcH0M/pub?gid=0&single=true&output=csv",
   "jcalhoun", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTCYtvyUjZpvQlmmP52VHuoEbyeHr5r-LxUdX5gxwTlSeTO9vp5Hwe8YBUj6dHhkKIs5WK8zawdCg4R/pub?gid=0&single=true&output=csv",
@@ -39,8 +37,22 @@ Sheets <- tibble::tribble(
   "eshaytannas", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRe87Fa3jSQ4I0K2hAOiLD51tRAJN1UGo5VxhVbbdxa9HkXZ2zKH5XTeXBeDCpgb57bGDOSof0i7oYi/pub?gid=0&single=true&output=csv",
   "eshaytannas", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQz4bh3I03D4Hz1kPJYrt56iv4ETD5O_St8ch7gjMLss0zuNS2_mnykxLODVxhYMqi7Ny1_ciatL0-Y/pub?gid=0&single=true&output=csv",
 
-
-
+  "rjones", "persons", "",
+  "rjones", "households", "",
+  "emcalister", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRebxbIn58P4_i0Gm1jv24f6nzsQlB-jQg2FlwkV9_nnDUP-RzyFcBlsxNuHy1ygD7RQSDonCraGeza/pub?gid=0&single=true&output=csv",
+  "emcalister", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRnKwkUKDIwDFjC959VPbzNkj9nmZaZEvVgVbLiwEshaqBhttdrezw2N-vsnNNd36lQoA4A33OTVwkB/pub?gid=0&single=true&output=csv",
+  "dpoirier", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQOUK1BENeq5A8E6Zw-yTXnySbB6fWUzJ9Ok8NPDORIo32a-vxSsUCqzj0ItNvSYSCrOYaWf1kR8bnp/pub?gid=0&single=true&output=csv",
+  "dpoirier", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vR0Qo-jISUpMrCetesxgsOCuBWs2ifbTnLUCe20OXjLafv6f56rryJE8qPx2Y87Hbg3o5vNwGMaFR30/pub?gid=0&single=true&output=csv",
+  "hproctor", "persons", "",
+  "hproctor", "households", "",
+  "bsolin", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSVhuucw3NnN3mzFVTXhcS2P2QSIm0HlbUsjNGEd6d2fihiof_V7gGuc7bwBY68oJq13eSI9U8CgbpK/pub?gid=0&single=true&output=csv",
+  "bsolin", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vR7eSBiPacABe_SbqlX6xT13w8EX6YBi5vSGQYSHIDDYA56WiN58m5embEgWeogijugoTJLI12gK7TO/pub?gid=0&single=true&output=csv",
+  "jerickson", "persons", "",
+  "jerickson", "households", "",
+  "aber-for-con", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQkuXgHlggD77jG5s9zaACpEN6dO29WdLffZWGTUBJgWwuvxpn5XstY2r_cbWZlamN9fpyl_qY5Euer/pub?gid=0&single=true&output=csv",
+  "aber-for-con", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1uaWDe7EcHqLDy8m_DVyfJ-uOVNNQJnXmL308NNzwRo4kaSpDHQYkrMuxpyM2tdbWfsNWaubLc84Y/pub?gid=0&single=true&output=csv",
+  "prader-palmer-foulds", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRX6K21Q_HWMj0wGIzYQcIlkxM-AZQ_c16pU2oJxkv6nQaz-H_jzfcuRoW9ndDoypomP9KIM7BY--bz/pub?gid=0&single=true&output=csv",
+  "prader-palmer-foulds", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSE_R4VCotMmX2RYiNvo8bDBwkk37u860Xso_EylLH9TPmk_MExP9EtzNIeYUQ--pLg0iW5DK6wr5mX/pub?gid=0&single=true&output=csv",
 
 
 

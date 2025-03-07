@@ -14,21 +14,6 @@ subtitle: "Day-by-day schedule, readings, and notes"
 
 
 
-::: {.callout-note}
-## Class Day 15 Tuesday 4 March
-
-Block 5: Confounding & Causality (cont.)
-
-- New readings   
-    - Rosling Ch. 9 & [reading questions](../questions/R9-before.html)
-    - Peruse the [Census Project Phase II Checklist](../projects/Census/spreadsheet-checklist.html) to prepare for class discussion. 
-
-- Start work: Today in class we will be going over a checklist of items regarding the transcription of the Census data into your "person" and "household" spreadsheets. It's important to make considerable progress on this before the Friday 7 March class.
-     
-    
-- [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
-
-:::
 
 
 ::: {.callout-note}
@@ -37,7 +22,7 @@ Block 5: Confounding & Causality (cont.)
 Block 5: Confounding & Causality (cont.)
 
 - New readings:
-    - [Coding standards](projects/data-standards.html) for the *persons* Census spreadsheets.
+    - [Coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets.
    
 
 - Start work
@@ -67,6 +52,7 @@ Block 6: Hypothetical Reasoning
     - You should receive at this point the comprehensive, QR2-wide census data. Look through it and decide on the aspect of the data you are going to model.
     
 - Assignments due:
+    - If there are any needed changes in your Census data, make them. Again, here are the [coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets. REMEMBER: You are to edit my copies of your spreadsheets, not your original sheets.
     - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html).
      
     
@@ -400,6 +386,18 @@ Block 5: Confounding & Causality (cont.)
 QUIZ today through Block 4 (Precision) 
     
 - [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
+
+## Class Day 15 Tuesday 4 March
+
+Block 5: Confounding & Causality (cont.)
+
+- New readings   
+    - Rosling Ch. 9 & [reading questions](../questions/R9-before.html)
+    - Peruse the [Census Project Phase II Checklist](../projects/Census/spreadsheet-checklist.html) to prepare for class discussion. 
+
+- Start work: Today in class we will be going over a checklist of items regarding the transcription of the Census data into your "person" and "household" spreadsheets. It's important to make considerable progress on this before the Friday 7 March class.
+     
+- [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
 
 
 

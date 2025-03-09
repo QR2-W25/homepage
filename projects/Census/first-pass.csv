@@ -1,0 +1,842 @@
+hid,surname,prename,hrole,sex,race,age,mstatus,inschool,edu,birthstate,city,county,state,havejob,workhours,occupation,industry,workclass,workweeks,wages,otherincome,emergency,seeking,OWNER,farm,transcriber
+227-21-01,Clarkson,William,Head,M,W,53,M,no,H3,Texas,Same house,,,Y,40,Fourma,Bldg Construction,PW,40,1800,N,NA,NA,NA,NA,NA
+227-21-02,Clarkson,Jane,Wife,F,W,50,M,no,C4,Texas,Same house,,,N,NA,,,,0,NA,N,NA,NA,NA,NA,NA
+227-21-03,Otting,Alva H.,Head,M,W,50,M,no,8,Nebraska,Same house,,,Y,40,Insurance Agent,Life Inc. Co,OA,40,1299,N,NA,NA,NA,NA,NA
+227-21-04,Otting,Lutie Mae,Wife,F,W,47,M,no,7,Texas,Same house,,,N,NA,,,,0,NA,N,NA,NA,NA,NA,NA
+227-21-05,Luckett,Luella,Mother in-law,F,W,81,Wd,no,6,Kentucky,Same house,,,N,NA,,,,0,NA,N,NA,NA,NA,NA,NA
+227-21-06,Pigott,Martin B,Head,M,W,37,M,no,C4,Louisiana,Same place,,,Y,40,Company Official,Electrical power company,PW,52,4800,N,NA,NA,NA,NA,NA
+227-21-07,Pigott,Minnie,Wife,F,W,28,M,no,H3,Texas,Same place,,,N,NA,,,,0,NA,N,NA,NA,NA,NA,NA
+227-21-08,Watkins,Jim,Head,M,W,33,M,no,C4,Texas,R,Plano,Texas ,Y,48,Assistant Purchasing Agent,U.S. B__ P__,GW,0,2000,N,NA,NA,NA,NA,NA
+227-21-09,Watkins,Ruth,Wife,F,W,34,M,no,C4,Texas,R,Plano,Texas ,N,NA,,,,0,NA,Y,NA,NA,NA,NA,NA
+227-21-010,Watkins,James William,Son,M,W,2,S,no,,Texas,,,,,NA,,,,NA,NA,,NA,NA,NA,NA,NA
+227-21-011,Nau,Carl A.,Head,M,W,36,M,no,C5,Texas,Oklahoma City,Oklahoma,Oklahoma,Y,48,Medical Doctor,State Health Dept,GW,52,4600,N,NA,NA,NA,NA,NA
+227-21-012,Nau,Vera B,Wife,F,W,36,M,yes,C4,Ohio,Oklahoma City,Oklahoma,Oklahoma,N,NA,,,,NA,NA,Y,NA,NA,NA,NA,NA
+227-21-013,Nau,Carl A. Jr,Son,M,W,8,S,yes,3,Oklahoma,Oklahoma City,Oklahoma,Oklahoma,,NA,,,,NA,NA,,NA,NA,NA,NA,NA
+227-21-014,Nau,Ernest Virgil,Son,M,W,5,S,no,,Oklahoma,Oklahoma City,Oklahoma,Oklahoma,,NA,,,,NA,NA,,NA,NA,NA,NA,NA
+227-21-015,Hughes,Selma,Head,F,W,76,Wd,no,H1,Germany,Same house,,,N,NA,,,,0,NA,Y,NA,NA,NA,NA,NA
+227-21-016,Hughes,Johanna,Daughter,F,W,50,S,no,H4,Texas,Same house,,,Y,48,Milliner,Retail Milliney Store,E,52,0,Y,NA,NA,NA,NA,NA
+227-21-017,Anderson,Bush,Head,M,W,48,M,no,H4,Texas,Same place,,,Y,40,Auto Salesman,Ford Motor Co.,PW,26,72,N,NA,NA,NA,NA,NA
+227-21-018,Anderson,Agnes,Wife,F,W,37,M,no,H4,Michigan,Sacramento,Sacramento,California,N,NA,,,,0,0,N,NA,NA,NA,NA,NA
+227-21-019,Andersen,Andrew S,Head,M,W,81,Wd,no,1,Virginia,Same house,,,N,NA,,,,0,0,Y,NA,NA,NA,NA,NA
+227-21-020,Taylor,Allie,Housekeeper,F,W,39,S,no,H2,Texas,R,Bartrap,Texas,Y,54,Housekeeper,Private family,PW,52,418,N,NA,NA,NA,NA,NA
+227-21-021,Sanders,George R,Head,M,W,34,M,no,H4,Texas,Same house,,,Y,42,Carpenter,Bldg Construction,PW,36,1284,N,NA,NA,NA,NA,NA
+227-21-022,Sanders,Mildred,Wife,F,W,30,M,no,H4,Texas,Same house,,,N,NA,,,,0,0,N,NA,NA,NA,NA,NA
+227-21-023,Morehead,A.L.,Head,M,W,39,M,no,H2,Texas,Same place,,,Y,60,Policeman,City Police Dept,GW,52,1500,Y,NA,NA,NA,NA,NA
+227-21-024,Morehead,Norma L.,Wife,F,W,38,M,no,H1,Texas,Same place,,,N,NA,,,,0,0,N,NA,NA,NA,NA,NA
+227-21-025,Morehead,Lenora Sarah,Daughter,F,W,17,S,yes,H3,Texas,Same place,,,N,NA,,,,0,0,N,NA,NA,NA,NA,NA
+227-21-026,Morehead,Dorothy Lane,Daughter,F,W,15,S,yes,H2,Texas,Same place,,,N,NA,,,,0,0,N,NA,NA,NA,NA,NA
+227-21-027,Morehead,Loomio Jae,Son,M,W,10,S,yes,5,Texas,Same place,,,,NA,,,,NA,NA,,NA,NA,NA,NA,NA
+227-21-028,Jerry,W.S.,Brother in-law,M,W,31,?,no,C2,Texas,Same place,,,Y,47,Shop Assistant,State H'way,GW,30,564,N,NA,NA,NA,NA,NA
+227-21-029,Badger,Walter H.,Head,M,W,44,M,no,H4,Texas,Same house,,,Y,70,Owner,Gasoline Server Station,E,52,0,Y,NA,NA,NA,NA,NA
+227-21-030,Badger,Kathleen,Wife ,F,W,37,M,no,H4,Texas,Same house,,,Y,70,Owner,Retail Drug Store,E,48,0,Y,NA,NA,NA,NA,NA
+227-21-031,Badger,Walter B.,Son,M,W,15,S,yes,H2,Texas,Same house,,,N,NA,,,,0,0,Y,NA,NA,NA,NA,NA
+227-21-032,Lott,Edna L.,Head,F,W,43,Wd,no,H2,Canada-English,Clarendon,Donley,Texas,N,NA,,,,0,0,Y,NA,NA,NA,NA,NA
+227-21-033,Lott,John B.,Son ,M,W,20,S,no,C1,Texas,Clarendon,Donley,Texas,Y,44,Office Clerk,State Health Dept,GW,52,1500,N,NA,NA,NA,NA,NA
+227-21-034,Lott,Jennie L.,Daughter,F,W,16,S,yes,H3,Texas,Clarendon,Donley,Texas,N,NA,,,,0,0,Y,NA,NA,NA,NA,NA
+227-21-035,French,Lou Allen,Lodger,F,W,26,S,no,H2,Texas,Dallas,Dallas,Texas,Y,44,Stenographer,State Health Dept,GW,52,1350,N,NA,NA,NA,NA,NA
+227-21-036,Marro,Frank,Lodger,M,W,70,Wd,no,C3,Texas,San Antonio,Bexar,Texas,N,NA,Missionary,Baptist,,0,0,Y,NA,NA,NA,NA,NA
+227-21-037,Shilling,Lowell A,Lodger,M,W,32,S,no,C4,Texas,Burnet,Burnet,,Y,48,Timekeeper,Construction,PW,52,1500,N,NA,NA,NA,NA,NA
+227-21-038,Crook,Grover H.,Head,M,W,29,M,no,H3,Georgia,Waco,McLennon,Texas,Y,40,Carpenter,Bldg Construction,PW,48,1760,N,NA,NA,NA,NA,NA
+0227-11-1,Brown,Montelle,Head,M,W,42,M,No,C-5,Illinois,Austin,-,-,Y,56,Medical Doctor,State Institution,GW,52,3169,NA,-,-,idecorte,NA,NA
+0227-11-2,Brown,Mary C,Wife,F,W,31,M,No,C-5,Texas,Austin,-,-,N,-,-,-,-,0,0,NA,No,No,idecorte,NA,NA
+0227-11-3,Brown,Buddy,Son,M,W,10,S,Yes,4,Texas,Austin,-,-,-,-,-,-,-,-,-,NA,-,-,idecorte,NA,NA
+0227-11-4,Brown,Dennis,Son,M,W,5,S,No,0,Texas,Austin,-,-,-,-,-,-,-,-,-,NA,-,-,idecorte,NA,NA
+0227-11-5,Ward,Emmett,Head,M,W,34,M,No,C-5,Tennasee,Dallas,-,Texas,Y,56,Medical Doctor,State Institution,GW,52,2516,NA,-,-,idecorte,NA,NA
+0227-11-6,Ward,Jean E,Wife,F,W,27,M,No,C-4,Iowa,Dallas,-,Texas,N,-,-,-,-,0,0,NA,No,No,idecorte,NA,NA
+0227-11-7,Ward,E.Gordon,Son,M,W,0.5,S,No,0,Texas,,-,-,-,-,-,-,-,-,-,NA,-,-,idecorte,NA,NA
+0227-11-8,Phillips,Claude,Head,M,W,30,M,No,C-5,Arkansas,Memphis,-,Tenesee,Y,63,Medical Doctor,State Institution,GW,52,2400,NA,-,-,idecorte,NA,NA
+0227-11-9,Phillips,Alice L,Wife,F,W,30,M,No,C-3,Texas,San Antonio,-,Texas,N,-,-,-,-,0,0,NA,No,No,idecorte,NA,NA
+0227-11-10,Phillips,Mary L,Daughter,F,W,7,S,Yes,0,Texas,Austin,-,-,-,-,-,-,-,-,-,NA,-,-,idecorte,NA,NA
+0227-11-11,Phillips,Claude Mason,Son,M,W,1,S,No,0,Texas,,-,-,-,-,-,-,-,-,-,NA,-,-,idecorte,NA,NA
+0227-11-12,Hicks,Yale,Head,M,W,33,M,No,C-5,Texas,Galveston,-,Texas,Y,52,Medical Doctor,State Institution,GW,6,250,NA,-,-,idecorte,NA,NA
+0227-11-13,Hicks,Katherine K.,Wife,F,W,25,M,No,C-5,Texas,Laredo,-,Texas,N,,,,,21,445,NA,No,No,idecorte,NA,NA
+0227-11-14,Seibel,Zidella M.,Physician,F,W,27,S,No,C-5,Texas,Galveston,-,Texas,Y,60,Medical Doctor,State Institution,GW,52,2100,NA,-,-,idecorte,NA,NA
+0227-11-15,Branham,Bertha,Dental Assistant,F,W,40,Wd.,No,H-2,Texas,Austin,-,-,Y,56,Dental Assistant,State Institution,GW,52,750,NA,-,-,idecorte,NA,NA
+0227-11-16,Wheeless,Robert,Dentist,M,W,35,S,No,C-4,Texas,Dallas,-,Texas,Y,56,Dentist,State Institution,GW,46,3600,NA,-,-,idecorte,NA,NA
+0227-11-17,Jones,Minnie Z.,Pharmasist,F,W,30,M,No,C-4,Canada-English,Austin,-,-,Y,44,Pharmasist,State Institution,GW,52,1080,NA,-,-,idecorte,NA,NA
+0227-11-18,Davis,Bess M.,Nurse,F,W,34,S,No,H-3,Texas,Austin,-,-,Y,56,Registered Nurse,State Institution,GW,52,1200,NA,-,-,idecorte,NA,NA
+0227-11-19,Dzietons,Elizabeith,Steinographer,F,W,25,S,No,H-3,Texas,Austin,-,-,Y,48,Typist/Stenograpgher,State Institution,GW,52,672,NA,-,-,idecorte,NA,NA
+0227-11-20,NicAdory,Carrine,Nurse,F,W,27,S,No,C-3,Texas,Dallas,-,Texas,Y,56,Registered Nurse,State Institution,GW,52,920,NA,-,-,idecorte,NA,NA
+0227-11-21,McCutcheon,Thurmon,Teacher,M,W,26,S,No,C-4,Texas,R.,SanSaba,Texas,Y,30,Physical Trainer,State Institution,GW,36,1040,NA,-,-,idecorte,NA,NA
+0227-11-22,Nations,Mittie,Nurse,F,W,26,S,No,H-4,Texas,Itasca,Hill,Texas,Y,59,Graduate Nurse,State Institution,GW,39,245,NA,-,-,idecorte,NA,NA
+0227-11-24,James,W.W.,Janitor,M,W,65,M,No,H-1,Texas,Austin,-,-,Y,54,Night Watchman,State Institution,GW,52,660,NA,-,-,idecorte,NA,NA
+0227-11-25,Neil,Faye,Store Keepers,F,W,25,S,No,H-3,Texas,Austin,-,-,Y,48,Store Keepers,State Institution,GW,52,576,NA,-,-,idecorte,NA,NA
+0227-11-26,Robertson,Birdie,Private Secritary,F,W,50,S,No,7,Mississippi,Austin,-,-,Y,44,Private Secritary,State Institution,GW,52,1050,NA,-,-,idecorte,NA,NA
+0227-11-27,Miller,Henry L.,Attendent,M,W,35,S,No,7,Texas,Austin,-,-,Y,72,Attendant,State Institution,GW,52,600,NA,-,-,idecorte,NA,NA
+0227-11-28,Krause,Frank,Attendent,M,W,26,S,No,H-4,Texas,Austin,-,-,Y,72,Attendant,State Institution,GW,50,400,NA,-,-,idecorte,NA,NA
+0227-11-29,Grace,Dan L.,Attendent,M,W,53,S,No,5,Kentucky,Mayfeild,-,Kentucky,Y,72,Attendant,State Institution,GW,52,600,NA,-,-,idecorte,NA,NA
+0227-11-30,Springer,Job,Doctor,M,W,80,Wd.,No,C-5,Virginia,Austin,-,-,Y,48,Medical Doctor,State Institution,GW,52,2141,NA,-,-,idecorte,NA,NA
+227-11-31,Bostick,Clark,Supervisor,M,W,29,M,No,H-2,Mississippi,Austin,-,-,Y,84,Supervisor,State Institution,GW,52,700,NA,-,-,idecorte,NA,NA
+227-11-32,Bostick,Alma C.,Supervisor,F,W,33,M,No,,Texas,Austin,-,-,Y,84,Supervisor,State Institution,GW,52,700,NA,-,-,idecorte,NA,NA
+227-11-33,Hickman,Lorens,Attendent,M,W,27,M,No,H-2,Texas,Florence,Williamson,Texas,Y,84,Attendant,State Institution,GW,52,500,NA,-,-,idecorte,NA,NA
+227-11-34,Barington,Carl C.,Head,M,W,28,M,No,4,Arkansas,Kaufman,Kaufman,Texas,Y,84,Attendant,State Institution,GW,52,516,NA,-,-,idecorte,NA,NA
+227-11-35,Barington,Jane,Wife,F,W,28,M,No,9,Texas,Kaufman,Kaufman,Texas,Y,84,Attendant,State Institution,GW,0,0,NA,-,-,idecorte,NA,NA
+227-11-36,Harris,Hayden H.,Head,M,W,33,M,No,5,Texas,Austin,-,-,Y,84,Attendant,State Institution,GW,52,576,NA,-,-,idecorte,NA,NA
+227-11-37,Harris,Arcena L.,Wife,F,W,30,M,No,H-1,Texas,McDade,Bastrop,Texas,Y,84,Attendant,State Institution,GW,52,471,NA,-,-,idecorte,NA,NA
+38,Jolly,Charlie S.,Head,M,W,36,M,No,H-4,California,R.,Williamson,Texas,Y,84,Attendant,State Institution,GW,52,516,NA,-,-,idecorte,NA,NA
+39,Jolly,Edith G.,Wife,F,W,27,M,No,7,Texas,R.,Williamson,Texas,Y,84,Attendant,State Institution,GW,29,235,NA,-,-,idecorte,NA,NA
+40,Watkins,Lee,Attendent,M,W,61,Wd.,No,H-3,Texas,Austin,-,-,Y,84,Attendant,State Institution,GW,52,600,NA,-,-,idecorte,NA,NA
+7-227-1,Wendland,GH,Head,M,W,34,M,NA,NA,Texas,NA,NA,NA,Y,50,Farmer,Farm,PW,52,200,NA,-,-,tolsen,Y,NA
+7-227-1,Wendland,Laura,Wife,F,W,37,M,NA,NA,Texas,NA,NA,NA,Y,30,Teacher,Grammer School,PW,32,720,NA,-,-,tolsen,Y,NA
+7-227-1,Haberlern,Alfred,Father-In-Law,M,W,40,S,NA,NA,Texas,NA,NA,NA,N,NA,Labourer,Farm,NP,26,55,NA,N,Y,tolsen,Y,NA
+7-227-2,Busby,RL,Head,M,W,46,M,NA,NA,Kentucky,NA,NA,NA,N,NA,Crane Operator,Stone Quary,PW,48,1200,NA,N,Y,tolsen,Y,NA
+7-227-2,Busby,Myrtle,Wife,F,W,42,M,NA,NA,Indianna,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-2,Busby,Earl,Son,M,W,25,M,NA,NA,Arkansas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-3,Vice,Nathaniel,Head,M,W,79,M,NA,NA,Arkansas,NA,NA,NA,N,NA,,,,0,N,NA,N,N,tolsen,Y,NA
+7-227-3,Vice,Florence,Wife,F,W,81,M,NA,NA,Missouri,NA,NA,NA,N,NA,,,,0,N,NA,N,N,tolsen,Y,NA
+7-227-3,Vice,Gimison,Son,M,W,61,S,NA,NA,Texas,NA,NA,NA,Y,40,Labourer,,PW,35,100,NA,-,-,tolsen,Y,NA
+7-227-4,Merrick,Alfred,Head,M,W,47,M,NA,NA,Texas,NA,NA,NA,Y,40,Farmer,,PW,52,500,NA,-,-,tolsen,Y,NA
+7-227-4,Merrick,Lora,Wife,F,W,42,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,N,NA,N,N,tolsen,Y,NA
+7-227-4,Merrick,Dene,Son,M,W,19,S,NA,NA,New Mexico,NA,NA,NA,Y,NA,,,,0,0,NA,-,-,tolsen,Y,NA
+7-227-4,Merrick,Rudell,Daughter,F,W,16,S,NA,NA,New Mexico,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-4,Merrick,Dorothy,Daughter,F,W,6,S,NA,NA,Texas,NA,NA,NA,,NA,,,,NA,,NA,,,tolsen,Y,NA
+7-227-5,Ward,David,Head,M,W,63,M,NA,NA,Scotland,NA,NA,NA,Y,45,Farmer,,PW,52,400,NA,-,-,tolsen,Y,NA
+7-227-5,Ward,Annie,Wife,F,W,67,M,NA,NA,Wales,NA,NA,NA,N,NA,,,,NA,,NA,N,N,tolsen,Y,NA
+7-227-5,Ward,Arthur,Son,M,W,17,S,NA,NA,Texas,NA,NA,NA,Y,25,Labourer,,PW,40,100,NA,-,-,tolsen,Y,NA
+7-227-6,Criswell,Anthony,Head,F,W,56,WD,NA,NA,Texas,NA,NA,NA,N,NA,,,,NA,0,NA,N,N,tolsen,Y,NA
+7-227-6,Criswell,Vernne,Son,M,W,33,M,NA,NA,Texas,NA,NA,NA,Y,NA,Farmer,,PW,NA,0,NA,-,-,tolsen,Y,NA
+7-227-6,Criswell,Allie,Daughter-In-Law,F,W,30,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,NA,0,NA,N,N,tolsen,Y,NA
+7-227-6,Criswell,Bernie Ray,Grandson,M,W,9,S,NA,NA,Texas,NA,NA,NA,Y,NA,,,,NA,,NA,-,-,tolsen,Y,NA
+7-227-7,Davis,Jom,Head,M,W,55,M,NA,NA,Texas,NA,NA,NA,Y,54,Carpenter,Building Conet,PW,10,105,NA,-,-,tolsen,Y,NA
+7-227-7,Davis,Adell,Wife,F,W,50,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,NA,,NA,N,N,tolsen,Y,NA
+7-227-7,Davis,Ruby,Daughter,F,W,14,S,NA,NA,Texas,NA,NA,NA,N,NA,,,,NA,,NA,Y,-,tolsen,Y,NA
+7-227-8,Maxwell,Frank,Head,M,W,50,M,NA,NA,Texas,NA,NA,NA,Y,54,Farmer,Farm,PW,52,0,NA,-,-,tolsen,Y,NA
+7-227-8,Maxwell,Eva,Wife,F,W,39,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-8,Maxwell,Margaret,Daughter,F,W,13,S,NA,NA,Texas,NA,NA,NA,,NA,,,,NA,,NA,,,tolsen,Y,NA
+7-227-8,Maxwell,Jane Gwen,Daughter,F,W,3,S,NA,NA,Texas,NA,NA,NA,,NA,,,,NA,,NA,,,tolsen,Y,NA
+7-227-8,Maxwell,J.P,Head,F,W,76,WD,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-8,Maxwell,Harriet,Daughter,F,W,48,S,NA,NA,Texas,NA,NA,NA,N,40,,,,44,2000,NA,Y,-,tolsen,Y,NA
+7-227-8,Johnson,Wilbur,Son-In-Law,M,W,50,M,NA,NA,Texas,NA,NA,NA,Y,NA,,,,44,,NA,-,-,tolsen,Y,NA
+7-227-8,Johnson,Lauise,Daughter,F,W,46,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-9,Hard,James,Head,M,Meg,40,D,NA,NA,Texas,NA,NA,NA,Y,40,Labourer,Farm,PW,52,400,NA,-,-,tolsen,Y,NA
+7-227-10,Dalberath,D.G,Head,M,W,26,M,NA,NA,Texas,NA,NA,NA,Y,40,Teacher,Grammar School,PW,49,1200,NA,-,-,tolsen,N,NA
+7-227-10,Dalberath,Margererita,Wife,F,W,26,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,N,NA
+7-227-10,Dalberath,Bobby Frederick,Son,M,W,1,S,NA,NA,Texas,NA,NA,NA,,NA,,,,NA,,NA,,,tolsen,N,NA
+7-227-11,Sedberry,W.A,Head,F,W,64,WD,NA,NA,Texas,NA,NA,NA,N,NA,,,,NA,0,NA,N,N,tolsen,Y,NA
+7-227-11,Reelman,OD,Son-In-Law,M,W,43,M,NA,NA,Texas,NA,NA,NA,Y,70,Labourer,Lee House,PW,50,960,NA,-,-,tolsen,Y,NA
+7-227-11,Reelman,Jammie,Daughter,F,W,48,M,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+7-227-11,Reelman,Wilma,Granddaughter,F,W,18,S,NA,NA,Texas,NA,NA,NA,N,NA,,,,0,0,NA,N,N,tolsen,Y,NA
+227-48-85,Loach,Ethel,Head,F,W,24,S,No,10,Louisiana,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-86,Hayes,Willis,Head,M,W,59,M,No,2,Georgia,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-86,Hayes,Agnes,Wife,F,W,56,M,No,7,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-86,Hayes,Nora M,Daughter,F,W,27,S,No,8,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-86,Hayes,Dewitt,Son,M,W,30,M,No,5,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-86,Hayes,Elizabeth,Daughter in Law,F,W,29,M,No,6,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-86,Hayes,Doris,Granddaughter,F,W,29,M,No,6,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-87,Dittman,Lilie B,Head,F,W,54,WO,No,8,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-87,Dittman,Mary,Daughter,F,W,27,S,No,H4,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-87,Dittman,John A,Son,M,W,25,S,No,H2,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-87,Dittman,Alma,Daughter,F,W,21,S,No,H4,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-88,Smith,Russel,Head,M,W,47,M,No,9,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-88,Smith,Annie,Wife,F,W,44,M,No,9,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-88,Smith,Jeanee,Daughter,F,W,16,S,Yes,11,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-88,Smith,Bily J,Son,M,W,22,S,Yes,5,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-88,Smith,Addie J,Daughter,F,W,8,S,Yes,3,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-89,Whisenant,Jimmie,Head,M,W,37,M,No,H2,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-89,Whisenant,Louis,Wife,F,W,32,M,No,8,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-89,Whisenant,Bobbie Jean,Daughter,F,W,5,S,No,0,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Nick,Head,M,W,48,M,No,0,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Frances F,Wife,F,W,39,M,No,3,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Andrew,Son,M,W,16,S,No,3,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Frances F,Daughter,F,W,18,S,No,3,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Adolph,Son,M,W,15,S,Yes,3,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Robert,Son,M,W,13,S,Yes,2,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Vera,Daughter,F,W,11,S,Yes,1,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Rudolph,Son,M,W,9,S,Yes,1,Texas,Same Place,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Nick J,Son,M,W,4,S,No,0,Texas,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-90,Falcon,Daniel,Son,M,W,1,S,No,0,Texas,,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,Alfredo,Head,M,W,59,M,No,2,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,Juana,Wife,F,W,59,M,No,4,Mexico,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,Amelia,Daughter,F,W,13,S,Yes,4,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,Carmen,Daughter,F,W,12,S,Yes,3,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,Joe,Son,M,W,10,S,Yes,2,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,Jess,Son,M,W,9,S,Yes,1,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+227-48-91,Ybarbo,John,Son,M,W,5,S,No,0,Texas,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,arubin,NA,NA
+0227-6-1,Schiller,Edwin,Head,M,White,24,M,NA,N2,NA,NA,NA,NA,No,NA,Farmer,Farming,OA,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-1,Schiller,Estella,Wife,F,White,23,M,NA,8,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-2,Johnson,Jack,Head,M,Negro,66,M,NA,7,NA,NA,NA,NA,No,NA,Farmer,Farming,OA,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-2,Johnson,Grace,Wife,F,Negro,61,M,NA,5,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-2,Johnson,Herbert,Son,M,Negro,32,S,NA,7,NA,NA,NA,NA,Yes,NA,Laborer,Farming,PW,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-2,Johnson,Lawrence,Son,M,Negro,28,S,NA,7,NA,NA,NA,NA,Yes,NA,Laborer,Farming,PW,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-2,Johnson,Florence,Daughter,F,Negro,26,S,NA,N-4,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Bob,Head,M,Negro,38,M,NA,2,NA,NA,NA,NA,No,NA,Farmer,Farming,OA,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Alice,Wife,F,Negro,29,M,NA,8,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Jerey,Son,M,Negro,14,S,NA,4,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Hella May,Daughter,F,Negro,11,S,NA,0,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Bernice,Daughter,F,Negro,9,S,NA,0,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Wardell,Son,M,Negro,8,S,NA,0,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Roosevelt,Son,M,Negro,5,S,NA,0,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-3,Houston,Annie Lee,Daughter,F,Negro,1,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-4,Buchard,Malinda,Mother In Law,F,Negro,69,W,NA,2,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,,nfiles,Yes,NA
+0227-6-4,Garcias,Arnold,Head,M,White,60,M,NA,8,NA,NA,NA,NA,Yes,NA,Farming,Farming,OA,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-5,Garcias,Julia,Wife,F,White,57,M,NA,7,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-5,Morrise,Perry,Head,M,Negro,54,M,NA,0,NA,NA,NA,NA,Yes,NA,Laborer,Farming,PW,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-5,Morrise,Beulah,Wife,F,Negro,48,M,NA,5,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-5,Morrise,Benilda,Daughter,F,Negro,21,S,NA,4,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-5,Morrise,Walleen,Grand Daughter,F,Negro,1,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-6,Monerel,Ellen,Head,F,Negro,39,W,NA,6,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-6,Monerel,Allie B.,Daughter,F,Negro,21,S,NA,6,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-6,Monerel,Tommy,Son,M,Negro,19,S,NA,5,NA,NA,NA,NA,Yes,NA,Laborer,Farming,PW,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-6,Monerel,Martha,Daughter,F,Negro,18,S,NA,6,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-6,Monerel,Maud,Daughter,F,Negro,16,S,NA,4,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-6,Monerel,Olivia,Daughter,F,Negro,14,S,NA,2,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-6,Monerel,Oliver,Son,M,Negro,12,S,NA,1,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-6,Monerel,Alle,Son,M,Negro,11,S,NA,1,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-6,Monerel,Willert,Son,M,Negro,9,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-7,Rhodes,Olga,Head,F,Negro,26,M,NA,4,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,Yes,NA
+0227-6-7,Rhodes,Clinton,Son,M,Negro,12,S,NA,3,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-7,Rhodes,Gram,Son,M,Negro,9,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-7,Rhodes,Asa B.,Son,M,Negro,7,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-7,Rhodes,Roosevelt,Son,M,Negro,5,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,Yes,NA
+0227-6-8,Willis,"Curtis ,",Head,M,White,29,M,NA,9,NA,NA,NA,NA,Yes,NA,Carpenter,Boulding/Construction,PW,NA,NA,NA,,,nfiles,No,NA
+0227-6-8,Willis,Bella,Wife,F,White,33,M,NA,8,NA,NA,NA,NA,No,NA,,,,NA,NA,NA,No,No,nfiles,No,NA
+0227-6-8,Willis,Dorothy Mae,Daughter,F,White,8,S,NA,3,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,No,NA
+0227-6-8,Willis,Curtis ,Son,M,White,6,S,NA,0,NA,NA,NA,NA,,NA,,,,NA,NA,NA,,,nfiles,No,NA
+NA,NA,"Allen, Willam",Head,F,W,44,M,No,H-4,Texas,Same house,,,Yes,State,NA,NA,Blind Inst.,0,6,0,No,No,dpoirier,NA,NA
+NA,NA,"Allen, Jollie",Wife,F,,44,M,No,H-4,Texas,Same house,,,No,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Jacquard, Frederic",Principal,M,W,38,M,No,C-5,Texas,Same place,,,Yes,Blind Inst.,NA,NA,Principal and Teacher,NA,52,2700,Yes,,dpoirier,NA,NA
+NA,NA,"Jacquard, Mackie",Wife,F,,39,M,No,C-3,Texas,Same place,,,No,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Jacquard, Ellanor",Daughter,F,,15,S,Yes,H-3,Texas,Same place,,,No,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Jacquard, Jane",Daughter,F,,14,S,Yes,H-2,Texas,Same place,,,No,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Lesel, Pauline",-,F,,75,S,No,H-2,Texas,Same place,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Parker, Lula E",Librarian,F,W,44,S,No,H-4,Tennessee,Same house,,,Yes,Blind Inst.,NA,NA,Librarian,NA,39,700,Yes,,dpoirier,NA,NA
+NA,NA,"Brewer, Edward",Teacher,M,W,26,S,No,C-5,Oklahoma,Victoria,Victoria,Texas,Yes,Blind Inst.,NA,NA,Teacher,NA,39,1240,Yes,,dpoirier,NA,NA
+NA,NA,"McClung, Rober",Teacher,F,W,30,S,No,C-4,Kansas,Same place,,,Yes,State,NA,NA,Teacher,39,438,Yes,Yes,,dpoirier,NA,NA
+NA,NA,"Penick, Rosa",Teacher,F,W,78,S,No,H-4,North Carolina,Same place,,,Yes,Blind Inst.,NA,NA,Librarian,NA,52,2700,Yes,,dpoirier,NA,NA
+NA,NA,"Payton, Eula Lee",Teacher,F,W,62,S,No,C-4,Texas,Same place,,,Yes,Blind Inst.,NA,NA,Teacher,NA,39,1008,Yes,,dpoirier,NA,NA
+NA,NA,"Smith, Nancy London",Teacher,F,W,59,WD,No,H-4,Texas,Same place,,,Yes,State,NA,NA,Teacher,39,1008,Yes,Yes,,dpoirier,NA,NA
+NA,NA,"Cartlidge, Maudie",Teacher,F,W,54,S,No,C-4,Texas,Same place,,,Yes,Blind Inst.,NA,NA,Teacher,NA,39,1125,Yes,,dpoirier,NA,NA
+NA,NA,"Stell, Caroline B.",Teacher,F,W,53,S,No,C-2,Texas,Same place,,,Yes,State,NA,NA,Teacher,39,1008,Yes,Yes,,dpoirier,NA,NA
+NA,NA,"James, Willie E.",Teacher,M,W,48,WD,No,C-2,Texas,Same place,,,Yes,Blind Inst.,NA,NA,Teacher,NA,39,1008,Yes,,dpoirier,NA,NA
+NA,NA,"King, Birdie ",Teacher,F,W,32,S,No,C-4,Texas,Same place,,,Yes,State,NA,NA,math and English Teacher,39,425,Yes,Yes,,dpoirier,NA,NA
+NA,NA,"Collier, Marget, E",Teacher,F,W,35,S,No,C-4,Louisiana,Same place,,,Yes,State,NA,NA,Teacher,39,1008,Yes,Yes,,dpoirier,NA,NA
+NA,NA,"Rollina, Lillie",Teacher,F,W,48,WD,No,C-2,Texas,Same place,,,Yes,Blind Inst.,NA,NA,Teacher,NA,39,1008,Yes,,dpoirier,NA,NA
+NA,NA,"Bryant, Thomas Benton",Accountant,M,W,32,M,No,H-4,Texas,Same place,,,Yes,Blind Inst.,NA,NA,Accountant,NA,39,2008,Yes,,dpoirier,NA,NA
+NA,NA,"Bryant, Lillian Ray",Wife,F,W,32,M,No,H-4,Texas,Same house,,,No,,NA,NA,,0,No,,No,No,dpoirier,NA,NA
+NA,NA,"Bryant, Catherine Ann",Daughter,F,W,5,S,No,-,Texas,Same house,,,,,NA,NA,,0,No,,,,dpoirier,NA,NA
+NA,NA,"Prather, Decor Paul",Engineer,M,W,46,M,No,H-2,Texas,Same house,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Prather, Ernetine",Wife,F,W,38,M,No,H-3,Texas,Same house,,,No,,NA,NA,,NA,,,No,No,dpoirier,NA,NA
+NA,NA,"Prather, Bill",Son,M,W,18,S,No,H-4,Texas,Same house,,,No,,NA,NA,,NA,,,No,No,dpoirier,NA,NA
+NA,NA,"Kueliner, Maice",Maid,F,W,27,D,No,H-2,Texas,Same house,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Hollingsworth, Yaneva",Maid,F,W,22,S,No,H-2,Texas,R,Blanco,Texas,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Livingstone, Elsie",Maid,F,W,34,S,No,H-2,Texas,Buanch,Burnet,Texas,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Whuler, Della",Housekeeper,F,W,30,WD,No,H-2,Texas,Same place,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Welander, Rachel",Maid,F,W,27,S,No,H-2,Texas,Same house,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Moore, Margaret",Maid,F,W,25,S,No,H-2,Texas,Wichita Falls,Wichita,Texas,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Joplin, Whinne Mae",Maid,F,W,18,S,No,H-4,Texas,R,Shelby,Texas,No,,NA,NA,,NA,,,Yes,,dpoirier,NA,NA
+NA,NA,"Naumann, Edich",Housekeeper,F,W,32,S,No,8,Texas,R,Burnet,Texas,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Welsh, Eunice",Ward,F,W,39,S,No,6,Texas,Same House,,,INST,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Meek, Ola Allan",Ward,F,W,33,S,No,8,Oklahoma,Same House,,,INST,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Bean, Mary Elizabeth",Housekeeper,F,W,56,WD,No,H-4,Texas,Lampasas,Lampasas,Texas,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Melline, Leila Ella",Teacher,F,W,33,S,No,C-3,Texas,Same House,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Vangated, Ann",Teacher,F,W,29,S,No,C-3,Texas,R,Jrapon,Texas,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Hunt, Callie",Housekeeper,F,W,63,WD,No,8,Arkansas,Same House,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+NA,NA,"Williame, Carrie",Nurse,F,W,62,WD,No,H-2,Texas,Same house,,,Yes,,NA,NA,,NA,,,,,dpoirier,NA,NA
+227-42-1,Hill,Jaylee,head,M,negro,27,divorced,no,10,Texas,NA,Travis,Texas,NA,70,bartender,beer tavern,pw,52,NA,n,,,nkargin,,nicole kargin
+227-42-2,Morring,Minnie,head,F,white,58,widowed,no,6,Texas,NA,Travis,Texas,NA,NA,,,,0,NA,y,n,n,nkargin,,nicole kargin
+227-42-3,,James,son,M,white,29,single,no,5,Texas,NA,Travis,Texas,NA,70,proprietor,butter dairy,oa,0,NA,y,n,n,nkargin,,nicole kargin
+227-42-4,Simpson,James,head,M,white,72,married,no,3,Kentucky,NA,Travis,Texas,NA,NA,farmer,farm,pw,0,NA,y,n,n,nkargin,y,nicole kargin
+227-42-5,,Louisa,wife,F,white,66,married,no,7,Texas,NA,Travis,Texas,NA,NA,,,,0,NA,y,n,n,nkargin,y,nicole kargin
+227-42-6,,Billie,son,M,white,20,single,no,7,Texas,NA,Travis,Texas,NA,60,truck driver,retail furniture,pw,52,NA,n,,,nkargin,y,nicole kargin
+227-42-7,,Barton,son,M,white,22,single,no,4,Texas,NA,Travis,Texas,NA,60,truck driver,wholesale furniture,pw,52,NA,n,,,nkargin,n,nicole kargin
+227-42-8,Freitag,Charles,head,M,white,53,married,no,5,Texas,NA,Travis,Texas,NA,NA,farmer,farm,,0,NA,y,n,n,nkargin,y,nicole kargin
+227-42-9,,Dara,wife,F,white,48,married,no,7,Texas,NA,Travis,Texas,NA,NA,,,,0,NA,n,n,n,nkargin,y,nicole kargin
+227-42-10,,Emil,son,M,white,21,single,no,9,Texas,NA,Travis,Texas,NA,48,truck driver,trucking,oa,50,NA,y,n,n,nkargin,y,nicole kargin
+227-42-11,Rustin,Robert,son in law,M,white,27,married,no,6,Texas,NA,Hayes,Texas,NA,48,truck driver,,pw,50,NA,n,,,nkargin,y,nicole kargin
+227-42-12,,Orva,daughter,F,white,26,married,no,7,Texas,NA,Travis,Texas,NA,NA,,,,0,NA,n,n,n,nkargin,y,nicole kargin
+227-42-13,Anderson,Frank,head,M,white,51,married,no,3,Texas,NA,Williamson,Texas,NA,40,carpenter,construction,pw,40,NA,y,,,nkargin,y,nicole kargin
+227-42-14,,Selma,wife,F,white,51,married,no,3,Texas,NA,Williamson,Texas,NA,NA,,,,0,NA,n,n,n,nkargin,y,nicole kargin
+227-42-15,,John,son,M,white,21,single,no,7,Texas,NA,Williamson,Texas,NA,40,carpenter,construction,pw,40,NA,n,,,nkargin,y,nicole kargin
+227-42-16,,Bernard,son,M,white,12,single,yes,7,Texas,NA,Williamson,Texas,NA,NA,,,,NA,NA,,,,nkargin,y,nicole kargin
+227-42-17,Medpadden,George,head,M,white,71,widowed,no,10,Texas,NA,Bee,Texas,NA,NA,time keeper,oil industry,pw,0,NA,y,n,n,nkargin,n,nicole kargin
+227-42-18,,Stutz,son,M,white,22,single,no,H4,Texas,NA,Bee,Texas,NA,44,mechanics helper,automotive,pw,50,NA,n,,,nkargin,n,nicole kargin
+227-42-19,Robinson,Nina,daughter,F,white,30,divorced,no,H4,Texas,NA,Bee,Texas,NA,NA,,,,0,NA,n,n,n,nkargin,n,nicole kargin
+227-42-20,,Harry,grandson,M,white,9,single,yes,5,Texas,NA,Bee,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-21,Ayers,Clarence C,head,M,white,48,married,no,3,Texas,NA,Travis,Texas,NA,NA,laborer,common,pw,9,NA,n,n,n,nkargin,n,nicole kargin
+227-42-22,,Eula,wife,F,white,46,married,no,3,Texas,NA,Travis,Texas,NA,40,seamstress,WPA,gw,13,NA,n,y,,nkargin,n,nicole kargin
+227-42-23,,Thomas,son,M,white,16,single,no,7,Texas,NA,Travis,Texas,NA,NA,page,senate texas,gw,13,NA,n,n,y,nkargin,n,nicole kargin
+227-42-24,,Leonard,son,M,white,13,single,yes,5,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-25,,Mallie,daughter,F,white,12,single,yes,4,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-26,,Ruby,daughter,F,white,5,single,no,0,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-27,,Clarence R,son,M,white,3,single,no,0,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,,nicole kargin
+227-42-28,Stockton,John,head,M,white,40,married,no,4,Texas,NA,Travis,Texas,NA,NA,laborer,common,gw,42,NA,n,y,,nkargin,n,nicole kargin
+227-42-29,,Delsie J,wife,F,white,35,married,no,8,Texas,NA,Travis,Texas,NA,NA,,,,0,NA,n,n,n,nkargin,n,nicole kargin
+227-42-30,,Irene,daughter,F,white,16,single,y,H2,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-31,,Jo,son,M,white,11,single,y,4,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-32,,Ray,son,M,white,7,single,y,1,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,n,nicole kargin
+227-42-33,,Mary,daughter,F,white,4,single,n,0,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,,nicole kargin
+227-42-34,,Delsie M,daughter,F,white,2,single,n,0,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,,nicole kargin
+227-42-35,,Rebecca,daughter,F,white,3/12,single,n,0,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,,nicole kargin
+227-42-36,Johnson,Gus,head,M,white,54,widowed,n,4,Texas,NA,Travis,Texas,NA,NA,farmer,farm,,0,NA,y,n,n,nkargin,y,nicole kargin
+227-42-37,,Elmer,son,M,white,28,single,n,H4,Texas,NA,Travis,Texas,NA,NA,farmer,farm,oa,52,NA,y,n,n,nkargin,y,nicole kargin
+227-42-38,,James,son,M,white,17,single,y,7,Texas,NA,Travis,Texas,NA,NA,,,,NA,NA,,,,nkargin,y,nicole kargin
+227-42-39,Sundberg,Adolph,nephew,M,white,28,single,n,3,Texas,NA,Travis,Texas,NA,NA,farmer,farm,pw,52,NA,y,,,nkargin,y,nicole kargin
+227-42-40,Smith,George,head,M,negro,53,divorced,n,0,Texas,NA,Leano,Texas,NA,NA,laborer,common,pw,52,NA,n,,,nkargin,n,nicole kargin
+NA,John,Martin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Fula,Martin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Lemande,Bland,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Beverly,Rankin,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Hady,Cole,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Audrey,Jhidode,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Olita,Fauler,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Grace,Bryant,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Will,Williams,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Lillian,Holden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Mattie,White,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Anne,Ligma,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Rachel,Poster,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Anne,Bond,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,Cora,Mooose,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,dwu,NA,NA
+NA,NA,I.W. Meier,Head,M,W,45,M,NA,No college,Texas,NA,NA,NA,NA,NA,Farmer,Farm,Self-employed,NA,72,NA,NA,NA,rnambala,NA,NA
+NA,NA,Annie O. Meier,Wife,F,W,44,M,NA,No college,Texas,NA,NA,NA,NA,NA,-,-,-,NA,0,NA,NA,NA,rnambala,NA,NA
+NA,NA,Ralph Meier,Son,M,W,17,S,NA,10th Grade,Texas,NA,NA,NA,NA,NA,-,-,-,NA,0,NA,NA,NA,rnambala,NA,NA
+NA,NA,Billie Meier,Son,M,W,15,S,NA,9th Grade,Texas,NA,NA,NA,NA,NA,Janitor,Public School,Gov,NA,29,NA,NA,NA,rnambala,NA,NA
+NA,NA,Joann Meier,Daughter,F,W,9,S,NA,6th Grade,Texas,NA,NA,NA,NA,NA,-,-,-,NA,0,NA,NA,NA,rnambala,NA,NA
+NA,NA,Emily Meier,Daughter,F,W,6,S,NA,0th Grade,Texas,NA,NA,NA,NA,NA,-,-,-,NA,0,NA,NA,NA,rnambala,NA,NA
+NA,NA,Cleamor Meier,Daughter,F,W,5,S,NA,0th Grade,Texas,NA,NA,NA,NA,NA,-,-,-,NA,0,NA,NA,NA,rnambala,NA,NA
+NA,NA,Elaine Meier,Daughter,F,W,7,S,NA,0th Grade,Texas,NA,NA,NA,NA,NA,-,-,-,NA,0,NA,NA,NA,rnambala,NA,NA
+NA,NA,Ruby Mueller,Maid,F,W,16,S,NA,No college,Texas,NA,NA,NA,NA,NA,Maid,Private Home,Private,NA,8,NA,NA,NA,rnambala,NA,NA
+NA,NA,Williely Piper,Head,M,W,35,M,NA,9th Grade,Texas,NA,NA,NA,NA,NA,Farmer,Farm,Self-employed,NA,70,NA,NA,NA,rnambala,NA,NA
+304,McLellan,L. R.,head,M,W,31,m,N,C-5,OK,Sebastian,Willacy,Texas,Y,NA,traveling salesman,retail,PW,40,2500,NA,N,N,jlevin,N,NA
+304,McLellan,Loice,wife,F,W,30,m,N,H-4,TX,Sebastian,Willacy,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+304,McLellan,Johanna,daughter,F,W,5,s,N,0,TX,Sebastian,Willacy,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+NA,Campbell,Lloyd,head,M,W,35,m,N,C-3,TX,Sebastian,Willacy,Texas,Y,NA,road engineer,state highway,GW,40,2500,NA,N,N,jlevin,,NA
+NA,Campbell,June,wife,F,W,30,m,N,C-2,TX,Sebastian,Willacy,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+302,Brown,C. F. Z.,head,M,W,30,m,Y,C-5,TX,Newgulf,Warton,Texas,Y,NA,teacher,university,GW,12,350,NA,N,N,jlevin,N,NA
+302,Brown,Freda,wife,F,W,27,m,Y,C-4,Canada,Newgulf,Warton,Texas,Y,NA,teacher,university,GW,5,0,NA,N,N,jlevin,N,NA
+302,Brown,Shirley,daughter,F,W,8,s,Y,2,,Newgulf,Warton,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+2615,Morris,Gus,head,M,W,21,m,N,8,TX,Newgulf,Warton,Texas,Y,NA,soda clerk,retail drug,PW,81,900,NA,N,N,jlevin,,NA
+2615,Morris,Opal,wife,F,W,23,m,N,H-4,TX,Newgulf,Warton,Texas,Y,NA,stenographer,private home,PW,10,80,NA,N,N,jlevin,,NA
+NA,Robinson,Paul,partner,M,W,23,m,N,C-1,TX,Abilene,Taylor,Texas,Y,NA,barber,private shop,PW,55,600,NA,N,N,jlevin,N,NA
+NA,Robinson,Ella,wife,F,W,21,m,N,H-4,TX,Abilene,Taylor,Texas,N,NA,stenographer,own home,OA,0,0,NA,N,N,jlevin,N,NA
+NA,Robinson,Jerry,son,M,W,1/12,s,N,0,TX,Abilene,Taylor,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+2617,Campbell,Robert S.,head,M,W,70,m,N,C-4,TN,Abilene,Taylor,Texas,Y,NA,clergyman,church,PW,40,1466,NA,N,N,jlevin,,NA
+2617,Campbell,Maude,wife,F,W,67,m,N,9,NY,R.,Dimmitt,Texas,N,NA,,,,0,0,NA,N,N,jlevin,Y,NA
+2617,Singleton,Martin,head,M,W,26,m,Y,C-5,TX,R.,Dimmitt,Texas,Y,NA,clergyman,church,PW,30,500,NA,N,N,jlevin,,NA
+2617,Singleton,Nell,wife,F,W,25,m,N,C-5,TX,R.,Dimmitt,Texas,Y,NA,field worker,church,PW,20,1200,NA,N,N,jlevin,,NA
+2628,Penick,Robert C.,head,M,W,30,m,N,C-5,TX,Baton Rouge,East Baton Rouge,Louisiana,Y,NA,teacher,church school,PW,20,475,NA,N,N,jlevin,N,NA
+2628,Penick,Doris,wife,F,W,25,m,N,C-2,SC,Baton Rouge,East Baton Rouge,Louisiana,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+2628,Penick,Christopher,son,M,W,9/12,s,N,0,TX,Baton Rouge,East Baton Rouge,Louisiana,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+2626,Newton,John,head,M,W,24,m,Y,C-5,TX,Houston,Harris,Texas,Y,NA,clergyman,church,PW,40,1080,NA,N,N,jlevin,N,NA
+2626,Newton,Helen,wife,F,W,22,m,N,C-3,TX,Brenham,Washington,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+2626,King,William,half-brother,M,W,20,s,Y,C-3,TX,Lovelady,Crockett,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+2624,Smith,Bernard E.,head,M,W,64,m,N,H-3,TX,Dallas,Dallas,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+2624,Smith,Myrtle L.,wife,F,W,56,m,N,C-1,TN,Dallas,Dallas,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+2624,Smith,Albert,son,M,W,32,s,Y,C-4,NM,Sherman,Grayson,Texas,Y,NA,clergyman,church,PW,40,900,NA,Y,N,jlevin,N,NA
+2624,Smith,Jerome,son,M,W,19,s,N,H-3,TX,Dallas,Dallas,Texas,N,NA,shipping clerk,wholesale grocery,PW,0,400,NA,N,N,jlevin,N,NA
+2624,Smith,Polly,daughter,F,W,18,s,N,H-4,TX,Dallas,Dallas,Texas,N,NA,reporter,newspaper,PW,0,150,NA,N,N,jlevin,N,NA
+2622,Lewis,Jack W.,head,M,W,24,m,Y,C-5,TX,Dallas,Dallas,Texas,Y,NA,clergyman,church,PW,40,600,NA,N,N,jlevin,,NA
+2622,Lewis,Mary,wife,F,W,24,m,N,C-4,TX,Dallas,Dallas,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+2622,Lewis,Patrica,daughter,F,W,2,s,N,0,TX,Dallas,Dallas,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+2622,Lewis,Andrea,daughter,F,W,6/12,s,N,0,TX,Dallas,Dallas,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+2620,O'Conner,Leslie,head,M,W,21,m,Y,C-3,TX,Houston,Harris,Texas,Y,NA,clergyman,church,,40,720,NA,N,N,jlevin,N,NA
+2620,O'Conner,Margaret,wife,F,W,21,m,N,C-4,TX,Marlin,Falls,Texas,N,NA,,,,0,0,NA,N,N,jlevin,N,NA
+212,McFadden,George B.,head,M,W,60,m,N,9,TX,Marlin,Falls,Texas,Y,NA,proprietor,pool hall,OA,90,0,NA,N,N,jlevin,,NA
+212,McFadden,Mannie C.,wife,F,W,55,m,N,C-2,TX,Marlin,Falls,Texas,N,NA,,,,0,0,NA,N,N,jlevin,,NA
+210,Jackson,Cicero C.,head,M,W,57,m,N,C-4,TX,Paducah,Cottle,Texas,Y,NA,proprietor,teacher placement,OA,70,0,NA,N,N,jlevin,N,NA
+210,Jackson,Nelle,wife,F,W,52,m,N,H-4,TX,Paducah,Cottle,Texas,Y,NA,stenographer,teacher placement,NP,70,0,NA,N,N,jlevin,N,NA
+206,Mercer,Florence,head,F,W,45,s,N,C-5,TX,Paducah,Cottle,Texas,Y,NA,teacher,public school,GW,45,1160,NA,N,N,jlevin,,NA
+206,Baker,Hattie,lodger,F,W,50,wd,Y,C-5,AR,Brownwood,Brown,Texas,N,NA,teacher,college,GW,0,300,NA,N,N,jlevin,N,NA
+Lily,Wilson,Frank W,head,M,white,30,married,no,16,Texas,R,Kaufman,Texas,yes,40,teacher,City public school,PW,39,1350,no,,,jcalhoun,no,jcalhoun
+Lily,Wilson,Blanche (x),wife,F,white,29,married,no,12,Texas,R,Kaufman,Texas,no,NA,,,,0,0,no,no,no,jcalhoun,no,jcalhoun
+Lily,Wilson,Martha Jane,daughter,F,white,6,single,no,0,Texas,R,Kaufman,Texas,,NA,,,,NA,NA,,,,jcalhoun,no,jcalhoun
+Bill,Clayton,J F (x),head,M,white,39,married,no,12,Texas,,,,yes,35,Carpenter,Building Construction,PW,48,1650,yes,,,jcalhoun,,jcalhoun
+Bill,Clayton,Bessie,wife,F,white,41,married,no,7,Texas,,,,no,NA,,,,0,0,no,no,no,jcalhoun,,jcalhoun
+Bill,Clayton,Evelyn Josephine,daughter,F,white,16,single,yes,11,Texas,,,,no,NA,,,,0,0,no,no,no,jcalhoun,,jcalhoun
+Bill,Clayton,James Norman,son,M,white,10,single,yes,4,Texas,,,,,NA,,,,NA,NA,,,,jcalhoun,,jcalhoun
+Felicity,Roberts,Roy M,head,M,white,44,married,no,7,Texas,Lampasso,Lampasso,Texas,yes,40,Laborer,Power Plant,PW,14,180,no,,,jcalhoun,,jcalhoun
+Felicity,Roberts,Mamie (x),wife,F,white,44,married,no,9,Texas,Lampasso,Lampasso,Texas,no,NA,,,,0,0,yes,no,no,jcalhoun,,jcalhoun
+Felicity,Roberts,Omega,daughter,F,white,17,single,no,12,Texas,Lampasso,Lampasso,Texas,yes,48,Owner,Beauty shop,OA,52,0,yes,,,jcalhoun,,jcalhoun
+Felicity,Arnold,D L,lodger,M,white,22,single,no,12,Texas,Belton,Bell,Texas,yes,48,Operator,Oil Refinery,PW,52,600,no,,,jcalhoun,,jcalhoun
+Felicity,Laud,Harold,lodger,M,white,22,single,no,9,Texas,Dallas,Dallas,Texas,yes,48,Painter,Building Construction,PW,52,1560,no,,,jcalhoun,,jcalhoun
+Josh,Bozarth,Jessie Lee,head,M,white,28,married,no,9,Texas,,,,yes,40,Truck Driver,State Hospital,GW,30,450,no,,,jcalhoun,,jcalhoun
+Josh,Bozarth,Ruby Theresa,wife,F,white,28,married,no,12,Texas,,,,yes,48,seamstress,state Hospital,GW,52,432,yes,,,jcalhoun,,jcalhoun
+Joshie-poo,Walters,Ruth,head,F,white,38,divorced,no,7,Texas,,,,no,NA,Practical Nurse,Private Duty,,0,0,no,no,yes,jcalhoun,,jcalhoun
+Joshie-poo,Walters,Calvin,son,M,white,15,single,yes,9,Texas,,,,yes,58,Delivery Boy,Retail (Drug Store),PW,0,0,no,,,jcalhoun,,jcalhoun
+Joshie-poo,Walters,Larry,son,M,white,0.916,single,no,0,Texas,,,,,NA,,,,NA,NA,,,,jcalhoun,,jcalhoun
+Joshie-poo,Powder,Katherine (x),servant,F,white,28,divorced,no,8,Texas,R,WIliamson,Texas,yes,70,Servant,Private Family,PW,52,75,no,,,jcalhoun,yes,jcalhoun
+Joshie-poo,Harbin,Dudley P,lodger,M,white,29,single,no,11,Louisiana,U.S. Navy,,,yes,40,Fron Worker,Dam Court (Coast),PW,52,2255,no,,,jcalhoun,,jcalhoun
+Joshie-poo,Huggins,B C Jr.,lodger,M,white,26,single,no,12,Texas,,,,yes,40,Fron Worker,Dam Court (Coast),PW,48,2000,no,,,jcalhoun,,jcalhoun
+Madeline,Orme,Audbrey D,head,M,white,25,married,no,8,Texas,R,Milon (Milan),Texas,yes,91,Ward Attendant,State Hospital,GW,52,636,yes,,,jcalhoun,yes,jcalhoun
+Madeline,Orme,Selma Lais (x),wife,F,white,18,married,no,5,Texas,R,Lee,Texas,no,NA,,,,0,0,no,no,no,jcalhoun,yes,jcalhoun
+Madeline,Orme,Loren Ray,son,M,white,0.66,single,no,0,Texas,,,,,NA,,,,NA,NA,,,,jcalhoun,,jcalhoun
+Marmelade,Davis,Nancy Elizabeth,head,F,white,72,widowed,no,5,Texas,,,,no,NA,,,,0,0,no,no,no,jcalhoun,,jcalhoun
+Marmelade,Dilley,Ellen,daughter,F,white,42,single,no,5,Texas,,,,yes,55,Laundress,State Hospital,GW,52,456,no,,,jcalhoun,,jcalhoun
+Elbow,Cummings,Othniel,head,M,white,34,married,no,7,Texas,Taylor,Williamson,Texas,yes,48,Carpenter,Building Construction,PW,52,600,no,,,jcalhoun,no,jcalhoun
+Elbow,Cummings,Nettie,wife,F,white,34,married,no,8,Texas,Taylor,Williamson,Texas,no,NA,,,,0,0,no,no,no,jcalhoun,no,jcalhoun
+Elbow,Cummings,Andrew Niel,son,M,white,6,single,yes,0,Texas,Taylor,Williamson,Texas,,NA,,,,NA,NA,,,,jcalhoun,no,jcalhoun
+Elbow,Cummings,Sarah Belle,daughter,F,white,3,single,no,0,Texas,,,,,NA,,,,NA,NA,,,,jcalhoun,,jcalhoun
+Filter,Thorpe,Harvey B,head,M,white,62,married,no,6,Texas,,,,yes,44,Laborer,Nursery,PW,34,326,no,,,jcalhoun,,jcalhoun
+Filter,Thorpe,Emma (x),wife,F,white,56,married,no,6,Texas,,,,yes,56,Practical Nurse,Home for the aged,PW,52,530,no,,,jcalhoun,,jcalhoun
+Argentum,Daniels,D B,head,M,white,34,married,no,8,Texas,,,,yes,60,Insurance Agent,Life Insurance,PW,52,1200,no,,,jcalhoun,,jcalhoun
+Argentum,Daniels,Charlie Mae (x),wife,F,white,24,married,no,12,Texas,R,WIlliamson,Texas,no,NA,,,,0,0,no,no,no,jcalhoun,,jcalhoun
+Argentum,Daniels,Jean,daughter,F,white,9,single,yes,4,Texas,,,,,NA,,,,NA,NA,,,,jcalhoun,,jcalhoun
+Argentum,Lindsey,Charlie,father-in-law,M,white,53,married,no,10,Texas,R,Willaimson,Texas,yes,54,Painter,Building Construction,OA,52,0,yes,,,jcalhoun,,jcalhoun
+Argentum,Lindsey,Linda,mother-in-law,F,white,51,married,no,12,Texas,R,Willaimson,Texas,no,NA,,,,0,0,yes,no,no,jcalhoun,,jcalhoun
+Windowless,Stacy,Dorothy,head,F,white,54,widowed,no,12,Virginia,,,,yes,78,Prop,Retail Grocery Store,OA,52,0,yes,,,jcalhoun,,jcalhoun
+Windowless,O'Bryan,Bessie Mae,daughter,F,white,37,widowed,no,12,Texas,Corpus Christi,Nueces,Texas,no,NA,New Worker,,,0,0,no,no,yes,jcalhoun,,jcalhoun
+225-25b-1,Cutbirth,William,Head,M,w,30,m ,n,c4,NA,NA,,tx,NA,44,boatkeeper,fish and game,NA,52,NA,NA,---,NA,emcalister,,NA
+225-25b-1,Cutbirth,Sadie Rhae,WIfe,f,w,26,m,n,c4,NA,NA,,tx,NA,39,stenographer,bacterial,NA,52,NA,NA,---,NA,emcalister,,NA
+225-25b-1,Hill,Wanna Beth,neice,f,w,19,s,y,c2,NA,NA,upton,tx,NA,NA,,,NA,0,NA,NA,no,NA,emcalister,no,NA
+225-25b-2,neighbora,Allan,Head,m,w,56,wd,n,c5,NA,NA,guadalupe,kt,NA,NA,medical doctor,own practice,NA,52,NA,NA,---,NA,emcalister,,NA
+225-25b-2,Neighbora,Allan jr,SOn,m,w,20,s,y,c2,NA,NA,guadalupe,tx,NA,NA,laborer,lam cont,NA,8,NA,NA,no,NA,emcalister,,NA
+225-25b-3,Carradine,William,Head,m,w,25,m,n,h4,NA,NA,McClellan,tx,NA,40,farmer,farming,NA,52,NA,NA,---,NA,emcalister,no,NA
+225-25b-3,Carradine,okal,WIfe,f,w,24,m,n,8,NA,NA,Erath,tx,NA,NA,,,NA,0,NA,NA,no,NA,emcalister,,NA
+225-25b-4,McCormick,Annie,Head,f,w,42,d,n,h2,NA,NA,,tx,NA,NA,,,NA,0,NA,NA,no,NA,emcalister,,NA
+225-25b-4,McCormick,Gwyneth,Daughter,f,w,16,s,y,c1,NA,NA,,cal,NA,NA,,,NA,0,NA,NA,no,NA,emcalister,,NA
+225-25b-4,McCormick,Clifford,Son,m,w,10,s,y,h4,NA,NA,,tx,NA,NA,,,NA,0,NA,NA,,NA,emcalister,,NA
+225-25b-5,Millsafe,Vernon,Head,m,w,53,m,n,2,NA,NA,,mis,NA,44,dike liner,oil refiner,NA,52,NA,NA,--,NA,emcalister,,NA
+225-25b-5,Millsafe,prat lee,Wife,f,w,46,m,n,8,NA,NA,,tx,NA,54,seamstress,retail store,NA,52,NA,NA,---,NA,emcalister,,NA
+225-25b-5,Millsafe,Eleanor,Daughter,f,w,22,s,y,8,NA,NA,,tx,NA,NA,sales lady,retail store,NA,8,NA,NA,no,NA,emcalister,,NA
+225-25b-6,Callan,john,Head,m,w,48,m,n,8,NA,NA,,tx,NA,40,printer,state university,NA,52,NA,NA,---,NA,emcalister,,NA
+225-25b-6,Callan,Mary,Wife,f,w,45,m,n,c1,NA,NA,,tx,NA,NA,,,NA,0,NA,NA,no,NA,emcalister,,NA
+225-25b-6,Callan,Edna Louies,Daughter,f,w,20,s,y,h4,NA,NA,,tx,NA,NA,,,NA,0,NA,NA,no,NA,emcalister,,NA
+225-25b-6,Callan,John Jr,Son,m,w,18,s,n,c3,NA,NA,,tx,NA,40,truck driver,cleaning --,NA,0,NA,NA,,NA,emcalister,,NA
+225-25b-6,Callan,Jo,Daughter,f,w,10,s,y,h2,NA,NA,,tx,NA,NA,,,NA,0,NA,NA,,NA,emcalister,,NA
+225-25b-7,Moody,james ,Head,m,w,61,m,n,h4,NA,NA,,tx,NA,40,sales man,fruit flavoring,NA,52,NA,NA,-,NA,emcalister,,NA
+225-25b-7,Moody,Lillie Arizona,Wife,f,w,63,m,n,,NA,NA,,tx,NA,NA,,,NA,0,NA,NA,n,NA,emcalister,,NA
+225-25b-8,Burks,marrid,HEad,m,w,50,m,n,h4,NA,NA,Frio,tx,NA,NA,neight waterman,conat,NA,22,NA,NA,n,NA,emcalister,yes,NA
+225-25b-8,Burks,Lucille ,Wife,f,w,49,m,n,c2,NA,NA,frio,t,NA,NA,,,NA,0,NA,NA,n,NA,emcalister,yes,NA
+225-25b-8,Burks,Clara ,Daughter,f,w,18,s,y,c4,NA,NA,frio,t,NA,NA,waitress,cafeteria,NA,8,NA,NA,n,NA,emcalister,,NA
+225-25b-8,Burks,luralee,Daughter,f,w,20,s,y,c4,NA,NA,frio,t,NA,NA,re------,driving,NA,36,NA,NA,y,NA,emcalister,,NA
+225-25b-9,McKay,W.R,Head,m,w,46,m,n,2,NA,NA,McClellan,min,NA,40,steel worker,dam corner,NA,52,NA,NA,-,NA,emcalister,,NA
+225-25b-9,Mckay,Eliee,Wife,f,w,24,m,n,3,NA,NA,McClellan,t,NA,NA,,,NA,0,NA,NA,n,NA,emcalister,,NA
+225-25b-9,McKay,Annie,Daughter,f,w,4,s,n,1,NA,NA,,,NA,NA,,,NA,0,NA,NA,,NA,emcalister,,NA
+225-25b-10,Taylor,Carl,Head,m,w,23,m,y,8,NA,NA,,lou,NA,48,neight manager,western union,NA,52,NA,NA,-,NA,emcalister,,NA
+225-25b-10,Taylor,Alice Faye,Wife,f,w,24,m,n,3,NA,NA,,newmex,NA,48,clerk,western union,NA,52,NA,NA,-,NA,emcalister,,NA
+225-25b-11,Wood,Wilton,head,m,w,25,m,n,4,NA,NA,Bastrop,t,NA,48,letiah,pria sehae,NA,20,NA,NA,-,NA,emcalister,no,NA
+225-25b-11,Wood,Mary ALice,Wife,f,w,22,m,n,1,NA,NA,Bell,t,NA,NA,teacher,push sehae,NA,15,NA,NA,n,NA,emcalister,no,NA
+225-25b-12,brousche,Garret,HEad,m,w,55,m,n,c3,NA,NA,,t,NA,NA,rekquire,state university,NA,52,NA,NA,y,NA,emcalister,,NA
+225-25b-12,Brousche,Emma,wife,f,w,50,m,n,,NA,NA,,t,NA,NA,,,NA,0,NA,NA,n,NA,emcalister,,NA
+225-25b-12,Brousche,Herman,son,m,w,20,s,n,,NA,NA,,t,NA,42,candy salesman,theatre,NA,12,NA,NA,-,NA,emcalister,,NA
+225-25b-12,Brousche,George Henry,son,m,w,12,s,n,,NA,NA,,t,NA,40,fountain clerk,retail creamery,NA,52,NA,NA,-,NA,emcalister,,NA
+225-25b-12,Brousche,Roy,son,m,w,13,s,y,,NA,NA,,t,NA,NA,,,NA,0,NA,NA,,NA,emcalister,,NA
+225-25b-12,Screws,Ruby,daughter,f,w,25,d,n,,NA,NA,,t,NA,NA,,,NA,0,NA,NA,n,NA,emcalister,,NA
+225-25b-12,Burks,Mary Ralteria,grandaughter,f,w,9,s,y,,NA,NA,,t,NA,NA,,,NA,0,NA,NA,,NA,emcalister,,NA
+225-25b-13,Lumpkin,Jamie ,head,m,w,37,m,n,,NA,NA,,t,NA,60,owner,cleaning --,NA,52,NA,NA,-,NA,emcalister,,NA
+225-25b-13,Lumpkin,Sadie  ,wife,f,w,34,m,n,,NA,NA,,t,NA,40,office clerk,same as above,NA,52,NA,NA,-,NA,emcalister,,NA
+227-14-001,NA,"Burria, Hugh",Head,M,W,33,M,NA,HI,TX,NA,NA,NA,NA,NA,utility apendtor,state land institute,GW,52,870,N,-,-,bsolin,NA,NA
+227-14-002,NA,"- , Maudine",Wife,F,W,31,M,NA,8,TX,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-003,NA,"-, Leo",Son,M,W,10,S,NA,5,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-004,NA,"-, Laverne",Daughter,F,W,9,S,NA,4,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-005,NA,"-, Lois D.",Daughter,F,W,8,S,NA,2,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-006,NA,"Maddox, Mouroe",Father-in-law,M,W,59,WD.,NA,5,ALA,NA,NA,NA,NA,NA,janitor,public school,GW,18,225,N,-,-,bsolin,NA,NA
+227-14-007,NA,"Harrell, Walter L.",Head,M,W,30,M,NA,8,TX,NA,NA,NA,NA,NA,painter and paper hanger,building construction,DA,39,0,Y,-,-,bsolin,NA,NA
+227-14-008,NA,"-, Lorene",Wife,F,W,29,M,NA,4-4,TX,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-009,NA,"-, Doyle",Daughter,F,W,3,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-010,NA,"-, Dale",Son,M,W,2,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-011,NA,"-, Virginia L. ",Daughter,F,W,1/12,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-012,NA,"Neitock, Hugo",Head,M,W,30,M,NA,7,TX,NA,NA,NA,NA,NA,carpenter,building construction,PW,43,1200,N,-,-,bsolin,NA,NA
+227-14-013,NA,"-, Elnora",Wife,F,W,26,M,NA,7,TX,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-014,NA,"-, Ramona",Daughter,F,W,3,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-015,NA,"-, Curtis",Son,M,W,2,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-016,NA,"Daniel, Chester L.",Head,M,W,34,M,NA,H-4,TX,NA,NA,NA,NA,NA,truck driver,oil refining company,PW,52,1800,Y,-,-,bsolin,NA,NA
+227-14-017,NA,"-, Minnie B.",Wife,F,W,34,M,NA,6,TX,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-018,NA,"-, Chester L. jr.",Son,M,W,8,S,NA,3,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-019,NA,"-, Shirley J.",Dauhter,F,W,4,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-020,NA,"Riley, Myrtle R.",Sister-in-law,F,W,32,WD.,NA,6,TX,NA,NA,NA,NA,NA,waitress,restaurant,PW,39,700,N,N,Y,bsolin,NA,NA
+227-14-021,NA,"-, Jesse R.",Neblew,M,W,13,S,NA,8,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-022,NA,"Bratton, Archie R.",Head,M,W,55,M,NA,5,TX,NA,NA,NA,NA,NA,salesman,retail,PW,52,876,N,-,-,bsolin,NA,NA
+227-14-023,NA,"-, Helen",Wife,F,W,37,M,NA,H-4,TX,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-024,NA,"-, Mary H.",Daughter,F,W,9,S,NA,4,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-025,NA,"-, John",Son,M,W,5,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-026,NA,"Stullker, John",Father-in-law,M,W,77,WD.,NA,C-4,ILL,NA,NA,NA,NA,NA,chemist,state university ,GW,52,2000,N,-,-,bsolin,NA,NA
+227-14-027,NA,"Heaulet, Ulyeses S.",Head,M,W,42,M,NA,5,OKL,NA,NA,NA,NA,NA,carpenter,building construction,DA,26,1040,N,-,-,bsolin,NA,NA
+227-14-028,NA,"-, Ruth",Wife,F,W,30,M,NA,8,TENN,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-029,NA,"-, Elizabeth",Daughter,F,W,19,S,NA,7,TX,NA,NA,NA,NA,NA,,,,0,0,N,N,N,bsolin,NA,NA
+227-14-030,NA,"-, Jack",Son,M,W,17,S,NA,7,TX,NA,NA,NA,NA,NA,carpenters helper,building construction,NP,26,0,Y,Y,-,bsolin,NA,NA
+227-14-031,NA,"-, Curtis",Son,M,W,16,S,NA,7,TX,NA,NA,NA,NA,NA,carpenters helper,building construction,NP,26,0,Y,Y,-,bsolin,NA,NA
+227-14-032,NA,"-, Betty J.",Daughter,F,W,11,S,NA,5,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-033,NA,"-, Billil ",Son,M,W,10,S,NA,3,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-034,NA,"-, Robert",Son,M,W,9,S,NA,2,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-035,NA,"-, Juanita",Daughter,F,W,7,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-036,NA,"-, Freddie",Son,M,W,6,S,NA,0,TX,NA,NA,NA,NA,NA,,,,NA,NA,,,,bsolin,NA,NA
+227-14-037,NA,"Baker, Helen",Ledger,F,W,20,S,NA,7,CAL,NA,NA,NA,NA,NA,waitress,Branding house,PW,51,255,Y,-,-,bsolin,NA,NA
+227-14-038,NA,"Barbery, Billie",Ledger,M,W,17,S,NA,7,TX,NA,NA,NA,NA,NA,carpenters helper,building construction,PW,22,132,Y,-,-,bsolin,NA,NA
+227-14-039,NA,"Jannehill, Ernest",Ledger,M,W,20,M,NA,H-2,TX,NA,NA,NA,NA,NA,carpenters helper,building construction,PW,12,144,Y,-,-,bsolin,NA,NA
+227-14-040,NA,"-, Hazel",Ledgers Wife,F,W,19,M,NA,H-1,IOWA,NA,NA,NA,NA,NA,,,,5,21,N,N,N,bsolin,NA,NA
+194,Albright,Jack B,Head,M,W,38,M,No,H2,Texas,Same Place,NA,NA,Yes,40,Postal Clerk,US Post Office,GW,52,2100,Yes,NA,NA,aber-for-con,NA,NA
+194,Albright,Lynal C,Wife,F,W,37,M,No,H2,Texas,Same Place,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+194,Albright,Helen,Daughter,F,W,19,S,No,C1,Texas,Same Place,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+195,Allen,Clifton,Head,M,W,46,M,No,G8,Texas,R,Hays,Texas,Yes,70,Farmer,Farm,OA,52,0,Yes,NA,NA,aber-for-con,Yes,NA
+195,Allen,Helen,Wife,F,W,40,M,No,G8,Germany,R,Hays,Texas,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,Yes,NA
+196,Marx,Otto,Head,M,W,55,M,No,G5,Texas,Same House,NA,NA,Yes,60,Quary Worker,Rock,E,0,0,No,NA,NA,aber-for-con,NA,NA
+196,Marx,Annie,Wife,F,W,45,M,No,G4,Texas,Same House,NA,NA,No,NA,NA,NA,NA,52,0,No,No,No,aber-for-con,NA,NA
+196,Marx,Harry,Son,M,W,22,S,No,G7,Texas,Same House,NA,NA,Yes,50,Farm Laborer,Farm,NP,52,0,No,NA,NA,aber-for-con,NA,NA
+196,Marx,Otto Jr.,Son,M,W,20,S,No,G7,Texas,Same House,NA,NA,Yes,60,Laborer,Rock,NP,0,0,No,NA,NA,aber-for-con,NA,NA
+196,Marx,Marie,Daughter,F,W,16,S,Yes,G7,Texas,Same House,NA,NA,No,NA,NA,NA,NA,NA,NA,NA,No,No,aber-for-con,NA,NA
+196,Marx,Mallie,Daughter,F,W,13,S,Yes,G6,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,NA,NA
+196,Marx,Paul C ,Son,M,W,10,S,Yes,G3,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,NA,NA
+196,Marx,Manuel,Son,M,W,8,S,Yes,G1,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,NA,NA
+196,Marx,Rosie,Daughter,F,W,5,S,No,G0,Texas,Same House,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,NA,NA
+196,Marx,Frank,Nephew,M,W,22,S,No,G7,Texas,Same House,NA,NA,Yes,60,Quary Worker,Rock,NP,52,0,No,NA,NA,aber-for-con,NA,NA
+196,Marx,Issac,Nephew,M,W,19,S,No,G6,Texas,Same House,NA,NA,Yes,60,Quary Worker,Rock,NP,32,0,No,NA,NA,aber-for-con,NA,NA
+196,Marx,Herman,Nephew,M,W,17,S,No,G5,Texas,Same House,NA,NA,Yes,60,Quary Worker,Rock,NP,32,0,No,NA,NA,aber-for-con,NA,NA
+197,Eller,Pleas,Head,M,W,67,Wd,No,G2,Texas,R,Travis,Texas,Yes,40,Laborer,Farm,PW,26,130,No,NA,NA,aber-for-con,Yes,NA
+197,Eller,Leana,Daughter,F,W,17,S,No,G8,Texas,R,Travis,Texas,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,Yes,NA
+197,Eller,Ruth,Daughter,F,W,14,S,No,G5,Texas,R,Travis,Texas,Ni,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,Yes,NA
+198,Hurman,John,Head,M,W,67,M,No,G1,Texas,Same House,NA,NA,Yes,30,Rock Worker,Rock,PW,15,150,No,NA,NA,aber-for-con,NA,NA
+198,Hurman,Novella,Wife,F,W,57,M,No,G4,Texas,Same House,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+199,Vine Clure,Grace,Head,F,W,67,S,No,G3,Texas,Same House,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+199,Vine Clure,Francis,Sister,F,W,62,S,No,G3,Texas,Same House,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+200,Maddox,WG,Head,M,W,70,M,No,G5,Texas,Same House,NA,NA,No,NA,NA,NA,NA,0,0,Yes,No,No,aber-for-con,NA,NA
+200,Maddox,Sallie,Wife,F,W,65,M,No,G4,Georgia,Same House,NA,NA,No,NA,NA,NA,NA,0,0,Yes,No,No,aber-for-con,NA,NA
+201,Finch,Lee,Head,M,W,36,M,No,H1,Texas,R,Burnet,Texas,Yes,28,Carpenter,Construction,PW,40,260,Yes,NA,NA,aber-for-con,Yes,NA
+201,Finch,Ida,Wife,F,W,32,M,No,H1,Texas,R,Burnet,Texas,No,NA,NA,NA,NA,0,0,Yes,No,No,aber-for-con,Yes,NA
+201,Finch,Darlene,Daughter,F,W,7,S,Yes,G1,Texas,R,Burnet,Texas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,Yes,NA
+201,Finch,G.W.,Son,M,W,6,S,No,G0,Texas,R,Burnet,Texas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,Yes,NA
+201,Finch,Micheal,Son,M,W,4,S,No,G0,Texas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,NA,NA
+201,Finch,Shirley,Daughter,F,W,2,S,No,G0,Texas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,aber-for-con,NA,NA
+202,Brewer,Ann,Head,F,W,53,D,No,G7,Texas,Same Home,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+203,Hueletter,Oscar,Head,M,W,45,M,No,G8,Texas,Same Place,NA,NA,Yes,47,Yard Foreman,Lumber ,PW,52,1248,Yes,NA,NA,aber-for-con,NA,NA
+203,Hueletter,Jodie,Wife,F,W,44,M,No,G8,Texas,Same Place,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+203,Fulks,Evelyn,Step Daughter,F,W,20,S,No,H4,Texas,Same Place,NA,NA,Yes,66,- - Operation,State -,GW,52,500,No,NA,NA,aber-for-con,NA,NA
+203,Fulks,Jack ,Step Son,M,W,19,S,No,H3,Texas,Same Place,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+204,Brown,Ross,Head,M,W,43,M,No,H2,Texas,Sarado,Webb,Texas,No,NA,Electrician,Construction,PW,17,850,No,Yes,Yes,aber-for-con,No,NA
+204,Brown,Mannie,Wife,F,W,44,M,No,H4,NA,Sarado,Webb,Texas,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,No,NA
+26,Berwell,Reuben,head,M,W,42,M,N,G8,Texas,R,Burnett,Texas,no ,0,machinist,machine shop,PW,48,1334,no,no,yes,aber-for-con,No,NA
+26,Berdwell,Flora,Wife,F,W,36,M,N,G7,Texas,R,Burnett,Texas,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+26,Berdwell,Will Le,Son,M,W,19,S,N,H4,Texas,R,Burnett,Texas,no ,0,laborer,construction,PW,24,576,no,no,yes,aber-for-con,No,NA
+26,Berdwell,Florine,Daughter,F,W,16,S,Y,H3,Texas,R,Burnett,Texas,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+26,Berdwell,Joe,Son,M,W,15,S,Y,H1,Texas,R,Burnett,Texas,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+27,Arrelano,Maximo,Head,M,W,79,W,N,G1,Mexico,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+27,Arrelano,Maximo Jr,Son,M,W,30,S,N,G2,Texas,Same Place,N/A,N/A,no ,0,laborer,common labor,PW,0,0,no,no,yes,aber-for-con,No,NA
+27,Arrelano,Manuel,Son,M,W,24,S,N,G4,Texas,Same Place,N/A,N/A,no ,0,laborer,common labor,PW,0,0,no,no,yes,aber-for-con,No,NA
+27,Arrelano,Pancho,Son,M,W,23,S,N,G6,Texas,Same Place,N/A,N/A,no ,0,laborer,common labor,GW,26,326,no,yes,n/a,aber-for-con,No,NA
+27,Arrelano,John,Son,M,W,19,S,N,G3,Texas,Same Place,N/A,N/A,no ,0,dish-washer,cafe ,PW,0,0,no,no,yes,aber-for-con,No,NA
+27,Arrelano,Beatrice,Daughter,F,W,17,S,N,G3,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+27,Lopez,Manuel,Grand-son,M,W,3,S,N,G0,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+28,Arredondo,Luz,Head,M,W,33,M,N,G3,Texas,Same Place,N/A,N/A,no ,0,laborer,common labor,PW,0,0,no,no,yes,aber-for-con,No,NA
+28,Arredondo,Isabel,Wife,F,W,32,M,N,G2,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+28,Arredondo,Beatrice,Daughter,F,W,11,S,Y ,G3,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+28,Arredondo,Lucille,Daughter,F,W,9,S,Y,G4,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+28,Arredondo,Angeline,Daughter,F,W,5,S,N,G0,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+28,Arredondo,Rosie,Daughter,F,W,2,S,N,G0,Texas,n/a,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+30,Plumley,Weslie,Head,M,W,33,M,N,H4,Texas,Same Place,N/A,N/A,Yes,44,machinist,machine shop,PW,52,520,no,n/a,n/a,aber-for-con,No,NA
+30,Plumley,Ellen W,Wife,F,W,26,M,N,H1,Texas,Same Place,N/A,N/A,no ,0,n/a,n/a,n/a,0,0,yes,no,no,aber-for-con,No,NA
+31,Erler,Hermen,Head,M,W,26,M,N,G7,Texas,Dallas,Dallas,Texas,Yes,60,driver,taxi,PW,52,760,no,n/a,n/a,aber-for-con,No,NA
+31,Erler,Lucille,Wife,F,W,22,M,N,C2,Texas,Logansport,DeSoto,Louisiana ,Yes,54,waitress,cafe ,PW,52,520,no,n/a,n/a,aber-for-con,No,NA
+32,Gibson,Joseph,Head,M,W,57,M,N,G0,Texas,Same House,N/A,N/A,no ,0,520,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+32,Gibson,Liza,Wife,F,W,57,M,N,G0,Texas,Same House,N/A,N/A,no ,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+33,Welch,Clyde,Head,M,W,33,S,N,G2,Texas,Same Place,N/A,N/A,Yes,20,laborer,landscape work,PW,20,160,no,n/a,n/a,aber-for-con,No,NA
+34,Welch,Green,Head,M,W,57,M,N,G4,Texas,Same Place,N/A,N/A,Yes,30,laborer,common labor,PW,25,250,no,n/a,n/a,aber-for-con,No,NA
+34,Welch,Pearl,Wife,F,W,48,M,N,G4,Texas,Same Place,N/A,N/A,no ,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+34,Welch,Aubrey,Son,M,W,20,S,N,G3,Texas,Same Place,N/A,N/A,Yes,40,laborer,General contractor,PW,16,160,no,n/a,n/a,aber-for-con,No,NA
+34,Welch,David,Son,M,W,13,S,N,G3,Texas,Same Place,N/A,N/A,no ,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+36,King,Pauline,Head,F,W,27,D,N,G5,Texas,R,Travis,Texas,yes,54,waitress,cafe ,PW,0,0,no,n/a,n/a,aber-for-con,No,NA
+36,King,Doris Nell,Daughter,F,W,8,S,N,G1,Texas,R,Travis,Texas,no,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+36,King,Geraldine,Daughter,F,W,6,S,N,G0,n/a,n/a,N/A,N/A,no,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+36,King,Billy H,Son,M,W,4,S,N,G0,n/a,n/a,N/A,N/A,no,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+36,King,Yvonne,Daughter,F,W,2,S,N,G0,n/a,n/a,N/A,N/A,no,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+36,Montgomery,Paslee,Mother,F,W,57,W,N,G3,Mississippi,R,Bell,Texas,no,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+37,Denson,John,Head,M,W,37,M,N,G7,Texas,R,Travis,Texas,no,0,laborer,common labor,PW,24,264,no,yes,n/a,aber-for-con,No,NA
+37,Denson,Beulah,Wife,F,W,32,M,N,H2,Texas,R,Travis,Texas,no,0,n/a ,n/a,n/a,0,0,no,no,no,aber-for-con,No,NA
+1,Lewis,William,Head,M,W,68,S,No,H-2,Kentucky,Same House,NA,NA,Yes,55,Osteopath,Private Practice,E,52,0,Yes,NA,NA,aber-for-con,NA,NA
+2,West,CD,Head,M,W,63,M,No,7,Texas,Same House,NA,NA,Yes,55,Proprietor,Boarding Home,E,52,0,Yes,NA,NA,aber-for-con,NA,NA
+2,West,Ella,Wife,F,W,54,M,No,8,Texas,Same House,NA,NA,Yes,55,Housekeeper,Boarding Home,NP,52,0,No,NA,NA,aber-for-con,NA,NA
+2,West,Erma K,Daughter,F,W,18,S,No,H-4,Texas,Same House,NA,NA,No,NA,New Worker,None,NA,0,0,No,No,Yes,aber-for-con,NA,NA
+2,West,JC,Brother,M,W,48,D,No,8,Texas,Same House,NA,NA,No,NA,Caretaker,Dan Groust,GW,40,600,No,No,Yes,aber-for-con,NA,NA
+2,Armstrong,William,Lodger,M,W,62,S,No,H-4,Mississippi,New York,New York,New York,No,NA,NA,NA,NA,NA,0,No,No,No,aber-for-con,No,NA
+2,Fisk,John David,Lodger,M,W,32,S,Yes,C-1,Texas,Bastrop,Bastrop,Texas,Yes,44,Stenographer,City Government,GW,52,1200,No,NA,NA,aber-for-con,No,NA
+2,Weach,William,Lodger,M,W,26,M,No,H-2,Texas,Dallas,Dallas,Texas,Yes,20,Truck Driver,Gravel,NA,52,0,Yes,NA,NA,aber-for-con,No,NA
+2,Reck,WE,Servant,M,W,19,S,Yes,H-4,Texas,Johnson City,Blanco,Texas,Yes,20,Waiter,Boarding Home,W,0,0,No,NA,NA,aber-for-con,Yes,NA
+3,Coulter,TH,Head,M,W,75,M,No,6,Mississippi,Same House,NA,NA,No,50,Super,Rooming House,PW,52,0,Yes,No,No,aber-for-con,NA,NA
+3,Coulter,Clara,Wife,F,W,71,M,No,H-4,Illinois,Same House,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+3,Harrison,Charles,Grandson,M,W,17,S,Yes,H-3,Texas,Same House,NA,NA,No,NA,NA,NA,NA,0,0,No,No,No,aber-for-con,NA,NA
+3,Lowther,Lady,Lodger,F,W,76,Wd,Yes,C-5,New York,Same Place,NA,NA,Yes,NA,NA,NA,NA,0,0,Yes,NA,NA,aber-for-con,No,NA
+3,Walker,Otis,Lodger,M,W,45,D,No,8,Texas,Same House,NA,NA,No,12,Driver,Taxi Cab Co,PW,52,780,No,No,No,aber-for-con,NA,NA
+3,Kinney,Charles,Lodger,M,W,78,D,No,C-2,Texas,Childress,Childress,Texas,Yes,NA,NA,NA,NA,0,0,Yes,NA,NA,aber-for-con,Yes,NA
+3,Hutchings,Richard,Lodger,M,W,41,S,No,C-2,Texas,Same Place,NA,NA,No,60,Salesman,Securities,PW,52,750,Yes,No,No,aber-for-con,No,NA
+3,Powell,William,Lodger,M,W,64,S,No,4,Texas,Jacksonville,Cherokee,Texas,Yes,NA,NA,NA,NA,0,0,No,NA,NA,aber-for-con,No,NA
+3,Fulkes,Jack,Lodger,M,W,41,D,No,7,Texas,Same Place,NA,NA,Yes,41,Clerk,Retail Leisure,PW,52,840,No,NA,NA,aber-for-con,No,NA
+3,Cunningham,Herbert,Lodger,M,W,37,M,No,C-5,West Virginia,Same Place,NA,NA,Yes,56,Golf Course + Archery Operator,Athletic Entertainment,PW,36,405,Yes,NA,NA,aber-for-con,No,NA
+3,Droupy,Joseph,Lodger,M,W,34,S,No,7,Syria,San Antonio,Bexar,Texas,Yes,70,Waiter,Cafeteria,PW,40,300,No,NA,NA,aber-for-con,No,NA
+3,Pickle,David,Lodger,M,W,40,D,No,C-4,Texas,Same Place,NA,NA,Yes,45,Consulting,Building,PW,35,900,No,NA,NA,aber-for-con,No,NA
+3,Duma,Charles,Lodger,M,W,41,M,No,H-2,Arkansas,San Antonio,Bexar,Texas,Yes,48,Shoemaker,Shoe-Shop,PW,52,1040,No,NA,NA,aber-for-con,No,NA
+4,Pruet,Harry,Head,M,W,54,D,No,5,Texas,Same House,NA,NA,Yes,36,Property Owner,Real Estate,E,52,0,Yes,NA,NA,aber-for-con,NA,NA
+4,Calburn,HA,Lodger,M,W,37,S,No,C-2,Kansas,San Juan,Hidalgo,Texas,Yes,56,Horologist,Retail Jewelery Shop,PW,52,1000,No,NA,NA,aber-for-con,No,NA
+4,Coopwood,Benton,Lodger,M,W,39,D,No,C-5,Texas,Same Place,NA,NA,Yes,45,Attorney,Private Practice,E,52,0,Yes,NA,NA,aber-for-con,No,NA
+4,Rogers,John,Lodger,M,W,62,M,No,6,Texas,Same Place,NA,NA,Yes,84,Watchman,Hotel,PW,52,600,Yes,NA,NA,aber-for-con,No,NA
+4,Spence,Andrew,Servant,M,Neg,32,S,No,4,Texas,Georgetown,Williamson,Texas,No,40,Janitor,Office Building,PW,40,600,No,No,No,aber-for-con,Yes,NA
+5,Lucas,Martha,Head,F,W,74,S,No,H-4,Tennessee,Same House,NA,NA,Yes,42,Proprietor,Rooming House,OR,52,0,Yes,NA,NA,aber-for-con,NA,NA
+5,Lucas,James,Brother,M,W,72,Wd,No,H-1,Tennessee,Same House,NA,NA,Yes,NA,NA,NA,NA,0,0,Yes,NA,NA,aber-for-con,NA,NA
+5,Davenport,Po,Lodger,M,W,23,M,No,H-4,Texas,San Antonio,Bexar,Texas,Yes,35,Musician,Band,PW,46,800,No,NA,NA,aber-for-con,No,NA
+5,Calhoun,Jimmie,Lodger,M,W,38,S,No,7,Texas,Same Place,NA,NA,Yes,51,Clerk,Retail,PW,52,1792,No,NA,NA,aber-for-con,No,NA
+NA,Standifer,Charles,head,m,w,57,Married,n,c5,TX,NA,NA,NA,NA,NA,superintendent ,SH,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Standifer,Aileen,wife,f,w,51,Married,n,c4,TX ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Standifer,Charles Jr.,son,m,w,22,s,y,c2,tx,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Standifer,Margaret,daughter,f,w,18,s,y,c1,tx,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Harris,Robert,head,m,w,54,Married,n,c5,illinois,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Harris,Lula Guen,wife,f,w,49,Married,n,h4,Arkansas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Harris,Claudia,daughter,f,w,21,s,y,c1,Arkansas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Harris,Robert,son,m,w,18,s,y,h4,Arkansas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Lawrence,Daniel,head,m,w,64,Married,n,c5,Texas,NA,NA,NA,NA,NA,physician ,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Lawrence,Kathryn ,wife,f,w,59,Married,n,h4,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Carroll,John,head,m,w,57,Married,n,c4,Tennessee,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Carroll,Mary Gladup,wife,f,w,54,Married,n,h4,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Dinwildi,Robert Benin,head,m,w,53,Married,n,c5,Texas,NA,NA,NA,NA,NA,physician ,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Dinwildi,Nelli Mae,wife,f,w,52,Married,n,c1,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Dinwildi,Edith,daughter,f,w,18,s,y,c1,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Doibandt,M.M.,head,m,w,40,Married,n,c5,Texas,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Doibandt,Charis,wife,f,w,27,Married,n,h4,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Doibandt,John Thomas,son,m,w,1,s,n,,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Bolding,H.F.,head,m,w,45,Married,n,c5,Alabama,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Bolding,Stella,wife,f,w,40,Married,n,h4,Alabama,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Bolding,Harred,son,m,w,15,s,y,h1,Louisiana,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Bolding,Mary ,daughter,f,w,13,s,y,7,alabama,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Cones ,Ellen,head,f,w,52,s,n,c5,texas,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Corington ,C.M.,head,m,w,48,Married,n,c5,Texas,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Corington,Rose,wife,f,w,34,Married,n,c2,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Corington,Rose Mary,daughter,f,w,8,s,y,3,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Corington,Sarah,daughter,f,w,5,s,n,,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Jordan,R.C.,head,m,w,33,Married,n,c5,Oklahoma ,NA,NA,NA,NA,NA,physician,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Jordan,Velma,wife,f,w,27,Married,y,c2,Indiana,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Beaners,Ophelia,head,f,w,29,s,n,c1,Texas,NA,NA,NA,NA,NA,secretary,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Lawhon,Virginia,head,f,w,67,wd,n,c1,Texas,NA,NA,NA,NA,NA,information clerk,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Seaholm,Ella,head,f,w,41,s,n,c1,Connecticut,NA,NA,NA,NA,NA,secretary,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Tyler,Gorden,head,m,w,42,Married,n,h1,Texas,NA,NA,NA,NA,NA,night supervisor ,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Tyler,Effri,wife,f,w,45,Married,n,6,Texas,NA,NA,NA,NA,NA,night supervisor ,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Nuff,J Melfton,head,m,w,38,Married,n,8,Texas,NA,NA,NA,NA,NA,supervisor ,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Nuff,Tammi Lou,wife,f,w,34,Married,n,9,Texas,NA,NA,NA,NA,NA,waitress,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Worley,R.J.,head,m,w,40,Married,n,9,Texas,NA,NA,NA,NA,NA,supervisor,sh,gw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Worley,Annie,wife,f,w,42,Married,n,7,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Worley,Robert ,son,m,w,16,s,y,HS,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Worley,Elliyn,son,m,,14,s,y,7,texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Prather
+NA,Carmona,Beveriaus,Head,M,W,38,M,No,0,Mexico ,NA,NA,NA,NA,NA,Gardener,Prints Family,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Carmona,Lupe,Wife,F,W,32,M,No,4,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Carmona,Alberto,Son,M,W,12,S,Yes,5,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Carmona,Victoria,Daughter,F,W,11,S,Yes,2,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Carmona,Vietor,Son,M,W,4,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Carmona,Fraueisea,Daughter,F,W,2,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Carmona,Pautos,Daughter,F,W,                  0/12,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,Manuel,Head,M,W,51,M,No,0,Texas,NA,NA,NA,NA,NA,Laborer,Lumber Yard,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,Audrea,Wide,F,W,50,M,No,4,Mexico ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,Miguel,Son,M,W,20,S,No,8,Texas,NA,NA,NA,NA,NA,Laborer,Lumber Yard,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,Caterina,Daughter,F,W,18,S,No,7,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,Audres,Son,M,W,15,S,Yes,4,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,John,Son,M,W,12,S,Yes,3,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Pineda,Euries,Son,M,W,10,S,Yes,2,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Jose,Head,M,W,45,M,No,0,Mexico ,NA,NA,NA,NA,NA,Laborer,Lumber Yard,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Auselma,Wife,F,W,44,M,No,4,Mexico ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Elsairo,Son,M,W,19,S,No,5,Texas,NA,NA,NA,NA,NA,Office Janitor,Lumber Yard,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Guda Lupe,Daughter,F,W,16,S,No,2,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Estanieala,Son,M,W,14,S,Yes,3,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Joe,Son,M,W,12,S,Yes,2,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Paulina,Daughter,F,W,9,S,Yes,1,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Ramma,Daughter,F,W,5,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Rodrigues,Andrea,Daughter,F,W,1,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Lira,Pedro,Head,M,W,60,M,No,0,Mexico ,NA,NA,NA,NA,NA,Laborer,Steam Railroad,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Lira,Georgia,Wife,F,W,58,M,No,4,Mexico ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Lira,Frank,Son,M,W,18,S,No,7,Texas,NA,NA,NA,NA,NA,Laborer,Hatchery-Chick,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Lira,Franeis,Daughter,F,W,15,S,Yes,5,Texas,NA,NA,NA,NA,NA,Dial Worker,Boarding House,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Savala,Tom,Partner,M,W,36,M,No,5,Texas,NA,NA,NA,NA,NA,Carpenter,Building Construction,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Savala,Mary,Wife,F,W,23,M,No,7,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Savala,Juanita,Daughter,F,W,1,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Savala,Augelita,Daughter,F,W,3/12,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Espinoza,Maria,Head,F,W,56,M,No,0,Mexico ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Palsada,Saltera,Partner,M,W,58,M,No,0,Mexico ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Velasques,Pascual,Head,M,W,36,M,No,0,Mexico ,NA,NA,NA,NA,NA,Laborer,Steam Railroad,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Velasques,Nisola,Wife,F,W,35,M,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Velasques,Lupe,Son,M,W,2,S,No,0,Texas,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Puimlero,Felipe,Partner,M,W,60,M,No,4,Mexico ,NA,NA,NA,NA,NA,Yard Man,Prints Family,Pw,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Puimlero,Lupe,Wife,F,W,36,M,No,2,Mexico ,NA,NA,NA,NA,NA,,,,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Palmer
+NA,Devereaux,Richard L,Official,M,W,51,Divorced,No,5,Colorado,NA,NA,NA,NA,NA,Medical Doctor,Sioux City,Woodbury,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Foulds
+NA,Davis,Franklin D,Official,M,W,35,Single,No,4,Texas,NA,NA,NA,NA,NA,Educational Advsior,Brownwood,Brown,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Foulds
+NA,Sary,Carl G,Official,M,W,26,Single,No,4,Texas,NA,NA,NA,NA,NA,Zd in Command,Livingston,Polk,NA,NA,NA,NA,NA,prader-palmer-foulds,NA,Foulds
+NA,George,John,Head,M,W,75,M ,0,7,TX,Brady, ,,0, ,, , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,-,Lorinda (X),Wife,F,W,74,M,0,6,TX,Brady, ,,0, ,, , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,-,Henry,Son,M,W,40,S,0,H-2,TX,Brady, ,,1,48,Painter,Buildinglostreets WA Project (?),PW,52,1200,NA,-,-,nmedefind,NA,Marin
+NA,Reeves,George,Head,M,W,40,M,0,H-2,TX,Brady, ,,1,48,Pour Concrete,Building Construction,GW,39,810,NA,-,-,nmedefind,NA,Marin
+NA,-,Emily (X),Wife,F,W,37,M,0,5,TX,Brady, ,,0, , , , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,Chapel,Kirby,Lodger,M,W,30,D,0,C-1,TX,Brady, ,,1,24,Locomotive mechanic,Marshall Ford Wam Project (?),PW,12,480,NA,-,-,nmedefind,NA,Marin
+NA,Jones,Oscar,Head,M,W,64,M,0,H-1,TX,Brady, ,,1,48,Janitor,State University,GW,52,1020,NA,-,-,nmedefind,NA,Marin
+NA,-,Lillie Mae (X),Wife ,F,W,57,M,0,4,TX,Brady, ,,0, , , , ,3,0,NA,0,0,nmedefind,NA,Marin
+NA,Parks,Sammie R. ,Son-in-law,M,W,27,M,0,H-2,TX,Brady, ,,1,48,Sign painter,Contractor (painter) ,OA,26,0,NA,-,-,nmedefind,NA,Marin
+NA,-,Jessie Irene,Daughter,F,W,23,M,0,7,TX,Brady, ,,0, ,,, ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,-,Jackie Mae,Granddaughter,F,W,7,S,1,1,TX,Brady, ,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,- ,"Sammie Ra, Jr. ",Grandson,M,W,6,S,1,0,TX,Brady, ,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,-,Oscar L. ,Grandson,M,W,4,S,0,0,TX,-, ,,NA, ,,, ,NA,NA,NA, ,  ,nmedefind,NA,Marin
+NA,-,Katherine Aline,Granddaughter,F,W,2,S,0,0,TX,-, ,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,-,Evelyn Gayle ,Granddaughter,F,W,7/A2 (?),S,0,0,TX,-, ,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,Tranzetti,Joe C.,Head,M,W,29,M,0,H-3,TX,Brady,  ,,1,50,Salesman,Grocery store and market,E,52,0,NA,-,-,nmedefind,NA,Marin
+NA,-,Martha S. ,Wife,F,W,25,M,0,H-4,TX,SanCatonis,  ,TX,1,25,Saleslady,Grocery store and market,NP,18,0,NA,-,-,nmedefind,0,Marin
+NA,Sundberg,Peggy,Sister-in-law,F,W,20,S,0,H-4,TX,Kenedy, ,TX,1,50,Saleslady,Grocery store and market,PW,51,765,NA,-,-,nmedefind,1,Marin
+NA,King,Jamis W. ,Head,M,W,62,M,0,0,TX,Kenedy, , ,0, ,Vegetable truck Driver,Peddled vegetables ,OA,13,0,NA,0,1,nmedefind,NA,Marin
+NA,- ,Hattie (X),Wife,F,W,51,M,0,6,TX,Kenedy, , ,0, ,, , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,- ,May Belle,Daughter,F,W,19,S,0,H-2,TX,Kenedy, , ,0, ,Waitress,Cafe,PW,26,156,NA,0,1,nmedefind,NA,Marin
+NA,-,Lonnie E. ,Son,M,W,13,S,1,7,TX,Kenedy, , ,NA, ,, , ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,Summer,Cecil,Head,M,W,36,M,0,H-1,OK,Kenedy, , ,1, ,Workson sewage bin ,Sewage Dept,GW,35,685,NA,-,-,nmedefind,NA,Marin
+NA,-,Alberto (X) ,Wife ,F,W,25,M,0,6,TX,Kenedy, , ,0, ,, , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,King,Henry,Head,M,W,23,M,0,3,TX,R, Williamson,TX,0, ,Paper Hanger,Papering Contractor,OA,22,0,NA,0,1,nmedefind,0,Marin
+NA,-,Dollie,Wife,F,W,19,M,0,6,TX,Same place, , ,0, ,,, ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,League,Mary L. (X) ,Head,F,W,64,Wd,0,3,TX,R,Williamson,TX ,0, ,,, ,0,0,NA,0,0,nmedefind,0,Marin
+NA,Lawrence,Tommy L. ,Grandson,M,W,10,S,1,3,TX,Same place,,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,-,Thelma Mae,Granddaughter,F,W,9,S,1,2,TX,Same place,,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA, ,*Here ends block*,number, , , , ,NA, , , ,,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA, ,*Ommitted by mistake*,, , , , ,NA, , , ,,,NA, ,,, ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,Berger,Oscar,Head,M,W,40,M,0,7,TX,Same place,,,1,48,Upholstery,Upholstery (Furniture)  ,OA,39,0,NA,-,-,nmedefind,NA,Marin
+NA,-,Luna Mae,Wife,F,W,30,M,0,7,TX,Same place,,,0, ,, , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,Taylor,Dave C. ,Step son,M,W,12,S,1,7,TX,Same place,,,NA, ,, , ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,Berger,Betty Mildred,Daughter,F,W,8,S,1,2,TX,Same place,,,NA, ,, , ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,Brown,Humphery D. ,Head,M,W,32,M,0,H-4,TX,Same place,,,0, ,Analysis clerk,Highway Department,GW,52,1500,NA,0,1,nmedefind,NA,Marin
+NA,-,Ida Mae (X) ,Wife,F,W,29,M,0,H-1,TX,Same place,,,0, ,, , ,0,0,NA,0,0,nmedefind,NA,Marin
+NA,-,Charlotte J. ,Daughter,F,W,4,S,0,0,TX,Same place,,,NA, ,, , ,NA,NA,NA, , ,nmedefind,NA,Marin
+NA,Peterson,Manson M. ,Head ,M,W,34,M,0,6,TX,Same place,,,1,75,Salesman,Grocery Store,PW,52,540,NA,-,-,nmedefind,NA,Marin
+NA,Bell,Laura Lee,Niece,F,w,12,S,1,5,TX,same home,,,NA,,,,,NA,NA,NA,,,nmedefind,NA,analina
+NA,Avery,Stayce,Lodger,F,w,42,S,0,H-4,TX,same place,,,1,44,stenographer,industrial accident board,GW,52,1693,NA,--,--,nmedefind,NA,analina
+NA,Goodwin,Horsie,Lodger,F,w,43,D,0,8,TX,ft. worth,,TX,1,44,secretary,attorney general,GW,52,1387,NA,--,--,nmedefind,0,analina
+NA,Newton,Carolyn,Lodger,F,w,29,S,0,C-4,TX ,same place,, ,1,44,stenographer,attorney general,GW,52,1350,NA,--,--,nmedefind,NA,analina
+NA,Duffeu,William,Lodger,M,w,32,M,0,C-5,MO,Juscow ,Pima,AZ,0,44,superintendent,archaelogical survey,GW,52,1920,NA,1,--,nmedefind,NA,analina
+NA,Duffeu,Helena,Lodger Wife,F,w,32,M,0,C-2,MD,R,Baltimore,MD,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Carlsow,Hamod,Head,M,w,64,M,0,3,TX,same place,, ,1,44,mill worker,lumber co,Pw,52,1344,NA,--,--,nmedefind,0,analina
+NA,Carlsow,Selma,Wife,F,w,58,M,0,8,TX,same place,, ,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Carlsow,Rosalie,Daughter,F,w,20,M,0,H-3,TX,same place,, ,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Carlsow,Elyisie,Daughter,F,w,17,M,1,8,TX,same place,, ,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Niel,Lulu,Head,F,w,57,Wd,0,C-1,TX,same place,, ,0,,,,,0,0,NA,0,0,nmedefind,0,analina
+NA,Niel,J. Tom,Son,M,w,26,S,0,6,TX,same place,, ,1,66,cheercer,laundry,Pw,52,884,NA,--,--,nmedefind,NA,analina
+NA,Munchamp,Mary Margaret,Sister,F,w,60,S,0,C-4,england?,same place,, ,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Calthorpe?,Joe,Head,M,w,28,S,0,8,TX,R,Coryeel,TX ,1,48,photographer,visual education,Gw,46,1056,NA,--,--,nmedefind,1,analina
+NA,Limberg,William,Head,M,w,64,M,0,C-1,germany,same house,,,1,,operator,linereraty prese,Gw,52,2000,NA,--,--,nmedefind,0,analina
+NA,Limberg,Lousie Augusta,Wife,F,w,57,M,0,1,TX,same house,,,0,,,,,0,0,NA,0,0,nmedefind,0,analina
+NA,Metzger,Herman,Head,M,w,52,M,0,8,TX,same house,,,1,44,carpenter,building construction,Pw,25,1890,NA,--,--,nmedefind,0,analina
+NA,Metzger,Maude,Wife,F,w,51,M,0,C-4,TX,same house,,,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Metzger,Herbert,Son,M,w,24,S,0,C-2,TX,same house,,,0,,draftman,building construction,Pw,6,40,NA,0,1,nmedefind,NA,analina
+NA,Leser,Wallace,Head,M,w,30,M,0,8,TX,same house,,,1,48,assistant manager,bowling alley,Pw,52,1200,NA,--,--,nmedefind,NA,analina
+NA,Leser,Lillian,Wife,F,w,27,M,0,6,TX,same house,,,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Leser,La Vow???,daughter,F,w,3,S,0,0,TX,same house,,,NA,,,,,NA,NA,NA,,,nmedefind,NA,analina
+NA,Leser,Lynelle,daughter,F,w,1/12,S,0,0,TX,--,,,NA,,,,,NA,NA,NA,,,nmedefind,NA,analina
+NA,Garnet,Lora,servant,F,w,18,S,0,8,TX,same place,,,1,56,general helper,private home,Pw,0,0,NA,--,--,nmedefind,NA,analina
+NA,Harkino,Ernest,head,M,w,50,M,0,6,TX,same place,,,1,50,salesman,independent auto dealer,Da,52,0,NA,--,--,nmedefind,NA,analina
+NA,Harkino,Della,wife,F,w,49,M,0,8,TX,same place,,,1,12,salesman,corset comapny,Pw,10,200,NA,--,--,nmedefind,NA,analina
+NA,Harkino,Harry Hale,son,M,w,20,S,0,H-3,TX,same place,,,0,--,attendant,fueling station,Pw,52,780,NA,0,1,nmedefind,NA,analina
+NA,Harkino,Claude,son,M,w,18,S,1,H-2,TX,same place,,,1,33,salesman,grocery store,Pw,0,0,NA,--,--,nmedefind,NA,analina
+NA,harkino,Ernest,son,M,w,16,S,1,H-1,TX,same place,,,1,15,attendant,bowling alley,Pw,12,36,NA,--,--,nmedefind,NA,analina
+NA,Dyess,Ray Lee,head,M,w,50,M,0,7,TX,same place,,,1,48,painter,building construction,Pw,30,450,NA,--,--,nmedefind,NA,analina
+NA,Dyess,Mary Emma,wife,F,w,47,M,0,7,TX,same place,,,1,40,dressmaker,at home,Pw,52,260,NA,--,--,nmedefind,NA,analina
+NA,Dyess,Dean L.,son,M,w,22,M,0,H-2,TX,same place,,,1,70,salesman,nursery,Pw,48,715,NA,--,--,nmedefind,NA,analina
+NA,Dyess,Alice Mae,daughter-in-law,F,w,19,M,0,H-3,TX,R,Mulan,TX,0,,,,,0,0,NA,0,0,nmedefind,1,analina
+NA,Dyess,Dean L,son,M,w,4/12,S,0,0,TX,--,,,NA,,,,,NA,NA,NA, ,,nmedefind,NA,analina
+NA,Sullivan,John W,lodger,M,w,83,Wd,0,7,KY,same place,,,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Callius,Helena,head,F,w,74,Wd,0,8,Canada,same place,,,1,10,voice teacher,own home,Da,52,0,NA,--,--,nmedefind,NA,analina
+NA,Callius,Edna,daughter,F,w,54,S,0,H-4,canada,same place,,,1,40,artist,own home,Da,52,0,NA,--,--,nmedefind,NA,analina
+NA,Vow Baeckman,Hurtha,head,F,w,50,S,0,H-4,TX,same house,,,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+NA,Vow Baeckman,Thang Edgar,brother,M,w,49,S,0,5,TX,same house,,,0,,,,,0,0,NA,0,0,nmedefind,NA,analina
+227-14-1,Burris,Hugh,head,M,white,33,married,no,9,TX,Same house,NA,NA,NA,50,Utility operator,State Olins Institute,GW,52,870,no,yes,NA,zarinindyklevin,NA,Eitan
+227-14-1,Burris,Maudine,wife,F,white,31,married,no,8,TX,Same house,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Eitan
+227-14-1,Burris,Leo,son,M,white,10,married,yes,5,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-1,Burris,Laurene,daughter,F,white,9,single,yes,4,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-1,Burris,Lois D.,daughter,F,white,8,single,yes,2,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-1,Maddox,Monroe,father-in-law,M,white,59,widowed,no,5,AL,Same house,NA,NA,NA,18,Janitor,Public official,GW,18,225,no,NA,NA,zarinindyklevin,NA,Eitan
+227-14-2,Harrell,Walter L.,head,M,white,30,married,no,8,TX,Same place,NA,NA,NA,24,Prepteryard Paperlanger,Buildings Construction,DA,39,0,yes,NA,NA,zarinindyklevin,NA,Eitan
+227-14-2,Harrell,Lorene,wife,F,white,29,married,no,12,TX,Same place,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Eitan
+227-14-2,Harrell,Gayle,daughter,F,white,3,single,no,0,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-2,Harrell,Dale,son,M,white,2,single,no,0,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-2,Harrell,Virginia,daughter,F,white,0,single,no,0,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-3,Neitseh,Hugo,head,M,white,30,married,no,7,TX,R,Williamson,TX,NA,40,Carpenter,Building Construction,PW,43,1200,no,NA,NA,zarinindyklevin,yes,Eitan
+227-14-3,Neitseh,Elnora,wife,F,white,26,married,no,7,TX,R,Williamson,TX,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,yes,Eitan
+227-14-3,Neitseh,Ramona,daughter,M,white,3,single,no,0,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-3,Neitseh,Curtis,son,F,white,2,single,no,0,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-4,Daniel,Chester L.,head,F,white,34,married,no,12,TX,Same house,NA,NA,NA,40,Truck driver,Air refining compaNew York,PW,52,1800,yes,NA,NA,zarinindyklevin,NA,Eitan
+227-14-4,Daniel,Minnie B.,wife,M,white,34,married,no,6,TX,Same house,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Eitan
+227-14-4,Daniel,Chester L.,son,M,white,8,single,yes,3,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-4,Daniel,Shirley L.,daughter,F,white,4,single,no,0,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-4,Riley,Myrtle A.,sister-in-law,F,white,32,widowed,no,6,TX,Same house,NA,NA,NA,NA,Waitress,Restaurant,PW,39,700,no,no,no,zarinindyklevin,NA,Eitan
+227-14-4,Riley,Jesse R.,nephew,M,white,13,single,yes,8,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-5,Bratfon,Archie R.,head,F,white,55,married,no,5,TX,Same house,NA,NA,NA,56,Salesman,Retail,PW,52,876,no,NA,NA,zarinindyklevin,NA,Eitan
+227-14-5,Bratfon,Helen,wife,M,white,37,married,no,12,TX,Same house,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Eitan
+227-14-5,Bratfon,Mary H.,daughter,F,white,9,single,yes,4,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-5,Bratfon,John,son,M,white,5,single,no,0,TX,Same house,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Eitan
+227-14-5,Stullken,John,father-in-law,F,white,77,widowed,no,16,IL,Same house,NA,NA,NA,48,Chemist,state university,GW,52,2000,no,NA,NA,zarinindyklevin,NA,Eitan
+227-14-6,Heaslet,Ulysses D.,head,M,white,42,married,no,5,AL,Fort Worth,Tarrant,TX,NA,30,Carpenter,Building Construction,DA,26,1040,no,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Ruth,wife,F,white,30,married,no,8,TN,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Whigeleth,daughter,M,white,19,single,no,7,TX,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Jack,son,F,white,17,single,no,7,TX,Fort Worth,Tarrant,TX,NA,30,Carpenter's helper,Building construction,NP,26,0,yes,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Curtis,son,F,white,16,single,no,7,TX,Fort Worth,Tarrant,TX,NA,30,Carpenter's helper,Building construction,NP,26,0,yes,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Betty G.,daughter,M,white,11,single,yes,5,TX,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Billie,son,M,white,10,single,yes,3,TX,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Robert,son,F,white,9,single,yes,2,TX,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Juanita,daughter,F,white,7,single,yes,0,TX,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Heaslet,Freddie,son,M,white,6,single,yes,0,TX,Fort Worth,Tarrant,TX,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Baker,Helen,lodger,F,white,20,single,no,7,CA,Same place,NA,NA,NA,53,Waitress,Boarding House,PW,51,255,yes,NA,NA,zarinindyklevin,NA,Eitan
+227-14-6,Barber,Billie,lodger,M,white,17,single,no,7,TX,Same place,NA,NA,NA,30,Carpenter's helper,Building construction,PW,22,132,yes,NA,NA,zarinindyklevin,NA,Eitan
+227-14-6,Tannehill,Earnest,lodger,F,white,20,married,no,10,TX,Fort Worth,Tarrant,TX,NA,16,Carpenter's helper,Building construction,PW,12,144,yes,NA,NA,zarinindyklevin,no,Eitan
+227-14-6,Tannehill,Hagel,lodger,M,white,19,married,no,9,IA,Lubbock,Lubbock,TX,NA,NA,NA,NA,NA,5,21,no,no,no,zarinindyklevin,no,Eitan
+227-28-1,McLellan,L. R.,head,F,white,31,married,no,17,OK,Sebastian,Willacy,TX,NA,40,traveling salesman,retail,PW,52,2500,yes,no,no,zarinindyklevin,no,Judah
+227-28-1,McLellan,Loice,wife,F,white,30,married,no,12,TX,Sebastian,Willacy,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-1,McLellan,Johanna,daughter,M,white,5,single,no,0,TX,Sebastian,Willacy,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-2,Campbell,Lloyd,head,M,white,35,married,no,15,TX,Sebastian,Willacy,TX,NA,40,road engineer,state highway,GW,52,2500,yes,no,no,zarinindyklevin,NA,Judah
+227-28-2,Campbell,June,wife,F,white,30,married,no,14,TX,Sebastian,Willacy,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-3,Brown,C. F. Z.,head,F,white,30,married,yes,17,TX,Newgulf,Warton,TX,NA,12,teacher,university,GW,25,350,yes,no,no,zarinindyklevin,no,Judah
+227-28-3,Brown,Freda,wife,M,white,27,married,yes,16,Canada,Newgulf,Warton,TX,NA,5,teacher,university,GW,C,0,yes,no,no,zarinindyklevin,no,Judah
+227-28-3,Brown,Shirley,daughter,F,white,8,single,yes,2,TX,Newgulf,Warton,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-4,Morris,Gus,head,M,white,21,married,no,8,TX,Newgulf,Warton,TX,NA,81,soda clerk,retail drug,PW,52,900,no,no,no,zarinindyklevin,NA,Judah
+227-28-4,Morris,Opal,wife,F,white,23,married,no,12,TX,Newgulf,Warton,TX,NA,10,stenographer,private home,PW,15,80,no,no,no,zarinindyklevin,NA,Judah
+227-28-4,Robinson,Paul,partner,M,white,23,married,no,13,TX,Abilene,Taylor,TX,NA,55,barber,private shop,PW,20,600,no,no,no,zarinindyklevin,no,Judah
+227-28-4,Robinson,Ella,wife,F,white,21,married,no,12,TX,Abilene,Taylor,TX,NA,0,stenographer,own home,OA,5,0,yes,no,no,zarinindyklevin,no,Judah
+227-28-4,Robinson,Jerry,son,M,white,0.1,single,no,0,TX,Abilene,Taylor,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-5,Campbell,Robert S.,head,F,white,70,married,no,16,TN,Abilene,Taylor,TX,NA,40,clergyman,church,PW,52,1466,no,no,no,zarinindyklevin,NA,Judah
+227-28-5,Campbell,Maude,wife,M,white,67,married,no,9,NY,R.,Dimmitt,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,yes,Judah
+227-28-6,Singleton,Martin,head,F,white,26,married,yes,17,TX,R.,Dimmitt,TX,NA,30,clergyman,church,PW,18,500,yes,no,no,zarinindyklevin,NA,Judah
+227-28-6,Singleton,Nell,wife,F,white,25,married,no,17,TX,R.,Dimmitt,TX,NA,20,field worker,church,PW,52,1200,yes,no,no,zarinindyklevin,NA,Judah
+227-28-7,Penick,Robert C.,head,M,white,30,married,no,17,TX,Baton Rouge,East Baton Rouge,LA,NA,20,teacher,church school,PW,42,475,yes,no,no,zarinindyklevin,no,Judah
+227-28-7,Penick,Doris,wife,M,white,25,married,no,14,SC,Baton Rouge,East Baton Rouge,LA,NA,0,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,no,Judah
+227-28-7,Penick,Christopher,son,F,white,0.8,single,no,0,TX,Baton Rouge,East Baton Rouge,LA,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-8,Newton,John,head,F,white,24,married,yes,17,TX,Houston,Harris,TX,NA,40,clergyman,church,PW,52,1080,yes,no,no,zarinindyklevin,no,Judah
+227-28-8,Newton,Helen,wife,M,white,22,married,no,15,TX,Brenham,Washington,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-8,King,William,half-brother,F,white,20,single,yes,15,TX,Lovelady,Crockett,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-9,Smith,Bernard E.,head,M,white,64,married,no,11,TX,Dallas,Dallas,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-9,Smith,Myrtle L.,wife,F,white,56,married,no,13,TN,Dallas,Dallas,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-9,Smith,Albert,son,M,white,32,single,yes,16,NM,Sherman,Grayson,TX,NA,40,clergyman,church,PW,52,900,no,yes,no,zarinindyklevin,no,Judah
+227-28-9,Smith,Jerome,son,F,white,19,single,no,11,TX,Dallas,Dallas,TX,NA,0,shipping clerk,wholesale grocery,PW,25,400,no,no,no,zarinindyklevin,no,Judah
+227-28-9,Smith,Polly,daughter,F,white,18,single,no,12,TX,Dallas,Dallas,TX,NA,0,reporter,newspaper,PW,10,150,no,no,no,zarinindyklevin,no,Judah
+227-28-10,Lewis,Jack W.,head,M,white,24,married,yes,17,TX,Dallas,Dallas,TX,NA,40,clergyman,church,PW,52,600,yes,no,no,zarinindyklevin,NA,Judah
+227-28-10,Lewis,Mary,wife,M,white,24,married,no,16,TX,Dallas,Dallas,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-10,Lewis,Patrica,daughter,F,white,2,single,no,0,TX,Dallas,Dallas,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-10,Lewis,Andrea,daughter,F,white,0.5,single,no,0,TX,Dallas,Dallas,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Judah
+227-28-11,O'Conner,Leslie,head,M,white,21,married,yes,15,TX,Houston,Harris,TX,NA,40,clergyman,church,NA,52,720,yes,no,no,zarinindyklevin,no,Judah
+227-28-11,O'Conner,Margaret,wife,F,white,21,married,no,16,TX,Marlin,Falls,TX,NA,0,NA,NA,NA,0,0,no,no,no,zarinindyklevin,no,Judah
+227-28-12,McFadden,George B.,head,M,white,60,married,no,9,TX,Marlin,Falls,TX,NA,90,proprietor,pool hall,OA,52,0,yes,no,no,zarinindyklevin,NA,Judah
+227-28-12,McFadden,Mannie C.,wife,F,white,55,married,no,14,TX,Marlin,Falls,TX,NA,0,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Judah
+227-28-13,Jackson,Cicero C.,head,M,white,57,married,no,16,TX,Paducah,Cottle,TX,NA,70,proprietor,teacher placement,OA,52,0,yes,no,no,zarinindyklevin,no,Judah
+227-28-13,Jackson,Nelle,wife,F,white,52,married,no,12,TX,Paducah,Cottle,TX,NA,70,stenographer,teacher placement,NP,52,0,no,no,no,zarinindyklevin,no,Judah
+227-28-14,Mercer,Florence,head,M,white,45,single,no,17,TX,Paducah,Cottle,TX,NA,45,teacher,public school,GW,36,1160,yes,no,no,zarinindyklevin,NA,Judah
+227-28-14,Baker,Hattie,lodger,F,white,50,widowed,yes,17,AR,Brownwood,Brown,TX,NA,0,teacher,college,GW,36,300,yes,no,no,zarinindyklevin,no,Judah
+227-2-1,Roblido,Caystano,head,M,white,32,married,no,2,TX,R,NA,NA,NA,8,Farmer,Farming,OA,52,200,yes,yes,yes,zarinindyklevin,yes,Samuel
+227-2-1,Robildo,Petra,wife,F,white,30,married,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,yes,Samuel
+227-2-1,Robildo,Sernana,daughter,F,white,4,single,yes,4,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,yes,Samuel
+227-2-1,Robildo,Felipe,son,M,white,11,single,yes,2,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-1,Robildo,Felisita,daughter,M,white,10,single,yes,2,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-1,Robildo,Julia,daughter,F,white,8,single,yes,1,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-1,Robildo,Esperansa,daughter,F,white,0,single,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-2,Cotton,Serana,head,M,negro,54,widowed,no,12,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-2,Moore,Minerva,mother,F,negro,79,widowed,no,1,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-3,Willaims,Mary,head,M,negro,45,D,no,5,TX,R,NA,NA,NA,NA,Farm Labor,Farming,PW,10,25,no,no,yes,zarinindyklevin,NA,Samuel
+227-2-4,Nichols,Wash,head,F,negro,73,widowed,no,1,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-5,Washington,Clarence,head,M,negro,26,married,no,6,TX,R,NA,NA,NA,NA,Road Construction,WPA,MW,20,100,yes,yes,yes,zarinindyklevin,NA,Samuel
+227-2-5,Washington,Rosa,wife,F,negro,26,married,no,6,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Samuel
+227-2-5,Washington,Blara,daughter,F,negro,4,single,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-5,Washington,Wanita,daughter,M,negro,3,single,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-5,Washington,Dorothy Will,daughter,M,negro,0,single,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-6,Fuller,Ed,head,F,negro,60,married,no,4,TX,R,NA,NA,NA,NA,Farmer,Farming,OA,52,200,yes,yes,yes,zarinindyklevin,yes,Samuel
+227-2-6,Fuller,Lilli,wife,F,negro,55,married,no,5,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,yes,Samuel
+227-2-6,Fuller,Ellen,daughter,M,negro,36,divorce,no,8,TX,R,NA,NA,NA,NA,Farm Laborer,Farming,NP,4,0,yes,no,no,zarinindyklevin,yes,Samuel
+227-2-7,Washington,Hosea,head,F,negro,49,married,no,4,TX,R,NA,NA,NA,NA,Farm Laborer,Farming,PW,15,40,no,no,no,zarinindyklevin,no,Samuel
+227-2-7,Washington,Josephine,wife,M,negro,41,married,no,5,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-7,Washington,Vrelnea,daughter,F,negro,12,single,yes,5,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-7,Washington,Mary,daughter,M,negro,11,single,yes,4,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-7,Washington,Joe Lev,son,F,negro,9,single,yes,3,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-7,Washington,Hosea,son,M,negro,7,single,yes,1,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-7,Washington,Forrest,son,F,negro,4,single,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-7,Washington,James,son,M,negro,1,single,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,zarinindyklevin,NA,Samuel
+227-2-8,Barlnu,Robert,head,F,negro,61,married,no,3,TX,R,NA,NA,NA,NA,Farmer,Farming,OA,25,0,yes,yes,yes,zarinindyklevin,yes,Samuel
+227-2-8,Barlnu,Eligobeth,wife,F,negro,51,married,no,4,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Samuel
+227-2-8,Williams,Pirry,father,M,negro,75,widowed,no,0,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-9,Brown,Tom,head,M,negro,71,married,no,5,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-9,Brown,Mary,wife,F,negro,69,married,no,12,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Samuel
+227-2-10,Leatherwood,Lee,head,F,white,40,widowed,no,16,TX,R,NA,NA,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-11,Hunter,Allen,head,M,negro,76,widowed,no,4,TX,R,NA,NA,NA,NA,NA,NA,NA,1,0,yes,no,no,zarinindyklevin,NA,Samuel
+227-2-11,Houston,Alliee,daughter,F,negro,30,married,no,5,TX,R,NA,NA,NA,NA,NA,NA,NA,8,0,no,no,no,zarinindyklevin,NA,Samuel
+227-2-12,Bowdain,Martin,head,M,white,71,married,no,6,GA,Austin,Travis,TX,NA,NA,NA,NA,NA,0,0,yes,no,no,zarinindyklevin,no,Samuel
+227-2-12,Bowdain,Mary A,wife,F,white,65,married,no,6,TX,Same place,NA,NA,NA,NA,NA,NA,NA,0,0,no,no,no,zarinindyklevin,NA,Samuel
+227-2-13,Rusk,Albert,head,M,negro,26,single,no,0,TX,R,NA,NA,NA,NA,Farm Laborer,Farming,PW,20,50,no,yes,yes,zarinindyklevin,no,Samuel
+227-2-14,Nipps,Henry,head,F,white,29,married,no,7,MO,R,Woliu,TX,NA,NA,Farmer,Farming,OA,52,0,yes,yes,yes,zarinindyklevin,yes,Samuel

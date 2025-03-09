@@ -7,3 +7,5 @@ date: 2025-03-14
 library(LSTbook)
 ```
 
+
+Work through the medical testing example  and the car safety example.

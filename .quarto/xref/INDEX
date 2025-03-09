@@ -220,5 +220,8 @@
   },
   "projects/Census/data-standards.qmd": {
     "data-standards.html": "0ad0f116"
+  },
+  "projects/Census/DTK-notes.R": {
+    "DTK-notes.html": "1fe7b707"
   }
 }

@@ -97,3 +97,8 @@ workclass
 
 owned
 : own or rent
+
+```{r echo=FALSE, message=FALSE}
+first_pass <- readr::read_csv("first-pass.csv")
+DT::datatable(first_pass)
+```

@@ -13,12 +13,6 @@ subtitle: "Answer and submit *before* class discussion"
 
 :::
 
-::: {.callout-note}
-## Question 2:
-
-{{< include "../../INF-1220-QR2/_RQ/S14/QB2.qmd" >}}
-
-:::
 
 
 <!-- Boilerplate for devoirs functionality -->

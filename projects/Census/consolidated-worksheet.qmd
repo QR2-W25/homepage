@@ -2,6 +2,8 @@
 title: "Consolidated Census Data"
 ---
 
+{{< include ../../start-up.qmd >}}
+
 ```{r include=FALSE}
 library(LSTbook)
 People <- readr::read_csv("https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv")
@@ -97,4 +99,10 @@ For your convenience.
 
 ```{webr-r}
 
+```
+
+`r devoirs_start_no_link()`
+
+```{r echo=FALSE}
+devoirs_end()
 ```

@@ -111,11 +111,11 @@ fix_names <- function(dframe) {
 # process variable names on all the files
 Plist <- Persons_list[lapply(Persons_list, class) == "data.frame"]
 Persons_fixed_names <- lapply(Plist, FUN = fix_names)
-All_sheets_raw <- Persons_fixed_names |> dplyr::bind_rows()
+All_raw <- Persons_fixed_names |> dplyr::bind_rows()
 
-lapply(All_sheets_raw, FUN = function(x) sum(!is.na(x))) |> unlist() -> hoo
+lapply(All_raw, FUN = function(x) sum(!is.na(x))) |> unlist() -> hoo
 hoo[hoo > 300] |> names() -> keepers
-First_pass <- All_sheets_raw[,keepers]
+First_pass <- All_raw[,keepers]
 
 fix_blanks_nas <- function(x) {
   targets <- nchar(x) == 0 | x == " " | x == "?" | x == "n/a"
@@ -156,8 +156,12 @@ fix_age <- function(x) {
   x = gsub("A2.*", "12", x)
   x = gsub(" *", "", x)
   x = ifelse(is.na(x), "0", x)
-  x = sapply(x, FUN = function(y) try(parse(text=y)))
-  sapply(x, FUN = eval)
+  y = sapply(x, FUN = function(y) try(parse(text=y)))
+  names(y) <- NULL
+  yy <- sapply(y, FUN = eval)
+  yyy <- lapply(yy, FUN=function(z) ifelse(is.null(z), NA, z))
+  names(yyy) <- NULL
+  unlist(yyy)
 }
 
 fix_mstatus <- function(x) {
@@ -182,7 +186,10 @@ fix_edu <- function(x) {
   x = gsub("no college", "12", x)
   arith <-  sapply(x, FUN= function(y) try(parse(text = y)))
   names(arith) <- NULL
-  lapply(arith, FUN = eval)
+  yyy <- lapply(arith, FUN = eval)
+  yyy <- lapply(yyy, FUN=function(z) ifelse(length(z)==0, NA, z))
+  names(yyy) <- NULL
+  unlist(yyy)
 }
 
 fix_havejob <- function(x) {

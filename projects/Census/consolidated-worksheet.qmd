@@ -1,0 +1,100 @@
+---
+title: "Consolidated Census Data"
+---
+
+```{r include=FALSE}
+library(LSTbook)
+People <- readr::read_csv("https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv")
+```
+
+The *persons* spreadsheets from the Census project have been consolidated together. The data as of Sunday 9 March are available in CSV format [here](https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv).
+
+
+
+You can start to play with the data, perhaps looking for questions you want to attempt to use for your project. For example, here's a plot of education level versus age.
+
+```{r warning=FALSE}
+People |>
+  point_plot(edu ~ age)
+```
+
+Questions:
+
+1. What strong, familiar pattern do you see?
+2. Can you spot some cases to investigate as outliers, perhaps pointing to incorrectly recorded or transcribed data?
+
+## For easy reference
+
+Variable names
+```{r}
+People |> names()
+```
+
+
+A few entries from each variable:
+
+```{r}
+People |> take_sample(n = 50) |> glimpse()
+```
+
+Keep in mind that the data are not well cleaned. And there's a lot of missing data. For instance, let's look at `wages` as transcribed by different people or groups. Here we look at the fraction (in percent) of missing data in several variables
+
+```{r}
+#| warning: false
+People |> select(wages, age, edu, race, OWNER) |>
+  summarize(
+    wages_missing = round(100 * mean(is.na(wages))),
+    age_missing  = round(100 * mean(is.na(age))),
+    edu_missing  = round(100 * mean(is.na(edu))),
+    race_missing = round(100 * mean(is.na(race))),
+    .by = OWNER
+  )
+```
+
+If you or your group are not listed in the above, it means `dkaplan@uaustin.org` doesn't yet have access to your data files.
+
+## Exploring
+
+Of course, you will want to ask your own questions ... 
+
+```{webr-r}
+#| autorun: true
+#| echo: false
+data_source <- url(
+  "https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv")
+People <- readr::read_csv(data_source)
+```
+
+Start with making graphics of matters that interest you ...
+
+```{webr-r}
+People |> 
+  point_plot( ..... )
+```
+
+Remember wrangling statements like `filter(sex == "F")` or `filter(wages > 0)`.
+
+And then move on to modeling.
+
+```{webr-r}
+
+
+```
+
+
+## Some empty R chunks
+
+For your convenience.
+
+```{webr-r}
+
+```
+
+
+```{webr-r}
+
+```
+
+```{webr-r}
+
+```

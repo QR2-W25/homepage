@@ -50,7 +50,7 @@ Block 6: Hypothetical Reasoning
     - Optional: Watch this video of a [talk by David Spiegelhalter](https://www.youtube.com/watch?v=Cybnip2Kyw0)
 
 - Start work
-    - You should receive at this point the comprehensive, QR2-wide census data. Look through it and decide on the aspect of the data you are going to model.
+    - The comprehensive, QR2-wide census data are now available in preliminary form for the *persons*. Look through the data and decide on the aspect of the data you are going to model. Here's a [worksheet for looking at the data](../projects/Census/consolidated-worksheet.html)
     
 - Assignments due:
     - If there are any needed changes in your Census data, make them. Again, here are the [coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets. REMEMBER: You are to edit my copies of your spreadsheets, not your original sheets.

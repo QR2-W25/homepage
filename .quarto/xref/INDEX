@@ -229,5 +229,8 @@
   },
   "questions/S14-before.qmd": {
     "S14-before.html": "e1ac918e"
+  },
+  "projects/Census/consolidated-worksheet.qmd": {
+    "consolidated-worksheet.html": "85568d69"
   }
 }

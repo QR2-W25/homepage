@@ -1460,14 +1460,14 @@
     "href": "projects/Census/data-standards.html",
     "title": "Recoding Census persons variables",
     "section": "",
-    "text": "The project instructions called for creating your persons and households sheets in your own Google Drive account. That’s exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, dtkaplan@gmail.com.\n\nDo not edit your original sheets except to add dtkaplan@gmail.com as an editor.\nYou will receive an invitation from me to edit the copy of your sheet that I will create. It will have a name like sbrown-households.\nDo all edits in the sheet stored in my account. It will likely show up in your “Shared” folder in Google sheets."
+    "text": "To access consolidated Census data, use this command inside an R chunk:"
   },
   {
     "objectID": "projects/Census/data-standards.html#important-note",
     "href": "projects/Census/data-standards.html#important-note",
     "title": "Recoding Census persons variables",
-    "section": "",
-    "text": "The project instructions called for creating your persons and households sheets in your own Google Drive account. That’s exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, dtkaplan@gmail.com.\n\nDo not edit your original sheets except to add dtkaplan@gmail.com as an editor.\nYou will receive an invitation from me to edit the copy of your sheet that I will create. It will have a name like sbrown-households.\nDo all edits in the sheet stored in my account. It will likely show up in your “Shared” folder in Google sheets."
+    "section": "IMPORTANT NOTE",
+    "text": "IMPORTANT NOTE\nThe project instructions called for creating your persons and households sheets in your own Google Drive account. That’s exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, dtkaplan@gmail.com.\n\nDo not edit your original sheets except to add dtkaplan@gmail.com as an editor.\nYou will receive an invitation from me to edit the copy of your sheet that I will create. It will have a name like sbrown-households.\nDo all edits in the sheet stored in my account. It will likely show up in your “Shared” folder in Google sheets."
   },
   {
     "objectID": "projects/Census/data-standards.html#persons",

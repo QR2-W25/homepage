@@ -2,6 +2,12 @@
 title: "Recoding Census persons variables"
 ---
 
+To access consolidated Census data, use this command inside an R chunk:
+
+```{webr-r}
+Sunday <- read.csv("https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv")
+```
+
 ## IMPORTANT NOTE
 
 The project instructions called for creating your *persons* and *households* sheets in your own Google Drive account. That's exactly what most people have done. For technical reasons, however, I need to copy your sheets to my own account, `dtkaplan@gmail.com`.

@@ -116,3 +116,121 @@ All_sheets_raw <- Persons_fixed_names |> dplyr::bind_rows()
 lapply(All_sheets_raw, FUN = function(x) sum(!is.na(x))) |> unlist() -> hoo
 hoo[hoo > 300] |> names() -> keepers
 First_pass <- All_sheets_raw[,keepers]
+
+fix_blanks_nas <- function(x) {
+  targets <- nchar(x) == 0 | x == " " | x == "?" | x == "n/a"
+  x[targets] <- NA
+  x
+}
+
+fix_sex <- function(x) {
+  x <- fix_blanks_nas(x)
+  toupper(x)
+}
+
+fix_inschool <- function(x) {
+  ifelse (grepl("[Yy1]", x), "yes", "no")
+}
+
+fix_hrole <- function(x) {
+  x <- tolower(x) |>
+    gsub(" ", "-", x=_) |>
+    gsub("neblew", "nephew", x=_) |>
+    gsub("wide", "wife", x=_) |>
+    gsub("wife-", "wife", x=_) |>
+    gsub("ledger", "lodger", x=_) |>
+    gsub("dauhter", "daughter", x = _) |>
+    gsub("grand-son", "grandson", x = _) |>
+    gsub("grand-daugher", "grandsdaugher", x = _) |>
+    gsub("head-", "head", x=_) |>
+    gsub("pharmasist", "pharmacist", x=_)
+  x
+}
+
+fix_race <- function(x) {
+  x <- fix_blanks_nas(x)
+  ifelse (grepl("[Ww]", x), "white", "negro")
+}
+
+fix_age <- function(x) {
+  x = gsub("A2.*", "12", x)
+  x = gsub(" *", "", x)
+  x = ifelse(is.na(x), "0", x)
+  x = sapply(x, FUN = function(y) try(parse(text=y)))
+  sapply(x, FUN = eval)
+}
+
+fix_mstatus <- function(x) {
+  fix_blanks_nas(x) |>
+    gsub("^[mM].*", "married", x = _) |>
+    gsub("^[wW].*", "widowed", x = _) |>
+    gsub("^[dD].*", "divorced", x = _) |>
+    gsub("^[sS].*", "single", x = _)
+}
+
+fix_edu <- function(x) {
+  x = fix_blanks_nas(x)
+  x = gsub("th Grade", "", x)
+  x = gsub("-", "", x)
+  x = tolower(x)
+  x = ifelse(x == "-", NA, x)
+  x = gsub("g([0-9])", "\\1", x)
+  x = gsub("[nh]([0-9])", "8 + \\1", x)
+  x = gsub("c([0-9])", "12 + \\1", x)
+  x = gsub("h[is]", "12", x)
+  x = gsub("44", "12", x)
+  x = gsub("no college", "12", x)
+  arith <-  sapply(x, FUN= function(y) try(parse(text = y)))
+  names(arith) <- NULL
+  lapply(arith, FUN = eval)
+}
+
+fix_havejob <- function(x) {
+  x <- fix_blanks_nas(x)
+  x <- ifelse(x == "INST", NA, x)
+  x <- ifelse(x == "1", "yes", x)
+  x <- ifelse(grepl("y", x), "yes", "no")
+
+  x
+}
+
+fix_workhours <- function(x) {
+  x = fix_blanks_nas(x)
+  x = gsub("[a-zA-Z\\-\\.]*", "", x)
+  x = gsub("^-*$", "", x)
+  as.numeric(x)
+}
+
+fix_workclass <- function(x) {
+  x <- fix_blanks_nas(x)
+  x <- gsub("Gov", "GW", x)
+  x <- gsub("Private", "PW", x)
+  ifelse(nchar(x) == 2, toupper(x), NA)
+}
+
+fix_workweeks <- function(x) {
+  x <- fix_workhours(x)
+  ifelse(x > 52, NA, x)
+}
+
+fix_seeking <- fix_farm <- fix_havejob
+
+fix_wages <- fix_workhours
+
+First_pass |>
+  dplyr::mutate(
+    hrole = fix_hrole(hrole),
+    sex = fix_sex(sex),
+    race = fix_race(race),
+    age = fix_age(age),
+    mstatus = fix_mstatus(mstatus),
+    inschool = fix_inschool(inschool),
+    edu = fix_edu(edu),
+    havejob = fix_havejob(havejob),
+    workweeks = fix_workweeks(workweeks),
+    wages = fix_wages(wages),
+    workclass = fix_workclass(workclass),
+    workhours = fix_workhours(workhours),
+    seeking = fix_seeking(seeking),
+    farm = fix_farm(farm)
+  ) -> Goo

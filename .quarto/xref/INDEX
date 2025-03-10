@@ -223,5 +223,11 @@
   },
   "projects/Census/DTK-notes.R": {
     "DTK-notes.html": "1fe7b707"
+  },
+  "questions/S13-before.qmd": {
+    "S13-before.html": "6aaf298e"
+  },
+  "questions/S14-before.qmd": {
+    "S14-before.html": "e1ac918e"
   }
 }

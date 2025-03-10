@@ -100,7 +100,7 @@ Block 6: Hypothetical Reasoning (cont.)
     
 - Assignments due:
     - Rosling Ch. 10 post discussion [questions](../questions/R10-after.html)
-    - Preliminary Census written report uploaded to Populi. Basic model summaries and graphics for your Census "research topic." This will be the basis for your class presentation due on March 21. Formatting can be extremely rough; you will merely be cutting-and-pasting statistical summaries and graphics into an online document that you can reference fro your presentation.
+    - Preliminary Census written report uploaded to Populi. Basic model summaries and graphics for your Census "research topic." This will be the basis for your class presentation due on March 21. Formatting can be extremely rough; you will merely be cutting-and-pasting statistical summaries and graphics into an online document that you can reference from your presentation.
      
 - [In-class notes](../Kaplan_posts/2025-03-18-notes/2025-03-18-notes.html)
 

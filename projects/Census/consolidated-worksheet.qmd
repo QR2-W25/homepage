@@ -39,6 +39,13 @@ A few entries from each variable:
 People |> take_sample(n = 50) |> glimpse()
 ```
 
+And, all the data in a browsable format:
+
+```{r echo=FALSE}
+DT::datatable(People)
+```
+
+
 Keep in mind that the data are not well cleaned. And there's a lot of missing data. For instance, let's look at `wages` as transcribed by different people or groups. Here we look at the fraction (in percent) of missing data in several variables
 
 ```{r}

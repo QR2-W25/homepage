@@ -1670,7 +1670,16 @@ globalThis.qwebrExecuteCode = async function (
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#pool-ball-simulation" id="toc-pool-ball-simulation" class="nav-link active" data-scroll-target="#pool-ball-simulation">Pool ball simulation</a></li>
+  <li><a href="#census-project-status" id="toc-census-project-status" class="nav-link active" data-scroll-target="#census-project-status">Census project status</a></li>
+  <li><a href="#foundations-of-statistical-inference" id="toc-foundations-of-statistical-inference" class="nav-link" data-scroll-target="#foundations-of-statistical-inference">Foundations of statistical inference</a>
+  <ul class="collapse">
+  <li><a href="#student-responses" id="toc-student-responses" class="nav-link" data-scroll-target="#student-responses">Student responses</a></li>
+  </ul></li>
+  <li><a href="#what-is-likelihood" id="toc-what-is-likelihood" class="nav-link" data-scroll-target="#what-is-likelihood">What is likelihood</a></li>
+  <li><a href="#fisher-neyman-pearson-bayes" id="toc-fisher-neyman-pearson-bayes" class="nav-link" data-scroll-target="#fisher-neyman-pearson-bayes">Fisher, Neyman-Pearson, Bayes</a></li>
+  <li><a href="#bayesian-updating" id="toc-bayesian-updating" class="nav-link" data-scroll-target="#bayesian-updating">Bayesian updating</a></li>
+  <li><a href="#likelihood-ratio-form-of-bayes-rule" id="toc-likelihood-ratio-form-of-bayes-rule" class="nav-link" data-scroll-target="#likelihood-ratio-form-of-bayes-rule">Likelihood ratio form of Bayes Rule</a></li>
+  <li><a href="#pool-ball-simulation" id="toc-pool-ball-simulation" class="nav-link" data-scroll-target="#pool-ball-simulation">Pool ball simulation</a></li>
   </ul>
 </nav>
     </div>
@@ -1986,6 +1995,79 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 </header>
 
 
+<section id="census-project-status" class="level2">
+<h2 class="anchored" data-anchor-id="census-project-status">Census project status</h2>
+<p>Review <a href="../projects/Census/consolidated-worksheet.html">consolidated worksheet</a></p>
+<ol type="1">
+<li>Show the whole</li>
+</ol>
+</section>
+<section id="foundations-of-statistical-inference" class="level2">
+<h2 class="anchored" data-anchor-id="foundations-of-statistical-inference">Foundations of statistical inference</h2>
+<p>Story about 9 out of 9 runners being women</p>
+<p>Spiegelhalter 11</p>
+<ul>
+<li>Read first paragram p.&nbsp;305: “mathematicians tend to dislike teaching stats.”
+<ul>
+<li>So they teach math instead</li>
+<li>Probability must be a “real” and “objective” concept, not subjective
+<ul>
+<li>Long-run frequencies definition</li>
+<li>aleatory uncertainty but not epistemic uncertainty</li>
+</ul></li>
+</ul></li>
+<li>Read “Good news” paragraph, p.&nbsp;306</li>
+</ul>
+<section id="student-responses" class="level3">
+<h3 class="anchored" data-anchor-id="student-responses">Student responses</h3>
+<blockquote class="blockquote">
+<p>“Yes I question the value of statistics. Yet I suppose that whatever method gets us a good estimate of the truth is good! By this I mean that though I don’t understand multi-level regression and post-stratification, I am happy to accept it if it gets reliably better predictions of elections.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Off the bat I don’t have much concern for it. having many different theories are fine as long as they are correct. That gives stats users a choice of whatever they prefer most.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“I think this is actually a very honest and calming point to raise. The reason I say this is because a lot of math and science IS still theory, yet everyone agrees on the theory and it’s taken as fact. It’s good to have theories and build on others’ ideas, but it is never good to stop testing and searching for truth. The fact that statistics admits to being incomplete and undecided only reinforces the scientific ideals it should be promoting of questioning things deeply before accepting them, and even then skeptically.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“It makes statistics interesting. Similar to physics or advanced biology, there are different theories at play at the highest level for the most likely method for things like quantum physics, for example. The issue is that the inference method is the one underlying all statistics. I think that I still value statistics as a discipline as the information it gives is good. I just have to learn how the Bayesian discipline works.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“This statement does not make me question the value of statistics as a discipline. It makes sense, we will never really know what the future holds. Mathematicians can predict the future in their own world full of constraints, but things change in real life.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“My intuitive reaction is that statistics and data are just extremely complicated to get without bias or external factors being a factor. It is still important to understand how to read data, notice extreme bias, and how to get accurate data”</p>
+</blockquote>
+</section>
+</section>
+<section id="what-is-likelihood" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-likelihood">What is likelihood</h2>
+<p>Probability of an observed (or observable) outcome given a hypothesis.</p>
+<p>Sensitivity is a likelihood.</p>
+<p>False positive rate is merely a summary computed from observed data (the results of the tests on the study population).</p>
+<p>Bayes’ pool table: 2 balls to the left, three balls to the right.</p>
+</section>
+<section id="fisher-neyman-pearson-bayes" class="level2">
+<h2 class="anchored" data-anchor-id="fisher-neyman-pearson-bayes">Fisher, Neyman-Pearson, Bayes</h2>
+<p>This all started with a “rule of thumb” that got promoted into a statistical method.</p>
+<ul>
+<li><p>“Significance testing” just a Null. When there’s no point in continuing the experiment.</p></li>
+<li><p>NULL and alternative hypotheses (Type-I and Type-II errors, how to choose the rejection region)</p></li>
+<li><p>Bayes: Find “probability” of Null and Alternative hypotheses.</p></li>
+</ul>
+</section>
+<section id="bayesian-updating" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-updating">Bayesian updating</h2>
+<ul>
+<li>Prior</li>
+<li>Posterior</li>
+<li>Observation</li>
+<li>Likelihood of observation under the competing hypotheses.</li>
+</ul>
+</section>
+<section id="likelihood-ratio-form-of-bayes-rule" class="level2">
+<h2 class="anchored" data-anchor-id="likelihood-ratio-form-of-bayes-rule">Likelihood ratio form of Bayes Rule</h2>
+</section>
 <section id="pool-ball-simulation" class="level2">
 <h2 class="anchored" data-anchor-id="pool-ball-simulation">Pool ball simulation</h2>
 <div id="qwebr-insertion-location-1"></div>

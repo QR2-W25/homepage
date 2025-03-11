@@ -7,6 +7,75 @@ date: 2025-03-11
 library(LSTbook)
 ```
 
+## Census project status
+
+Review [consolidated worksheet](../projects/Census/consolidated-worksheet.html)
+
+1. Show the whole 
+
+## Foundations of statistical inference
+
+Story about 9 out of 9 runners being women
+
+
+
+Spiegelhalter 11
+
+- Read first paragram p. 305: "mathematicians tend to dislike teaching stats."
+    - So they teach math instead
+    - Probability must be a "real" and "objective" concept, not subjective
+        - Long-run frequencies definition
+        - aleatory uncertainty but not epistemic uncertainty
+- Read "Good news" paragraph, p. 306
+        
+### Student responses
+
+> "Yes I question the value of statistics. Yet I suppose that whatever method gets us a good estimate of the truth is good! By this I mean that though I don’t understand multi-level regression and post-stratification, I am happy to accept it if it gets reliably better predictions of elections."
+
+
+> "Off the bat I don't have much concern for it. having many different theories are fine as long as they are correct. That gives stats users a choice of whatever they prefer most."
+
+> "I think this is actually a very honest and calming point to raise. The reason I say this is because a lot of math and science IS still theory, yet everyone agrees on the theory and it's taken as fact. It's good to have theories and build on others' ideas, but it is never good to stop testing and searching for truth. The fact that statistics admits to being incomplete and undecided only reinforces the scientific ideals it should be promoting of questioning things deeply before accepting them, and even then skeptically."
+
+> "It makes statistics interesting. Similar to physics or advanced biology, there are different theories at play at the highest level for the most likely method for things like quantum physics, for example. The issue is that the inference method is the one underlying all statistics. I think that I still value statistics as a discipline as the information it gives is good. I just have to learn how the Bayesian discipline works."
+
+> "This statement does not make me question the value of statistics as a discipline. It makes sense, we will never really know what the future holds. Mathematicians can predict the future in their own world full of constraints, but things change in real life."
+
+> "My intuitive reaction is that statistics and data are just extremely complicated to get without bias or external factors being a factor. It is still important to understand how to read data, notice extreme bias, and how to get accurate data"
+
+## What is likelihood
+
+Probability of an observed (or observable) outcome given a hypothesis.
+
+Sensitivity is a likelihood.
+
+False positive rate is merely a summary computed from observed data (the results of the tests on the study population).
+
+Bayes' pool table: 2 balls to the left, three balls to the right.
+
+## Fisher, Neyman-Pearson, Bayes
+
+This all started with a "rule of thumb" that got promoted into a statistical method. 
+
+- "Significance testing" just a Null. When there's no point in continuing the experiment.
+
+- NULL and alternative hypotheses (Type-I and Type-II errors, how to choose the rejection region)
+
+- Bayes: Find "probability" of Null and Alternative hypotheses.
+
+## Bayesian updating
+
+- Prior
+- Posterior
+- Observation 
+- Likelihood of observation under the competing hypotheses.
+
+
+## Likelihood ratio form of Bayes Rule
+
+
+
+
 ## Pool ball simulation
 
 ```{webr-r}

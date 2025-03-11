@@ -8,36 +8,7 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 ::: {.callout-note}
-## 17. Monday 3 March
-Block 6 Hypothetical reasoning & Bayes
-
-- Bayesian approach: prior and posterior probabilities. 
-- We shall talk about hypothesis testing. 
-- New readings:
-  - Start `r tutorial_link(6)`
-
-:::
-
-
-::: {.callout-note}
-## 18. Thursday 6 March
-
-Block 6 Hypothetical reasoning & Bayes (continued)
-
-- New readings 
-  - Spiegelhalter Chap 10 & [reading questions](../questions/S10-after.html)
-- We continue discussing hypothesis testing.
-- Which hypotheses did you formulate and test in your project? 
-- Assignments due:
-  - Report on Sprint 2 (on Github)
-
-:::
-
-
-## Further out (i.e. tentative)
-
-::: {.callout-note}
-## 19. Monday 11 March
+## 19. Monday 10 March
 
 Block 6 Hypothetical reasoning & Bayes (continued)
 
@@ -54,12 +25,19 @@ Block 6 Hypothetical reasoning & Bayes (continued)
 ## 20. Thursday 13 March
 
 - New readings:
-  - Spiegelhalter Chap 12 and Chap 13
+  - Spiegelhalter Chap 12 & [reading questions](../questions/S12-before.html)
+  - Spiegelhalter Chap 13 & [reading questions](../questions/S13-before.html)
 - We will discuss the reproducibility crisis in sciences
 - Assignments due:   
   - [Computing Activities for Tutorial 6](https://dtkaplan.github.io/QR2-computing/exercises-6.html) 
 
 :::
+
+
+
+
+
+## Further out (i.e. tentative)
 
 
 ::: {.callout-note}
@@ -83,6 +61,32 @@ Course Project
 
 
 ## Already past
+
+::: {.callout-note}
+## 18. Thursday 6 March
+
+Block 6 Hypothetical reasoning & Bayes (continued)
+
+- New readings 
+  - Spiegelhalter Chap 10 & [reading questions](../questions/S10-after.html)
+- We continue discussing hypothesis testing.
+- Which hypotheses did you formulate and test in your project? 
+- Assignments due:
+  - Report on Sprint 2 (on Github)
+
+:::
+
+
+::: {.callout-note}
+## 17. Monday 3 March
+Block 6 Hypothetical reasoning & Bayes
+
+- Bayesian approach: prior and posterior probabilities. 
+- We shall talk about hypothesis testing. 
+- New readings:
+  - Start `r tutorial_link(6)`
+
+:::
 
 
 ::: {.callout-note}

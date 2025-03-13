@@ -5,7 +5,261 @@ date: 2025-03-14
 
 ```{r include=FALSE}
 library(LSTbook)
+library(dplyr)
 ```
+
+## Rosler Ch. 10: Urgency instinct
+
+::: {.callout-note}
+## The contrapositive and affirming the consequent.
+
+Consider this statement linking an "antecedent" and a "consequent" as being true in your circumstance:
+
+> Small p-value implies I reject the Null.
+
+The logical form of this is $A \implies B$ (pronounced "A implies B").
+
+We'll consider two possible constructions that involve negating the antecedent and the consequent:
+
+- not antecedent $\bar{A}$: Big p-value
+- not consequent $\bar{B}$: Accept Null
+
+Here are two transformations, which might or might not be true statements.
+
+i. $\bar{B} \implies \bar{A}$ (not B implies not A) --- "the contrapositive"
+
+"Accept Null implies that the p-value is big"
+
+ii. $\bar{A} \implies \bar{B}$ (not A implies not B) --- "affirming the consequent"
+
+"Big p-value means accept the Null"
+
+Is either of these statements valid? (Remember, small p implies reject Null is assumed to be true.)
+
+Discuss.
+
+
+Let's put it in different terms.
+
+
+All men are mortal. (True statement.)
+
+i. Non-mortals are not men. --- the contrapositive
+
+ii. Non-men are non-mortal --- affirming the consequence
+
+Is either of these statements true?
+
+
+Much more concrete: My car is white. (True statement)
+
+i. Non-white cars are not mine --- contrapositive
+
+ii. Not-mine cars are not white --- affirming the consequenc
+
+
+See [Wikipedia entry](https://en.wikipedia.org/wiki/Affirming_the_consequent)
+:::
+
+
+
+
+## Hypothetical reasoning
+
+Likelihood: the probability of an observed/observable outcome given a hypothesis. 
+
+Example: Null hypothesis: A coefficient is zero.
+
+Calculation: Calculate the coefficient in a setting where the Null is known to be true. 
+
+How to make the Null be true: Shuffle the response variable.
+
+```{webr-r}
+Coefs <- Galton |> 
+  model_train(height ~ mother + sex) |>
+  conf_interval()
+Coefs
+```
+
+You can easily see that the confidence interval on `mother` doesn't include zero. So we have reasonable evidence for a connection.
+
+We could get roughly the same results by bootstrapping:
+
+```{webr-r}
+#| warning: false
+Boot_results <- Galton |> 
+  take_sample(replace = TRUE) |>
+  model_train(height ~ mother + sex) |>
+  conf_interval() |>
+  filter(term == "mother") |>
+  trials(500)
+Boot_stats <- Boot_results |>
+  summarize(m = mean(.coef), s = sd(.coef)) |>
+  mutate(top = m + 2*s, bottom = m - 2*s) 
+Boot_CIs <- Boot_results |>
+  mutate(xlocation = (.trial) / 250)
+Plot1 <- Boot_results |> 
+  point_plot(.coef ~ 1, 
+             annot = "violin",
+             color = "green") |> 
+  gf_point(0.35 ~ 1, color = "red") |>
+  gf_hline(yintercept = ~ top, data = Boot_stats, color = "magenta") |>
+  gf_hline(yintercept = ~ bottom, data = Boot_stats, color = "magenta")
+Plot1
+```
+```{webr-r}
+#| warning: false
+Plot1 |> 
+  gf_errorbar(.lwr + .upr ~ xlocation, data = Boot_CIs, 
+              color = "gray",
+              width = 0.1, 
+              alpha = 0.2) |>
+  gf_point(.coef ~ xlocation, data = Boot_CIs, 
+           color = "red", alpha = 0.5, size = 0.1)
+```  
+
+Is there a connection between `mother` and `height`. Coef is 0.35.
+
+```{webr-r}
+#| warning: false
+Null_results <- Galton |> 
+  mutate(mother = take_sample(mother)) |>
+  model_train(height ~ mother + sex) |>
+  conf_interval() |>
+  filter(term == "mother") 
+Null_stats <- Null_results |>
+  summarize(m = mean(.coef), s = sd(.coef)) |>
+  mutate(top = m + 2*s, bottom = m - 2*s)
+Null_results |> 
+  point_plot(.coef ~ 1, annot = "violin", size=0.2) |> 
+  gf_point(0.35 ~ 1, color = "red") |>
+  gf_hline(yintercept = ~ top, data = Null_stats, color = "magenta") |>
+  gf_hline(yintercept = ~ bottom, data = Null_stats, color = "magenta") |>
+  gf_jitter(.coef ~ 1, data = Boot_results, 
+           
+           color = "green", alpha = 0.5, size = 0.1) |>
+  gf_violin(.coef ~ 1, data = Boot_results,
+            fill = "green", color = NA, alpha = 0.2)
+
+```
+The [blue]{style="color: blue;"} violin is, essentially, the likelihood function, ${\cal L}_{Null}(\text{observation})$.
+
+## Calculating a p-value
+
+Reading it from the `conf_interval(show_p = TRUE)` and `R2()` reports, or the `anova_summary()` report if you are considering a bunch of coefficients together. 
+
+[Census worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html)
+
+```r
+People |> 
+  model_train(wages ~ occupation) |>
+  conf_interval(show_p = TRUE) |>
+  knitr::kable()
+```
+
+Look at all the low p-values. Then add in `sex + edu + age` as explanatory terms.
+
+```r
+People |> 
+  model_train(wages ~ occupation) |>
+  anova_report() |>
+  knitr::kable()
+```
+
+Why the difference? Many occupations are sex-stratified, that is, they serve as proxies for sex and thereby grab some of the credit in the coefficient report.
+
+## Equivalence of confidence interval and p-value
+
+Set the confidence level to the 1 minus the p-value and you'll see that the interval just touches zero.
+
+```{webr-r}
+Galton |>
+  model_train(height ~ mother) |>
+  conf_interval(show_p = TRUE, level=1 - 1e-9)
+```
+
+There is no fundamental problem here. Fisher could have stated his "Significance testing" method like this:
+
+> "Find the Likelihood function of an observation under the Null hypothesis. Then see if the actual observation falls in the middle 95% of the area under the Likelihood function. Or, use 99% or 99.9% depending on the desired stringency of the test: less likely than 1/100 or 1/1000."
+
+This would be more-or-less equivalent to ...
+
+> "Construct the 95% confidence interval, and see if it touches the theoretical observation (with infinite data) under the Null. Namely 0."
+
+But Fisher didn't know about confidence intervals. And, when they were introduced in the 1930s, he rejected them.
+
+The original question behind Fisher's significance testing was, "Do I have any reason to believe that something is going on, that the Null is not tenable?" If you reject the Null, that's a sign that you should keep on working .... Two questions come up.
+
+i. If you've rejected the Null, why should you keep on working? You have your result. (And, remember, there are no confidence intervals to let you assess the precision of your result.)
+
+We need some measure of whether the study results to date give a high-quality result. Today, we use confidence intervals.
+
+ii. What if you fail to reject the Null? Does this mean that there is really no effect. Should others stay away from the field because there's no effect? 
+Fisher wrote in 1936:
+
+> "[T]he further question arises as to whether a difference of the magnitude observed might not have occurred by chance, in samples from populations of the same average height. If the probability of this is considerable, that is, if it would have occurred in fifty, or even ten, per cent. of such trials, the difference between our samples is said to be "insignificant." ... In [this] case the test can never lead us to assert that the two populations are identical, even in stature. We can only say that the evidence provided by the data is insufficient to justify the assertion that they are different."
+
+The problem is that the p-value alone doesn't tell us the quality of the result.
+
+People start to reason informally and incorrectly. For instance:
+
+- *The smaller the p-value, the higher the quality of the result.* 
+
+- *If I fail to reject the Null, then I must be **accepting** the Null.*
+
+## The Alternative hypothesis
+
+Soon after "significance testing" was introduced it was being mis-used in part because of the practical, day-to-day needs of researchers.
+
+1. Mis-use: Rejecting the Null became the end of the story, the threshold for publication.
+
+2. Mis-use: "Significance," that is, the p-value being small, itself became the "standard for quality." The smaller the p-value, the better the study. 
+
+3. Mis-use: "Significant" and "important/note-worthy/..." It was convenient for scientists seeking grant support and for journalists reporting technical scientific results to have the meaning drift into the everyday meaning of "significant" as "note-worthy."
+
+4. Mis-use: "Accepting the Null" came to be the flip side of "rejecting the null," even though this was logically fallacious, and example of "accepting the consequent."
+
+5. Mis-use: Each p-value stands on its own and can be interpreted literally. But remember the UK bowel-cancer risk, where we saw that each district had to be put in the context of the other districts.
+
+These problems were recognized early on, but it was risky to take on Ronald Fisher. Anything that smacked of recognizing *epistemic uncertainty* was strictly forbidden.
+
+To help fix things, while staying clear of the unacceptable *epistemic uncertainty*, Neyman and Pearson in the 1930s introduced a new framework.
+
+This consisted of 
+
+a. the Null hypothesis
+b. an Alternative hypothesis: some specific or set of specific hypotheses that the researcher is entertaining. Realistic yet of genuine interest.
+
+
+They considered the problem as a kind of screening test. In a screening test there are two ways to be wrong: false negative and false positive.  
+
+Type I error: Null is right but you rejected it.
+
+Type II error: Alternative is right but you failed to reject the Null.
+
+The goal is to make **both** types of error unlikely.
+
+Type I error: Insist on a low p-value.
+
+Type II error: Insist on a high **power**. 
+
+The **power** is established in the Study Design phase: Implement the alternative hypothesis and find the probability, if the alternative hypothesis be true, of rejecting the Null. This is called the "**power**" of the test. It comes from simulations. Insist on a sample size that has high power.
+
+Practical problems:
+
+1. You have to define an "interesting finding." This has an arbitrary feel.  You want to frame an Alternative that is strong, that is, corresponds to an interesting finding. But you don't want it too strong or it will be hard to get a good power.
+
+2. Even after going through all the trouble with defining the alternative, you don't get to conclude anything about the alternative being true. You still either reject or fail to reject the Null.
+
+Educational problem: Specifying (i) means going outside of a mathematical framework to one that involves the real world. Math teachers don't like this.
+
+To make things work out for math teachers, the concept of the alternative hypothesis was made highly rigid, taking one of three non-specific forms:
+
+$$H_a < H_0\ \ \ \ \text{or} \ \ H_0 \neq H_a\ \ \ \ \text{or}\ \ \ \ \ H_0 < H_a$$
+
+The inequality forms are attractive to researchers because they get to divide their p-values by 2, resulting in a smaller p-value and a more "significant" result. Isn't this a form of cheating?
+
+
 
 
 Work through the medical testing example  and the car safety example.

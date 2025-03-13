@@ -12,55 +12,6 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 
-
-
-
-
-::: {.callout-note}
-## Class Day 16 Friday 7 March
-
-Block 5: Confounding & Causality (cont.)
-
-- New readings:
-    - [Coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets.
-   
-
-- Start work
-    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
-    
-- Assignments due:
-    - Check whether you have recieved two links to *my copies* of your Census spreadsheets. You should be editing *my copies* from now on. 
-    - Continue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
-     
-     
-    
-- [In-class notes](../Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html)
-
-
-:::
-
-::: {.callout-note}
-## Class Day 17 Tuesday 11 March
-
-Block 6: Hypothetical Reasoning
-
-- New readings   
-    - Spiegelhalter Ch. 11 & [reading questions](../questions/S11-before.html)
-    - Start `r tutorial_link(6)`
-    - Optional: Watch this video of a [talk by David Spiegelhalter](https://www.youtube.com/watch?v=Cybnip2Kyw0)
-
-- Start work
-    - The comprehensive, QR2-wide census data are now available in preliminary form for the *persons*. Look through the data and decide on the aspect of the data you are going to model. Here's a [worksheet for looking at the data](../projects/Census/consolidated-worksheet.html)
-    
-- Assignments due:
-    - If there are any needed changes in your Census data, make them. Again, here are the [coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets. REMEMBER: You are to edit my copies of your spreadsheets, not your original sheets.
-    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html).
-     
-    
-- [In-class notes](../Kaplan_posts/2025-03-11-notes/2025-03-11-notes.html)
-
-:::
-
 ::: {.callout-note}
 ## Class Day 18 Friday 14 March
 
@@ -388,7 +339,7 @@ QUIZ today through Block 4 (Precision)
     
 - [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
 
-## Class Day 15 Tuesday 4 March
+## Class Day 15 Tuesday 4 March {#sec-04Mar}
 
 Block 5: Confounding & Causality (cont.)
 
@@ -399,6 +350,48 @@ Block 5: Confounding & Causality (cont.)
 - Start work: Today in class we will be going over a checklist of items regarding the transcription of the Census data into your "person" and "household" spreadsheets. It's important to make considerable progress on this before the Friday 7 March class.
      
 - [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
+
+
+## Class Day 16 Friday 7 March {#sec-07Mar}
+
+Block 5: Confounding & Causality (cont.)
+
+- New readings:
+    - [Coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets.
+   
+
+- Start work
+    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
+    
+- Assignments due:
+    - Check whether you have recieved two links to *my copies* of your Census spreadsheets. You should be editing *my copies* from now on. 
+    - Continue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
+     
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html)
+
+
+
+## Class Day 17 Tuesday 11 March {#sec-11Mar}
+
+Block 6: Hypothetical Reasoning
+
+- New readings   
+    - Spiegelhalter Ch. 11 & [reading questions](../questions/S11-before.html)
+    - Start `r tutorial_link(6)`
+    - Optional: Watch this video of a [talk by David Spiegelhalter](https://www.youtube.com/watch?v=Cybnip2Kyw0)
+
+- Start work
+    - The comprehensive, QR2-wide census data are now available in preliminary form for the *persons*. Look through the data and decide on the aspect of the data you are going to model. Here's a [worksheet for looking at the data](../projects/Census/consolidated-worksheet.html)
+    
+- Assignments due:
+    - If there are any needed changes in your Census data, make them. Again, here are the [coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets. REMEMBER: You are to edit my copies of your spreadsheets, not your original sheets.
+    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html).
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-11-notes/2025-03-11-notes.html)
+
 
 
 

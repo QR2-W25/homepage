@@ -150,10 +150,13 @@ Reading it from the `conf_interval(show_p = TRUE)` and `R2()` reports, or the `a
 
 [Census worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html)
 
-```r
+```{r}
+People <- readr::read_csv("https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv")
+```
+```{r}
 People |> 
-  model_train(wages ~ occupation) |>
-  conf_interval(show_p = TRUE) |>
+  model_train(wages ~ sex + edu + age + occupation) |>
+  anova_summary() |>
   knitr::kable()
 ```
 

@@ -22,7 +22,8 @@ Block 6: Hypothetical Reasoning (cont.)
     - Complete `r tutorial_link(6)`
     
     
-- Assignments due:
+- Assignments due: Progress on your report for the Census project
+    - The consolidated data for all students is available at [this worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html).
     - Simple summaries of the all-of-QR2 Census data
     - Statement of your "research topic" for your Census modeling project. This will include picking response and explanatory variables, including covariates. DO NOT AGONIZE about this. You are not going to be writing a PhD dissertation. 
     - Remember that your project presentation is due 21 March.

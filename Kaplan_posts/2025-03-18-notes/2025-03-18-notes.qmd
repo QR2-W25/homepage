@@ -5,5 +5,265 @@ date: 2025-03-18
 
 ```{r include=FALSE}
 library(LSTbook)
+library(mosaicCalc)
+library(ggformula)
 ```
 
+Review:
+
+- **Probability** a number between zero and one
+- **Relative probability**. The simplest way to think of this, without calculus,
+is as the width of a violin plot. There are no units for width given, but you can nonetheless tell which values are more or less likely.
+- **Likelihood** the relative probability of an observable given a hypothesis.
+- **Null hypothesis** the hypothesis that there is no connection between the variables of interest. 
+    - implementable from data by shuffling.
+    
+Example: `nkids` and height.
+
+```{webr-r}
+Galton |>
+  model_train(height ~ mother + father + sex + nkids) |>
+  conf_interval(show_p = TRUE)
+```
+The observed coefficient on `nkids` is -0.043818 inches/kid.
+
+Implement the Null hypothesis by shuffling and find the probability of seeing the observed value. 
+
+```{webr-r}
+Galton |> 
+  mutate(nkids = shuffle(nkids)) |>
+  model_train(height ~ mother + father + sex + nkids) |>
+  conf_interval() |>
+  filter(term == "nkids") |>
+  trials(500) -> 
+  Null_trials 
+```
+
+We can display the relative probability of each possible coefficient.
+
+```{webr-r}
+Null_trials |> 
+  point_plot(.coef ~ 1, annot="violin") |>
+  gf_hline(yintercept = -0.043818, color = "red") |>
+  gf_hline(yintercept = 0.043818, color = "green") |>
+  gf_refine(scale_color_identity())
+```
+
+How many of the trials matched the observation? None!
+
+```{webr-r}
+Null_trials |>
+  filter(.coef == -0.043818)
+
+```
+Why zero? Because it's very unlikely to hit on the observed coefficient directly.
+
+The *probability* of -0.043818 is *infinitesimal*. But the *relative probability* is well defined.
+
+Traditional solution: Look at how often the Null produces a value at least as big as the observation. 
+
+## What can go wrong
+
+In Fisher's original formulation, the significance test was a guide to the researcher. But it quickly evolved to play a much more important role in the practice of science.
+
+1. Mis-use: Rejecting the Null became the end of the story, the threshold for publication.
+
+2. Mis-use: "Significance," that is, the p-value being small, itself became the "standard for quality." The smaller the p-value, the better the study. 
+
+3. Mis-use: "Significant" and "important/note-worthy/..." It was convenient for scientists seeking grant support and for journalists reporting technical scientific results to have the meaning drift into the everyday meaning of "significant" as "note-worthy."
+
+4. Mis-use: "Accepting the Null" came to be the flip side of "rejecting the null," even though this was logically fallacious, and example of "accepting the consequent."
+
+5. Mis-use: Each p-value stands on its own and can be interpreted literally. But remember the UK bowel-cancer risk, where we saw that each district had to be put in the context of the other districts.
+
+These problems were recognized early on, but it was risky to take on Ronald Fisher. Anything that smacked of recognizing *epistemic uncertainty* was strictly forbidden.
+
+## A better approach: Bayes
+
+Better, at least, if you drop the prohibition against epistemic uncertainty.
+
+Framework:
+
+1. A *prior relative probability* of each hypothesis. $p(w)$
+2. Likelihood function of the observation for each of the hypotheses under consideration ${\cal L}(obs\ |\  w)$
+3. A *posterior relative probability* of each hypothesis. The updating rule is simple: $p(obs\ |\  w) = {\cal L}(obs\ |\  w) p(w)$.
+4. For future observations, the posterior is used as the prior.
+
+Example: Bayes billiards table.
+
+There is a line marked across the table at the position of a previously rolled white ball. We'll call this position $w$. We don't know where this is, but we roll some red balls and want to figure out where the white ball might have been from a report of the number of red balls to the right and the left of the white ball.
+
+```{r}
+set.seed(91)
+```
+
+```{r echo=FALSE}
+nsims = 10000
+nballs = 6
+redballs = matrix(runif(nsims*(nballs-1)),ncol = nballs-1)
+cueball = runif(nsims)
+compare.mat = matrix(cueball,nrow=nsims,ncol = nballs-1)
+totheleft = (redballs<compare.mat)
+numleft = apply(totheleft,1,sum)
+
+
+
+# Plot balls on table
+plotball = function(roll=1){
+  plot(c(redballs[roll,],cueball[roll]),1:nballs,
+       xlim = c(0,1),xlab = "table position",
+       yaxt="n",ylab="",col="white")
+  text(redballs[roll,],1:(nballs-1),"R",col="red")
+  text(cueball[roll],nballs,"W")
+  abline(v = cueball[roll],lty=2)
+}
+
+# Plot the first table with 2 reds 
+# to the left of the cue ball
+# (Horizontal positions are iid 
+# Uniform(0,1); vertical positions are 
+# evenly spaced, with cue ball on top.)
+plotball(which(numleft==2)[2])
+```
+
+We don't have the full picture, just the report "2 to the left, 3 to the right." 
+
+- Prior: the white ball might have been anywhere in 0 to 1 with equal probability. p(w) = 1.
+- Likelihood function, the likelihoods for each of the possible observation. : L(left | w) = w and L(right | w) = 1-w. 
+- Bayesian update:  posterior is likelihood times prior. $p(w | obs) = L(obs | w) p(w)$
+
+For the first left ball, the updated probability is
+
+$$p(w | \text{left}) = L(\text{left} | w) = w$$
+After the second ball, supposing it to be "left", we have
+
+$$p(w | \text{left&left}) = L(\text{left} | w) p(w|\text{left}) = w^2$$
+
+Suppose the third ball is a "right":
+
+$$p(w | \text{right&left&left}) = L(\text{right} | w) p(w|\text{left&left}) = (1-w) w^2$$
+
+Here is the posterior distribution for three rights and two lefts
+
+$$p(w | \text{right&right&right&left&left}) = (1-w)^3 w^2$$
+
+```{r}
+mosaicCalc::slice_plot((1-w)^3 * w^2 ~ w, domain(w = 0:1))
+```
+
+In the above, we have entertained an infinity of hypotheses: $0 \leq w \leq 1$.
+
+In situations like medical screening, we have just two hypotheses: sick and healthy. The prior is $p(\text{sick})$, corresponding to the prevalence. 
+
+But stating things as "odds" simplifies the calculation. Prior odds is $odds(\text{sick}) = p(\text{sick}) / (1-p(\text{sick})) = p(\text{sick})/p(\text{healthy}) $
+
+We make a measurement $v$ on the patient. 
+
+There are two likelihoods involved: ${\cal L}(v | \text{sick})$ and ${\cal L}(v | \text{sick})$.
+
+If $v$ were "postive test" or "negative test", then the likelihoods correspond to the sensitivity and 1-specificity respectively. 
+
+The posterior odds are $$odds(\text{sick} | v) = \frac{{\cal L}(v | \text{sick})}{{\cal L}(v | \text{healty})} \times odds(\text{sick})$$
+
+Posterior odds equals likelihood ratio times prior odds.
+
+## Back to "significance testing."
+
+Put in terms of the Bayes framework, the Null is just one of the hypotheses being entertained. 
+
+There needs to be at least one other hypothesis. Neyman & Pearson called this the "**alternative**" hypothesis. But, for political reasons they weren't able to propose computing the posterior odds of the alternative. 
+
+They came up with a framework that they thought might be acceptable to Fisher. This came to be called "Hypothesis testing."
+
+1. Define *power* to be the probability of rejecting the Null in a world made to conform to the alternative hypothesis.     
+    - importantly, this requires some definite statement to be made about what the researcher thinks would be interesting.
+2. Design the study sample size so that the power is high.
+3. Calculate the p-value in the usual way. 
+
+The high power ensures the credibility of the study.
+
+Framing a sensible alternative requires knowing something about the setting. 
+
+In textbooks, they preferred to avoid this requirement. So they artifically defined the alternative as one of 
+
+$H_a < H_0$ or $H_0 \neq H_a$ or $H_0 < H_a$
+
+You can't calculate a power from this, so they've thrown out the baby with the bathwater.
+
+## Fixes for the mess
+
+1. Drop the word "significance" in favor of "discernible."
+
+2. Pay no attention to the p-value so long as it is small enough.
+
+3. Better ... Just check if the 95% confidence interval contains 0. Report the confidence interval, not a p-value. Additional benefit: The reader now has an effect size estimate.
+
+4. Educate researchers to look at the effect size, not a p-value. 
+
+5. Mess of multiple studies and putting p-value in context. See Spiegelhalter on pre-registry of study and analysis plan.
+
+
+
+## Pool ball simulation
+
+```{webr-r}
+set.seed(91)
+```
+
+```{webr-r}
+nsims = 10000
+nballs = 6
+redballs = matrix(runif(nsims*(nballs-1)),ncol = nballs-1)
+cueball = runif(nsims)
+compare.mat = matrix(cueball,nrow=nsims,ncol = nballs-1)
+totheleft = (redballs<compare.mat)
+numleft = apply(totheleft,1,sum)
+
+# Red ball positions on the first six tables
+head(round(redballs,2))
+# Cue ball positions on the first six tables
+head(round(cueball,2))
+# Number of red balls to the left of cue ball
+# on the first six tables
+head(numleft)
+```
+
+```{webr-r}
+# Plot balls on table
+plotball = function(roll=1){
+  plot(c(redballs[roll,],cueball[roll]),1:nballs,
+       xlim = c(0,1),xlab = "table position",
+       yaxt="n",ylab="",col="white")
+  text(redballs[roll,],1:(nballs-1),"R",col="red")
+  text(cueball[roll],nballs,"W")
+  abline(v = cueball[roll],lty=2)
+}
+
+# Plot the first table with 2 reds 
+# to the left of the cue ball
+# (Horizontal positions are iid 
+# Uniform(0,1); vertical positions are 
+# evenly spaced, with cue ball on top.)
+plotball(which(numleft==2)[2])
+```
+
+```{webr-r}
+# Cue ball histogram plotter
+cueball.hist = function(redtoleft,res=.05){
+  hist(cueball[numleft==redtoleft],xlab="table position",
+       main = "Distribution of white ball position",
+       freq=FALSE,breaks=seq(0,1,by=res),xlim=c(0,1))
+}
+
+# Cue ball theoretical distribution plotter
+theory.curve = function(redtoleft,redtotheright){
+  curve(dbeta(x,shape1=redtoleft+1,shape2=redtotheright+1),add=TRUE,col=2,lwd=2)
+}
+
+# Histogram of cue ball positions
+# with 2 red balls to the left
+cueball.hist(2)
+# Theoretical distribution
+theory.curve(2,3)
+
+```

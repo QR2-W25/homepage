@@ -2125,15 +2125,86 @@ The contrapositive and affirming the consequent.
 <h2 class="anchored" data-anchor-id="calculating-a-p-value">Calculating a p-value</h2>
 <p>Reading it from the <code>conf_interval(show_p = TRUE)</code> and <code>R2()</code> reports, or the <code>anova_summary()</code> report if you are considering a bunch of coefficients together.</p>
 <p><a href="https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html">Census worksheet</a></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>People <span class="sc">|&gt;</span> </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(wages <span class="sc">~</span> occupation) <span class="sc">|&gt;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">conf_interval</span>(<span class="at">show_p =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>People <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 841 Columns: 27
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (22): hid, surname, prename, hrole, sex, race, mstatus, inschool, births...
+dbl  (5): age, edu, workhours, workweeks, wages
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>People <span class="sc">|&gt;</span> </span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(wages <span class="sc">~</span> sex <span class="sc">+</span> edu <span class="sc">+</span> age <span class="sc">+</span> occupation) <span class="sc">|&gt;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anova_summary</span>() <span class="sc">|&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">sumsq</th>
+<th style="text-align: right;">meansq</th>
+<th style="text-align: right;">statistic</th>
+<th style="text-align: right;">p.value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">sex</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">8226978</td>
+<td style="text-align: right;">8226977.9</td>
+<td style="text-align: right;">49.552010</td>
+<td style="text-align: right;">0.0000000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">edu</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">31031288</td>
+<td style="text-align: right;">31031287.7</td>
+<td style="text-align: right;">186.904925</td>
+<td style="text-align: right;">0.0000000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">age</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1131842</td>
+<td style="text-align: right;">1131842.4</td>
+<td style="text-align: right;">6.817213</td>
+<td style="text-align: right;">0.0099512</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">occupation</td>
+<td style="text-align: right;">125</td>
+<td style="text-align: right;">99182277</td>
+<td style="text-align: right;">793458.2</td>
+<td style="text-align: right;">4.779088</td>
+<td style="text-align: right;">0.0000000</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Residuals</td>
+<td style="text-align: right;">149</td>
+<td style="text-align: right;">24738042</td>
+<td style="text-align: right;">166027.1</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">NA</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <p>Look at all the low p-values. Then add in <code>sex + edu + age</code> as explanatory terms.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>People <span class="sc">|&gt;</span> </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(wages <span class="sc">~</span> occupation) <span class="sc">|&gt;</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anova_report</span>() <span class="sc">|&gt;</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>People <span class="sc">|&gt;</span> </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(wages <span class="sc">~</span> occupation) <span class="sc">|&gt;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">anova_report</span>() <span class="sc">|&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Why the difference? Many occupations are sex-stratified, that is, they serve as proxies for sex and thereby grab some of the credit in the coefficient report.</p>
 </section>
 <section id="equivalence-of-confidence-interval-and-p-value" class="level2">
@@ -2201,7 +2272,6 @@ The contrapositive and affirming the consequent.
 <p>To make things work out for math teachers, the concept of the alternative hypothesis was made highly rigid, taking one of three non-specific forms:</p>
 <p><span class="math display">\[H_a &lt; H_0\ \ \ \ \text{or} \ \ H_0 \neq H_a\ \ \ \ \text{or}\ \ \ \ \ H_0 &lt; H_a\]</span></p>
 <p>The inequality forms are attractive to researchers because they get to divide their p-values by 2, resulting in a smaller p-value and a more “significant” result. Isn’t this a form of cheating?</p>
-<p>Work through the medical testing example and the car safety example.</p>
 
 
 </section>

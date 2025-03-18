@@ -71,6 +71,7 @@ Of course, you will want to ask your own questions ...
 #| echo: false
 data_source <- url(
   "https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv")
+Tuesday <- readr::read_csv(url("https://qr2-w25.github.io/homepage/projects/Census/Sunday.csv"))
 People <- readr::read_csv(data_source)
 ```
 

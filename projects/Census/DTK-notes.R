@@ -53,7 +53,7 @@ Sheets <- tibble::tribble(
   "nmedefind", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vQph9rswliER2BKpEbFyDgQFByrrBQgAkmojmabgyq5Mw2kKwrV63rsjY9I8yIBizRqWysmbkVDstCo/pub?gid=0&single=true&output=csv",
   "zarinindyklevin", "households", "https://docs.google.com/spreadsheets/d/e/2PACX-1vTplIb9r9vsnnzvVOSp0bIe-v8A_rvbuepsCLIQEGCTdp54UHohV2ut94JLrNWcUr1OplamhvF60NRf/pub?gid=0&single=true&output=csv",
   "zarinindyklevin", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSkGABWUAXYrIYxSfdtzI_DgCfsTdngqJdh9N4va3VNIA9XAIOjS2XEsaGmSeyF_CsFAbK5s8XYUcIk/pub?gid=0&single=true&output=csv",
-
+  "cvimont", "persons", "https://docs.google.com/spreadsheets/d/e/2PACX-1vRfgZa82rcdJeBuvBcvu9p4ftISjJNutqi8mhRBH4B2oyJllc4f0lKJsYjEoAif2kSCJon5qJki4HnJ/pub?gid=0&single=true&output=csv",
 
 )
 
@@ -210,6 +210,10 @@ fix_workhours <- function(x) {
 
 fix_workclass <- function(x) {
   x <- fix_blanks_nas(x)
+  x <- gsub("DA", "OA", x)
+  x <- gsub("OR", "OA", x)
+  x <- gsub("SW", "GW", x)
+  x <- gsub("MW", "GW", x)
   x <- gsub("Gov", "GW", x)
   x <- gsub("Private", "PW", x)
   ifelse(nchar(x) == 2, toupper(x), NA)
@@ -240,4 +244,5 @@ First_pass |>
     workhours = fix_workhours(workhours),
     seeking = fix_seeking(seeking),
     farm = fix_farm(farm)
-  ) -> Goo
+  ) |>
+  dplyr::mutate(workclass = fix_workclass(workclass)) -> Goo

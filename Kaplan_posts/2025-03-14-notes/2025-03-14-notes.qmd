@@ -262,7 +262,3 @@ $$H_a < H_0\ \ \ \ \text{or} \ \ H_0 \neq H_a\ \ \ \ \text{or}\ \ \ \ \ H_0 < H_
 
 The inequality forms are attractive to researchers because they get to divide their p-values by 2, resulting in a smaller p-value and a more "significant" result. Isn't this a form of cheating?
 
-
-
-
-Work through the medical testing example  and the car safety example.

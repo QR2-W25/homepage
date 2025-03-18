@@ -12,30 +12,6 @@ subtitle: "Day-by-day schedule, readings, and notes"
 ## Near future
 
 
-::: {.callout-note}
-## Class Day 18 Friday 14 March
-
-Block 6: Hypothetical Reasoning (cont.)
-
-- New readings    
-    - Rosling Ch. 10 & [reading questions](../questions/R10-before.html)
-    - Complete `r tutorial_link(6)`
-    
-    
-- Assignments due: Progress on your report for the Census project
-    - The consolidated data for all students is available at [this worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html).
-    - Simple summaries of the all-of-QR2 Census data
-    - Statement of your "research topic" for your Census modeling project. This will include picking response and explanatory variables, including covariates. DO NOT AGONIZE about this. You are not going to be writing a PhD dissertation. 
-    - Remember that your project presentation is due 21 March.
-     
-    
-- [In-class notes](../Kaplan_posts/2025-03-14-notes/2025-03-14-notes.html)
-
-
-
-
-
-:::
 
 ::: {.callout-note}
 ## Class Day 19 Tuesday 18 March
@@ -394,6 +370,24 @@ Block 6: Hypothetical Reasoning
     
 - [In-class notes](../Kaplan_posts/2025-03-11-notes/2025-03-11-notes.html)
 
+
+## Class Day 18 Friday 14 March {#sec-11Mar}
+
+Block 6: Hypothetical Reasoning (cont.)
+
+- New readings    
+    - Rosling Ch. 10 & [reading questions](../questions/R10-before.html)
+    - Complete `r tutorial_link(6)`
+    
+    
+- Assignments due: Progress on your report for the Census project
+    - The consolidated data for all students is available at [this worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html).
+    - Simple summaries of the all-of-QR2 Census data
+    - Statement of your "research topic" for your Census modeling project. This will include picking response and explanatory variables, including covariates. DO NOT AGONIZE about this. You are not going to be writing a PhD dissertation. 
+    - Remember that your project presentation is due 21 March.
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-14-notes/2025-03-14-notes.html)
 
 
 

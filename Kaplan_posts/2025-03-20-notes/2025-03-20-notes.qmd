@@ -7,3 +7,45 @@ date: 2025-03-20
 library(LSTbook)
 ```
 
+## Student reports
+
+### David Poirier
+
+How do variables relate to marriage
+
+Education and marital status.
+
+### Allen Rubin
+
+Used pairwise comparison
+
+Age cohort and educational attainment. Among older cohorts its much more likely to have very little education
+
+### Jack Erickson
+
+Marital status, age and education
+
+
+### Thomas Olson
+
+Degrees of freedom
+
+### Ben Solin
+
+Sex and wage and occupations.
+
+
+### Harris Wernick
+
+sex and wage 
+
+### Ramya Nambala
+
+Wages and education
+
+
+### Jackson Calhoun
+
+Wonderful look at the employment variable and whether the data made sense.
+
+

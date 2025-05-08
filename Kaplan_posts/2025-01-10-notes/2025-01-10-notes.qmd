@@ -93,3 +93,4 @@ In writing documents, I use a different system.
 # Another chunk for using R
 ```
 
+Added in May 2025: an activity for calculating variance and standard deviation.

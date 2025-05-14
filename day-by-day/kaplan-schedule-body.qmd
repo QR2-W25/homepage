@@ -288,7 +288,7 @@ QUIZ today through Block 4 (Precision)
 :::
 
 ::: {.callout-note collapse=true}
-## Block 6: Hypothetical reasonsing
+## Block 6: Hypothetical reasoning
 
 ## Class Day 17 Tuesday 11 March {#sec-11Mar}
 

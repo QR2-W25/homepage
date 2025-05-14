@@ -1,0 +1,36 @@
+I thought that some of you might be interested in a new
+"statistical/data literacy" course I developed and taught this year. This is a 3-credit,
+no-prerequisite "core" course required for all first-year students
+at the University of Austin, a newly founded liberal arts college. Six sections
+were taught (by five instructors!) to about 90 students.
+
+All the materials are available on line, here: https://qr2-w25.github.io/homepage/
+
+There are a few innovations, which I think have been very successful:
+
+- Many of the readings come from two excellent best selling books: Spiegelhalter's
+"Art of Statistics" and Rosler's "Factfulness." These are both written for a general
+audience and the students liked them very much.
+- There was a strong technical component of the course beyond the scope of Spiegelhalter's
+book. It takes seriously covariates (and methods for adjusting for them), causal inference, includes
+a bit of Bayes (in the prediction and classification block), and treates hypothesis testing respectfully
+but not obsequiously.
+- Consistent with my long-held view that computing is central to statistics, there are six
+computing tutorials. These are based on R software I developed for my "Lessons in Statistical Modeling"
+book. Commands are compact, concise, consistent, and just a handful for functions are needed to
+accomplish all of the technical work. All the computing is done in the browser, so students
+have nothing to install. The Webr scheme used isn't as powerful as RStudio, but it is much less
+daunting to use, especially given the wide range of student interests, backgrounds, and confidence.
+
+A convenient, but not profound feature of the course is the use of `{devoirs}`, a package I
+wrote that makes it easy to collect student work automatically and to release answers to selected
+questions. On the instructor's end, all that's needed is to set up a Google Form (or the equivalent).
+{devoirs} provides R software for correcting and scoring the submissions on the instructor's
+computer. Very lightweight, easy to write questions in, involves no subscriptions, and makes it
+easy to share materials across instructors.
+
+I'm very interested to hear any reaction to the new course. I hope you'll like it.
+
+
+
+

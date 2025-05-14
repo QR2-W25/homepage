@@ -232,5 +232,8 @@
   },
   "projects/Census/consolidated-worksheet.qmd": {
     "consolidated-worksheet.html": "85568d69"
+  },
+  "day-by-day/kaplan-schedule-body.qmd": {
+    "kaplan-schedule-body.html": "f89fe8cf"
   }
 }

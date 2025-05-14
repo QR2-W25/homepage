@@ -5,7 +5,7 @@ subtitle: "Answer and submit *following* class discussion"
 
 {{< include ../start-up.qmd >}}
 
-
+{{< include ../_software/devoirs.qmd >}}
 
 
 ::: {.callout-note}
@@ -29,12 +29,3 @@ subtitle: "Answer and submit *following* class discussion"
 
 :::
 
-
-<!-- Boilerplate for devoirs functionality -->
-
-`r devoirs_start_no_link()`
-
-```{r echo=FALSE}
-devoirs_end()
-```
-`r QR2_submission_link()`

@@ -73,7 +73,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,15 +102,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="../../site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
 <link href="../../site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="../../site_libs/datatables-binding-0.24/datatables.js"></script>
+<script src="../../site_libs/datatables-binding-0.33/datatables.js"></script>
 <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="../../site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="../../site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="../../site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
-<link href="../../site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
-<script src="../../site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="../../site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="../../site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="../../site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/editor/editor.main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   
@@ -389,7 +389,7 @@ iframe.qwebr-output-code-browse {
 // Document level settings ----
 
 // Determine if we need to install R packages
-globalThis.qwebrInstallRPackagesList = ['ggplot2', 'LSTbook', 'dplyr', 'ggformula', 'mosaicData', 'palmerpenguins', 'babynames', 'mosaicCalc'];
+globalThis.qwebrInstallRPackagesList = ['ggplot2', 'LSTbook', 'dplyr', 'ggformula', 'mosaicData', 'palmerpenguins', 'babynames', 'mosaicCalc', 'igraph', 'gt'];
 
 // Specify possible locations to search for the repository
 globalThis.qwebrPackageRepoURLS = ['https://dtkaplan.r-universe.dev', 'https://repo.r-wasm.org/'];
@@ -411,7 +411,7 @@ globalThis.qwebrCustomizedWebROptions = {
 };
 
 // Store cell data
-globalThis.qwebrCellDetails = [{"code":"Galton |> point_plot(height ~ nkids, annot = \"model\")\nGalton |> model_train(height ~ nkids) |>\n  conf_interval()\nGalton |> model_train(height ~ nkids) |>\n  R2()","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Galton |> point_plot(height ~ nkids + sex, annot = \"model\")\nGalton |> model_train(height ~ nkids + sex) |>\n  conf_interval()\nGalton |> model_train(height ~ nkids + sex) |>\n  R2()","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Galton |>\n  filter(nkids < 12) |>\n  point_plot(height ~ nkids, annot = \"model\")\nGalton |>\n  filter(nkids < 12) |>\n  point_plot(height ~ nkids + sex, annot = \"model\")\nGalton |>\n  filter(nkids < 12) |>\n  model_train(height ~ nkids + sex) |>\n  conf_interval()","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"?SAT","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  point_plot(sat ~ expend, annot = \"model\")","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  point_plot(sat ~ ratio, annot = \"model\")","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  select(state, frac) |>\n  arrange(frac)","id":7,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-7","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  point_plot(sat ~ expend + frac, annot = \"model\")","id":8,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-8","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+globalThis.qwebrCellDetails = [{"code":"mod <- Galton |>\n  model_train(height ~ mother + father + sex)\nstr(mod)","id":1,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-1","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Galton |> point_plot(height ~ nkids, annot = \"model\")\nGalton |> model_train(height ~ nkids) |>\n  conf_interval()\nGalton |> model_train(height ~ nkids) |>\n  R2()","id":2,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-2","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Galton |> point_plot(height ~ nkids + sex, annot = \"model\")\nGalton |> model_train(height ~ nkids + sex) |>\n  conf_interval()\nGalton |> model_train(height ~ nkids + sex) |>\n  R2()","id":3,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-3","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"Galton |>\n  filter(nkids < 12) |>\n  point_plot(height ~ nkids, annot = \"model\")\nGalton |>\n  filter(nkids < 12) |>\n  point_plot(height ~ nkids + sex, annot = \"model\")\nGalton |>\n  filter(nkids < 12) |>\n  model_train(height ~ nkids + sex) |>\n  conf_interval()","id":4,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-4","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"?SAT","id":5,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-5","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  point_plot(sat ~ expend, annot = \"model\")","id":6,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-6","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  point_plot(sat ~ ratio, annot = \"model\")","id":7,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-7","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  select(state, frac) |>\n  arrange(frac)","id":8,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-8","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}},{"code":"SAT |>\n  point_plot(sat ~ expend + frac, annot = \"model\")","id":9,"options":{"autorun":"false","classes":"","comment":"","context":"interactive","dpi":72,"editor-font-scale":"1","editor-max-height":"","editor-quick-suggestions":"false","editor-word-wrap":"true","fig-cap":"","fig-height":5,"fig-width":7,"label":"unnamed-chunk-9","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 </script>
 <script type="module">
@@ -1666,10 +1666,9 @@ globalThis.qwebrExecuteCode = async function (
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -1695,6 +1694,10 @@ globalThis.qwebrExecuteCode = async function (
 <span class="menu-text">Syllabus &amp; policies</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../day-by-day/Kaplan-schedule.html"> 
+<span class="menu-text">Sample schedule</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../projects/Census/intro.html"> 
 <span class="menu-text">Course project</span></a>
   </li>  
@@ -1709,19 +1712,7 @@ globalThis.qwebrExecuteCode = async function (
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#where-we-are" id="toc-where-we-are" class="nav-link active" data-scroll-target="#where-we-are">Where we are</a></li>
-  <li><a href="#adjustment" id="toc-adjustment" class="nav-link" data-scroll-target="#adjustment">Adjustment</a>
-  <ul class="collapse">
-  <li><a href="#adjusting-for-who-takes-the-sat" id="toc-adjusting-for-who-takes-the-sat" class="nav-link" data-scroll-target="#adjusting-for-who-takes-the-sat">Adjusting for who takes the SAT</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.47.0/min/vs/loader.js"></script>
@@ -2038,84 +2029,8 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <h2 class="anchored" data-anchor-id="where-we-are">Where we are</h2>
 <p>We know how to “fit” models: <code>model_train()</code></p>
 <p>Models are themselves complex computational objects:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>mod <span class="ot">&lt;-</span> Galton <span class="sc">|&gt;</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">model_train</span>(height <span class="sc">~</span> mother <span class="sc">+</span> father <span class="sc">+</span> sex)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(mod)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>List of 13
- $ coefficients : Named num [1:4] 15.345 0.321 0.406 5.226
-  ..- attr(*, "names")= chr [1:4] "(Intercept)" "mother" "father" "sexM"
- $ residuals    : Named num [1:898] -0.78 0.446 0.246 0.246 0.899 ...
-  ..- attr(*, "names")= chr [1:898] "1" "2" "3" "4" ...
- $ effects      : Named num [1:898] -2000.6 -21.6 -28 78.2 0.9 ...
-  ..- attr(*, "names")= chr [1:898] "(Intercept)" "mother" "father" "sexM" ...
- $ rank         : int 4
- $ fitted.values: Named num [1:898] 74 68.8 68.8 68.8 72.6 ...
-  ..- attr(*, "names")= chr [1:898] "1" "2" "3" "4" ...
- $ assign       : int [1:4] 0 1 2 3
- $ qr           :List of 5
-  ..$ qr   : num [1:898, 1:4] -29.9666 0.0334 0.0334 0.0334 0.0334 ...
-  .. ..- attr(*, "dimnames")=List of 2
-  .. .. ..$ : chr [1:898] "1" "2" "3" "4" ...
-  .. .. ..$ : chr [1:4] "(Intercept)" "mother" "father" "sexM"
-  .. ..- attr(*, "assign")= int [1:4] 0 1 2 3
-  .. ..- attr(*, "contrasts")=List of 1
-  .. .. ..$ sex: chr "contr.treatment"
-  ..$ qraux: num [1:4] 1.03 1.04 1.11 1.03
-  ..$ pivot: int [1:4] 1 2 3 4
-  ..$ tol  : num 1e-07
-  ..$ rank : int 4
-  ..- attr(*, "class")= chr "qr"
- $ df.residual  : int 894
- $ contrasts    :List of 1
-  ..$ sex: chr "contr.treatment"
- $ xlevels      :List of 1
-  ..$ sex: chr [1:2] "F" "M"
- $ call         : language stats::lm(formula = tilde, data = data)
- $ terms        :Classes 'terms', 'formula'  language height ~ mother + father + sex
-  .. ..- attr(*, "variables")= language list(height, mother, father, sex)
-  .. ..- attr(*, "factors")= int [1:4, 1:3] 0 1 0 0 0 0 1 0 0 0 ...
-  .. .. ..- attr(*, "dimnames")=List of 2
-  .. .. .. ..$ : chr [1:4] "height" "mother" "father" "sex"
-  .. .. .. ..$ : chr [1:3] "mother" "father" "sex"
-  .. ..- attr(*, "term.labels")= chr [1:3] "mother" "father" "sex"
-  .. ..- attr(*, "order")= int [1:3] 1 1 1
-  .. ..- attr(*, "intercept")= int 1
-  .. ..- attr(*, "response")= int 1
-  .. ..- attr(*, ".Environment")=&lt;environment: R_GlobalEnv&gt; 
-  .. ..- attr(*, "predvars")= language list(height, mother, father, sex)
-  .. ..- attr(*, "dataClasses")= Named chr [1:4] "numeric" "numeric" "numeric" "factor"
-  .. .. ..- attr(*, "names")= chr [1:4] "height" "mother" "father" "sex"
- $ model        :'data.frame':  898 obs. of  4 variables:
-  ..$ height: num [1:898] 73.2 69.2 69 69 73.5 72.5 65.5 65.5 71 68 ...
-  ..$ mother: num [1:898] 67 67 67 67 66.5 66.5 66.5 66.5 64 64 ...
-  ..$ father: num [1:898] 78.5 78.5 78.5 78.5 75.5 75.5 75.5 75.5 75 75 ...
-  ..$ sex   : Factor w/ 2 levels "F","M": 2 1 1 1 2 2 1 1 2 1 ...
-  ..- attr(*, "terms")=Classes 'terms', 'formula'  language height ~ mother + father + sex
-  .. .. ..- attr(*, "variables")= language list(height, mother, father, sex)
-  .. .. ..- attr(*, "factors")= int [1:4, 1:3] 0 1 0 0 0 0 1 0 0 0 ...
-  .. .. .. ..- attr(*, "dimnames")=List of 2
-  .. .. .. .. ..$ : chr [1:4] "height" "mother" "father" "sex"
-  .. .. .. .. ..$ : chr [1:3] "mother" "father" "sex"
-  .. .. ..- attr(*, "term.labels")= chr [1:3] "mother" "father" "sex"
-  .. .. ..- attr(*, "order")= int [1:3] 1 1 1
-  .. .. ..- attr(*, "intercept")= int 1
-  .. .. ..- attr(*, "response")= int 1
-  .. .. ..- attr(*, ".Environment")=&lt;environment: R_GlobalEnv&gt; 
-  .. .. ..- attr(*, "predvars")= language list(height, mother, father, sex)
-  .. .. ..- attr(*, "dataClasses")= Named chr [1:4] "numeric" "numeric" "numeric" "factor"
-  .. .. .. ..- attr(*, "names")= chr [1:4] "height" "mother" "father" "sex"
- - attr(*, "class")= chr [1:2] "model_object" "lm"
- - attr(*, "training_data")='data.frame':   898 obs. of  6 variables:
-  ..$ family: Factor w/ 197 levels "1","10","100",..: 1 1 1 1 108 108 108 108 123 123 ...
-  ..$ father: num [1:898] 78.5 78.5 78.5 78.5 75.5 75.5 75.5 75.5 75 75 ...
-  ..$ mother: num [1:898] 67 67 67 67 66.5 66.5 66.5 66.5 64 64 ...
-  ..$ sex   : Factor w/ 2 levels "F","M": 2 1 1 1 2 2 1 1 2 1 ...
-  ..$ height: num [1:898] 73.2 69.2 69 69 73.5 72.5 65.5 65.5 71 68 ...
-  ..$ nkids : int [1:898] 4 4 4 4 4 4 4 4 2 2 ...</code></pre>
-</div>
-</div>
+<div id="qwebr-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>We have met three ways of summarizing models:</p>
 <ol type="1">
 <li>Plot them. <code>point_plot()</code> does this. We can also use <code>model_plot()</code> directly on the model. (But best to display data along with the models.)</li>
@@ -2137,13 +2052,13 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <p>Adjustment generally: keeping other things the same when examining the relationship between two variables of interest. Classical experimental design, keeping conditions and materials constant while varying an input of interest, is an example of setting things up to <em>avoid</em> having to adjust. But with observational data, we can’t intervene and instead have to use modeling to try to approximate the experimental conditions.</p>
 <p>Interpretting the Galton model when adjusting for other potential explanatory variables. Example:</p>
 <p>A negative relationship! Bigger families have shorter kids.</p>
-<div id="qwebr-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>What if we “adjust” for the child’s sex?</p>
 <div id="qwebr-insertion-location-2"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-<p>What if we get rid of the one family with 15 kids? Maybe they are pulling down the average.</p>
+<p>What if we “adjust” for the child’s sex?</p>
 <div id="qwebr-insertion-location-3"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<p>What if we get rid of the one family with 15 kids? Maybe they are pulling down the average.</p>
+<div id="qwebr-insertion-location-4"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>Trivial example of adjustment: school expenditures and student performance (as indicated by standardized tests).</p>
 <ul>
@@ -2152,33 +2067,33 @@ globalThis.qwebrCreateMonacoEditorInstance = function (cellData) {
 <li><p>Expenditures. There are big states that spend large amounts on education and small states that spend relatively small amounts. To avoid confusing (a word we will see later is “confounding”) state size with the intensity of spending, a sensible (and common-sense) form of adjustment is <em>per capita</em> adjustment: divide spending by the number of people. For education, <em>per pupil</em> spending is appropriate.</p></li>
 </ul>
 <p>Show the SAT data:</p>
-<div id="qwebr-insertion-location-4"></div>
+<div id="qwebr-insertion-location-5"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <ol type="1">
 <li>What do you think are the best and worst states (on average) for education? Let’s see how this lines up with expenditures (per pupil).</li>
 </ol>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>SAT <span class="sc">|&gt;</span> </span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(state, expend) <span class="sc">|&gt;</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(expend)) <span class="sc">|&gt;</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>SAT <span class="sc">|&gt;</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(state, expend) <span class="sc">|&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(expend)) <span class="sc">|&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  DT<span class="sc">::</span><span class="fu">datatable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ca27a257179f36bf8d65" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-ca27a257179f36bf8d65">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],["New Jersey","New York","Alaska","Connecticut","Rhode Island","Massachusetts","Maryland","Pennsylvania","Delaware","Michigan","Wisconsin","Vermont","Oregon","Maine","Ohio","Wyoming","Illinois","West Virginia","Hawaii","Minnesota","Nebraska","Washington","New Hampshire","Indiana","Kansas","Florida","Montana","Iowa","Colorado","Missouri","Virginia","Texas","Kentucky","Georgia","Nevada","North Carolina","California","Oklahoma","South Carolina","Arizona","North Dakota","South Dakota","Louisiana","New Mexico","Arkansas","Alabama","Tennessee","Idaho","Mississippi","Utah"],[9.774,9.623,8.963,8.817,7.469,7.287,7.245,7.109,7.03,6.994,6.93,6.75,6.436,6.428,6.162,6.16,6.136,6.107,6.078,6,5.935,5.906,5.859,5.826,5.817,5.718,5.692,5.483,5.443,5.383,5.327,5.222,5.217,5.193,5.16,5.077,4.992,4.845,4.797,4.778,4.775,4.775,4.761,4.586,4.459,4.405,4.388,4.21,4.08,3.656]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>state<\/th>\n      <th>expend<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":2},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-5884b4af1ec691a97325" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5884b4af1ec691a97325">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50"],["New Jersey","New York","Alaska","Connecticut","Rhode Island","Massachusetts","Maryland","Pennsylvania","Delaware","Michigan","Wisconsin","Vermont","Oregon","Maine","Ohio","Wyoming","Illinois","West Virginia","Hawaii","Minnesota","Nebraska","Washington","New Hampshire","Indiana","Kansas","Florida","Montana","Iowa","Colorado","Missouri","Virginia","Texas","Kentucky","Georgia","Nevada","North Carolina","California","Oklahoma","South Carolina","Arizona","North Dakota","South Dakota","Louisiana","New Mexico","Arkansas","Alabama","Tennessee","Idaho","Mississippi","Utah"],[9.773999999999999,9.622999999999999,8.962999999999999,8.817,7.469,7.287,7.245,7.109,7.03,6.994,6.93,6.75,6.436,6.428,6.162,6.16,6.136,6.107,6.078,6,5.935,5.906,5.859,5.826,5.817,5.718,5.692,5.483,5.443,5.383,5.327,5.222,5.217,5.193,5.16,5.077,4.992,4.845,4.797,4.778,4.775,4.775,4.761,4.586,4.459,4.405,4.388,4.21,4.08,3.656]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>state<\/th>\n      <th>expend<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":2},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"state","targets":1},{"name":"expend","targets":2}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p>WARNING: If you have heard from other students or read this example previously, don’t be a spoiler! Keep it to yourself.</p>
 <p>SAT performance versus per-capita school expenditures. This adjusts for state size.</p>
-<div id="qwebr-insertion-location-5"></div>
+<div id="qwebr-insertion-location-6"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <p>Try also <code>ratio</code> (something like class size) and <code>salary</code> (how well they pay teachers).</p>
-<div id="qwebr-insertion-location-6"></div>
+<div id="qwebr-insertion-location-7"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <section id="adjusting-for-who-takes-the-sat" class="level3">
 <h3 class="anchored" data-anchor-id="adjusting-for-who-takes-the-sat">Adjusting for who takes the SAT</h3>
-<div id="qwebr-insertion-location-7"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 <div id="qwebr-insertion-location-8"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+<div id="qwebr-insertion-location-9"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
 
 

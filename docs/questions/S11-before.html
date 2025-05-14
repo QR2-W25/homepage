@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d045e70ebd9269c25e164ecdb4898f56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/live-runtime/live-runtime.js" type="module"></script>
+<link href="../site_libs/quarto-contrib/live-runtime/live-runtime.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,6 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -126,6 +130,10 @@ window.Quarto = {
 <span class="menu-text">Syllabus &amp; policies</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../day-by-day/Kaplan-schedule.html"> 
+<span class="menu-text">Sample schedule</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../projects/Census/intro.html"> 
 <span class="menu-text">Course project</span></a>
   </li>  
@@ -168,90 +176,24 @@ window.Quarto = {
 
 <!-- Load packages, etc. -->
 <!-- Submission link -->
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Question 1:
+Remember to hand in your work …
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Spiegelhalter starts Chapter 11 saying,</p>
-<blockquote class="blockquote">
-<p>“<em>I must now make an admission on behalf of the statistical community. The formal basis for learning from data is a bit of a mess. Although there have been numerous attempts to produce a single unifying theory of statistical inference, none has been fully accepted. It is no wonder mathematicians tend to dislike teaching statistics.</em>”</p>
-</blockquote>
-<p>What is your intuitive reaction when reading such a statement? Does it make you question the value of statistics as a discipline? Be honest, and consider raising any concerns you have in class discussion.</p>
-<p><textarea id="S11-QB1" name="S11-QB1" class="devoirs-text" rows="4" cols="50" placeholder="Type here for question ID S11-QB1"></textarea> </p><div style="color: grey;"> <small>question id: S11-QB1</small> </div><p></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Question 2:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The word “likelihood” is familiar from everyday speech, where it is more or less a synonym for “probability.” But the <em>technical</em> meaning of likelihood is more specific. It has two components:</p>
-<ol type="i">
-<li>An observation of the outcome of an event.</li>
-<li>A hypothesis that is assumed to be correct for the purposes of calculating the likelihood.</li>
-</ol>
-<p>“Assumed to be correct” is an example of <em>hypothetical thinking</em> which we will encounter in Block 6 of this course.</p>
-<p>Here’s a concrete, everyday example of a likelihood. Suppose you are highly engaged in an upcoming soccer match. If your team wins, you and your friends will be happy and will very likely end up partying that evening. If your team loses, you will probably retire to your room to study more for this course.</p>
-<p>The statements “If your team loses” and “If your team wins” corresponds to different hypothesis about the (as yet unknown) outcome of the upcoming soccer match. There are also two different possible observations that can be made only after the outcome of the soccer match is known: partying or studying. Two hypotheses and two possible observations gives a total of four combinations:</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Outcome of match</th>
-<th>Observation</th>
-<th>Likelihood</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Win</td>
-<td>partying</td>
-<td>70%</td>
-</tr>
-<tr class="even">
-<td>Win</td>
-<td>studying</td>
-<td>10%</td>
-</tr>
-<tr class="odd">
-<td>Lose</td>
-<td>partying</td>
-<td>20%</td>
-</tr>
-<tr class="even">
-<td>Lose</td>
-<td>studying</td>
-<td>60%</td>
-</tr>
-</tbody>
-</table>
-<p>Your parents call from out of town soon after the match has finished. They don’t yet know the outcome of the match, but they can see on Facetime that you are in your room studying. What should they conclude about the outcome of the match?</p>
-<p>The relevant likelihood ratio involves the two rows where the observation is “studying.” Your parents’ likelihood ratio for the game outcome being a win will be 10% / 60% = 1/6.</p>
-<p>Which ones of the following ideas from Block 3 is in the form of a likelihood? Sensitivity, specificity, prevalence, false-positive rate.</p>
-<p><textarea id="S11-QB2" name="S11-QB2" class="devoirs-text" rows="4" cols="50" placeholder="Type here for question ID S11-QB2"></textarea> </p><div style="color: grey;"> <small>question id: S11-QB2</small> </div><p></p>
-<p>Going back to the soccer match …. Your parents had a prior opinion about whether your team would win, say 70%. (They are fans, but realistic.) This corresponds to a prior odds of winning of 70/30 = 2.33.</p>
-<p>Also, your parents know you pretty well, so they are familiar with the likelihoods in the table above.</p>
-<p>The posterior odds of winning—that is, the odds once they have observed that you are studying but haven’t yet asked you the outcome of the match—are provided by Bayes’ rule:</p>
-<p>posterior odds of winning = likelihood ratio <span class="math inline">\(\times\)</span> prior odds of winning</p>
-<p>Since your parents know all about Bayes’ rule, they can easily update the odds of winning given the observation of you studying: (1/6) <span class="math inline">\(\times\)</span> (70/30) = 0.39 (odds).</p>
-<p>The conversion from odds to probability is a matter of arithmetic. Odds of 0.39 corresponds to a probability of 0.39 / 1.39 <span class="math inline">\(\longrightarrow\)</span> 0.28 (probability).</p>
-</div>
-</div>
-<!-- Boilerplate for devoirs functionality -->
-<span id="devoirs-docID" style="display: none;">S11-before.rmarkdown</span> <button onclick="devoirsSubmit()">Collect your answers</button>
-<div id="devoirs_summary">
-No answers yet collected
-</div>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Submitting answers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Clearing document memory</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>At any point, you can submit your answers by collecting them and uploading them to the class site.</p>
+<p><span id="devoirs-docID" style="display: none;">S11-before.rmarkdown</span> <span><button onclick="devoirsSubmit()">Collect your answers</button></span> <span id="devoirs_summary">No answers yet collected</span></p>
 <div class="cell">
 <div class="cell-output-display">
 <script type="text/javascript">
@@ -315,7 +257,7 @@ function devoirsSubmit() {
     console.log("Getting R commands.")
     var Rhistory = qwebrRCommandHistory.map((x) => x.replace(/Ran code in (.*) at (.*[AP]M).{5}(.*)/, "[chunk: $1, time: $2, code: $3]"))
 
-    items = {docid: devoirsGetDocID(), MC: devoirsCollectMC(), Essays: devoirsCollectEssays(), WebR: devoirsCollectWebR(), R: Rhistory}
+    items = {docid: devoirsGetDocID(), MC: devoirsCollectMC(), Essays: devoirsCollectEssays()} //, WebR: devoirsCollectWebR(), R: Rhistory}
   }
 
   navigator.clipboard.writeText(JSON.stringify(items));
@@ -354,11 +296,175 @@ console.log("Added hint summary.")
 
 </div>
 </div>
-<p><a href="https://forms.gle/YPEuzE3oiQQQhrWNA">Submit collected answers here</a></p>
+<p><a href="https://forms.gle/YPEuzE3oiQQQhrWNA" target="_blank">Link to upload site</a></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+If the answers that have been loaded automatically are not yours, press this button before starting your work:
+<script type="text/javascript">
+      // clear the local storage
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('btnClearStorage');
+      form.addEventListener("click", function () {
+        localStorage.clear();
+        location.reload();
+        console.log("Clearing memory");
+      }, false);
+    }
+    )
+    </script>
+<button id="btnClearStorage">
+Clear memory
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Question 1:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Spiegelhalter starts Chapter 11 saying,</p>
+<blockquote class="blockquote">
+<p>“<em>I must now make an admission on behalf of the statistical community. The formal basis for learning from data is a bit of a mess. Although there have been numerous attempts to produce a single unifying theory of statistical inference, none has been fully accepted. It is no wonder mathematicians tend to dislike teaching statistics.</em>”</p>
+</blockquote>
+<p>What is your intuitive reaction when reading such a statement? Does it make you question the value of statistics as a discipline? Be honest, and consider raising any concerns you have in class discussion.</p>
+<script type="text/javascript">
+      //save entered info
+      document.addEventListener('DOMContentLoaded', function() {
+      console.log('Adding event listener for S11-QB1.');
+      const form = document.getElementById('S11-QB1');
+      form.addEventListener("input", function () {
+        var todo = document.getElementById('S11-QB1').value;
+        localStorage.setItem("S11-QB1-contents", todo);
+        console.log("Saving value of S11-QB1.")
+      }, false);
+
+      //on page load, read in the old value
+      const savedValue = localStorage.getItem("S11-QB1-contents");
+      if (savedValue) {
+        document.getElementById('S11-QB1').value = savedValue;
+      }
+})
+</script>
+<textarea id="S11-QB1" name="S11-QB1" class="devoirs-text" style="font-family: monospace, monospace;" rows="4" cols="50" placeholder="Type here. (ID S11-QB1)"></textarea>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Question 2:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The word “likelihood” is familiar from everyday speech, where it is more or less a synonym for “probability.” But the <em>technical</em> meaning of likelihood is more specific. It has two components:</p>
+<ol type="i">
+<li>An observation of the outcome of an event.</li>
+<li>A hypothesis that is assumed to be correct for the purposes of calculating the likelihood.</li>
+</ol>
+<p>“Assumed to be correct” is an example of <em>hypothetical thinking</em> which we will encounter in Block 6 of this course.</p>
+<p>Here’s a concrete, everyday example of a likelihood. Suppose you are highly engaged in an upcoming soccer match. If your team wins, you and your friends will be happy and will very likely end up partying that evening. If your team loses, you will probably retire to your room to study more for this course.</p>
+<p>The statements “If your team loses” and “If your team wins” corresponds to different hypothesis about the (as yet unknown) outcome of the upcoming soccer match. There are also two different possible observations that can be made only after the outcome of the soccer match is known: partying or studying. Two hypotheses and two possible observations gives a total of four combinations:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Outcome of match</th>
+<th>Observation</th>
+<th>Likelihood</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Win</td>
+<td>partying</td>
+<td>70%</td>
+</tr>
+<tr class="even">
+<td>Win</td>
+<td>studying</td>
+<td>10%</td>
+</tr>
+<tr class="odd">
+<td>Lose</td>
+<td>partying</td>
+<td>20%</td>
+</tr>
+<tr class="even">
+<td>Lose</td>
+<td>studying</td>
+<td>60%</td>
+</tr>
+</tbody>
+</table>
+<p>Your parents call from out of town soon after the match has finished. They don’t yet know the outcome of the match, but they can see on Facetime that you are in your room studying. What should they conclude about the outcome of the match?</p>
+<p>The relevant likelihood ratio involves the two rows where the observation is “studying.” Your parents’ likelihood ratio for the game outcome being a win will be 10% / 60% = 1/6.</p>
+<p>Which ones of the following ideas from Block 3 is in the form of a likelihood? Sensitivity, specificity, prevalence, false-positive rate.</p>
+<script type="text/javascript">
+      //save entered info
+      document.addEventListener('DOMContentLoaded', function() {
+      console.log('Adding event listener for S11-QB2.');
+      const form = document.getElementById('S11-QB2');
+      form.addEventListener("input", function () {
+        var todo = document.getElementById('S11-QB2').value;
+        localStorage.setItem("S11-QB2-contents", todo);
+        console.log("Saving value of S11-QB2.")
+      }, false);
+
+      //on page load, read in the old value
+      const savedValue = localStorage.getItem("S11-QB2-contents");
+      if (savedValue) {
+        document.getElementById('S11-QB2').value = savedValue;
+      }
+})
+</script>
+<textarea id="S11-QB2" name="S11-QB2" class="devoirs-text" style="font-family: monospace, monospace;" rows="4" cols="50" placeholder="Type here. (ID S11-QB2)"></textarea>
+<p>Going back to the soccer match …. Your parents had a prior opinion about whether your team would win, say 70%. (They are fans, but realistic.) This corresponds to a prior odds of winning of 70/30 = 2.33.</p>
+<p>Also, your parents know you pretty well, so they are familiar with the likelihoods in the table above.</p>
+<p>The posterior odds of winning—that is, the odds once they have observed that you are studying but haven’t yet asked you the outcome of the match—are provided by Bayes’ rule:</p>
+<p>posterior odds of winning = likelihood ratio <span class="math inline">\(\times\)</span> prior odds of winning</p>
+<p>Since your parents know all about Bayes’ rule, they can easily update the odds of winning given the observation of you studying: (1/6) <span class="math inline">\(\times\)</span> (70/30) = 0.39 (odds).</p>
+<p>The conversion from odds to probability is a matter of arithmetic. Odds of 0.39 corresponds to a probability of 0.39 / 1.39 <span class="math inline">\(\longrightarrow\)</span> 0.28 (probability).</p>
+</div>
+</div>
 
 
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<div id="exercise-loading-indicator" class="exercise-loading-indicator d-none d-flex align-items-center gap-2">
+<div id="exercise-loading-status" class="d-flex gap-2">
+
+</div>
+<div class="spinner-grow spinner-grow-sm">
+
+</div>
+</div>
+<script type="vfs-file">
+W10=
+</script>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../questions";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -441,8 +547,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -553,7 +657,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

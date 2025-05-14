@@ -4,21 +4,11 @@ subtitle: "Course homepage"
 ---
 
 
+::: {.callout-note collapse=true}
+## Resources from Winter 2025
+There were six sections of QR2 offered in the Winter 2025 term, taught by five different instructors.
 
-::: {.callout-note}
-## Shared homepage
-
-There are six sections of QR2 offered in the Winter 2025 term, taught by five different instructors. This page is a **shared** homepage for the course. To explain ... the QR2 course has been constructed by the instructors and reflects our consensus vision of how best to achieve institution-wide objectives of core courses.
-
-It's impractical (and probably not optimal) for all the sections to be exactly identical. Different sections meet on different days and instructors are most effective when teaching in their individual styles.
-
-On a day-to-day basis, you should *refer to your instructor's schedule* linked to below.
-:::
-
-
-## Day-by-day schedule
-
-There are six class sections for QR2. These follow a similar schedule, but naturally the viscisitudes and opportunities of classroom discussion lead to variation on a section-by-section basis. Accordingly, you should *bookmark* your section in your browser for easy access to the most up-to-date information.
+It's impractical (and probably not optimal) for all the sections to be identical. Different sections meet on different days and instructors are most effective when teaching in their individual styles.
 
 - [Section 1 (Prof. Ruth)](day-by-day/Ruth-schedule.html)
 - [Section 2 (Prof. Kolpakov)](day-by-day/Kolpakov-schedule.html)
@@ -26,7 +16,11 @@ There are six class sections for QR2. These follow a similar schedule, but natur
 - [Section 4 (Prof. Puelz)](https://github.com/dpuelz/Quantitative-Reasoning-II)
 - [Section 5 (Prof. Overbey)](https://github.com/eliah-o/Quantitative-Reasoning-II)
 - [Section 6 (Prof. Kaplan)](day-by-day/Kaplan-schedule.html)
+:::
 
+## Sample schedule
+
+{{< include day-by-day/kaplan-schedule-body.qmd >}}
 
 
 ## General information

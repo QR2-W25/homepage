@@ -1,9 +1,11 @@
 {
-  "hash": "9a715ea9df0e6bf27482d1eab602dd19",
+  "hash": "15e616c9d1385864c63452c62d1eb706",
   "result": {
     "engine": "knitr",
-    "markdown": "<!-- Load packages, etc. -->\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n<!-- Submission link -->\n\n\n\n::: {.cell}\n\n:::\n",
-    "supporting": [],
+    "markdown": "<!-- Load packages, etc. -->\n\n\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n<!-- Submission link -->\n\n\n\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "start-up_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

@@ -1,0 +1,364 @@
+QR2 was divided into six blocks, each covered in roughly 4 classroom hours. Each block has a theme:
+
+::: {.callout-note collapse=true}
+## Block 1: Data, variation, visualization, and trends
+
+#### Class Day 1. Tuesday 7 January, 2025 {#sec-07Jan}
+
+Orientation to QR2
+
+- [In-class notes](../Kaplan_posts/2025-01-07-notes/2025-01-07-notes.html)
+
+- Readings:
+    - Spiegelhalter Introduction [Link to a randomly selected seller](https://www.hpb.com/the-art-of-statistics-how-to-learn-from-data/M-3646261-T.html?utm_source=google&utm_medium=cpc&utm_campaign=HPB_PMAX_ECOM&gad_source=1&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToXt03joDgue1IfapmsUC7FSrPIrBt4o2wGL1XtdVzn4olcYDoFnKgQaAhLMEALw_wcB)
+    - Rosling Introduction [Link to a randomly selected seller of the book](https://www.betterworldbooks.com/product/detail/factfulness-ten-reasons-we-re-wrong-about-the-world-and-why-things-are-better-than-you-think-9781250123824?shipto=US&curcode=USD&gad_source=1&gclid=Cj0KCQiAvvO7BhC-ARIsAGFyToW5RAPaZ6PKkhyWmLKWQprHQbJWUaQ-bG7qdB8L9jYw4FExpc4ZaSkaAgw-EALw_wcB)
+    - Note: As a rule, you should have completed a first pass of the day's readings *before* the class meets. This being the first day, I can only ask to to try to do so.
+
+- Discussion[:](Dailies-Kaplan/2025-01-07-notes.html)
+    - Learning about data and statistics
+    - Spiegelhalter Introduction [reading questions](../questions/S0-before.html)
+    - Rosling Introduction [reading questions](../questions/R0-before.html)
+    - Note: The items under the "Discussion" header in this document are just FYI. The readings and the reading questions are the appropriate preparation.
+
+
+#### Class Day 2. Friday 10 January {#sec-10Jan}
+
+- New readings:
+    a. Spiegelhalter Chap 1 [questions](../questions/S1-before.html)
+    b. Rosling Chap 1 [questions](../questions/R1-before.html)
+
+- Assignments due before class time:
+    i. Before-class reading questions as linked above.
+    ii. Spiegelhalter introduction [follow-up reading questions](../questions/S0-after.html)
+
+- Discussions[:](Dailies-Kaplan/2025-01-10-notes.html)
+    - Sorting out any start-up problems
+    - Spiegelhalter and Rosling readings
+    - In-class orientation to computing
+
+- [In-class notes](../Kaplan_posts/2025-01-10-notes/2025-01-10-notes.html)
+
+
+#### Class Day 3. Tuesday 14 January, 2025 {#sec-14Jan}
+
+
+- New readings:
+
+    a. Rosling Chap 2 & [reading questions](../questions/R2-before.html)
+    b. `r tutorial_link(1)` 
+    
+- Discussions and Activities
+    i. Rossling reading
+    ii. Review of Computing Tutorial 1
+    iii. In-class group work on computing activities (TBA)
+
+- Assignments due before class time: 
+    - Remember that the "New readings" section has links to the relevant reading questions. 
+    - As regards the computing tutorials ... There are some "reading tasks" with questions that you should answer and submit in the usual way. Equally important, however, are the many R Chunks. You're expected to play around a bit as you work through the tutorial, trying out different commands, changing names, etc. Make mistakes! That's a great way to learn. Each time you run an R chunk, that activity is stored in your browser until you close or refresh the page. Submit your work using the button and link at the bottom of the tutorial document. This will let me see what you've done, and will be a component of class participation. 
+    - If you stop part way through a document with questions, chunks, etc., submit your work up to that point. When you return to the document, you can do additional work and submit that. You don't have to worry about submitting multiple times.
+    - Note that when you close a document tab, your previous entries are forgotten. But any submissions that you made previously are still safely stored at the submission collection site.
+
+- [In-class notes](../Kaplan_posts/2025-01-14-notes/2025-01-14-notes.html)
+
+
+:::
+
+<!--
+## Archive of past class days.
+
+January: [7](#sec-07Jan), [10](#sec-10Jan), [14](#sec-14Jan), [17](#sec-17Jan), [21](#sec-21Jan), [24](#sec-24Jan), [28](#sec-28Jan), [31](#sec-31Jan)   
+February: [4](#sec-04Feb), [7](#sec-07Feb), [18](#sec-18Feb), [21](#sec-21Feb), [25](#sec-25Feb), [28](#sec-28Feb)    
+March: [4](#sec-04Mar), [7](#sec-07Mar), [11](#sec-11Mar), [14](#sec-14Mar), [18](#sec-18Mar), [21](#sec-21Mar)
+
+-->
+
+::: {.callout-note collapse=true}
+## Block 2: Prediction and classification
+
+#### 4. Class Day 4 Friday 17 January {#sec-17Jan}
+
+- New readings    
+    a. Rosling Chap 4 & [reading questions](../questions/R4-before.html). We're skipping Rosling 3, saving that for another day.
+    b. Spiegelhalter Chap 3 & [reading questions](../questions/S3-before.html)
+
+- Start work
+    i. [computing activities for Tutorial 1](https://dtkaplan.github.io/QR2-computing/exercises-1.html). Will be due before the next class meeting. You don't have to do the ones labelled "In-class". But do as many of the others as you can. 
+
+
+- Assignments due:
+    - As always, reading questions from new readings are due before class. 
+    - The "computing activities" are due before the class day *after* the class day where they are listed under "Start work." The activities for Tutorial 1 are listed for today, so they will be due by class time on Tuesday.
+    - I'll stop mentioning this explicitly for future class days. 
+    
+- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-17-notes.html)
+
+
+
+#### Class Day 5 Tuesday 21 January {#sec-21Jan}
+
+- New readings:
+    - Spiegelhalter Ch 6 and [reading questions](../questions/S6-before.html)
+    - Start on `r tutorial_link(2)` 
+
+- Assignments due before class:
+    - Today's new reading questions (as always)
+    - [Computing Activities for Tutorial 1.](https://dtkaplan.github.io/QR2-computing/exercises-1.html)
+
+- [In-class notes](../Kaplan_posts/2025-01-17-notes/2025-01-14-notes.html)
+
+
+
+
+#### Class Day 6 Friday 24 January {#sec-24Jan}
+
+
+- New readings
+    - Rosling Ch. 5 & [reading questions](../questions/R5-before.html)
+    - Complete `r tutorial_link(2)` 
+
+- Start work
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html). Will be due before class on Day 8 (Tuesday 31 Jan.)
+    
+- [In-class notes](../Kaplan_posts/2025-01-24-notes/2025-01-24-notes.html)
+
+:::
+
+::: {.callout-note collapse=true}
+## Block 3: Regression and adjustment
+
+#### Class Day 7 Tuesday 28 January {#sec-28Jan}
+
+- New readings
+    - Spiegelhalter Ch. 5 & [reading questions](../questions/S5-before.html)
+    
+- Assignment due: [Follow-up reading questions for Spiegelhalter Ch 6](../questions/S6-after.html)
+
+- [In-class notes](../Kaplan_posts/2025-01-28-notes/2025-01-28-notes.html)
+
+
+#### Class Day 8 Friday 31 January {#sec-31Jan}
+
+- New readings
+    - Rosling Ch. 3 & [reading questions](../questions/R3-before.html)
+    - Start `r tutorial_link(3)`
+
+- Assignments due:
+    - [Computing Activities for Tutorial 2](https://dtkaplan.github.io/QR2-computing/exercises-2.html)
+    
+- Start work
+    - Census project (to be announced)
+
+- [In-class notes](../Kaplan_posts/2025-01-31-notes/2025-01-31-notes.html)
+
+
+
+#### Class Day 9 Tuesday 4 February {#sec-04Feb }
+
+- New readings  
+    - Finish `r tutorial_link(3)`
+    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html)
+
+- Start work
+    - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html) due at end of reading week
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Phase 1
+    
+
+- [In-class notes](../Kaplan_posts/2025-02-04-notes/2025-02-04-notes.html)
+
+:::
+
+::: {.callout-note collapse=true}
+## Block 4: Precision (& accuracy)
+
+The distinction between "precision" and "accuracy" is a stated theme of many statistics courses. However, the vast majority of the techniques presented, e.g. confidence intervals, are only about precision. As for accuracy, the traditional course says two things:
+
+i. "sample randomly" and "assign treatments randomly." 
+ii. Be aware how bias can creep into data collection and do your best to avoid it.
+
+Since Block 3 covers regression and adjustment for covariates, QR2 has rather more to say about accuracy. We will return in Block 5 to another question of accuracy: how to represent hypothesized causal connections in the systems we model.
+
+#### Class Day 10 Friday 7 Febuary {#sec-07Feb}
+
+- New readings   
+    - Spiegelhalter Ch. 8 & [reading questions](../questions/S8-before.html)
+    - Rosling Ch. 6 & [reading questions](../questions/R6-before.html)
+
+- Start work
+    
+- Assignments due:
+    - Census project report through *Step 3*. Your report takes the form of your entry into the [Population Schedule Registry](https://docs.google.com/spreadsheets/d/1SHIPF96TzNPFmJqbp3x1p2nKv3hHZDNgLSQLj2hXzwI/edit?usp=sharing). 
+    
+- [In-class notes](../Kaplan_posts/2025-02-07-notes/2025-02-07-notes.html)
+
+
+
+#### Class Day 11 Tuesday 18 February {#sec-18Feb}
+
+- New readings  
+    - Spiegelhalter Ch. 9 & [reading questions](../questions/S9-before.html)
+    - `r tutorial_link(4)`
+
+- Start work
+    - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html) due 25 Feb
+    
+- Assignments due:
+     - [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html)      
+    
+- [In-class notes](../Kaplan_posts/2025-02-18-notes/2025-02-18-notes.html)
+
+
+#### Class Day 12 Friday 21 February {#sec-21Feb}
+
+- New readings  
+    - Rosling Ch. 7 & [reading questions](../questions/R7-before.html)
+    - Spiegelhalter Ch. 7 & [reading questions](../questions/S7-before.html) (This was originally listed for Feb 4. The reading questions are now available.)
+
+- Start work
+    
+- Assignments due:
+    - Spiegelhalter Ch. 9 [post-discussion questions](../questions/S9-after.html)
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) through Phase I Step 5. Your report will consist of starting to transcribe a couple of "person" and "household" rows into the two spreadsheets you created in Step 3. These do not need to be perfect; you may well want to reconfigure them later.
+     
+    
+- [In-class notes](../Kaplan_posts/2025-02-21-notes/2025-02-21-notes.html)
+
+:::
+
+::: {.callout-note collapse=true}
+## Block 5: Confounding & causality
+
+#### Class Day 13 Tuesday 25 February {#sec-25Feb}
+
+- New readings  
+    - Spiegelhalter Ch 4 & [reading questions](../questions/S4-before.html)
+    - Start `r tutorial_link(5)`
+    
+- Start work
+    
+- Assignments due:
+    - [Computing Activities for Tutorial 4](https://dtkaplan.github.io/QR2-computing/exercises-4.html)
+    
+- [In-class notes](../Kaplan_posts/2025-02-25-notes/2025-02-25-notes.html)
+
+
+#### Class Day 14 Friday 28 February {#sec-28Feb}
+
+- New readings 
+    - Rosling Ch. 8 & [reading questions](../questions/R8-before.html)
+    - Complete `r tutorial_link(5)`
+
+- Assignment due:
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Complete transcription of your population schedule into your household and persons spreadsheets.
+
+- Start work:
+    - [Census project](https://qr2-w25.github.io/homepage/projects/Census/intro.html) Confer with two or three of your classmates to settle on a common format for your household and persons team spreadsheets. For Tuesday 4 March you have those team spreadsheets available (via link) to your instructor. 
+    
+QUIZ today through Block 4 (Precision) 
+    
+- [In-class notes](../Kaplan_posts/2025-02-28-notes/2025-02-28-notes.html)
+
+## Class Day 15 Tuesday 4 March {#sec-04Mar}
+
+- New readings   
+    - Rosling Ch. 9 & [reading questions](../questions/R9-before.html)
+    - Peruse the [Census Project Phase II Checklist](../projects/Census/spreadsheet-checklist.html) to prepare for class discussion. 
+
+- Start work: Today in class we will be going over a checklist of items regarding the transcription of the Census data into your "person" and "household" spreadsheets. It's important to make considerable progress on this before the Friday 7 March class.
+     
+- [In-class notes](../Kaplan_posts/2025-03-04-notes/2025-03-04-notes.html)
+
+
+## Class Day 16 Friday 7 March {#sec-07Mar}
+
+- New readings:
+    - [Coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets.
+   
+
+- Start work
+    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html) (due 11 March)
+    
+- Assignments due:
+    - Check whether you have recieved two links to *my copies* of your Census spreadsheets. You should be editing *my copies* from now on. 
+    - Continue to respond to any feedback from the instructor combining the team spreadsheets into data frames that contain all-of-QR2 data. Diligence is required on your part.
+     
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-07-notes/2025-03-07-notes.html)
+
+:::
+
+::: {.callout-note collapse=true}
+## Block 6: Hypothetical reasonsing
+
+## Class Day 17 Tuesday 11 March {#sec-11Mar}
+
+- New readings   
+    - Spiegelhalter Ch. 11 & [reading questions](../questions/S11-before.html)
+    - Start `r tutorial_link(6)`
+    - Optional: Watch this video of a [talk by David Spiegelhalter](https://www.youtube.com/watch?v=Cybnip2Kyw0)
+
+- Start work
+    - The comprehensive, QR2-wide census data are now available in preliminary form for the *persons*. Look through the data and decide on the aspect of the data you are going to model. Here's a [worksheet for looking at the data](../projects/Census/consolidated-worksheet.html)
+    
+- Assignments due:
+    - If there are any needed changes in your Census data, make them. Again, here are the [coding standards](../projects/Census/data-standards.html) for the *persons* Census spreadsheets. REMEMBER: You are to edit my copies of your spreadsheets, not your original sheets.
+    - [Computing Activities for Tutorial 5](https://dtkaplan.github.io/QR2-computing/exercises-5.html).
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-11-notes/2025-03-11-notes.html)
+
+
+## Class Day 18 Friday 14 March {#sec-11Mar}
+
+Block 6: Hypothetical Reasoning (cont.)
+
+- New readings    
+    - Rosling Ch. 10 & [reading questions](../questions/R10-before.html)
+    - Complete `r tutorial_link(6)`
+    
+    
+- Assignments due: Progress on your report for the Census project
+    - The consolidated data for all students is available at [this worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html).
+    - Simple summaries of the all-of-QR2 Census data
+    - Statement of your "research topic" for your Census modeling project. This will include picking response and explanatory variables, including covariates. DO NOT AGONIZE about this. You are not going to be writing a PhD dissertation. 
+    - Remember that your project presentation is due 21 March.
+     
+    
+- [In-class notes](../Kaplan_posts/2025-03-14-notes/2025-03-14-notes.html)
+
+
+#### Class Day 19 Tuesday 18 March
+
+Block 6: Hypothetical Reasoning (cont.)
+
+
+- New readings   
+    - Spiegelhalter Ch. 13 & [reading questions](../questions/S13-before.html)
+    - Spiegelhalter Ch. 14 & [reading questions](../questions/S14-before.html)
+
+- Start work
+    - [Computing Activities for Tutorial 6](https://dtkaplan.github.io/QR2-computing/exercises-6.html). Will be due March 24.
+    
+- Assignments due:
+    - Rosling Ch. 10 post discussion [questions](../questions/R10-after.html)
+    - The consolidated data for all students is available at [this worksheet](https://qr2-w25.github.io/homepage/projects/Census/consolidated-worksheet.html).
+    - Preliminary Census written report uploaded to Populi. (Pay no attention to Populi's claim that this report is 100% of your grade. Populi doesn't know about all the other things we've been doing.) Basic model summaries and graphics for your Census "research topic." This will be the basis for your class presentation due on March 21. Formatting can be extremely rough; you will merely be cutting-and-pasting statistical summaries and graphics into an online document that you can reference from your presentation.
+     
+- [In-class notes](../Kaplan_posts/2025-03-18-notes/2025-03-18-notes.html)
+
+
+
+
+#### Class Day 20 Friday 21 March
+
+- New readings
+    - [538 article about p-values](https://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
+    
+- Assignment due:
+    - Phase 4 Census Project presentation
+    - For March 24, final Census Project report uploaded to Populi. This will be essentially your preliminary report along with some narrative description of your conclusions and identifying shortcomings that you would have worked on had this been a much more extensive project. It should be neat, but doesn't need to be fancy! Take perhaps one hour to put it together.
+    - For March 24, [Computing Activities for Tutorial 3](https://dtkaplan.github.io/QR2-computing/exercises-3.html). 
+
+:::
+
+

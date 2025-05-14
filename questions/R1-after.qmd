@@ -5,15 +5,9 @@ subtitle: "Follow-up to in-class discussion"
 
 {{< include ../start-up.qmd >}}
 
+{{< include ../_software/devoirs.qmd >}}
+
 Just some filler.
 
 `r devoirs_text("dove-sees-smoke")`
 
-<!-- Boilerplate for devoirs functionality -->
-
-`r devoirs_start_no_link()`
-
-```{r echo=FALSE}
-devoirs_end()
-```
-`r QR2_submission_link()`

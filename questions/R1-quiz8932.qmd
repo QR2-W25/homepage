@@ -6,6 +6,7 @@ title: "Rossling Chapter 1 Quiz"
 
 {{< include ../start-up.qmd >}}
 
+{{< include ../_software/devoirs.qmd >}}
 
 1. Which answer best represents the misconception Rosling calls "The Gap Instinct?"
 
@@ -40,13 +41,3 @@ title: "Rossling Chapter 1 Quiz"
 
 ![Figure from Rosling Ch 1](www/R-survival-vs-parity.png)
 
-
-
-<!-- Boilerplate for devoirs functionality -->
-
-`r devoirs_start_no_link()`
-
-```{r echo=FALSE}
-devoirs_end()
-```
-`r QR2_submission_link()`

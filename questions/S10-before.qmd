@@ -5,6 +5,7 @@ subtitle: "Answer and submit *before* class discussion"
 
 {{< include ../start-up.qmd >}}
 
+{{< include ../_software/devoirs.qmd >}}
 
 ::: {.callout-note}
 ## Question 1:
@@ -21,11 +22,3 @@ subtitle: "Answer and submit *before* class discussion"
 :::
 
 
-<!-- Boilerplate for devoirs functionality -->
-
-`r devoirs_start_no_link()`
-
-```{r echo=FALSE}
-devoirs_end()
-```
-`r QR2_submission_link()`

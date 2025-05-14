@@ -10,12 +10,14 @@ website:
         text: Home
       - href: syllabus.qmd
         text: Syllabus & policies
+      - href: day-by-day/Kaplan-schedule.html
+        text: Sample schedule
       - href: projects/Census/intro.qmd
         text: Course project
 
 format:
-  html:
-    theme: cosmo
+  live-html:
+    theme: litera
     css: styles.css
     toc: true
 

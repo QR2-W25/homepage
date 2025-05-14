@@ -38,7 +38,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d045e70ebd9269c25e164ecdb4898f56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/live-runtime/live-runtime.js" type="module"></script>
+<link href="../site_libs/quarto-contrib/live-runtime/live-runtime.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,6 +68,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -95,6 +99,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../syllabus.html"> 
 <span class="menu-text">Syllabus &amp; policies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../day-by-day/Kaplan-schedule.html"> 
+<span class="menu-text">Sample schedule</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../projects/Census/intro.html"> 
@@ -139,46 +147,24 @@ ul.task-list li input[type="checkbox"] {
 
 <!-- Load packages, etc. -->
 <!-- Submission link -->
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Question 1:
+Remember to hand in your work …
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>What was your score on the 13-point performance questionnaire? Be honest?</p>
-<div class="cell" data-inline="true">
-<input type="radio" class="devoirs-mcq" value="0" id="rosling-questionnaire-1" w="32" name="rosling-questionnaire" hint="Better luck next time." show_hints="false"> 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="1" id="rosling-questionnaire-2" w="19" name="rosling-questionnaire" hint="Wrong." show_hints="false"> 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="2" id="rosling-questionnaire-3" w="3" name="rosling-questionnaire" hint="Wrong." show_hints="false"> 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="3" id="rosling-questionnaire-4" w="19" name="rosling-questionnaire" hint="Not quite right." show_hints="false"> 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="4" id="rosling-questionnaire-5" w="7" name="rosling-questionnaire" hint="Wrong." show_hints="false"> 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="5" id="rosling-questionnaire-6" w="7" name="rosling-questionnaire" hint="Untrue!" show_hints="false"> 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="6" id="rosling-questionnaire-7" w="19" name="rosling-questionnaire" hint="Incorrect." show_hints="false"> 6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="7" id="rosling-questionnaire-8" w="87" name="rosling-questionnaire" hint="Not on target." show_hints="false"> 7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="8" id="rosling-questionnaire-9" w="23" name="rosling-questionnaire" hint="You're wrong here." show_hints="false"> 8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="9" id="rosling-questionnaire-10" w="19" name="rosling-questionnaire" hint="Untrue!" show_hints="false"> 9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="10" id="rosling-questionnaire-11" w="7" name="rosling-questionnaire" hint="Incorrect." show_hints="false"> 10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="11" id="rosling-questionnaire-12" w="3" name="rosling-questionnaire" hint="Incorrect choice." show_hints="false"> 11 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="12" id="rosling-questionnaire-13" w="19" name="rosling-questionnaire" hint="Not quite right." show_hints="false"> 12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="13" id="rosling-questionnaire-14" w="29" name="rosling-questionnaire" hint="Right." show_hints="false"> 13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" name="rosling-questionnaire" id="rosling-questionnaire.null" style="display: none;" w="skipped" checked="">
-<div class="hintarea">
-<p><small style="color: grey;" id="rosling-questionnaire-hintarea">question id: rosling-questionnaire</small></p>
-</div>
-</div>
-<p>Which questions surprised you the most?</p>
-<p><textarea id="SOOB-1" name="SOOB-1" class="devoirs-text" rows="4" cols="50" placeholder="Type here for question ID SOOB-1"></textarea> </p><div style="color: grey;"> <small>question id: SOOB-1</small> </div><p></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Question 2:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>In what town did Rosling see a former UN Secretary General? Who was it? (You’ll have to do some web searching for the second question.)</p>
-<p><textarea id="S0B2-1" name="S0B2-1" class="devoirs-text" rows="4" cols="50" placeholder="Type here for question ID S0B2-1"></textarea> </p><div style="color: grey;"> <small>question id: S0B2-1</small> </div><p></p>
-</div>
-</div>
-<!-- Boilerplate for devoirs functionality -->
-<span id="devoirs-docID" style="display: none;">R0-before.rmarkdown</span> <button onclick="devoirsSubmit()">Collect your answers</button>
-<div id="devoirs_summary">
-No answers yet collected
-</div>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Submitting answers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Clearing document memory</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>At any point, you can submit your answers by collecting them and uploading them to the class site.</p>
+<p><span id="devoirs-docID" style="display: none;">R0-before.rmarkdown</span> <span><button onclick="devoirsSubmit()">Collect your answers</button></span> <span id="devoirs_summary">No answers yet collected</span></p>
 <div class="cell">
 <div class="cell-output-display">
 <script type="text/javascript">
@@ -242,7 +228,7 @@ function devoirsSubmit() {
     console.log("Getting R commands.")
     var Rhistory = qwebrRCommandHistory.map((x) => x.replace(/Ran code in (.*) at (.*[AP]M).{5}(.*)/, "[chunk: $1, time: $2, code: $3]"))
 
-    items = {docid: devoirsGetDocID(), MC: devoirsCollectMC(), Essays: devoirsCollectEssays(), WebR: devoirsCollectWebR(), R: Rhistory}
+    items = {docid: devoirsGetDocID(), MC: devoirsCollectMC(), Essays: devoirsCollectEssays()} //, WebR: devoirsCollectWebR(), R: Rhistory}
   }
 
   navigator.clipboard.writeText(JSON.stringify(items));
@@ -281,11 +267,158 @@ console.log("Added hint summary.")
 
 </div>
 </div>
-<p><a href="https://forms.gle/YPEuzE3oiQQQhrWNA">Submit collected answers here</a></p>
+<p><a href="https://forms.gle/YPEuzE3oiQQQhrWNA" target="_blank">Link to upload site</a></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+If the answers that have been loaded automatically are not yours, press this button before starting your work:
+<script type="text/javascript">
+      // clear the local storage
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('btnClearStorage');
+      form.addEventListener("click", function () {
+        localStorage.clear();
+        location.reload();
+        console.log("Clearing memory");
+      }, false);
+    }
+    )
+    </script>
+<button id="btnClearStorage">
+Clear memory
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Question 1:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>What was your score on the 13-point performance questionnaire? Be honest?</p>
+<div class="cell" data-inline="true">
+<span> <small style="color: grey;" id="rosling-questionnaire-hintarea" class="hintarea">rosling-questionnaire</small>
+<form id="rosling-questionnaire-form">
+<span> <span> <input type="radio" class="devoirs-mcq" value="0" id="rosling-questionnaire-1" w="7" name="rosling-questionnaire" hint="No." show_hints="false"> 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="1" id="rosling-questionnaire-2" w="7" name="rosling-questionnaire" hint="Incorrect." show_hints="false"> 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="2" id="rosling-questionnaire-3" w="19" name="rosling-questionnaire" hint="Incorrect choice." show_hints="false"> 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="3" id="rosling-questionnaire-4" w="7" name="rosling-questionnaire" hint="Oops!" show_hints="false"> 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="4" id="rosling-questionnaire-5" w="3" name="rosling-questionnaire" hint="Incorrect choice." show_hints="false"> 4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="5" id="rosling-questionnaire-6" w="23" name="rosling-questionnaire" hint="You're wrong here." show_hints="false"> 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="6" id="rosling-questionnaire-7" w="7" name="rosling-questionnaire" hint="Incorrect." show_hints="false"> 6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="7" id="rosling-questionnaire-8" w="23" name="rosling-questionnaire" hint="Sorry!" show_hints="false"> 7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="8" id="rosling-questionnaire-9" w="19" name="rosling-questionnaire" hint="No." show_hints="false"> 8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="9" id="rosling-questionnaire-10" w="3" name="rosling-questionnaire" hint="Wrong." show_hints="false"> 9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="10" id="rosling-questionnaire-11" w="32" name="rosling-questionnaire" hint="Nope." show_hints="false"> 10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="11" id="rosling-questionnaire-12" w="32" name="rosling-questionnaire" hint="You might think so, but ..." show_hints="false"> 11 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="12" id="rosling-questionnaire-13" w="23" name="rosling-questionnaire" hint="Hmmm ..." show_hints="false"> 12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" value="13" id="rosling-questionnaire-14" w="5" name="rosling-questionnaire" hint="Exactly." show_hints="false"> 13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" class="devoirs-mcq" name="rosling-questionnaire" id="rosling-questionnaire.null" style="display: none;" w="skipped" checked=""> </span> </span>
+</form>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function() {
+      console.log('Adding event listener for rosling-questionnaire.');
+      const form = document.getElementById('rosling-questionnaire-form');
+      const radioButtons = form.querySelectorAll('input[type="radio"]');
+
+      // Load saved value on page load
+      const savedValue = localStorage.getItem('rosling-questionnaire-choice');
+      if (savedValue) {
+        console.log("Restoring radio button values for rosling-questionnaire.");
+        radioButtons.forEach(radio => {
+          if (radio.value === savedValue) {
+            radio.checked = true;
+          }
+        });
+      }
+
+      // Save value on change
+      form.addEventListener('change', function(event) {
+        if (event.target.type === 'radio') {
+          console.log("Saving changed value for rosling-questionnaire.");
+          localStorage.setItem('rosling-questionnaire-choice', event.target.value);
+        }
+      });
+    });
+</script>
+<p></p>
+</span></div>
+<p>Which questions surprised you the most?</p>
+<script type="text/javascript">
+      //save entered info
+      document.addEventListener('DOMContentLoaded', function() {
+      console.log('Adding event listener for SOOB-1.');
+      const form = document.getElementById('SOOB-1');
+      form.addEventListener("input", function () {
+        var todo = document.getElementById('SOOB-1').value;
+        localStorage.setItem("SOOB-1-contents", todo);
+        console.log("Saving value of SOOB-1.")
+      }, false);
+
+      //on page load, read in the old value
+      const savedValue = localStorage.getItem("SOOB-1-contents");
+      if (savedValue) {
+        document.getElementById('SOOB-1').value = savedValue;
+      }
+})
+</script>
+<textarea id="SOOB-1" name="SOOB-1" class="devoirs-text" style="font-family: monospace, monospace;" rows="4" cols="50" placeholder="Type here. (ID SOOB-1)"></textarea>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Question 2:
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In what town did Rosling see a former UN Secretary General? Who was it? (You’ll have to do some web searching for the second question.)</p>
+<script type="text/javascript">
+      //save entered info
+      document.addEventListener('DOMContentLoaded', function() {
+      console.log('Adding event listener for S0B2-1.');
+      const form = document.getElementById('S0B2-1');
+      form.addEventListener("input", function () {
+        var todo = document.getElementById('S0B2-1').value;
+        localStorage.setItem("S0B2-1-contents", todo);
+        console.log("Saving value of S0B2-1.")
+      }, false);
+
+      //on page load, read in the old value
+      const savedValue = localStorage.getItem("S0B2-1-contents");
+      if (savedValue) {
+        document.getElementById('S0B2-1').value = savedValue;
+      }
+})
+</script>
+<textarea id="S0B2-1" name="S0B2-1" class="devoirs-text" style="font-family: monospace, monospace;" rows="4" cols="50" placeholder="Type here. (ID S0B2-1)"></textarea>
+</div>
+</div>
 
 
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<div id="exercise-loading-indicator" class="exercise-loading-indicator d-none d-flex align-items-center gap-2">
+<div id="exercise-loading-status" class="d-flex gap-2">
+
+</div>
+<div class="spinner-grow spinner-grow-sm">
+
+</div>
+</div>
+<script type="vfs-file">
+W10=
+</script>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W119
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../questions";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

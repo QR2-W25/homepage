@@ -5,6 +5,7 @@ date: 2025-02-04
 
 ```{r include=FALSE}
 library(LSTbook)
+library(mosaic)
 ```
 
 ## Where we are
@@ -13,7 +14,7 @@ We know how to "fit" models: `model_train()`
 
 Models are themselves complex computational objects:
 
-```{r}
+```{webr-r}
 mod <- Galton |>
   model_train(height ~ mother + father + sex)
 str(mod)
